@@ -1,0 +1,119 @@
+{
+  "note": "Hand-curated seed list. TRACKED in git — the pipeline never rewrites this file. `extractor` and `options` are set by inspecting the fund's actual portfolio page; see scripts/lib/adapters.cjs.",
+  "funds": [
+    {
+      "id": "partech",
+      "name": "Partech",
+      "city": "Paris",
+      "type": "VC / Growth",
+      "site": "https://partechpartners.com",
+      "portfolioUrl": "https://partechpartners.com/companies",
+      "extractor": "next-data",
+      "options": {
+        "arrayKey": "companies",
+        "nameField": "name"
+      }
+    },
+    {
+      "id": "alven",
+      "name": "Alven",
+      "city": "Paris",
+      "type": "VC",
+      "site": "https://www.alven.co",
+      "portfolioUrl": "https://www.alven.co/portfolio",
+      "extractor": "framer-pairs",
+      "options": {}
+    },
+    {
+      "id": "xange",
+      "name": "XAnge",
+      "city": "Paris",
+      "type": "VC",
+      "site": "https://www.xange.vc",
+      "portfolioUrl": "https://www.xange.vc/portfolio/",
+      "extractor": "slug-links",
+      "options": {
+        "prefix": "/portfolio"
+      }
+    },
+    {
+      "id": "daphni",
+      "name": "Daphni",
+      "city": "Paris",
+      "type": "VC",
+      "site": "https://daphni.com",
+      "portfolioUrl": "https://daphni.com/portfolio/",
+      "extractor": "sitemap",
+      "options": {
+        "prefix": "/portfolio"
+      },
+      "sourceUrl": "https://www.daphni.com/sitemap.xml"
+    },
+    {
+      "id": "360capital",
+      "name": "360 Capital",
+      "city": "Paris",
+      "type": "VC",
+      "site": "https://360cap.vc",
+      "portfolioUrl": "https://360cap.vc/portfolio",
+      "extractor": "headings",
+      "options": {}
+    },
+    {
+      "id": "kima",
+      "name": "Kima Ventures",
+      "city": "Paris",
+      "type": "Seed",
+      "site": "https://www.kimaventures.com",
+      "portfolioUrl": "https://www.kimaventures.com/portfolio",
+      "extractor": "next-data",
+      "options": {}
+    },
+    {
+      "id": "elaia",
+      "name": "Elaia Partners",
+      "city": "Paris",
+      "type": "VC",
+      "site": "https://www.elaia.com",
+      "portfolioUrl": "https://www.elaia.com/portfolio/",
+      "extractor": "sitemap",
+      "options": {
+        "prefix": "/portfolio"
+      },
+      "sourceUrl": "https://www.elaia.com/wp-sitemap-posts-portfolio-1.xml"
+    },
+    {
+      "id": "isai",
+      "name": "ISAI",
+      "city": "Paris",
+      "type": "VC / Growth",
+      "site": "https://www.isai.fr",
+      "portfolioUrl": "https://www.isai.fr/portfolio/",
+      "extractor": "img-alt",
+      "options": {}
+    },
+    {
+      "id": "ventech",
+      "name": "Ventech",
+      "city": "Paris",
+      "type": "VC",
+      "site": "https://www.ventechvc.com",
+      "portfolioUrl": "https://www.ventechvc.com/portfolio/",
+      "extractor": "headings",
+      "options": {}
+    },
+    {
+      "id": "serena",
+      "name": "Serena",
+      "city": "Paris",
+      "type": "VC",
+      "site": "https://www.serena.vc",
+      "portfolioUrl": "https://www.serena.vc/portfolio-profile/",
+      "extractor": "sitemap",
+      "options": {
+        "prefix": "/portfolio-profile"
+      },
+      "sourceUrl": "https://www.serena.vc/wp-sitemap-posts-portfolio-profile-1.xml"
+    }
+  ]
+}

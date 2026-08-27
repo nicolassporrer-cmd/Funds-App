@@ -1,0 +1,83 @@
+name: Daily refresh
+
+# Re-runs the whole pipeline and commits the derived JSON.
+#
+# No secrets are needed: every source is keyless open data (fund websites,
+# recherche-entreprises.api.gouv.fr, BODACC via DILA). If that ever changes, add
+# the secret here AND make the step fail loudly when it is absent rather than
+# committing a thinner dataset.
+on:
+  schedule:
+    - cron: '40 6 * * *'      # 06:40 UTC daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Fund sites get redesigned without warning. This step does not fail when
+      # one adapter breaks — the other nine still refresh — but it prints the
+      # failures, and the summary below surfaces them in the run.
+      - name: Read fund portfolio pages
+        run: node scripts/fetch-portfolios.cjs
+
+      # Cached: a name already resolved to a SIREN is never re-queried, so this
+      # only spends API calls on companies that are new since yesterday.
+      - name: Resolve new company names to SIRENs
+        run: node scripts/resolve-sirens.cjs
+
+      - name: Fetch register announcements from BODACC
+        run: node scripts/fetch-events.cjs
+
+      - name: Classify capital events and score who is due
+        run: node scripts/classify-rounds.cjs
+
+      - name: Assemble the page payload
+        run: node scripts/build-payload.cjs
+
+      - name: Commit if anything changed
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/ && git diff --quiet --cached -- data/; then
+            echo "Nothing changed today."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          SUMMARY=$(node -e "
+            const p = require('./data/payload.json');
+            console.log(p.totals.tracked + ' companies, ' + p.totals.overdue + ' overdue, '
+              + p.totals.dueSoon + ' due soon');
+          ")
+          git add data/
+          git commit -m "Daily refresh: $SUMMARY"
+          git push
+
+  # A push made with GITHUB_TOKEN does not trigger other workflows, so the refresh
+  # must publish its own commit. Without this the data updates in the repo and the
+  # live site silently never changes.
+  publish:
+    needs: refresh
+    if: needs.refresh.outputs.changed == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy.yml

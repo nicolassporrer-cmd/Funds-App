@@ -1,0 +1,15 @@
+{
+  "name": "funds-app",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Tracks Paris VC and Growth fund portfolios, dates every capital event from the French commercial register, and flags companies overdue for a new round",
+  "scripts": {
+    "portfolios": "node scripts/fetch-portfolios.cjs",
+    "sirens": "node scripts/resolve-sirens.cjs",
+    "events": "node scripts/fetch-events.cjs",
+    "rounds": "node scripts/classify-rounds.cjs",
+    "payload": "node scripts/build-payload.cjs",
+    "refresh": "npm run portfolios && npm run sirens && npm run events && npm run rounds && npm run payload",
+    "build": "node scripts/build-site.cjs"
+  }
+}
