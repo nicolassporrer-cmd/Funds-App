@@ -2,18 +2,25 @@
 .env
 *.env.local
 
-# Node
+# Node / npm
 node_modules/
 
 # Build output
 dist/
+
+# Generated files — never edit directly
+*.local.html
+
+# Session data
+payloads/
+transcripts/
 
 # Raw page caches — re-fetchable, and fund sites are large
 data/raw/
 
 # Pipeline intermediates. Every stage regenerates these from scratch, so
 # committing them would add churn forever. Only the assembled payload and the
-# two slow-changing caches below are tracked.
+# hand-curated or expensive-to-rebuild files below are tracked.
 data/portfolios.json
 data/events.json
 data/rounds.json
@@ -24,9 +31,11 @@ data/prospects.json
 #   data/contacts.json   hand-curated fund contacts. The pipeline only ever
 #                        reads this file; no public source can regenerate it,
 #                        so losing it would lose your own work.
-#   data/siren-map.json  name -> SIREN cache; costs API calls to rebuild and
-#                        carries manual corrections that must survive a refresh
+#   data/siren-map.json  name -> SIREN cache; costs ~3,700 API calls to rebuild
+#                        and carries manual corrections that must survive a refresh
 #   data/payload.json    what the site builds from
+#   plans/               part of the rebuild spec (see JOURNAL.md)
 
 # Claude local settings
 .claude/settings.local.json
+.claude/last_anchor_check
