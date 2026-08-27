@@ -1,0 +1,7 @@
+# The daily refresh runs on ubuntu and commits data/. Without this, files
+# checked out with CRLF on Windows and rewritten with LF in CI show up as
+# whole-file diffs, and the "did anything change today?" check in
+# daily-refresh.yml would fire every single run.
+* text=auto eol=lf
+*.png binary
+*.jpg binary

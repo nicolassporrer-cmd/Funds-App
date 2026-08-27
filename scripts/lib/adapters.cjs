@@ -46,9 +46,29 @@ const NOISE = new Set([
 const isNoise = (name) =>
   !name || name.length < 2 || name.length > 60 || NOISE.has(name.toLowerCase());
 
+// Some funds publish whether they still hold a company. Partech tags all 271 of
+// its companies "Current" or "Alumni" — 208 and 63 — which is the difference
+// between "this fund's portfolio" and "everything this fund has ever backed".
+// Where a fund says nothing, holding stays 'unknown' rather than being assumed.
+function holdingFrom(value) {
+  const s = String(value ?? '').toLowerCase();
+  if (/alumni|exited|exit|former|realised|realized|sold/.test(s)) return 'exited';
+  if (/current|active|portfolio/.test(s)) return 'current';
+  return 'unknown';
+}
+
+// Partech ships an hq_locations array like [{location:"Germany"}]. Other shapes
+// are a plain string or nothing at all.
+function countryFrom(value) {
+  if (!value) return null;
+  if (typeof value === 'string') return value.trim() || null;
+  const first = Array.isArray(value) ? value[0] : value;
+  return (first?.location || first?.name || first?.country || null) || null;
+}
+
 // --- Extractor 1: Next.js sites embed the whole portfolio as JSON in the page.
 // Partech ships all 271 companies this way even though only 30 render at first.
-function nextData(html, { arrayKey = null, nameField = 'name' } = {}) {
+function nextData(html, { arrayKey = null, nameField = 'name', statusField = 'status' } = {}) {
   const m = html.match(/id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
   if (!m) return [];
   let root;
@@ -75,6 +95,14 @@ function nextData(html, { arrayKey = null, nameField = 'name' } = {}) {
   return best
     .map((c) => ({
       name: String(c[nameField] ?? '').trim(),
+      // The status can be a nested object ({status:"Alumni",status_slug:"alumni"})
+      // or a bare string, so stringify and pattern-match rather than guess a path.
+      holding: holdingFrom(
+        typeof c[statusField] === 'object' ? JSON.stringify(c[statusField]) : c[statusField]
+      ),
+      // The only country source for companies that never resolve to a French
+      // SIREN — which is most of a global fund's portfolio.
+      country: countryFrom(c.hq_locations || c.locations || c.country),
       website: c.external_link || c.website || c.url || null,
       blurb:
         (c.short_text || c.description || '')
@@ -190,4 +218,27 @@ function extract(fund, html) {
   return fn(html, fund.options || {});
 }
 
-module.exports = { extract, textOf, titleize, isNoise, EXTRACTORS };
+// Walks a paginated WordPress taxonomy archive (Elaia publishes /status/active/
+// and /status/exited/) and returns the slugs listed under it. The archive pages
+// lazy-load like the main portfolio page — 9 companies each — so this follows
+// /page/N/ until a page repeats or runs dry.
+async function pagedSlugs(get, baseUrl, prefix, maxPages = 40) {
+  const found = new Set();
+  for (let page = 1; page <= maxPages; page++) {
+    const url = page === 1 ? baseUrl : `${baseUrl.replace(/\/$/, '')}/page/${page}/`;
+    let html;
+    try {
+      html = await get(url, { minGapMs: 800 });
+    } catch {
+      break; // a 404 is how WordPress says "past the last page"
+    }
+    const escaped = prefix.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const re = new RegExp('href="[^"]*' + escaped + '/([a-z0-9][a-z0-9-]{1,60})/?"', 'gi');
+    const before = found.size;
+    for (const m of html.matchAll(re)) found.add(m[1]);
+    if (found.size === before) break; // nothing new — we have reached the end
+  }
+  return found;
+}
+
+module.exports = { extract, textOf, titleize, isNoise, holdingFrom, countryFrom, pagedSlugs, EXTRACTORS };

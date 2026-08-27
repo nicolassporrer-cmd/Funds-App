@@ -9,7 +9,9 @@
     "events": "node scripts/fetch-events.cjs",
     "rounds": "node scripts/classify-rounds.cjs",
     "payload": "node scripts/build-payload.cjs",
-    "refresh": "npm run portfolios && npm run sirens && npm run events && npm run rounds && npm run payload",
-    "build": "node scripts/build-site.cjs"
+    "refresh": "npm run portfolios && npm run enrich && npm run sirens && npm run events && npm run rounds && npm run prospects && npm run payload",
+    "build": "node scripts/build-site.cjs",
+    "enrich": "node scripts/enrich-companies.cjs",
+    "prospects": "node scripts/score-prospects.cjs"
   }
 }

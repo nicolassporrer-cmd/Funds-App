@@ -46,7 +46,7 @@ jobs:
               console.error('payload has only ' + (p.companies||[]).length + ' companies — refusing to publish');
               process.exit(1);
             }
-            console.log(p.companies.length + ' companies, ' + p.totals.overdue + ' overdue');
+            console.log(p.companies.length + ' companies, ' + p.totals.strongSignal + ' with a strong raise signal');
           "
           echo "page: $(wc -c < dist/index.html) bytes"
 

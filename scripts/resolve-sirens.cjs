@@ -107,7 +107,11 @@ function score(candidate, wanted) {
 // Recalibrated when headcount and the shell-NAF penalty were added; the old
 // 7/5 cut-offs let an SCI through as 'high'. Bump SCORER_VERSION on any change
 // here so the cache re-resolves instead of serving verdicts from the old rules.
-const SCORER_VERSION = 3;
+// v4 adds founded / city / country / headcount to the stored record, so the
+// cache has to be rebuilt even though the ranking itself did not change.
+// v5 adds officers (corporate directors and statutory auditors) and filed
+// accounts, used by the raise-signal score.
+const SCORER_VERSION = 5;
 const confidenceOf = (points) => (points >= 8 ? 'high' : points >= 6 ? 'medium' : 'low');
 
 // Employee brackets from 3 staff upward, as the API expects them.
@@ -157,6 +161,37 @@ async function resolve(name) {
     legalName: best.c.nom_complet,
     department: best.c.siege?.departement || null,
     naf: best.c.siege?.activite_principale || null,
+    // The ROOT date_creation is the company's own incorporation date — Qonto
+    // 2016-04-04. Do not confuse it with siege.date_creation below, which is the
+    // current head office's registration and reads 2026 for the same company.
+    founded: best.c.date_creation || null,
+    city: best.c.siege?.libelle_commune || best.c.siege?.libelle_commune_etranger || null,
+    // Everything resolved here has a French SIREN, so the country is France
+    // unless the registered office is abroad.
+    country: best.c.siege?.libelle_pays_etranger || 'France',
+    headcount: best.c.tranche_effectif_salarie || null,
+    sizeCategory: best.c.categorie_entreprise || null,
+    // Registered officers. Two useful things hide in here:
+    //  - a statutory auditor (commissaire aux comptes), which a French SAS
+    //    generally appoints when it crosses size thresholds or when investors
+    //    require one at a round;
+    //  - occasionally an investor entity itself, e.g. Qonto lists VALAR GLOBAL
+    //    PRINCIPALS FUND III LP as a corporate officer.
+    // This is board representation, NOT a shareholder register — no such
+    // register is public for an SAS — and must never be labelled as one.
+    officers: (best.c.dirigeants || [])
+      .filter((d) => d.type_dirigeant === 'personne morale')
+      .map((d) => ({
+        name: d.denomination || d.nom || null,
+        role: d.qualite || null,
+        siren: d.siren || null,
+        auditor: /commissaire aux comptes/i.test(d.qualite || ''),
+      }))
+      .filter((d) => d.name),
+    // Filed accounts. Coverage is thin and often years out of date — Qonto's
+    // latest filed year here is 2017 — so the year travels with the figures and
+    // the page never presents them as current.
+    accounts: best.c.finances || null,
     siegeSince: best.c.siege?.date_creation || null, // head-office registration, NOT founding date
     active: (best.c.etat_administratif || best.c.siege?.etat_administratif) === 'A',
     confidence,
@@ -180,11 +215,17 @@ if (require.main === module) (async () => {
   for (const fund of funds) {
     for (const company of fund.companies) {
       const key = normalise(company.name);
-      if (!names.has(key)) names.set(key, { name: company.name, funds: [], website: company.website, blurb: company.blurb });
+      if (!names.has(key)) names.set(key, { name: company.name, funds: [], holdings: {}, website: company.website, blurb: company.blurb, portfolioCountry: company.country || null });
       const entry = names.get(key);
       entry.funds.push(fund.id);
+      // Kept even when the SIREN lookup fails: for a fund's non-French holdings
+      // this is the only country we will ever have.
+      entry.portfolioCountry = entry.portfolioCountry || company.country || null;
+      // Per fund, because two funds can disagree: one has exited a company the
+      // other still holds, and both are telling the truth about themselves.
+      entry.holdings[fund.id] = company.holding || 'unknown';
       entry.website = entry.website || company.website;
-      entry.blurb = entry.blurb || company.blurb;
+      entry.blurb = entry.blurb || company.blurb || null;
     }
   }
 
@@ -194,10 +235,24 @@ if (require.main === module) (async () => {
 
   for (const [key, info] of names) {
     const prior = existing.companies[key];
+    // Holding status is refreshed even for cached entries: a company can be
+    // exited between two runs without its SIREN ever changing.
+    // Everything that comes from the fund's own page is refreshed on every run,
+    // cached entry or not. Only the SIREN lookup itself is expensive; the
+    // description, website and holding status all change without the company's
+    // identity changing, and stale ones would outlive their corrections — a
+    // fund's boilerplate tagline wrongly scraped as a description would survive
+    // the fix that removed it upstream.
+    if (prior) {
+      prior.funds = info.funds;
+      prior.holdings = info.holdings;
+      prior.portfolioCountry = info.portfolioCountry;
+      prior.blurb = info.blurb || null;
+      prior.website = info.website || null;
+    }
     if (prior?.manual) { tally.manual = (tally.manual || 0) + 1; continue; }
     // Re-resolving a settled name every day buys nothing: SIRENs do not change.
     if (prior && prior.scorerVersion === SCORER_VERSION && prior.status === 'resolved' && prior.confidence !== 'low') {
-      prior.funds = info.funds;
       tally.cached = (tally.cached || 0) + 1;
       continue;
     }
@@ -208,11 +263,23 @@ if (require.main === module) (async () => {
     } catch (err) {
       result = { status: 'error', error: err.message };
     }
-    existing.companies[key] = { name: info.name, funds: info.funds, website: info.website || null, blurb: info.blurb || null, ...result };
+    existing.companies[key] = { name: info.name, funds: info.funds, holdings: info.holdings, portfolioCountry: info.portfolioCountry || null, website: info.website || null, blurb: info.blurb || null, ...result };
     tally[result.status] = (tally[result.status] || 0) + 1;
 
     if (++done % 100 === 0) process.stdout.write(`  ${done} resolved\r`);
   }
+
+  // Prune names that are no longer in any fund's portfolio. Without this the
+  // cache only ever grows: when Elaia's press posts stopped being scraped as
+  // companies, 86 of them stayed in the map and would still have been rendered
+  // as portfolio companies with no register history. Manual entries survive
+  // pruning — they are there precisely because someone decided they belong.
+  const current = new Set(names.keys());
+  const pruned = Object.keys(existing.companies).filter(
+    (key) => !current.has(key) && !existing.companies[key].manual
+  );
+  pruned.forEach((key) => delete existing.companies[key]);
+  if (pruned.length) console.log(`Pruned ${pruned.length} names no longer in any portfolio`);
 
   fs.writeFileSync(MAP_PATH, JSON.stringify(existing, null, 2) + '\n');
 

@@ -36,6 +36,12 @@ jobs:
       - name: Read fund portfolio pages
         run: node scripts/fetch-portfolios.cjs
 
+      # One request per company on the seven funds that publish nothing on their
+      # index page. Cached on disk, so a company already enriched is not fetched
+      # again and a normal day only touches new portfolio entries.
+      - name: Fetch company pages for descriptions and deal leads
+        run: node scripts/enrich-companies.cjs
+
       # Cached: a name already resolved to a SIREN is never re-queried, so this
       # only spends API calls on companies that are new since yesterday.
       - name: Resolve new company names to SIRENs
@@ -44,8 +50,11 @@ jobs:
       - name: Fetch register announcements from BODACC
         run: node scripts/fetch-events.cjs
 
-      - name: Classify capital events and score who is due
+      - name: Classify capital events
         run: node scripts/classify-rounds.cjs
+
+      - name: Score which companies look like they are about to raise
+        run: node scripts/score-prospects.cjs
 
       - name: Assemble the page payload
         run: node scripts/build-payload.cjs
@@ -63,8 +72,8 @@ jobs:
           echo "changed=true" >> "$GITHUB_OUTPUT"
           SUMMARY=$(node -e "
             const p = require('./data/payload.json');
-            console.log(p.totals.tracked + ' companies, ' + p.totals.overdue + ' overdue, '
-              + p.totals.dueSoon + ' due soon');
+            console.log(p.totals.companies + ' companies, ' + p.totals.strongSignal + ' strong raise signal, '
+              + p.totals.withBridge + ' on a bridge');
           ")
           git add data/
           git commit -m "Daily refresh: $SUMMARY"

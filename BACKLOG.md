@@ -1,5 +1,18 @@
 # Backlog
 
+## Next, and most important
+
+**Validate the raise signal against press coverage.** The score is judgement, not
+measurement. Take the companies flagged with a bridge in the last 18 months and
+check which have no press coverage of a round. A large set of real companies
+there proves the central claim — that this catches raises the announcement-driven
+databases miss. A small or noisy set means the 2% bridge floor is wrong.
+Shippeo is the case to look at first: 3% capital bumps in 2022, 2023 and 2026
+could be a bridge pattern or could be routine option-pool increases.
+
+**Then tune the thresholds from that result**, not from intuition:
+`ROUND_MIN_GROWTH`, `BRIDGE_MIN_GROWTH` and the weights in `score-prospects.cjs`.
+
 ## Known limitations to close
 
 - **Alven yields 30 companies, not its full portfolio.** The Framer page ships

@@ -25,8 +25,17 @@ const DATA = path.join(__dirname, '..', 'data');
 // --- Tunable thresholds. Change these here, not inline.
 const ROUND_MIN_GROWTH = 0.10;   // capital must grow >=10% to look like a round
 const ROUND_MIN_ABSOLUTE = 2000; // ...and by >=2,000 EUR nominal, to drop rounding noise
+const BRIDGE_MIN_GROWTH = 0.02;  // 2-10% reads as a bridge, below that as option exercises
 const DEFAULT_CYCLE_MONTHS = 20; // typical gap between rounds when we cannot measure one
 const DUE_SOON_WINDOW = 3;       // months either side of the expected date
+
+// A company that has filed NOTHING with the register — not accounts, not an
+// address change — for this long is not a fundraising prospect. It has been
+// acquired, wound down, or listed. Without this the alert list is topped by
+// Etsy, Criteo and Sketchfab at 200+ months "overdue", which is technically true
+// and completely useless: the funds still list them on their portfolio pages
+// years after the exit, and the register stops moving once a company is gone.
+const DORMANT_MONTHS = 48;
 
 // Phrases BODACC uses. Matching the register's own words beats guessing from
 // numbers alone, and catches the case where capital data is missing.
@@ -71,6 +80,13 @@ function classify(events) {
       if (growth >= ROUND_MIN_GROWTH && delta >= ROUND_MIN_ABSOLUTE) {
         verdict = 'round-candidate';
         basis = `capital +${Math.round(growth * 100)}% (+${Math.round(delta).toLocaleString('fr-FR')} EUR nominal)`;
+      } else if (growth >= BRIDGE_MIN_GROWTH) {
+        // Between the option-exercise trickle and a priced round. This band is
+        // the app's strongest forward signal, so it gets its own verdict rather
+        // than being lumped in with employee equity — the same event must not be
+        // called a bridge in one place and option exercises in another.
+        verdict = 'bridge';
+        basis = `capital +${(growth * 100).toFixed(1)}% (+${Math.round(delta).toLocaleString('fr-FR')} EUR nominal) — bridge-sized: too large for option exercises, too small for a priced round`;
       } else {
         verdict = 'employee-equity';
         basis = `capital +${(growth * 100).toFixed(1)}% — too small for a round, reads as option exercises`;
@@ -96,7 +112,7 @@ function classify(events) {
     //
     // So this is surfaced, never promoted. A false round is the worse error: it
     // silences the alert this whole app exists to raise.
-    if (verdict === 'employee-equity' && structuralChanges >= 2) {
+    if ((verdict === 'employee-equity' || verdict === 'bridge') && structuralChanges >= 2) {
       verdict = 'structural-with-capital';
       basis = `${event.descriptif} — capital moved ${(growth * 100).toFixed(1)}%, too little to read as a round on its own`;
     }
@@ -143,9 +159,17 @@ function assess(company, today) {
   const monthsSince = monthsBetween(last.date, today);
   const overdueBy = monthsSince - cycle.months;
 
+  // Any announcement counts here, not just capital ones — filing accounts is
+  // enough to show the company is still alive.
+  const lastAnyEvent = events[events.length - 1]?.date || last.date;
+  const monthsQuiet = monthsBetween(lastAnyEvent, today);
+
   let status;
   let why;
-  if (overdueBy > DUE_SOON_WINDOW) {
+  if (monthsQuiet > DORMANT_MONTHS) {
+    status = 'dormant';
+    why = `Nothing filed with the register for ${Math.round(monthsQuiet)} months. Almost certainly acquired, wound down or listed — the fund's portfolio page just has not been updated. Not a fundraising prospect.`;
+  } else if (overdueBy > DUE_SOON_WINDOW) {
     status = 'overdue';
     why = `${Math.round(monthsSince)} months since the last capital increase large enough to read as a round, against a ${cycle.months}-month ${cycle.measured ? 'measured' : 'assumed'} cycle.`;
   } else if (overdueBy > -DUE_SOON_WINDOW) {

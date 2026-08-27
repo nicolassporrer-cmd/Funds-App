@@ -1,5 +1,62 @@
 # Journal
 
+## 2026-08-27 (later) — core feature changed: from "who is overdue" to "who is about to raise"
+
+"Overdue" was the weak version of this app: last-round date minus a cycle is
+arithmetic anyone can do from a PitchBook export. The register's actual edge is
+that it records capital and board changes **whether or not anyone announces
+them**, which is where bridges, extensions and internal rounds live.
+
+The main view is now a raise-signal score, every component shipped and shown so
+the ranking can be argued with:
+
+| Signal | Weight | Live count |
+| --- | --- | --- |
+| Cycle position | 40 | — |
+| Bridge (2–10% capital rise since last round) | 22 | 168 |
+| Governance change in 18 months | 16 | 302 |
+| Statutory auditor on the books | 8 | — |
+| Investment vehicle as corporate officer | 6 | 339 |
+
+89 companies score 60+, 171 moderate. Top of the list: Shippeo, BeReal,
+360learning, Le Collectionist, Pubstack — all real, all plausible.
+
+### Things the data disproved along the way
+
+- **`dirigeants` carries more than expected.** I had told Nicolas investor
+  identity was unavailable. It is partly available: Qonto lists VALAR GLOBAL
+  PRINCIPALS FUND III LP as a corporate officer, Shippeo lists PARTECH PARTNERS.
+  Board representation, not a cap table — no shareholder register is public for
+  an SAS — and labelled that way everywhere.
+- **BODACC does not label auditor appointments or statute changes.** The only
+  categories it publishes are capital, administration, address, denomination,
+  legal form, representative, activity. So the forward signal is `administration`
+  (~2,400 occurrences), not the auditor events I had assumed.
+- **Elaia's sitemap is not a portfolio.** It files press releases and blog posts
+  under the same WordPress type as companies, so 231 "companies" included
+  "Mirakl Raises 300m…" and four copies of "Testing Mosaic For Elaia". Its status
+  taxonomy only tags real holdings, so untagged entries are now dropped: 130 real
+  companies, 57 exited, 74 current.
+- **Fund taglines were being scraped as company descriptions.** Where a company
+  page has no og:description the CMS serves the site-wide one, so ISAI's "Your VC
+  should work for you, not the other way around" landed on Pelico and wecasa as
+  their business model. Any description repeating across a fund's companies is
+  now dropped — 112 of them.
+- **A cached SIREN entry kept a stale description** after that fix, because the
+  cache only refreshed identity fields. Everything sourced from the fund's own
+  page is now refreshed every run; only the SIREN lookup is cached.
+- **One event was getting two contradictory labels** — "reads as a bridge" in the
+  signal, "too small for a round, reads as option exercises" in the register
+  history. Bridges now have their own verdict in the classifier and the score
+  trusts it rather than re-deriving the band.
+
+### Still unvalidated
+
+The score reflects judgement about what precedes a raise, not a measured result.
+Shippeo shows 3% capital bumps in 2022 and 2023 as well as 2026 — those may be
+option-pool increases rather than bridges, which would mean the 2% floor is too
+low. See BACKLOG: the press-coverage test is the way to settle it.
+
 ## 2026-08-27 — Day one: spine built, ten Paris funds live
 
 Started the app. The question that decided the whole design was asked before any

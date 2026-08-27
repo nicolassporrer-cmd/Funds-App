@@ -1,5 +1,5 @@
 {
-  "note": "Hand-curated seed list. TRACKED in git — the pipeline never rewrites this file. `extractor` and `options` are set by inspecting the fund's actual portfolio page; see scripts/lib/adapters.cjs.",
+  "note": "Hand-curated seed list. TRACKED in git — the pipeline never rewrites this file. `extractor` and `options` are set by inspecting the fund's actual portfolio page; see scripts/lib/adapters.cjs. statusPages, where a fund publishes them, mark whether it still holds the company; otherwise holding stays \"unknown\".",
   "funds": [
     {
       "id": "partech",
@@ -80,7 +80,20 @@
       "options": {
         "prefix": "/portfolio"
       },
-      "sourceUrl": "https://www.elaia.com/wp-sitemap-posts-portfolio-1.xml"
+      "sourceUrl": "https://www.elaia.com/wp-sitemap-posts-portfolio-1.xml",
+      "statusPages": [
+        {
+          "holding": "exited",
+          "url": "https://www.elaia.com/status/exited/",
+          "prefix": "/portfolio"
+        },
+        {
+          "holding": "current",
+          "url": "https://www.elaia.com/status/active/",
+          "prefix": "/portfolio"
+        }
+      ],
+      "requireStatus": true
     },
     {
       "id": "isai",

@@ -9,7 +9,7 @@
 const fs = require('fs');
 const path = require('path');
 const { get } = require('./lib/http.cjs');
-const { extract } = require('./lib/adapters.cjs');
+const { extract, pagedSlugs } = require('./lib/adapters.cjs');
 
 const DATA = path.join(__dirname, '..', 'data');
 const { funds } = JSON.parse(fs.readFileSync(path.join(DATA, 'funds.json'), 'utf8'));
@@ -33,13 +33,45 @@ const MIN_EXPECTED = 5;
         cacheKey: `portfolio-${fund.id}.html`,
       });
       const companies = extract(fund, html);
-      if (companies.length < MIN_EXPECTED) {
-        failures.push(`${fund.id}: extractor "${fund.extractor}" found ${companies.length} companies in ${html.length} bytes`);
-        console.log(`FAILED  ${companies.length} companies (page was ${html.length} bytes)`);
+
+      // A fund's portfolio page is a history, not an inventory: Partech tags 63
+      // of its 271 companies "Alumni". Where the fund publishes that distinction
+      // on separate archive pages, fold it back in here.
+      let kept = companies;
+      if (fund.statusPages) {
+        for (const source of fund.statusPages) {
+          const slugs = await pagedSlugs(get, source.url, source.prefix);
+          let applied = 0;
+          for (const company of companies) {
+            if (company.slug && slugs.has(company.slug)) {
+              company.holding = source.holding;
+              applied++;
+            }
+          }
+          console.log(`\n  ${source.holding}: ${slugs.size} listed, ${applied} matched`);
+        }
+
+        // Elaia files press releases and blog posts under the same WordPress
+        // post type as its companies, so its sitemap yields 231 "companies" —
+        // including "Mirakl Raises 300m..." and four copies of "Testing Mosaic
+        // For Elaia". The status taxonomy only ever tags real holdings, so on a
+        // fund that publishes one, an untagged entry is not a company.
+        if (fund.requireStatus) {
+          const before = kept.length;
+          kept = companies.filter((c) => c.holding && c.holding !== 'unknown');
+          console.log(`  requireStatus: dropped ${before - kept.length} untagged entries (press posts, tests)`);
+        }
+        process.stdout.write(`${''.padEnd(13)}`);
+      }
+      const companiesOut = kept;
+
+      if (companiesOut.length < MIN_EXPECTED) {
+        failures.push(`${fund.id}: extractor "${fund.extractor}" found ${companiesOut.length} companies in ${html.length} bytes`);
+        console.log(`FAILED  ${companiesOut.length} companies (page was ${html.length} bytes)`);
         continue;
       }
-      results.push({ ...fund, companies, fetchedAt: new Date().toISOString() });
-      console.log(`ok      ${companies.length} companies`);
+      results.push({ ...fund, companies: companiesOut, fetchedAt: new Date().toISOString() });
+      console.log(`ok      ${companiesOut.length} companies`);
     } catch (err) {
       failures.push(`${fund.id}: ${err.message}`);
       console.log(`ERROR   ${err.message}`);
@@ -48,6 +80,9 @@ const MIN_EXPECTED = 5;
 
   const total = results.reduce((n, f) => n + f.companies.length, 0);
   const unique = new Set(results.flatMap((f) => f.companies.map((c) => c.name.toLowerCase()))).size;
+  const holdings = results
+    .flatMap((f) => f.companies)
+    .reduce((acc, c) => ({ ...acc, [c.holding || 'unknown']: (acc[c.holding || 'unknown'] || 0) + 1 }), {});
 
   fs.writeFileSync(
     path.join(DATA, 'portfolios.json'),
@@ -55,6 +90,10 @@ const MIN_EXPECTED = 5;
   );
 
   console.log(`\n${results.length}/${funds.length} funds, ${total} holdings, ${unique} distinct companies`);
+  console.log(
+    `Holding status as published by the funds: ` +
+      Object.entries(holdings).map(([k, v]) => `${k}=${v}`).join(' ')
+  );
   if (failures.length) {
     console.log(`\n${failures.length} fund(s) need an adapter fix:`);
     failures.forEach((f) => console.log(`  - ${f}`));

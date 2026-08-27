@@ -17,9 +17,13 @@ data/raw/
 data/portfolios.json
 data/events.json
 data/rounds.json
+data/prospects.json
 
 # TRACKED on purpose, do NOT add here:
 #   data/funds.json      hand-curated fund list
+#   data/contacts.json   hand-curated fund contacts. The pipeline only ever
+#                        reads this file; no public source can regenerate it,
+#                        so losing it would lose your own work.
 #   data/siren-map.json  name -> SIREN cache; costs API calls to rebuild and
 #                        carries manual corrections that must survive a refresh
 #   data/payload.json    what the site builds from

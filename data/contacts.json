@@ -1,0 +1,20 @@
+{
+  "note": "CURATED BY HAND. Nothing in this file comes from a public source and the pipeline never overwrites it — the daily refresh only reads it. No open dataset maps a partner to a portfolio company, so this is where your own knowledge goes. On the site these values are shown in a visually separate column marked 'curated' so they can never be mistaken for sourced data.",
+  "howToUse": {
+    "byFund": "A default contact for every company held by that fund.",
+    "byCompany": "Overrides the fund default for one company. The key is the company name upper-cased with punctuation stripped, exactly as it appears as a key in data/siren-map.json — e.g. BACK MARKET."
+  },
+  "byFund": {
+    "partech": null,
+    "alven": null,
+    "xange": null,
+    "daphni": null,
+    "360capital": null,
+    "kima": null,
+    "elaia": null,
+    "isai": null,
+    "ventech": null,
+    "serena": null
+  },
+  "byCompany": {}
+}
