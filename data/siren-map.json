@@ -6204,7 +6204,7 @@
       "website": "https://plumerai.com",
       "blurb": "Powerful AI for trillions of edge devices",
       "status": "no-name-match",
-      "candidates": 13
+      "candidates": 12
     },
     "POPMEALS": {
       "name": "Popmeals",
@@ -8840,7 +8840,7 @@
       "website": "https://worders.net/",
       "blurb": "High-end online B2B translation solution",
       "status": "no-name-match",
-      "candidates": 19
+      "candidates": 17
     },
     "XENDIT": {
       "name": "Xendit",
@@ -11182,7 +11182,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://jobs.lever.co/bigblue/ac94f7b0-3832-4982-b68b-a78324cf302f",
+      "website": "https://jobs.lever.co/bigblue/1654284a-349a-4242-925f-ee8d69f663b3",
       "blurb": "Bigblue: fulfillment-as-a-service platform empowering e-commerce brands with fast, reliable logistics to scale effortlessly and enhance customer experience.",
       "status": "resolved",
       "siren": "824041461",
@@ -11454,7 +11454,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
+      "website": "https://www.welcometothejungle.com/fr/companies/dealt/jobs/business-developper-stage-4-mois_levallois-perret",
       "blurb": "Discover Dealt, a B2B2C SaaS platform offering 350+ white-label services. installation, maintenance, gardening. To help businesses enhance customer experience",
       "status": "resolved",
       "siren": "820538007",
@@ -12470,7 +12470,7 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://www.welcometothejungle.com/fr/companies/lifeaz/jobs/ingenieur-systemes-embarques-cdi_paris",
+      "website": "https://www.welcometothejungle.com/en/companies/xange",
       "blurb": "Lifeaz brings life-saving tech home: discover the smart, user-friendly defibrillator and see how XAnge backs Lifeaz’s mission to protect every family.",
       "status": "resolved",
       "siren": "814042958",
@@ -13952,7 +13952,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://gitti.jobs.personio.de/job/2681396",
+      "website": "https://gitti.jobs.personio.de/job/2772293",
       "blurb": "Gitti: sustainable vegan nail polish brand delivering innovative, eco-friendly beauty with high-performance, toxin-free colors for conscious consumers.",
       "status": "no-name-match",
       "candidates": 2
@@ -14278,18 +14278,18 @@
       "website": "https://www.welcometothejungle.com/en/companies/xange",
       "blurb": "Chauffeur Privé, now part of FREE NOW, provides private car services across Europe, uniting taxis, private drivers and micromobility in a single seamless app.",
       "status": "ambiguous",
-      "siren": "931154389",
+      "siren": "903173144",
       "legalName": "CHAUFFEUR PRIVE",
       "department": "59",
       "naf": "49.32Z",
-      "founded": "2024-07-22",
-      "city": "LILLE",
+      "founded": "2021-09-10",
+      "city": "WAZIERS",
       "country": "France",
       "headcount": "NN",
-      "sizeCategory": null,
+      "sizeCategory": "PME",
       "officers": [],
       "accounts": null,
-      "siegeSince": "2024-07-22",
+      "siegeSince": "2021-09-10",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -14300,10 +14300,10 @@
         "dept 59",
         "active",
         "shell-shaped NAF 49.32Z",
-        "siege since 2024"
+        "siege since 2021"
       ],
       "alternatives": [
-        "903173144 CHAUFFEUR PRIVE (1)",
+        "931154389 CHAUFFEUR PRIVE (1)",
         "813933223 CHAUFFEUR PRIVE (0)"
       ]
     },
@@ -16439,19 +16439,19 @@
       "portfolioCountry": null,
       "website": "https://www.dema.ai/",
       "blurb": "Dema.ai addresses the critical challenges of profitability in the e-commerce industry by providing a comprehensive platform that delivers real-time, actionable insights.",
-      "status": "ambiguous",
-      "siren": "942498015",
-      "legalName": "DEMA (DEMA SP)",
+      "status": "resolved",
+      "siren": "502863079",
+      "legalName": "DEMA",
       "department": "94",
-      "naf": "80.20Z",
-      "founded": "2025-04-01",
-      "city": "LIMEIL-BREVANNES",
+      "naf": "94.99Z",
+      "founded": "2006-06-27",
+      "city": "CRETEIL",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
       "officers": [],
       "accounts": null,
-      "siegeSince": "2026-04-01",
+      "siegeSince": "2006-06-27",
       "active": true,
       "confidence": "medium",
       "scorerVersion": 5,
@@ -16461,11 +16461,11 @@
         "no declared employees",
         "Île-de-France",
         "active",
-        "siege since 2026"
+        "siege since 2006"
       ],
       "alternatives": [
-        "502863079 DEMA (7)",
-        "483560942 DEMA - FRANCE (6)"
+        "483560942 DEMA - FRANCE (6)",
+        "494438252 DEMA (5)"
       ]
     },
     "DIFT": {
@@ -18236,18 +18236,18 @@
       "website": "https://wilgo.ai/",
       "blurb": "Homework that finally works for kids.",
       "status": "ambiguous",
-      "siren": "880879440",
-      "legalName": "WILGO ABETAUW (SERIE L OUEST DE MARONI)",
+      "siren": "531891331",
+      "legalName": "WILGO PHEBE (JR ENTREPRISE)",
       "department": "973",
-      "naf": "16.10A",
-      "founded": "2020-01-08",
-      "city": "SAINT LAURENT DU MARONI",
+      "naf": "43.99C",
+      "founded": "2011-04-20",
+      "city": "CAYENNE",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": "PME",
       "officers": [],
       "accounts": null,
-      "siegeSince": "2020-01-08",
+      "siegeSince": "2024-10-01",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -18257,11 +18257,11 @@
         "no declared employees",
         "dept 973",
         "active",
-        "siege since 2020"
+        "siege since 2024"
       ],
       "alternatives": [
-        "531891331 WILGO PHEBE (JR ENTREPRISE) (3)",
-        "884127648 WILGO AFATA (ENTREPRISE AFATA & FILS) (3)"
+        "880879440 WILGO ABETAUW (SERIE L OUEST DE MARONI) (3)",
+        "501365944 WILGO MISIDJAN (MO KONTAN LANATYR) (3)"
       ]
     },
     "WITCO": {
@@ -18339,7 +18339,7 @@
         "siege since 2020"
       ],
       "alternatives": [
-        "801910464 ZOE (7)",
+        "824714646 ZOE (7)",
         "821673621 ZOE (SARL ZOE) (7)"
       ]
     },
@@ -20249,7 +20249,7 @@
       "portfolioCountry": null,
       "website": null,
       "blurb": null,
-      "status": "ambiguous",
+      "status": "resolved",
       "siren": "832583785",
       "legalName": "REIKI BIEN-ETRE (ARBE)",
       "department": "974",
@@ -20275,8 +20275,8 @@
         "siege since 2021"
       ],
       "alternatives": [
-        "949149116 ARBE LOC (6)",
-        "848331252 ARBE (COCO FASHION) (ARBE) (5)"
+        "848331252 ARBE (COCO FASHION) (ARBE) (5)",
+        "105224737 ARBE (5)"
       ]
     },
     "ID5": {
@@ -21864,31 +21864,32 @@
       "website": "http://accesinternet.ca",
       "blurb": "We provide great Internet services in Canada's small cities",
       "status": "resolved",
-      "siren": "431282961",
-      "legalName": "ACCES TELECOM MULTIMEDIA (ATM)",
+      "siren": "499447605",
+      "legalName": "ACCES TELECOM INTERNATIONAL (A T I)",
       "department": "13",
-      "naf": "62.02A",
-      "founded": "2000-05-02",
-      "city": "AUBAGNE",
+      "naf": "46.52Z",
+      "founded": "2007-08-01",
+      "city": "MARSEILLE",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
       "officers": [],
       "accounts": null,
-      "siegeSince": "2002-05-01",
-      "active": false,
+      "siegeSince": "2007-08-01",
+      "active": true,
       "confidence": "low",
       "scorerVersion": 5,
-      "score": 1,
+      "score": 3,
       "reasons": [
         "name prefix",
         "no declared employees",
         "dept 13",
-        "ceased",
-        "tech NAF",
-        "siege since 2002"
+        "active",
+        "siege since 2007"
       ],
-      "alternatives": []
+      "alternatives": [
+        "431282961 ACCES TELECOM MULTIMEDIA (ATM) (1)"
+      ]
     },
     "ACCREDIBLE": {
       "name": "Accredible",
@@ -31037,7 +31038,7 @@
       ],
       "alternatives": [
         "990258162 FEELS (FEELS) (7)",
-        "882412950 FEELS GOOD (5)"
+        "897491106 FEELS RECORDS (6)"
       ]
     },
     "FENIX ENERGY": {
@@ -33772,32 +33773,33 @@
       "website": "http://getcorral.com",
       "blurb": "On-demand multi-pickup solution",
       "status": "resolved",
-      "siren": "942014689",
-      "legalName": "HITCH (HITCH)",
-      "department": "06",
-      "naf": "85.59B",
-      "founded": "2025-03-10",
-      "city": "CANNES",
+      "siren": "812107035",
+      "legalName": "HITCH AGENCY",
+      "department": "75",
+      "naf": "59.11A",
+      "founded": "2015-05-05",
+      "city": "PARIS",
       "country": "France",
       "headcount": "NN",
-      "sizeCategory": null,
+      "sizeCategory": "PME",
       "officers": [],
       "accounts": null,
-      "siegeSince": "2025-03-10",
+      "siegeSince": "2015-05-05",
       "active": true,
-      "confidence": "low",
+      "confidence": "medium",
       "scorerVersion": 5,
-      "score": 5,
+      "score": 6,
       "reasons": [
-        "exact name",
+        "name prefix",
         "no declared employees",
-        "dept 06",
+        "Île-de-France",
         "active",
-        "siege since 2025"
+        "tech NAF",
+        "siege since 2015"
       ],
       "alternatives": [
-        "938941044 HITCH (3)",
-        "811015080 HITCH (3)"
+        "942014689 HITCH (HITCH) (5)",
+        "938941044 HITCH (3)"
       ]
     },
     "HIVY": {
@@ -33914,8 +33916,8 @@
         "siege since 2025"
       ],
       "alternatives": [
-        "824308944 HOMELOC (1)",
-        "924854151 HOMELOC (1)"
+        "924854151 HOMELOC (1)",
+        "824308944 HOMELOC (1)"
       ]
     },
     "HOMEWINGS": {
@@ -41228,7 +41230,7 @@
       ],
       "alternatives": [
         "990694192 NOMI (7)",
-        "922044680 NOMI (7)"
+        "101209914 NOMI (6)"
       ]
     },
     "NOM NOM NOW": {
@@ -60542,23 +60544,23 @@
       "website": null,
       "blurb": null,
       "status": "ambiguous",
-      "siren": "902107150",
-      "legalName": "JAVELO (AKOYAS PROVENCE)",
-      "department": "13",
-      "naf": "70.22Z",
-      "founded": "2021-08-04",
-      "city": "PLAN-D'ORGON",
+      "siren": "815121330",
+      "legalName": "JAVELO",
+      "department": "75",
+      "naf": "64.20Z",
+      "founded": "2015-12-01",
+      "city": "PARIS",
       "country": "France",
-      "headcount": "01",
+      "headcount": "NN",
       "sizeCategory": "PME",
       "officers": [],
       "accounts": {
-        "2025": {
+        "2024": {
           "ca": 0,
-          "resultat_net": 7379
+          "resultat_net": 269330
         }
       },
-      "siegeSince": "2021-08-04",
+      "siegeSince": "2015-12-01",
       "active": true,
       "confidence": "medium",
       "scorerVersion": 5,
@@ -60566,13 +60568,12 @@
       "reasons": [
         "exact name",
         "no declared employees",
-        "dept 13",
+        "Île-de-France",
         "active",
-        "tech NAF",
-        "siege since 2021"
+        "siege since 2015"
       ],
       "alternatives": [
-        "815121330 JAVELO (7)"
+        "902107150 JAVELO (AKOYAS PROVENCE) (7)"
       ]
     },
     "KANDBAZ": {
@@ -61546,12 +61547,12 @@
       "website": null,
       "blurb": null,
       "status": "ambiguous",
-      "siren": "322120692",
+      "siren": "327925335",
       "legalName": "PUBECO",
-      "department": "91",
+      "department": "75",
       "naf": "77.10",
-      "founded": "1981-05-26",
-      "city": "SAVIGNY-SUR-ORGE",
+      "founded": "1983-08-01",
+      "city": "PARIS 19",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
@@ -61569,7 +61570,7 @@
         "ceased"
       ],
       "alternatives": [
-        "327925335 PUBECO (3)",
+        "322120692 PUBECO (3)",
         "504072182 PUBECO S.A.R.L (3)"
       ]
     },
@@ -62499,7 +62500,7 @@
       "website": null,
       "blurb": null,
       "status": "no-name-match",
-      "candidates": 17
+      "candidates": 18
     },
     "ALAPAGE": {
       "name": "Alapage",
@@ -63341,7 +63342,7 @@
       ],
       "alternatives": [
         "478681703 CHILLI (STELLAR) (7)",
-        "924615982 CHILLI MOTORS (5)"
+        "987730470 CHILLI FOUNDATION (5)"
       ]
     },
     "CLIMEFI": {
