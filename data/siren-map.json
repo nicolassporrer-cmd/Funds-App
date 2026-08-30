@@ -6274,7 +6274,7 @@
       ],
       "alternatives": [
         "851155390 PRESTI' JANTES (PRESTI' JANTES) (7)",
-        "821541802 PRESTI BAT (7)"
+        "514431055 PRESTI TP (6)"
       ]
     },
     "PRIMARYIO": {
@@ -8840,7 +8840,7 @@
       "website": "https://worders.net/",
       "blurb": "High-end online B2B translation solution",
       "status": "no-name-match",
-      "candidates": 17
+      "candidates": 19
     },
     "XENDIT": {
       "name": "Xendit",
@@ -10910,7 +10910,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
+      "website": "https://www.welcometothejungle.com/fr/companies/greenly/jobs/senior-product-marketing-manager_paris",
       "blurb": "Greenly’s carbon accounting SaaS helps businesses track, cut and offset emissions. Discover how this ClimateTech star accelerates your net-zero journey.",
       "status": "resolved",
       "siren": "999234222",
@@ -11634,7 +11634,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://dolead.teamtailor.com/jobs/8229014-marketing-operations-project-manager-freelance-s2-2026",
+      "website": "https://dolead.teamtailor.com/jobs/8258126-senior-full-stack-engineer-product-experimentation",
       "blurb": "Dolead’s AI-driven Leads-as-a-Service platform delivers exclusive, sales-ready leads at scale. Explore how semantic tech transforms paid media into growth.",
       "status": "resolved",
       "siren": "499425700",
@@ -12470,7 +12470,7 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
+      "website": "https://www.welcometothejungle.com/fr/companies/lifeaz/jobs/ingenieur-systemes-embarques-cdi_paris",
       "blurb": "Lifeaz brings life-saving tech home: discover the smart, user-friendly defibrillator and see how XAnge backs Lifeaz’s mission to protect every family.",
       "status": "resolved",
       "siren": "814042958",
@@ -14278,18 +14278,18 @@
       "website": "https://www.welcometothejungle.com/en/companies/xange",
       "blurb": "Chauffeur Privé, now part of FREE NOW, provides private car services across Europe, uniting taxis, private drivers and micromobility in a single seamless app.",
       "status": "ambiguous",
-      "siren": "903173144",
+      "siren": "931154389",
       "legalName": "CHAUFFEUR PRIVE",
       "department": "59",
       "naf": "49.32Z",
-      "founded": "2021-09-10",
-      "city": "WAZIERS",
+      "founded": "2024-07-22",
+      "city": "LILLE",
       "country": "France",
       "headcount": "NN",
-      "sizeCategory": "PME",
+      "sizeCategory": null,
       "officers": [],
       "accounts": null,
-      "siegeSince": "2021-09-10",
+      "siegeSince": "2024-07-22",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -14300,10 +14300,10 @@
         "dept 59",
         "active",
         "shell-shaped NAF 49.32Z",
-        "siege since 2021"
+        "siege since 2024"
       ],
       "alternatives": [
-        "931154389 CHAUFFEUR PRIVE (1)",
+        "903173144 CHAUFFEUR PRIVE (1)",
         "813933223 CHAUFFEUR PRIVE (0)"
       ]
     },
@@ -18314,33 +18314,38 @@
       "portfolioCountry": null,
       "website": "https://zoe.com/",
       "blurb": "ZOE isn’t just a product, it’s a movement that’s reshaping the future of nutrition and preventative healthcare.",
-      "status": "ambiguous",
-      "siren": "892423096",
+      "status": "resolved",
+      "siren": "491756722",
       "legalName": "ZOE",
-      "department": "2B",
-      "naf": "47.71Z",
-      "founded": "2020-12-29",
-      "city": "FURIANI",
+      "department": "77",
+      "naf": "64.20Z",
+      "founded": "2006-07-20",
+      "city": "VAIRES-SUR-MARNE",
       "country": "France",
-      "headcount": "02",
+      "headcount": "01",
       "sizeCategory": "PME",
       "officers": [],
-      "accounts": null,
-      "siegeSince": "2020-12-29",
+      "accounts": {
+        "2024": {
+          "ca": 0,
+          "resultat_net": 462039
+        }
+      },
+      "siegeSince": "2018-06-30",
       "active": true,
-      "confidence": "medium",
+      "confidence": "high",
       "scorerVersion": 5,
-      "score": 7,
+      "score": 8,
       "reasons": [
         "exact name",
-        "has employees (bracket 02)",
-        "dept 2B",
+        "no declared employees",
+        "Île-de-France",
         "active",
-        "siege since 2020"
+        "siege since 2018"
       ],
       "alternatives": [
-        "824714646 ZOE (7)",
-        "821673621 ZOE (SARL ZOE) (7)"
+        "801910464 ZOE (7)",
+        "892423096 ZOE (7)"
       ]
     },
     "SECURITY NOTICE PHISHING AND FRAUD ATTEMPTS": {
@@ -28687,23 +28692,30 @@
       "website": "http://detail.co",
       "blurb": "Mobile app for fast video and podcast creation.",
       "status": "ambiguous",
-      "siren": "390702348",
-      "legalName": "DETAIL VIANDES",
-      "department": "32",
-      "naf": "47.22Z",
-      "founded": "1993-04-05",
-      "city": "SAMATAN",
+      "siren": "391194313",
+      "legalName": "DETAIL INOX",
+      "department": "73",
+      "naf": "25.50B",
+      "founded": "1993-03-24",
+      "city": "GRESY-SUR-AIX",
       "country": "France",
       "headcount": "11",
-      "sizeCategory": "PME",
-      "officers": [],
+      "sizeCategory": "ETI",
+      "officers": [
+        {
+          "name": "ERNST & YOUNG ET AUTRES",
+          "role": "Commissaire aux comptes titulaire",
+          "siren": "438476913",
+          "auditor": true
+        }
+      ],
       "accounts": {
         "2024": {
-          "ca": 0,
-          "resultat_net": -119948
+          "ca": 6556600,
+          "resultat_net": -26413
         }
       },
-      "siegeSince": "1993-04-05",
+      "siegeSince": "1993-03-24",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -28711,12 +28723,12 @@
       "reasons": [
         "name prefix",
         "has employees (bracket 11)",
-        "dept 32",
+        "dept 73",
         "active",
         "siege since 1993"
       ],
       "alternatives": [
-        "391194313 DETAIL INOX (4)",
+        "390702348 DETAIL VIANDES (4)",
         "878155654 DETAIL (1)"
       ]
     },
@@ -31038,7 +31050,7 @@
       ],
       "alternatives": [
         "990258162 FEELS (FEELS) (7)",
-        "897491106 FEELS RECORDS (6)"
+        "882412950 FEELS GOOD (5)"
       ]
     },
     "FENIX ENERGY": {
@@ -33916,8 +33928,8 @@
         "siege since 2025"
       ],
       "alternatives": [
-        "924854151 HOMELOC (1)",
-        "824308944 HOMELOC (1)"
+        "824308944 HOMELOC (1)",
+        "924854151 HOMELOC (1)"
       ]
     },
     "HOMEWINGS": {
@@ -47231,7 +47243,7 @@
       "website": "http://singuli.co",
       "blurb": "Inventory Optimization for Modern Retail",
       "status": "no-name-match",
-      "candidates": 17
+      "candidates": 16
     },
     "SKEW": {
       "name": "Skew",
@@ -61547,12 +61559,12 @@
       "website": null,
       "blurb": null,
       "status": "ambiguous",
-      "siren": "327925335",
+      "siren": "322120692",
       "legalName": "PUBECO",
-      "department": "75",
+      "department": "91",
       "naf": "77.10",
-      "founded": "1983-08-01",
-      "city": "PARIS 19",
+      "founded": "1981-05-26",
+      "city": "SAVIGNY-SUR-ORGE",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
@@ -61570,7 +61582,7 @@
         "ceased"
       ],
       "alternatives": [
-        "322120692 PUBECO (3)",
+        "327925335 PUBECO (3)",
         "504072182 PUBECO S.A.R.L (3)"
       ]
     },
@@ -63342,7 +63354,7 @@
       ],
       "alternatives": [
         "478681703 CHILLI (STELLAR) (7)",
-        "987730470 CHILLI FOUNDATION (5)"
+        "924615982 CHILLI MOTORS (5)"
       ]
     },
     "CLIMEFI": {
