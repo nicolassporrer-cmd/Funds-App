@@ -6204,7 +6204,7 @@
       "website": "https://plumerai.com",
       "blurb": "Powerful AI for trillions of edge devices",
       "status": "no-name-match",
-      "candidates": 12
+      "candidates": 13
     },
     "POPMEALS": {
       "name": "Popmeals",
@@ -6274,7 +6274,7 @@
       ],
       "alternatives": [
         "851155390 PRESTI' JANTES (PRESTI' JANTES) (7)",
-        "514431055 PRESTI TP (6)"
+        "412484388 PRESTI SUD (6)"
       ]
     },
     "PRIMARYIO": {
@@ -8840,7 +8840,7 @@
       "website": "https://worders.net/",
       "blurb": "High-end online B2B translation solution",
       "status": "no-name-match",
-      "candidates": 19
+      "candidates": 18
     },
     "XENDIT": {
       "name": "Xendit",
@@ -11454,7 +11454,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/fr/companies/dealt/jobs/business-developper-stage-4-mois_levallois-perret",
+      "website": "https://www.welcometothejungle.com/en/companies/xange",
       "blurb": "Discover Dealt, a B2B2C SaaS platform offering 350+ white-label services. installation, maintenance, gardening. To help businesses enhance customer experience",
       "status": "resolved",
       "siren": "820538007",
@@ -12470,7 +12470,7 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://www.welcometothejungle.com/fr/companies/lifeaz/jobs/ingenieur-systemes-embarques-cdi_paris",
+      "website": "https://www.welcometothejungle.com/en/companies/xange",
       "blurb": "Lifeaz brings life-saving tech home: discover the smart, user-friendly defibrillator and see how XAnge backs Lifeaz’s mission to protect every family.",
       "status": "resolved",
       "siren": "814042958",
@@ -16942,18 +16942,18 @@
       "website": "https://www.hemea.com/",
       "blurb": "Hemea is revolutionizing the renovation sector by offering comprehensive, client-focused services that blend digital innovation with personalized support.",
       "status": "ambiguous",
-      "siren": "882560360",
-      "legalName": "HEMEA IB",
-      "department": "44",
-      "naf": "66.22Z",
-      "founded": "2020-03-09",
-      "city": "NANTES",
+      "siren": "930226329",
+      "legalName": "HEMEA ECO",
+      "department": "59",
+      "naf": "43.32A",
+      "founded": "2024-06-21",
+      "city": "DUNKERQUE",
       "country": "France",
       "headcount": "NN",
-      "sizeCategory": "PME",
+      "sizeCategory": null,
       "officers": [],
       "accounts": null,
-      "siegeSince": "2024-08-12",
+      "siegeSince": "2025-06-16",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -16961,12 +16961,12 @@
       "reasons": [
         "name prefix",
         "no declared employees",
-        "dept 44",
+        "dept 59",
         "active",
-        "siege since 2024"
+        "siege since 2025"
       ],
       "alternatives": [
-        "930226329 HEMEA ECO (3)",
+        "882560360 HEMEA IB (3)",
         "928156520 HEMEA MEKAOURI (0)"
       ]
     },
@@ -18111,18 +18111,18 @@
       "website": "https://underdog.shop/",
       "blurb": "Since our investment, they’ve refurbished over 500 appliances monthly, preventing 259 tonnes of waste and saving 2,600 tonnes of CO2.",
       "status": "ambiguous",
-      "siren": "937523694",
+      "siren": "849998646",
       "legalName": "UNDERDOG",
-      "department": "33",
-      "naf": "90.03A",
-      "founded": "2023-10-21",
-      "city": "BORDEAUX",
+      "department": "13",
+      "naf": "90.01Z",
+      "founded": "2019-02-27",
+      "city": "ALLEINS",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
       "officers": [],
       "accounts": null,
-      "siegeSince": "2023-10-21",
+      "siegeSince": "2020-09-18",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -18130,12 +18130,12 @@
       "reasons": [
         "exact name",
         "no declared employees",
-        "dept 33",
+        "dept 13",
         "active",
-        "siege since 2023"
+        "siege since 2020"
       ],
       "alternatives": [
-        "849998646 UNDERDOG (5)",
+        "937523694 UNDERDOG (5)",
         "523841054 UNDERDOG (5)"
       ]
     },
@@ -31050,7 +31050,7 @@
       ],
       "alternatives": [
         "990258162 FEELS (FEELS) (7)",
-        "882412950 FEELS GOOD (5)"
+        "897491106 FEELS RECORDS (6)"
       ]
     },
     "FENIX ENERGY": {
@@ -61559,12 +61559,12 @@
       "website": null,
       "blurb": null,
       "status": "ambiguous",
-      "siren": "322120692",
+      "siren": "327925335",
       "legalName": "PUBECO",
-      "department": "91",
+      "department": "75",
       "naf": "77.10",
-      "founded": "1981-05-26",
-      "city": "SAVIGNY-SUR-ORGE",
+      "founded": "1983-08-01",
+      "city": "PARIS 19",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
@@ -61582,7 +61582,7 @@
         "ceased"
       ],
       "alternatives": [
-        "327925335 PUBECO (3)",
+        "322120692 PUBECO (3)",
         "504072182 PUBECO S.A.R.L (3)"
       ]
     },
@@ -62512,7 +62512,7 @@
       "website": null,
       "blurb": null,
       "status": "no-name-match",
-      "candidates": 18
+      "candidates": 17
     },
     "ALAPAGE": {
       "name": "Alapage",
