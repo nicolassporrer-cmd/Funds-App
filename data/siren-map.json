@@ -6204,7 +6204,7 @@
       "website": "https://plumerai.com",
       "blurb": "Powerful AI for trillions of edge devices",
       "status": "no-name-match",
-      "candidates": 13
+      "candidates": 12
     },
     "POPMEALS": {
       "name": "Popmeals",
@@ -8840,7 +8840,7 @@
       "website": "https://worders.net/",
       "blurb": "High-end online B2B translation solution",
       "status": "no-name-match",
-      "candidates": 18
+      "candidates": 19
     },
     "XENDIT": {
       "name": "Xendit",
@@ -10910,7 +10910,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/fr/companies/greenly/jobs/senior-product-marketing-manager_paris",
+      "website": "https://www.welcometothejungle.com/en/companies/xange",
       "blurb": "Greenly’s carbon accounting SaaS helps businesses track, cut and offset emissions. Discover how this ClimateTech star accelerates your net-zero journey.",
       "status": "resolved",
       "siren": "999234222",
@@ -11454,7 +11454,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
+      "website": "https://www.welcometothejungle.com/fr/companies/dealt/jobs/business-developper-stage-4-mois_levallois-perret",
       "blurb": "Discover Dealt, a B2B2C SaaS platform offering 350+ white-label services. installation, maintenance, gardening. To help businesses enhance customer experience",
       "status": "resolved",
       "siren": "820538007",
@@ -13900,7 +13900,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://apply.workable.com/j/095A6FC7AB",
+      "website": "https://apply.workable.com/j/0CFA42418D",
       "blurb": "WorkMotion simplifies global hiring and compliance. Enabling companies to onboard international employees via EoR services in 90+ countries efficiently.",
       "status": "resolved",
       "siren": "910571983",
@@ -16942,18 +16942,18 @@
       "website": "https://www.hemea.com/",
       "blurb": "Hemea is revolutionizing the renovation sector by offering comprehensive, client-focused services that blend digital innovation with personalized support.",
       "status": "ambiguous",
-      "siren": "930226329",
-      "legalName": "HEMEA ECO",
-      "department": "59",
-      "naf": "43.32A",
-      "founded": "2024-06-21",
-      "city": "DUNKERQUE",
+      "siren": "882560360",
+      "legalName": "HEMEA IB",
+      "department": "44",
+      "naf": "66.22Z",
+      "founded": "2020-03-09",
+      "city": "NANTES",
       "country": "France",
       "headcount": "NN",
-      "sizeCategory": null,
+      "sizeCategory": "PME",
       "officers": [],
       "accounts": null,
-      "siegeSince": "2025-06-16",
+      "siegeSince": "2024-08-12",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -16961,12 +16961,12 @@
       "reasons": [
         "name prefix",
         "no declared employees",
-        "dept 59",
+        "dept 44",
         "active",
-        "siege since 2025"
+        "siege since 2024"
       ],
       "alternatives": [
-        "882560360 HEMEA IB (3)",
+        "930226329 HEMEA ECO (3)",
         "928156520 HEMEA MEKAOURI (0)"
       ]
     },
@@ -21869,32 +21869,31 @@
       "website": "http://accesinternet.ca",
       "blurb": "We provide great Internet services in Canada's small cities",
       "status": "resolved",
-      "siren": "499447605",
-      "legalName": "ACCES TELECOM INTERNATIONAL (A T I)",
+      "siren": "431282961",
+      "legalName": "ACCES TELECOM MULTIMEDIA (ATM)",
       "department": "13",
-      "naf": "46.52Z",
-      "founded": "2007-08-01",
-      "city": "MARSEILLE",
+      "naf": "62.02A",
+      "founded": "2000-05-02",
+      "city": "AUBAGNE",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
       "officers": [],
       "accounts": null,
-      "siegeSince": "2007-08-01",
-      "active": true,
+      "siegeSince": "2002-05-01",
+      "active": false,
       "confidence": "low",
       "scorerVersion": 5,
-      "score": 3,
+      "score": 1,
       "reasons": [
         "name prefix",
         "no declared employees",
         "dept 13",
-        "active",
-        "siege since 2007"
+        "ceased",
+        "tech NAF",
+        "siege since 2002"
       ],
-      "alternatives": [
-        "431282961 ACCES TELECOM MULTIMEDIA (ATM) (1)"
-      ]
+      "alternatives": []
     },
     "ACCREDIBLE": {
       "name": "Accredible",
@@ -28692,30 +28691,23 @@
       "website": "http://detail.co",
       "blurb": "Mobile app for fast video and podcast creation.",
       "status": "ambiguous",
-      "siren": "391194313",
-      "legalName": "DETAIL INOX",
-      "department": "73",
-      "naf": "25.50B",
-      "founded": "1993-03-24",
-      "city": "GRESY-SUR-AIX",
+      "siren": "390702348",
+      "legalName": "DETAIL VIANDES",
+      "department": "32",
+      "naf": "47.22Z",
+      "founded": "1993-04-05",
+      "city": "SAMATAN",
       "country": "France",
       "headcount": "11",
-      "sizeCategory": "ETI",
-      "officers": [
-        {
-          "name": "ERNST & YOUNG ET AUTRES",
-          "role": "Commissaire aux comptes titulaire",
-          "siren": "438476913",
-          "auditor": true
-        }
-      ],
+      "sizeCategory": "PME",
+      "officers": [],
       "accounts": {
         "2024": {
-          "ca": 6556600,
-          "resultat_net": -26413
+          "ca": 0,
+          "resultat_net": -119948
         }
       },
-      "siegeSince": "1993-03-24",
+      "siegeSince": "1993-04-05",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -28723,12 +28715,12 @@
       "reasons": [
         "name prefix",
         "has employees (bracket 11)",
-        "dept 73",
+        "dept 32",
         "active",
         "siege since 1993"
       ],
       "alternatives": [
-        "390702348 DETAIL VIANDES (4)",
+        "391194313 DETAIL INOX (4)",
         "878155654 DETAIL (1)"
       ]
     },
@@ -41242,7 +41234,7 @@
       ],
       "alternatives": [
         "990694192 NOMI (7)",
-        "101209914 NOMI (6)"
+        "800127532 NOMI (7)"
       ]
     },
     "NOM NOM NOW": {
@@ -60556,23 +60548,23 @@
       "website": null,
       "blurb": null,
       "status": "ambiguous",
-      "siren": "815121330",
-      "legalName": "JAVELO",
-      "department": "75",
-      "naf": "64.20Z",
-      "founded": "2015-12-01",
-      "city": "PARIS",
+      "siren": "902107150",
+      "legalName": "JAVELO (AKOYAS PROVENCE)",
+      "department": "13",
+      "naf": "70.22Z",
+      "founded": "2021-08-04",
+      "city": "PLAN-D'ORGON",
       "country": "France",
-      "headcount": "NN",
+      "headcount": "01",
       "sizeCategory": "PME",
       "officers": [],
       "accounts": {
-        "2024": {
+        "2025": {
           "ca": 0,
-          "resultat_net": 269330
+          "resultat_net": 7379
         }
       },
-      "siegeSince": "2015-12-01",
+      "siegeSince": "2021-08-04",
       "active": true,
       "confidence": "medium",
       "scorerVersion": 5,
@@ -60580,12 +60572,13 @@
       "reasons": [
         "exact name",
         "no declared employees",
-        "Île-de-France",
+        "dept 13",
         "active",
-        "siege since 2015"
+        "tech NAF",
+        "siege since 2021"
       ],
       "alternatives": [
-        "902107150 JAVELO (AKOYAS PROVENCE) (7)"
+        "815121330 JAVELO (7)"
       ]
     },
     "KANDBAZ": {
@@ -61559,12 +61552,12 @@
       "website": null,
       "blurb": null,
       "status": "ambiguous",
-      "siren": "327925335",
+      "siren": "322120692",
       "legalName": "PUBECO",
-      "department": "75",
+      "department": "91",
       "naf": "77.10",
-      "founded": "1983-08-01",
-      "city": "PARIS 19",
+      "founded": "1981-05-26",
+      "city": "SAVIGNY-SUR-ORGE",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
@@ -61582,7 +61575,7 @@
         "ceased"
       ],
       "alternatives": [
-        "322120692 PUBECO (3)",
+        "327925335 PUBECO (3)",
         "504072182 PUBECO S.A.R.L (3)"
       ]
     },
@@ -62512,7 +62505,7 @@
       "website": null,
       "blurb": null,
       "status": "no-name-match",
-      "candidates": 17
+      "candidates": 18
     },
     "ALAPAGE": {
       "name": "Alapage",
