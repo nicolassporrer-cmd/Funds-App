@@ -1287,18 +1287,23 @@
       "website": "https://en.boosters.kr",
       "blurb": "The New Standard In Commerce",
       "status": "ambiguous",
-      "siren": "341979334",
+      "siren": "824415178",
       "legalName": "BOOSTERS",
-      "department": "75",
-      "naf": "64.14",
-      "founded": "1987-07-01",
-      "city": "PARIS 3",
+      "department": "74",
+      "naf": "70.10Z",
+      "founded": "2016-12-15",
+      "city": "ANNECY",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
       "officers": [],
-      "accounts": null,
-      "siegeSince": null,
+      "accounts": {
+        "2017": {
+          "ca": 0,
+          "resultat_net": -7861
+        }
+      },
+      "siegeSince": "2018-10-31",
       "active": false,
       "confidence": "low",
       "scorerVersion": 5,
@@ -1306,11 +1311,13 @@
       "reasons": [
         "exact name",
         "no declared employees",
-        "Île-de-France",
-        "ceased"
+        "dept 74",
+        "ceased",
+        "tech NAF",
+        "siege since 2018"
       ],
       "alternatives": [
-        "824415178 BOOSTERS (3)"
+        "341979334 BOOSTERS (3)"
       ]
     },
     "BRANDWATCH": {
@@ -6204,7 +6211,7 @@
       "website": "https://plumerai.com",
       "blurb": "Powerful AI for trillions of edge devices",
       "status": "no-name-match",
-      "candidates": 12
+      "candidates": 13
     },
     "POPMEALS": {
       "name": "Popmeals",
@@ -11634,7 +11641,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://dolead.teamtailor.com/jobs/8258126-senior-full-stack-engineer-product-experimentation",
+      "website": "https://dolead.teamtailor.com/jobs/8303866-creative-strategist-freelancer-nam-2026",
       "blurb": "Dolead’s AI-driven Leads-as-a-Service platform delivers exclusive, sales-ready leads at scale. Explore how semantic tech transforms paid media into growth.",
       "status": "resolved",
       "siren": "499425700",
@@ -14278,18 +14285,18 @@
       "website": "https://www.welcometothejungle.com/en/companies/xange",
       "blurb": "Chauffeur Privé, now part of FREE NOW, provides private car services across Europe, uniting taxis, private drivers and micromobility in a single seamless app.",
       "status": "ambiguous",
-      "siren": "931154389",
+      "siren": "903173144",
       "legalName": "CHAUFFEUR PRIVE",
       "department": "59",
       "naf": "49.32Z",
-      "founded": "2024-07-22",
-      "city": "LILLE",
+      "founded": "2021-09-10",
+      "city": "WAZIERS",
       "country": "France",
       "headcount": "NN",
-      "sizeCategory": null,
+      "sizeCategory": "PME",
       "officers": [],
       "accounts": null,
-      "siegeSince": "2024-07-22",
+      "siegeSince": "2021-09-10",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -14300,10 +14307,10 @@
         "dept 59",
         "active",
         "shell-shaped NAF 49.32Z",
-        "siege since 2024"
+        "siege since 2021"
       ],
       "alternatives": [
-        "903173144 CHAUFFEUR PRIVE (1)",
+        "931154389 CHAUFFEUR PRIVE (1)",
         "813933223 CHAUFFEUR PRIVE (0)"
       ]
     },
@@ -18261,7 +18268,7 @@
       ],
       "alternatives": [
         "880879440 WILGO ABETAUW (SERIE L OUEST DE MARONI) (3)",
-        "501365944 WILGO MISIDJAN (MO KONTAN LANATYR) (3)"
+        "884127648 WILGO AFATA (ENTREPRISE AFATA & FILS) (3)"
       ]
     },
     "WITCO": {
@@ -21869,29 +21876,28 @@
       "website": "http://accesinternet.ca",
       "blurb": "We provide great Internet services in Canada's small cities",
       "status": "resolved",
-      "siren": "431282961",
-      "legalName": "ACCES TELECOM MULTIMEDIA (ATM)",
+      "siren": "499447605",
+      "legalName": "ACCES TELECOM INTERNATIONAL (A T I)",
       "department": "13",
-      "naf": "62.02A",
-      "founded": "2000-05-02",
-      "city": "AUBAGNE",
+      "naf": "46.52Z",
+      "founded": "2007-08-01",
+      "city": "MARSEILLE",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
       "officers": [],
       "accounts": null,
-      "siegeSince": "2002-05-01",
-      "active": false,
+      "siegeSince": "2007-08-01",
+      "active": true,
       "confidence": "low",
       "scorerVersion": 5,
-      "score": 1,
+      "score": 3,
       "reasons": [
         "name prefix",
         "no declared employees",
         "dept 13",
-        "ceased",
-        "tech NAF",
-        "siege since 2002"
+        "active",
+        "siege since 2007"
       ],
       "alternatives": []
     },
@@ -41234,7 +41240,7 @@
       ],
       "alternatives": [
         "990694192 NOMI (7)",
-        "800127532 NOMI (7)"
+        "101209914 NOMI (6)"
       ]
     },
     "NOM NOM NOW": {
@@ -60548,23 +60554,23 @@
       "website": null,
       "blurb": null,
       "status": "ambiguous",
-      "siren": "902107150",
-      "legalName": "JAVELO (AKOYAS PROVENCE)",
-      "department": "13",
-      "naf": "70.22Z",
-      "founded": "2021-08-04",
-      "city": "PLAN-D'ORGON",
+      "siren": "815121330",
+      "legalName": "JAVELO",
+      "department": "75",
+      "naf": "64.20Z",
+      "founded": "2015-12-01",
+      "city": "PARIS",
       "country": "France",
-      "headcount": "01",
+      "headcount": "NN",
       "sizeCategory": "PME",
       "officers": [],
       "accounts": {
-        "2025": {
+        "2024": {
           "ca": 0,
-          "resultat_net": 7379
+          "resultat_net": 269330
         }
       },
-      "siegeSince": "2021-08-04",
+      "siegeSince": "2015-12-01",
       "active": true,
       "confidence": "medium",
       "scorerVersion": 5,
@@ -60572,13 +60578,12 @@
       "reasons": [
         "exact name",
         "no declared employees",
-        "dept 13",
+        "Île-de-France",
         "active",
-        "tech NAF",
-        "siege since 2021"
+        "siege since 2015"
       ],
       "alternatives": [
-        "815121330 JAVELO (7)"
+        "902107150 JAVELO (AKOYAS PROVENCE) (7)"
       ]
     },
     "KANDBAZ": {
