@@ -69,7 +69,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
+      "website": "https://francefintech.welcomekit.co/companies/ramify/jobs/investment-analyst-private-markets_paris",
       "blurb": "Elum Energy’s AI controllers and software optimise solar-plant and microgrid energy mixes for peak efficiency, reliability and sustainability,",
       "status": "no-name-match",
       "candidates": 20
@@ -6217,7 +6217,7 @@
       "website": "https://plumerai.com",
       "blurb": "Powerful AI for trillions of edge devices",
       "status": "no-name-match",
-      "candidates": 13
+      "candidates": 12
     },
     "POPMEALS": {
       "name": "Popmeals",
@@ -6287,7 +6287,7 @@
       ],
       "alternatives": [
         "851155390 PRESTI' JANTES (PRESTI' JANTES) (7)",
-        "514431055 PRESTI TP (6)"
+        "412484388 PRESTI SUD (6)"
       ]
     },
     "PRIMARYIO": {
@@ -8853,7 +8853,7 @@
       "website": "https://worders.net/",
       "blurb": "High-end online B2B translation solution",
       "status": "no-name-match",
-      "candidates": 19
+      "candidates": 18
     },
     "XENDIT": {
       "name": "Xendit",
@@ -10695,7 +10695,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://xange.welcomekit.co/companies/implicity/jobs/logistics-manager_paris",
+      "website": "https://xange.welcomekit.co/companies/implicity/jobs/patient-engagement-specialist_new-york",
       "blurb": "Implicity’s remote monitoring platform automates connected pacemaker & defibrillator alerts. AI-driven triage of critical events to optimize cardiology care.",
       "status": "resolved",
       "siren": "820529089",
@@ -11467,7 +11467,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
+      "website": "https://www.welcometothejungle.com/fr/companies/dealt/jobs/business-developper-stage-4-mois_levallois-perret",
       "blurb": "Discover Dealt, a B2B2C SaaS platform offering 350+ white-label services. installation, maintenance, gardening. To help businesses enhance customer experience",
       "status": "resolved",
       "siren": "820538007",
@@ -12389,7 +12389,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
+      "website": "https://www.welcometothejungle.com/fr/companies/legalplace/jobs/onboarding-specialist-french-speaker_barcelone_LEGAL_z4LWGgN",
       "blurb": "LegalPlace: XAnge‑supported legal-tech platform empowering entrepreneurs with easy online formation, compliance and document automation tools.",
       "status": "resolved",
       "siren": "814428785",
@@ -13720,7 +13720,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://vertuoza.recruitee.com/o/business-developer",
+      "website": "https://vertuoza.recruitee.com/o/developer-front-end-2",
       "blurb": "Vertuoza’s vertical ERP empowers SMB construction firms to streamline projects, budgets and teams for higher productivity and profit. Discover how.",
       "status": "no-name-match",
       "candidates": 1
@@ -14237,23 +14237,18 @@
       "website": "https://www.welcometothejungle.com/en/companies/xange",
       "blurb": "Bergamotte delivers fresh, sustainably-sourced indoor & outdoor plants through an e-commerce platform. Combining design expertise with direct-to-door plant care",
       "status": "ambiguous",
-      "siren": "844263285",
+      "siren": "504823022",
       "legalName": "BERGAMOTTE",
       "department": "34",
-      "naf": "66.30Z",
-      "founded": "2018-11-02",
+      "naf": "94.99Z",
+      "founded": "2008-05-01",
       "city": "MONTPELLIER",
       "country": "France",
       "headcount": "NN",
-      "sizeCategory": "PME",
+      "sizeCategory": null,
       "officers": [],
-      "accounts": {
-        "2020": {
-          "ca": 0,
-          "resultat_net": -10486
-        }
-      },
-      "siegeSince": "2018-11-02",
+      "accounts": null,
+      "siegeSince": "2008-05-01",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -14263,10 +14258,10 @@
         "no declared employees",
         "dept 34",
         "active",
-        "siege since 2018"
+        "siege since 2008"
       ],
       "alternatives": [
-        "504823022 BERGAMOTTE (5)",
+        "844263285 BERGAMOTTE (5)",
         "312538838 BERGAMOTTE (2)"
       ]
     },
@@ -14322,7 +14317,7 @@
       ],
       "alternatives": [
         "903173144 CHAUFFEUR PRIVE (1)",
-        "813933223 CHAUFFEUR PRIVE (0)"
+        "942107632 CHAUFFEUR PRIVE (CHAUFFEUR) (0)"
       ]
     },
     "CITILOG": {
@@ -18277,18 +18272,18 @@
       "website": "https://wilgo.ai/",
       "blurb": "Homework that finally works for kids.",
       "status": "ambiguous",
-      "siren": "880879440",
-      "legalName": "WILGO ABETAUW (SERIE L OUEST DE MARONI)",
+      "siren": "531891331",
+      "legalName": "WILGO PHEBE (JR ENTREPRISE)",
       "department": "973",
-      "naf": "16.10A",
-      "founded": "2020-01-08",
-      "city": "SAINT LAURENT DU MARONI",
+      "naf": "43.99C",
+      "founded": "2011-04-20",
+      "city": "CAYENNE",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": "PME",
       "officers": [],
       "accounts": null,
-      "siegeSince": "2020-01-08",
+      "siegeSince": "2024-10-01",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -18298,11 +18293,11 @@
         "no declared employees",
         "dept 973",
         "active",
-        "siege since 2020"
+        "siege since 2024"
       ],
       "alternatives": [
-        "531891331 WILGO PHEBE (JR ENTREPRISE) (3)",
-        "884127648 WILGO AFATA (ENTREPRISE AFATA & FILS) (3)"
+        "880879440 WILGO ABETAUW (SERIE L OUEST DE MARONI) (3)",
+        "501365944 WILGO MISIDJAN (MO KONTAN LANATYR) (3)"
       ]
     },
     "WITCO": {
@@ -31084,7 +31079,7 @@
       ],
       "alternatives": [
         "990258162 FEELS (FEELS) (7)",
-        "897491106 FEELS RECORDS (6)"
+        "882412950 FEELS GOOD (5)"
       ]
     },
     "FENIX ENERGY": {
@@ -33962,8 +33957,8 @@
         "siege since 2025"
       ],
       "alternatives": [
-        "824308944 HOMELOC (1)",
-        "924854151 HOMELOC (1)"
+        "924854151 HOMELOC (1)",
+        "824308944 HOMELOC (1)"
       ]
     },
     "HOMEWINGS": {
@@ -36388,65 +36383,6 @@
       ],
       "alternatives": [
         "850755380 SCI KIMAI (2)"
-      ]
-    },
-    "KINETIX": {
-      "name": "Kinetix",
-      "funds": [
-        "kima"
-      ],
-      "holdings": {
-        "kima": "unknown"
-      },
-      "portfolioCountry": "United States of America",
-      "website": "http://kinetix.tech",
-      "blurb": "Kinetix aims at democratising the access to 3D avatar animation by making it faster and less technical for all the creators in Metaverse & Web3 virtual worlds. Our no-code platform for 3D content creation is powered by our Deep Learning algorithms.",
-      "status": "resolved",
-      "siren": "887848349",
-      "legalName": "KINETIX",
-      "department": "75",
-      "naf": "62.01Z",
-      "founded": "2020-07-22",
-      "city": "PARIS",
-      "country": "France",
-      "headcount": "12",
-      "sizeCategory": "PME",
-      "officers": [
-        {
-          "name": "CHAFAI",
-          "role": "Président de SAS",
-          "siren": "982103061",
-          "auditor": false
-        },
-        {
-          "name": "DARIUS",
-          "role": "Directeur Général",
-          "siren": "982171738",
-          "auditor": false
-        }
-      ],
-      "accounts": {
-        "2024": {
-          "ca": 0,
-          "resultat_net": -997766
-        }
-      },
-      "siegeSince": "2022-07-04",
-      "active": true,
-      "confidence": "high",
-      "scorerVersion": 5,
-      "score": 11,
-      "reasons": [
-        "exact name",
-        "has employees (bracket 12)",
-        "Île-de-France",
-        "active",
-        "tech NAF",
-        "siege since 2022"
-      ],
-      "alternatives": [
-        "317994176 KINETIX (6)",
-        "433154598 KINETIX (5)"
       ]
     },
     "KIOSK": {
@@ -41276,7 +41212,7 @@
       ],
       "alternatives": [
         "990694192 NOMI (7)",
-        "101209914 NOMI (6)"
+        "922044680 NOMI (7)"
       ]
     },
     "NOM NOM NOW": {
@@ -47277,7 +47213,7 @@
       "website": "http://singuli.co",
       "blurb": "Inventory Optimization for Modern Retail",
       "status": "no-name-match",
-      "candidates": 16
+      "candidates": 17
     },
     "SKEW": {
       "name": "Skew",
@@ -48432,49 +48368,6 @@
       "website": "http://stamplay.com",
       "blurb": "Connect all your SaaS & Web services within a single backend development platform.",
       "status": "not-found"
-    },
-    "STAROFSERVICE": {
-      "name": "StarOfService",
-      "funds": [
-        "kima"
-      ],
-      "holdings": {
-        "kima": "unknown"
-      },
-      "portfolioCountry": "France",
-      "website": "http://starofservice.com",
-      "blurb": "StarOfService : une nouvelle façon de consommer des services",
-      "status": "resolved",
-      "siren": "751713215",
-      "legalName": "STAROFSERVICE",
-      "department": "75",
-      "naf": "70.22Z",
-      "founded": "2012-05-15",
-      "city": "PARIS",
-      "country": "France",
-      "headcount": "02",
-      "sizeCategory": "PME",
-      "officers": [],
-      "accounts": {
-        "2023": {
-          "ca": 0,
-          "resultat_net": -18329
-        }
-      },
-      "siegeSince": "2020-09-23",
-      "active": true,
-      "confidence": "high",
-      "scorerVersion": 5,
-      "score": 10,
-      "reasons": [
-        "exact name",
-        "has employees (bracket 02)",
-        "Île-de-France",
-        "active",
-        "tech NAF",
-        "siege since 2020"
-      ],
-      "alternatives": []
     },
     "STARSTABLE": {
       "name": "StarStable",
@@ -60590,23 +60483,23 @@
       "website": null,
       "blurb": null,
       "status": "ambiguous",
-      "siren": "815121330",
-      "legalName": "JAVELO",
-      "department": "75",
-      "naf": "64.20Z",
-      "founded": "2015-12-01",
-      "city": "PARIS",
+      "siren": "902107150",
+      "legalName": "JAVELO (AKOYAS PROVENCE)",
+      "department": "13",
+      "naf": "70.22Z",
+      "founded": "2021-08-04",
+      "city": "PLAN-D'ORGON",
       "country": "France",
-      "headcount": "NN",
+      "headcount": "01",
       "sizeCategory": "PME",
       "officers": [],
       "accounts": {
-        "2024": {
+        "2025": {
           "ca": 0,
-          "resultat_net": 269330
+          "resultat_net": 7379
         }
       },
-      "siegeSince": "2015-12-01",
+      "siegeSince": "2021-08-04",
       "active": true,
       "confidence": "medium",
       "scorerVersion": 5,
@@ -60614,12 +60507,13 @@
       "reasons": [
         "exact name",
         "no declared employees",
-        "Île-de-France",
+        "dept 13",
         "active",
-        "siege since 2015"
+        "tech NAF",
+        "siege since 2021"
       ],
       "alternatives": [
-        "902107150 JAVELO (AKOYAS PROVENCE) (7)"
+        "815121330 JAVELO (7)"
       ]
     },
     "KANDBAZ": {
@@ -61593,12 +61487,12 @@
       "website": null,
       "blurb": null,
       "status": "ambiguous",
-      "siren": "327925335",
+      "siren": "322120692",
       "legalName": "PUBECO",
-      "department": "75",
+      "department": "91",
       "naf": "77.10",
-      "founded": "1983-08-01",
-      "city": "PARIS 19",
+      "founded": "1981-05-26",
+      "city": "SAVIGNY-SUR-ORGE",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
@@ -61616,7 +61510,7 @@
         "ceased"
       ],
       "alternatives": [
-        "322120692 PUBECO (3)",
+        "327925335 PUBECO (3)",
         "504072182 PUBECO S.A.R.L (3)"
       ]
     },
