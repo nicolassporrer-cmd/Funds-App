@@ -13913,7 +13913,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://apply.workable.com/j/40D24DDA37",
+      "website": "https://apply.workable.com/j/0CFA42418D",
       "blurb": "WorkMotion simplifies global hiring and compliance. Enabling companies to onboard international employees via EoR services in 90+ countries efficiently.",
       "status": "resolved",
       "siren": "910571983",
@@ -14262,7 +14262,7 @@
       ],
       "alternatives": [
         "844263285 BERGAMOTTE (5)",
-        "312538838 BERGAMOTTE (2)"
+        "879100162 BERGAMOTTE (EURL ROSANE) (2)"
       ]
     },
     "CALIXAR": {
@@ -16955,18 +16955,18 @@
       "website": "https://www.hemea.com/",
       "blurb": "Hemea is revolutionizing the renovation sector by offering comprehensive, client-focused services that blend digital innovation with personalized support.",
       "status": "ambiguous",
-      "siren": "930226329",
-      "legalName": "HEMEA ECO",
-      "department": "59",
-      "naf": "43.32A",
-      "founded": "2024-06-21",
-      "city": "DUNKERQUE",
+      "siren": "882560360",
+      "legalName": "HEMEA IB",
+      "department": "44",
+      "naf": "66.22Z",
+      "founded": "2020-03-09",
+      "city": "NANTES",
       "country": "France",
       "headcount": "NN",
-      "sizeCategory": null,
+      "sizeCategory": "PME",
       "officers": [],
       "accounts": null,
-      "siegeSince": "2025-06-16",
+      "siegeSince": "2024-08-12",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -16974,12 +16974,12 @@
       "reasons": [
         "name prefix",
         "no declared employees",
-        "dept 59",
+        "dept 44",
         "active",
-        "siege since 2025"
+        "siege since 2024"
       ],
       "alternatives": [
-        "882560360 HEMEA IB (3)",
+        "930226329 HEMEA ECO (3)",
         "928156520 HEMEA MEKAOURI (0)"
       ]
     },
@@ -21905,31 +21905,32 @@
       "website": "http://accesinternet.ca",
       "blurb": "We provide great Internet services in Canada's small cities",
       "status": "resolved",
-      "siren": "431282961",
-      "legalName": "ACCES TELECOM MULTIMEDIA (ATM)",
+      "siren": "499447605",
+      "legalName": "ACCES TELECOM INTERNATIONAL (A T I)",
       "department": "13",
-      "naf": "62.02A",
-      "founded": "2000-05-02",
-      "city": "AUBAGNE",
+      "naf": "46.52Z",
+      "founded": "2007-08-01",
+      "city": "MARSEILLE",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
       "officers": [],
       "accounts": null,
-      "siegeSince": "2002-05-01",
-      "active": false,
+      "siegeSince": "2007-08-01",
+      "active": true,
       "confidence": "low",
       "scorerVersion": 5,
-      "score": 1,
+      "score": 3,
       "reasons": [
         "name prefix",
         "no declared employees",
         "dept 13",
-        "ceased",
-        "tech NAF",
-        "siege since 2002"
+        "active",
+        "siege since 2007"
       ],
-      "alternatives": []
+      "alternatives": [
+        "431282961 ACCES TELECOM MULTIMEDIA (ATM) (1)"
+      ]
     },
     "ACCREDIBLE": {
       "name": "Accredible",
@@ -32144,7 +32145,7 @@
       ],
       "alternatives": [
         "949417547 FRAICHE TEA (7)",
-        "483248860 FRAICHE-CUT (6)"
+        "900095480 FRAICHE CONNECTION (6)"
       ]
     },
     "FRED DE LA COMPTA": {
@@ -41211,7 +41212,7 @@
       ],
       "alternatives": [
         "990694192 NOMI (7)",
-        "800127532 NOMI (7)"
+        "100483916 NOMI (5)"
       ]
     },
     "NOM NOM NOW": {
@@ -42690,25 +42691,18 @@
       "website": "http://outsite.co",
       "blurb": "Coworking/living membership in beautiful places globally",
       "status": "ambiguous",
-      "siren": "106975386",
-      "legalName": "OUTSITE HOLDING PARIS",
+      "siren": "908484488",
+      "legalName": "OUTSITE EUROPE SAS",
       "department": "75",
-      "naf": "55.10Z",
-      "founded": "2026-06-29",
+      "naf": "68.20B",
+      "founded": "2021-12-11",
       "city": "PARIS",
       "country": "France",
       "headcount": "NN",
-      "sizeCategory": null,
-      "officers": [
-        {
-          "name": "LC DUBAI S.À R.L.",
-          "role": "Président de SAS",
-          "siren": null,
-          "auditor": false
-        }
-      ],
+      "sizeCategory": "PME",
+      "officers": [],
       "accounts": null,
-      "siegeSince": "2026-06-29",
+      "siegeSince": "2021-12-11",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -42718,11 +42712,11 @@
         "no declared employees",
         "Île-de-France",
         "active",
-        "shell-shaped NAF 55.10Z",
-        "siege since 2026"
+        "shell-shaped NAF 68.20B",
+        "siege since 2021"
       ],
       "alternatives": [
-        "908484488 OUTSITE EUROPE SAS (1)"
+        "106975386 OUTSITE HOLDING PARIS (1)"
       ]
     },
     "OVRSEA": {
@@ -61486,12 +61480,12 @@
       "website": null,
       "blurb": null,
       "status": "ambiguous",
-      "siren": "327925335",
+      "siren": "322120692",
       "legalName": "PUBECO",
-      "department": "75",
+      "department": "91",
       "naf": "77.10",
-      "founded": "1983-08-01",
-      "city": "PARIS 19",
+      "founded": "1981-05-26",
+      "city": "SAVIGNY-SUR-ORGE",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
@@ -61509,7 +61503,7 @@
         "ceased"
       ],
       "alternatives": [
-        "322120692 PUBECO (3)",
+        "327925335 PUBECO (3)",
         "504072182 PUBECO S.A.R.L (3)"
       ]
     },
@@ -62439,7 +62433,7 @@
       "website": null,
       "blurb": null,
       "status": "no-name-match",
-      "candidates": 18
+      "candidates": 17
     },
     "ALAPAGE": {
       "name": "Alapage",
