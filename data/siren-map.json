@@ -6217,7 +6217,7 @@
       "website": "https://plumerai.com",
       "blurb": "Powerful AI for trillions of edge devices",
       "status": "no-name-match",
-      "candidates": 12
+      "candidates": 13
     },
     "POPMEALS": {
       "name": "Popmeals",
@@ -11647,7 +11647,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://dolead.teamtailor.com/jobs/8325430-account-executive-home-improvement-nam-s2-2026",
+      "website": "https://dolead.teamtailor.com/jobs/8325453-senior-account-executive-nam-s2-2026",
       "blurb": "Dolead’s AI-driven Leads-as-a-Service platform delivers exclusive, sales-ready leads at scale. Explore how semantic tech transforms paid media into growth.",
       "status": "resolved",
       "siren": "499425700",
@@ -12131,7 +12131,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://apply.workable.com/j/9139D377D4",
+      "website": "https://apply.workable.com/j/BD09E9A23B",
       "blurb": "Homerez is revolutionizing short-term rentals with a turnkey platform: management, revenue optimization and comprehensive support for owners.",
       "status": "resolved",
       "siren": "800197808",
@@ -13913,7 +13913,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://apply.workable.com/j/0CFA42418D",
+      "website": "https://apply.workable.com/j/40D24DDA37",
       "blurb": "WorkMotion simplifies global hiring and compliance. Enabling companies to onboard international employees via EoR services in 90+ countries efficiently.",
       "status": "resolved",
       "siren": "910571983",
@@ -14237,18 +14237,23 @@
       "website": "https://www.welcometothejungle.com/en/companies/xange",
       "blurb": "Bergamotte delivers fresh, sustainably-sourced indoor & outdoor plants through an e-commerce platform. Combining design expertise with direct-to-door plant care",
       "status": "ambiguous",
-      "siren": "504823022",
+      "siren": "844263285",
       "legalName": "BERGAMOTTE",
       "department": "34",
-      "naf": "94.99Z",
-      "founded": "2008-05-01",
+      "naf": "66.30Z",
+      "founded": "2018-11-02",
       "city": "MONTPELLIER",
       "country": "France",
       "headcount": "NN",
-      "sizeCategory": null,
+      "sizeCategory": "PME",
       "officers": [],
-      "accounts": null,
-      "siegeSince": "2008-05-01",
+      "accounts": {
+        "2020": {
+          "ca": 0,
+          "resultat_net": -10486
+        }
+      },
+      "siegeSince": "2018-11-02",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -14258,11 +14263,11 @@
         "no declared employees",
         "dept 34",
         "active",
-        "siege since 2008"
+        "siege since 2018"
       ],
       "alternatives": [
-        "844263285 BERGAMOTTE (5)",
-        "879100162 BERGAMOTTE (EURL ROSANE) (2)"
+        "504823022 BERGAMOTTE (5)",
+        "312538838 BERGAMOTTE (2)"
       ]
     },
     "CALIXAR": {
@@ -18272,18 +18277,18 @@
       "website": "https://wilgo.ai/",
       "blurb": "Homework that finally works for kids.",
       "status": "ambiguous",
-      "siren": "531891331",
-      "legalName": "WILGO PHEBE (JR ENTREPRISE)",
+      "siren": "880879440",
+      "legalName": "WILGO ABETAUW (SERIE L OUEST DE MARONI)",
       "department": "973",
-      "naf": "43.99C",
-      "founded": "2011-04-20",
-      "city": "CAYENNE",
+      "naf": "16.10A",
+      "founded": "2020-01-08",
+      "city": "SAINT LAURENT DU MARONI",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": "PME",
       "officers": [],
       "accounts": null,
-      "siegeSince": "2024-10-01",
+      "siegeSince": "2020-01-08",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -18293,10 +18298,10 @@
         "no declared employees",
         "dept 973",
         "active",
-        "siege since 2024"
+        "siege since 2020"
       ],
       "alternatives": [
-        "880879440 WILGO ABETAUW (SERIE L OUEST DE MARONI) (3)",
+        "531891331 WILGO PHEBE (JR ENTREPRISE) (3)",
         "501365944 WILGO MISIDJAN (MO KONTAN LANATYR) (3)"
       ]
     },
@@ -19391,18 +19396,18 @@
       "website": null,
       "blurb": null,
       "status": "ambiguous",
-      "siren": "102966769",
-      "legalName": "ENSPIRED SERVICES",
+      "siren": "918693367",
+      "legalName": "ENSPIRED GMBH",
       "department": null,
-      "naf": "64.99Z",
-      "founded": "2026-03-01",
-      "city": "WIEN",
+      "naf": "66.19B",
+      "founded": "2022-09-01",
+      "city": "1120 WIEN",
       "country": "AUTRICHE",
       "headcount": "NN",
-      "sizeCategory": null,
+      "sizeCategory": "PME",
       "officers": [],
       "accounts": null,
-      "siegeSince": "2026-03-01",
+      "siegeSince": "2022-09-01",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -19411,10 +19416,10 @@
         "name prefix",
         "no declared employees",
         "active",
-        "siege since 2026"
+        "siege since 2022"
       ],
       "alternatives": [
-        "918693367 ENSPIRED GMBH (3)"
+        "102966769 ENSPIRED SERVICES (3)"
       ]
     },
     "WAKEO": {
@@ -31079,7 +31084,7 @@
       ],
       "alternatives": [
         "990258162 FEELS (FEELS) (7)",
-        "897491106 FEELS RECORDS (6)"
+        "882412950 FEELS GOOD (5)"
       ]
     },
     "FENIX ENERGY": {
@@ -32145,7 +32150,7 @@
       ],
       "alternatives": [
         "949417547 FRAICHE TEA (7)",
-        "900095480 FRAICHE CONNECTION (6)"
+        "483248860 FRAICHE-CUT (6)"
       ]
     },
     "FRED DE LA COMPTA": {
@@ -41212,7 +41217,7 @@
       ],
       "alternatives": [
         "990694192 NOMI (7)",
-        "100483916 NOMI (5)"
+        "101209914 NOMI (6)"
       ]
     },
     "NOM NOM NOW": {
@@ -42691,18 +42696,25 @@
       "website": "http://outsite.co",
       "blurb": "Coworking/living membership in beautiful places globally",
       "status": "ambiguous",
-      "siren": "908484488",
-      "legalName": "OUTSITE EUROPE SAS",
+      "siren": "106975386",
+      "legalName": "OUTSITE HOLDING PARIS",
       "department": "75",
-      "naf": "68.20B",
-      "founded": "2021-12-11",
+      "naf": "55.10Z",
+      "founded": "2026-06-29",
       "city": "PARIS",
       "country": "France",
       "headcount": "NN",
-      "sizeCategory": "PME",
-      "officers": [],
+      "sizeCategory": null,
+      "officers": [
+        {
+          "name": "LC DUBAI S.À R.L.",
+          "role": "Président de SAS",
+          "siren": null,
+          "auditor": false
+        }
+      ],
       "accounts": null,
-      "siegeSince": "2021-12-11",
+      "siegeSince": "2026-06-29",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -42712,11 +42724,11 @@
         "no declared employees",
         "Île-de-France",
         "active",
-        "shell-shaped NAF 68.20B",
-        "siege since 2021"
+        "shell-shaped NAF 55.10Z",
+        "siege since 2026"
       ],
       "alternatives": [
-        "106975386 OUTSITE HOLDING PARIS (1)"
+        "908484488 OUTSITE EUROPE SAS (1)"
       ]
     },
     "OVRSEA": {
@@ -47206,7 +47218,7 @@
       "website": "http://singuli.co",
       "blurb": "Inventory Optimization for Modern Retail",
       "status": "no-name-match",
-      "candidates": 17
+      "candidates": 16
     },
     "SKEW": {
       "name": "Skew",
@@ -60476,23 +60488,23 @@
       "website": null,
       "blurb": null,
       "status": "ambiguous",
-      "siren": "902107150",
-      "legalName": "JAVELO (AKOYAS PROVENCE)",
-      "department": "13",
-      "naf": "70.22Z",
-      "founded": "2021-08-04",
-      "city": "PLAN-D'ORGON",
+      "siren": "815121330",
+      "legalName": "JAVELO",
+      "department": "75",
+      "naf": "64.20Z",
+      "founded": "2015-12-01",
+      "city": "PARIS",
       "country": "France",
-      "headcount": "01",
+      "headcount": "NN",
       "sizeCategory": "PME",
       "officers": [],
       "accounts": {
-        "2025": {
+        "2024": {
           "ca": 0,
-          "resultat_net": 7379
+          "resultat_net": 269330
         }
       },
-      "siegeSince": "2021-08-04",
+      "siegeSince": "2015-12-01",
       "active": true,
       "confidence": "medium",
       "scorerVersion": 5,
@@ -60500,13 +60512,12 @@
       "reasons": [
         "exact name",
         "no declared employees",
-        "dept 13",
+        "Île-de-France",
         "active",
-        "tech NAF",
-        "siege since 2021"
+        "siege since 2015"
       ],
       "alternatives": [
-        "815121330 JAVELO (7)"
+        "902107150 JAVELO (AKOYAS PROVENCE) (7)"
       ]
     },
     "KANDBAZ": {
@@ -61480,12 +61491,12 @@
       "website": null,
       "blurb": null,
       "status": "ambiguous",
-      "siren": "322120692",
+      "siren": "327925335",
       "legalName": "PUBECO",
-      "department": "91",
+      "department": "75",
       "naf": "77.10",
-      "founded": "1981-05-26",
-      "city": "SAVIGNY-SUR-ORGE",
+      "founded": "1983-08-01",
+      "city": "PARIS 19",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
@@ -61503,7 +61514,7 @@
         "ceased"
       ],
       "alternatives": [
-        "327925335 PUBECO (3)",
+        "322120692 PUBECO (3)",
         "504072182 PUBECO S.A.R.L (3)"
       ]
     },
