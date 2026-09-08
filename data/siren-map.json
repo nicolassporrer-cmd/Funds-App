@@ -3952,7 +3952,7 @@
       },
       "portfolioCountry": "France",
       "website": "https://home.joko.com/fr",
-      "blurb": "Reinvent the shopping experience",
+      "blurb": "Reinventing the shopping experience with AI",
       "status": "resolved",
       "siren": "824683155",
       "legalName": "JOKO LABS (ECOJOKO)",
@@ -6217,7 +6217,7 @@
       "website": "https://plumerai.com",
       "blurb": "Powerful AI for trillions of edge devices",
       "status": "no-name-match",
-      "candidates": 13
+      "candidates": 12
     },
     "POPMEALS": {
       "name": "Popmeals",
@@ -6287,7 +6287,7 @@
       ],
       "alternatives": [
         "851155390 PRESTI' JANTES (PRESTI' JANTES) (7)",
-        "790116214 PRESTI COLOR (6)"
+        "514431055 PRESTI TP (6)"
       ]
     },
     "PRIMARYIO": {
@@ -12131,7 +12131,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://apply.workable.com/j/BD09E9A23B",
+      "website": "https://apply.workable.com/j/9139D377D4",
       "blurb": "Homerez is revolutionizing short-term rentals with a turnkey platform: management, revenue optimization and comprehensive support for owners.",
       "status": "resolved",
       "siren": "800197808",
@@ -18277,18 +18277,18 @@
       "website": "https://wilgo.ai/",
       "blurb": "Homework that finally works for kids.",
       "status": "ambiguous",
-      "siren": "880879440",
-      "legalName": "WILGO ABETAUW (SERIE L OUEST DE MARONI)",
+      "siren": "531891331",
+      "legalName": "WILGO PHEBE (JR ENTREPRISE)",
       "department": "973",
-      "naf": "16.10A",
-      "founded": "2020-01-08",
-      "city": "SAINT LAURENT DU MARONI",
+      "naf": "43.99C",
+      "founded": "2011-04-20",
+      "city": "CAYENNE",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": "PME",
       "officers": [],
       "accounts": null,
-      "siegeSince": "2020-01-08",
+      "siegeSince": "2024-10-01",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -18298,10 +18298,10 @@
         "no declared employees",
         "dept 973",
         "active",
-        "siege since 2020"
+        "siege since 2024"
       ],
       "alternatives": [
-        "531891331 WILGO PHEBE (JR ENTREPRISE) (3)",
+        "880879440 WILGO ABETAUW (SERIE L OUEST DE MARONI) (3)",
         "501365944 WILGO MISIDJAN (MO KONTAN LANATYR) (3)"
       ]
     },
@@ -19396,18 +19396,18 @@
       "website": null,
       "blurb": null,
       "status": "ambiguous",
-      "siren": "918693367",
-      "legalName": "ENSPIRED GMBH",
+      "siren": "102966769",
+      "legalName": "ENSPIRED SERVICES",
       "department": null,
-      "naf": "66.19B",
-      "founded": "2022-09-01",
-      "city": "1120 WIEN",
+      "naf": "64.99Z",
+      "founded": "2026-03-01",
+      "city": "WIEN",
       "country": "AUTRICHE",
       "headcount": "NN",
-      "sizeCategory": "PME",
+      "sizeCategory": null,
       "officers": [],
       "accounts": null,
-      "siegeSince": "2022-09-01",
+      "siegeSince": "2026-03-01",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -19416,10 +19416,10 @@
         "name prefix",
         "no declared employees",
         "active",
-        "siege since 2022"
+        "siege since 2026"
       ],
       "alternatives": [
-        "102966769 ENSPIRED SERVICES (3)"
+        "918693367 ENSPIRED GMBH (3)"
       ]
     },
     "WAKEO": {
@@ -23460,18 +23460,23 @@
       "website": "http://photoroom.app",
       "blurb": "PhotoShop for non designer on iOS",
       "status": "ambiguous",
-      "siren": "452331077",
+      "siren": "813033727",
       "legalName": "ARTIZANS",
-      "department": "12",
-      "naf": "90.01Z",
-      "founded": "2003-07-28",
-      "city": "CENTRES",
+      "department": "73",
+      "naf": "43.32A",
+      "founded": "2015-07-30",
+      "city": "NOTRE-DAME-DES-MILLIERES",
       "country": "France",
       "headcount": "NN",
-      "sizeCategory": null,
+      "sizeCategory": "PME",
       "officers": [],
-      "accounts": null,
-      "siegeSince": "2009-06-04",
+      "accounts": {
+        "2023": {
+          "ca": 11231,
+          "resultat_net": -27746
+        }
+      },
+      "siegeSince": "2015-07-30",
       "active": false,
       "confidence": "low",
       "scorerVersion": 5,
@@ -23479,12 +23484,12 @@
       "reasons": [
         "exact name",
         "no declared employees",
-        "dept 12",
+        "dept 73",
         "ceased",
-        "siege since 2009"
+        "siege since 2015"
       ],
       "alternatives": [
-        "813033727 ARTIZANS (2)"
+        "452331077 ARTIZANS (2)"
       ]
     },
     "ASAP TT": {
@@ -31084,7 +31089,7 @@
       ],
       "alternatives": [
         "990258162 FEELS (FEELS) (7)",
-        "882412950 FEELS GOOD (5)"
+        "897491106 FEELS RECORDS (6)"
       ]
     },
     "FENIX ENERGY": {
@@ -32150,7 +32155,7 @@
       ],
       "alternatives": [
         "949417547 FRAICHE TEA (7)",
-        "483248860 FRAICHE-CUT (6)"
+        "900095480 FRAICHE CONNECTION (6)"
       ]
     },
     "FRED DE LA COMPTA": {
@@ -41217,7 +41222,7 @@
       ],
       "alternatives": [
         "990694192 NOMI (7)",
-        "101209914 NOMI (6)"
+        "100483916 NOMI (5)"
       ]
     },
     "NOM NOM NOW": {
@@ -60488,23 +60493,23 @@
       "website": null,
       "blurb": null,
       "status": "ambiguous",
-      "siren": "815121330",
-      "legalName": "JAVELO",
-      "department": "75",
-      "naf": "64.20Z",
-      "founded": "2015-12-01",
-      "city": "PARIS",
+      "siren": "902107150",
+      "legalName": "JAVELO (AKOYAS PROVENCE)",
+      "department": "13",
+      "naf": "70.22Z",
+      "founded": "2021-08-04",
+      "city": "PLAN-D'ORGON",
       "country": "France",
-      "headcount": "NN",
+      "headcount": "01",
       "sizeCategory": "PME",
       "officers": [],
       "accounts": {
-        "2024": {
+        "2025": {
           "ca": 0,
-          "resultat_net": 269330
+          "resultat_net": 7379
         }
       },
-      "siegeSince": "2015-12-01",
+      "siegeSince": "2021-08-04",
       "active": true,
       "confidence": "medium",
       "scorerVersion": 5,
@@ -60512,12 +60517,13 @@
       "reasons": [
         "exact name",
         "no declared employees",
-        "Île-de-France",
+        "dept 13",
         "active",
-        "siege since 2015"
+        "tech NAF",
+        "siege since 2021"
       ],
       "alternatives": [
-        "902107150 JAVELO (AKOYAS PROVENCE) (7)"
+        "815121330 JAVELO (7)"
       ]
     },
     "KANDBAZ": {
@@ -61491,12 +61497,12 @@
       "website": null,
       "blurb": null,
       "status": "ambiguous",
-      "siren": "327925335",
+      "siren": "322120692",
       "legalName": "PUBECO",
-      "department": "75",
+      "department": "91",
       "naf": "77.10",
-      "founded": "1983-08-01",
-      "city": "PARIS 19",
+      "founded": "1981-05-26",
+      "city": "SAVIGNY-SUR-ORGE",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
@@ -61514,7 +61520,7 @@
         "ceased"
       ],
       "alternatives": [
-        "322120692 PUBECO (3)",
+        "327925335 PUBECO (3)",
         "504072182 PUBECO S.A.R.L (3)"
       ]
     },
