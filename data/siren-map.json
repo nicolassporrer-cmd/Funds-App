@@ -6217,7 +6217,7 @@
       "website": "https://plumerai.com",
       "blurb": "Powerful AI for trillions of edge devices",
       "status": "no-name-match",
-      "candidates": 12
+      "candidates": 13
     },
     "POPMEALS": {
       "name": "Popmeals",
@@ -12131,7 +12131,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://apply.workable.com/j/9139D377D4",
+      "website": "https://apply.workable.com/j/BD09E9A23B",
       "blurb": "Homerez is revolutionizing short-term rentals with a turnkey platform: management, revenue optimization and comprehensive support for owners.",
       "status": "resolved",
       "siren": "800197808",
@@ -13573,7 +13573,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://careers.synapse-medicine.com/jobs/7894067-chef-de-projet-saas-b2b-h-f",
+      "website": "https://careers.synapse-medicine.com/jobs/8093689-chef-de-projet-saas-b2b-h-f",
       "blurb": "Synapse Medicine’s AI engine gives clinicians real-time drug insights and decision support, slashing prescription errors and boosting patient safety.",
       "status": "resolved",
       "siren": "827466590",
@@ -13694,7 +13694,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://join.com/jobs/16379499-founders-associate-intern-or-working-student-all-genders",
+      "website": "https://www.welcometothejungle.com/en/companies/xange",
       "blurb": "Valuecase – XAnge portfolio SaaS solution empowering B2B teams with content creation, training and onboarding tools to drive customer success.",
       "status": "not-found"
     },
@@ -13965,7 +13965,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://gitti.jobs.personio.de/job/2772293",
+      "website": "https://gitti.jobs.personio.de/job/2784385",
       "blurb": "Gitti: sustainable vegan nail polish brand delivering innovative, eco-friendly beauty with high-performance, toxin-free colors for conscious consumers.",
       "status": "no-name-match",
       "candidates": 2
@@ -14237,23 +14237,18 @@
       "website": "https://www.welcometothejungle.com/en/companies/xange",
       "blurb": "Bergamotte delivers fresh, sustainably-sourced indoor & outdoor plants through an e-commerce platform. Combining design expertise with direct-to-door plant care",
       "status": "ambiguous",
-      "siren": "844263285",
+      "siren": "504823022",
       "legalName": "BERGAMOTTE",
       "department": "34",
-      "naf": "66.30Z",
-      "founded": "2018-11-02",
+      "naf": "94.99Z",
+      "founded": "2008-05-01",
       "city": "MONTPELLIER",
       "country": "France",
       "headcount": "NN",
-      "sizeCategory": "PME",
+      "sizeCategory": null,
       "officers": [],
-      "accounts": {
-        "2020": {
-          "ca": 0,
-          "resultat_net": -10486
-        }
-      },
-      "siegeSince": "2018-11-02",
+      "accounts": null,
+      "siegeSince": "2008-05-01",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -14263,10 +14258,10 @@
         "no declared employees",
         "dept 34",
         "active",
-        "siege since 2018"
+        "siege since 2008"
       ],
       "alternatives": [
-        "504823022 BERGAMOTTE (5)",
+        "844263285 BERGAMOTTE (5)",
         "312538838 BERGAMOTTE (2)"
       ]
     },
@@ -16646,18 +16641,18 @@
       "website": "https://emperiavr.com/",
       "blurb": "Emperia is revolutionizing the retail industry by providing a platform that enables brands to create immersive and interactive virtual stores.",
       "status": "ambiguous",
-      "siren": "992469189",
-      "legalName": "EMPERIA AUDIT PARTNERS",
+      "siren": "992715813",
+      "legalName": "EMPERIA EXPERTISE ET CONSEIL",
       "department": "92",
       "naf": "69.20Z",
-      "founded": "2025-10-07",
+      "founded": "2025-10-02",
       "city": "NEUILLY-SUR-SEINE",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
       "officers": [],
       "accounts": null,
-      "siegeSince": "2026-06-11",
+      "siegeSince": "2026-06-19",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -16670,7 +16665,7 @@
         "siege since 2026"
       ],
       "alternatives": [
-        "992715813 EMPERIA EXPERTISE ET CONSEIL (5)",
+        "992469189 EMPERIA AUDIT PARTNERS (5)",
         "884151572 EMPERIA GROUP (4)"
       ]
     },
@@ -16960,18 +16955,18 @@
       "website": "https://www.hemea.com/",
       "blurb": "Hemea is revolutionizing the renovation sector by offering comprehensive, client-focused services that blend digital innovation with personalized support.",
       "status": "ambiguous",
-      "siren": "882560360",
-      "legalName": "HEMEA IB",
-      "department": "44",
-      "naf": "66.22Z",
-      "founded": "2020-03-09",
-      "city": "NANTES",
+      "siren": "930226329",
+      "legalName": "HEMEA ECO",
+      "department": "59",
+      "naf": "43.32A",
+      "founded": "2024-06-21",
+      "city": "DUNKERQUE",
       "country": "France",
       "headcount": "NN",
-      "sizeCategory": "PME",
+      "sizeCategory": null,
       "officers": [],
       "accounts": null,
-      "siegeSince": "2024-08-12",
+      "siegeSince": "2025-06-16",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -16979,12 +16974,12 @@
       "reasons": [
         "name prefix",
         "no declared employees",
-        "dept 44",
+        "dept 59",
         "active",
-        "siege since 2024"
+        "siege since 2025"
       ],
       "alternatives": [
-        "930226329 HEMEA ECO (3)",
+        "882560360 HEMEA IB (3)",
         "928156520 HEMEA MEKAOURI (0)"
       ]
     },
@@ -23460,23 +23455,18 @@
       "website": "http://photoroom.app",
       "blurb": "PhotoShop for non designer on iOS",
       "status": "ambiguous",
-      "siren": "813033727",
+      "siren": "452331077",
       "legalName": "ARTIZANS",
-      "department": "73",
-      "naf": "43.32A",
-      "founded": "2015-07-30",
-      "city": "NOTRE-DAME-DES-MILLIERES",
+      "department": "12",
+      "naf": "90.01Z",
+      "founded": "2003-07-28",
+      "city": "CENTRES",
       "country": "France",
       "headcount": "NN",
-      "sizeCategory": "PME",
+      "sizeCategory": null,
       "officers": [],
-      "accounts": {
-        "2023": {
-          "ca": 11231,
-          "resultat_net": -27746
-        }
-      },
-      "siegeSince": "2015-07-30",
+      "accounts": null,
+      "siegeSince": "2009-06-04",
       "active": false,
       "confidence": "low",
       "scorerVersion": 5,
@@ -23484,12 +23474,12 @@
       "reasons": [
         "exact name",
         "no declared employees",
-        "dept 73",
+        "dept 12",
         "ceased",
-        "siege since 2015"
+        "siege since 2009"
       ],
       "alternatives": [
-        "452331077 ARTIZANS (2)"
+        "813033727 ARTIZANS (2)"
       ]
     },
     "ASAP TT": {
@@ -32155,7 +32145,7 @@
       ],
       "alternatives": [
         "949417547 FRAICHE TEA (7)",
-        "900095480 FRAICHE CONNECTION (6)"
+        "483248860 FRAICHE-CUT (6)"
       ]
     },
     "FRED DE LA COMPTA": {
@@ -41222,7 +41212,7 @@
       ],
       "alternatives": [
         "990694192 NOMI (7)",
-        "100483916 NOMI (5)"
+        "101209914 NOMI (6)"
       ]
     },
     "NOM NOM NOW": {
@@ -47223,7 +47213,7 @@
       "website": "http://singuli.co",
       "blurb": "Inventory Optimization for Modern Retail",
       "status": "no-name-match",
-      "candidates": 16
+      "candidates": 17
     },
     "SKEW": {
       "name": "Skew",
@@ -60493,23 +60483,23 @@
       "website": null,
       "blurb": null,
       "status": "ambiguous",
-      "siren": "902107150",
-      "legalName": "JAVELO (AKOYAS PROVENCE)",
-      "department": "13",
-      "naf": "70.22Z",
-      "founded": "2021-08-04",
-      "city": "PLAN-D'ORGON",
+      "siren": "815121330",
+      "legalName": "JAVELO",
+      "department": "75",
+      "naf": "64.20Z",
+      "founded": "2015-12-01",
+      "city": "PARIS",
       "country": "France",
-      "headcount": "01",
+      "headcount": "NN",
       "sizeCategory": "PME",
       "officers": [],
       "accounts": {
-        "2025": {
+        "2024": {
           "ca": 0,
-          "resultat_net": 7379
+          "resultat_net": 269330
         }
       },
-      "siegeSince": "2021-08-04",
+      "siegeSince": "2015-12-01",
       "active": true,
       "confidence": "medium",
       "scorerVersion": 5,
@@ -60517,13 +60507,12 @@
       "reasons": [
         "exact name",
         "no declared employees",
-        "dept 13",
+        "Île-de-France",
         "active",
-        "tech NAF",
-        "siege since 2021"
+        "siege since 2015"
       ],
       "alternatives": [
-        "815121330 JAVELO (7)"
+        "902107150 JAVELO (AKOYAS PROVENCE) (7)"
       ]
     },
     "KANDBAZ": {
@@ -61497,12 +61486,12 @@
       "website": null,
       "blurb": null,
       "status": "ambiguous",
-      "siren": "322120692",
+      "siren": "327925335",
       "legalName": "PUBECO",
-      "department": "91",
+      "department": "75",
       "naf": "77.10",
-      "founded": "1981-05-26",
-      "city": "SAVIGNY-SUR-ORGE",
+      "founded": "1983-08-01",
+      "city": "PARIS 19",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
@@ -61520,7 +61509,7 @@
         "ceased"
       ],
       "alternatives": [
-        "327925335 PUBECO (3)",
+        "322120692 PUBECO (3)",
         "504072182 PUBECO S.A.R.L (3)"
       ]
     },
