@@ -6287,7 +6287,7 @@
       ],
       "alternatives": [
         "851155390 PRESTI' JANTES (PRESTI' JANTES) (7)",
-        "514431055 PRESTI TP (6)"
+        "821541802 PRESTI BAT (7)"
       ]
     },
     "PRIMARYIO": {
@@ -7912,7 +7912,7 @@
         "partech"
       ],
       "holdings": {
-        "partech": "current"
+        "partech": "exited"
       },
       "portfolioCountry": "Luxembourg",
       "website": "https://sustain-cert.com/",
@@ -8853,7 +8853,7 @@
       "website": "https://worders.net/",
       "blurb": "High-end online B2B translation solution",
       "status": "no-name-match",
-      "candidates": 18
+      "candidates": 17
     },
     "XENDIT": {
       "name": "Xendit",
@@ -8876,7 +8876,7 @@
       "holdings": {
         "partech": "current"
       },
-      "portfolioCountry": "Switzerland",
+      "portfolioCountry": "Italy",
       "website": "https://xfarm.ag/en",
       "blurb": "Digital Farming Ecosystem for Farmers & Agrifood Supply",
       "status": "resolved",
@@ -10331,7 +10331,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://jobs.lever.co/360learning/7c97a721-9d46-4568-a803-a11a7f669a5b",
+      "website": "https://jobs.lever.co/360learning/3c800c89-28af-4e15-af2e-7959a8a9d62a",
       "blurb": "360Learning’s platform empowers companies to upskill their workforce by enabling internal experts to create, share and refine collaborative online courses.",
       "status": "not-found"
     },
@@ -10447,7 +10447,7 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://www.welcometothejungle.com/fr/companies/wttj/jobs/group-treasury-accounting-manager_paris",
+      "website": "https://www.welcometothejungle.com/en/companies/xange",
       "blurb": "Welcome to the Jungle: XAnge‑backed career media platform providing company insights, job listings and recruitment content to connect talent.",
       "status": "no-name-match",
       "candidates": 1
@@ -10740,7 +10740,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/fr/companies/ouihelp/jobs/responsable-de-secteur-d-aide-a-domicile-cdd-h-f_saint-nazaire_OUIHE_ArGe20R",
+      "website": "https://www.welcometothejungle.com/en/companies/xange",
       "blurb": "Ouihelp provides bespoke home care for French seniors, fostering independence and peace of mind. Discover their trusted support for your loved ones.",
       "status": "resolved",
       "siren": "817947161",
@@ -10797,7 +10797,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://misterspex.wd103.myworkdayjobs.com/Mister_Spex_Careers/job/Berlin-Germany/Verkufer--m-w-d--in-Berlin_JR104464",
+      "website": "https://misterspex.wd103.myworkdayjobs.com/Mister_Spex_Careers/job/Krefeld-Germany/Augenoptikermeister-mit-technischer-Leitung--m-w-d--in-Krefeld_JR104505",
       "blurb": "Mister Spex is Europe’s omnichannel eyewear brand, combining virtual try-on tech, expert service & 40+ stores for a seamless shopping experience.",
       "status": "resolved",
       "siren": "529026833",
@@ -11195,7 +11195,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://jobs.lever.co/bigblue/1654284a-349a-4242-925f-ee8d69f663b3",
+      "website": "https://jobs.lever.co/bigblue/c08752b0-c7b7-4d97-aae4-a9c03d1a5187",
       "blurb": "Bigblue: fulfillment-as-a-service platform empowering e-commerce brands with fast, reliable logistics to scale effortlessly and enhance customer experience.",
       "status": "resolved",
       "siren": "824041461",
@@ -11298,7 +11298,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/fr/companies/coinhouse/jobs/growth-marketing-intern_paris",
+      "website": "https://www.welcometothejungle.com/en/companies/xange",
       "blurb": "Coinhouse is a trusted European crypto hub offering secure purchase, storage and advisory services for Bitcoin and digital assets. Compliant and",
       "status": "resolved",
       "siren": "815254545",
@@ -11415,7 +11415,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/fr/companies/dattak/jobs/stage-cybersecurite-operationnelle_paris",
+      "website": "https://www.welcometothejungle.com/fr/companies/dattak/jobs/stage-gestionnaire-de-sinistres-cyber_paris",
       "blurb": "Dattak offers SMEs proactive cyber insurance, security services, risk assessment, continuous monitoring and coverage against cyber threats. Learn more today.",
       "status": "resolved",
       "siren": "907857817",
@@ -12131,7 +12131,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://apply.workable.com/j/BD09E9A23B",
+      "website": "https://apply.workable.com/j/6884750D6D",
       "blurb": "Homerez is revolutionizing short-term rentals with a turnkey platform: management, revenue optimization and comprehensive support for owners.",
       "status": "resolved",
       "siren": "800197808",
@@ -12320,7 +12320,7 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://jobs.lefourgon.com/o/chauffeur-livreur-polyvalent-hf-lille-wambrechies-cdd-35h",
+      "website": "https://jobs.lefourgon.com/o/chauffeur-livreur-polyvalent-hf-thiais-cdd-35h-3-mois-3",
       "blurb": "Le Fourgon: XAnge‑backed French logistics startup enabling SMEs to optimize city deliveries via shared electric vans for sustainable transport.",
       "status": "resolved",
       "siren": "893397810",
@@ -12389,7 +12389,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/fr/companies/legalplace/jobs/senior-developpeur-se-fullstack-h-f_paris_LEGAL_W1LLDWG",
+      "website": "https://www.welcometothejungle.com/fr/companies/legalplace/jobs/head-of-business-ops_paris",
       "blurb": "LegalPlace: XAnge‑supported legal-tech platform empowering entrepreneurs with easy online formation, compliance and document automation tools.",
       "status": "resolved",
       "siren": "814428785",
@@ -13799,7 +13799,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/fr/companies/wandercraft/jobs/preparateur-trice-de-commandes_paris",
+      "website": "https://www.welcometothejungle.com/fr/companies/wandercraft/jobs/us-content-manager_new-york-city",
       "blurb": "Wandercraft’s Atalante X is a hands-free, self-balancing exoskeleton restoring mobility for paraplegia and stroke rehabilitation. Backed by XAnge since 2017.",
       "status": "resolved",
       "siren": "788627198",
@@ -13913,7 +13913,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://apply.workable.com/j/40D24DDA37",
+      "website": "https://apply.workable.com/j/0CFA42418D",
       "blurb": "WorkMotion simplifies global hiring and compliance. Enabling companies to onboard international employees via EoR services in 90+ countries efficiently.",
       "status": "resolved",
       "siren": "910571983",
@@ -14291,18 +14291,18 @@
       "website": "https://www.welcometothejungle.com/en/companies/xange",
       "blurb": "Chauffeur Privé, now part of FREE NOW, provides private car services across Europe, uniting taxis, private drivers and micromobility in a single seamless app.",
       "status": "ambiguous",
-      "siren": "903173144",
+      "siren": "931154389",
       "legalName": "CHAUFFEUR PRIVE",
       "department": "59",
       "naf": "49.32Z",
-      "founded": "2021-09-10",
-      "city": "WAZIERS",
+      "founded": "2024-07-22",
+      "city": "LILLE",
       "country": "France",
       "headcount": "NN",
-      "sizeCategory": "PME",
+      "sizeCategory": null,
       "officers": [],
       "accounts": null,
-      "siegeSince": "2021-09-10",
+      "siegeSince": "2024-07-22",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -14313,10 +14313,10 @@
         "dept 59",
         "active",
         "shell-shaped NAF 49.32Z",
-        "siege since 2021"
+        "siege since 2024"
       ],
       "alternatives": [
-        "931154389 CHAUFFEUR PRIVE (1)",
+        "903173144 CHAUFFEUR PRIVE (1)",
         "813933223 CHAUFFEUR PRIVE (0)"
       ]
     },
@@ -16641,18 +16641,18 @@
       "website": "https://emperiavr.com/",
       "blurb": "Emperia is revolutionizing the retail industry by providing a platform that enables brands to create immersive and interactive virtual stores.",
       "status": "ambiguous",
-      "siren": "992715813",
-      "legalName": "EMPERIA EXPERTISE ET CONSEIL",
+      "siren": "992469189",
+      "legalName": "EMPERIA AUDIT PARTNERS",
       "department": "92",
       "naf": "69.20Z",
-      "founded": "2025-10-02",
+      "founded": "2025-10-07",
       "city": "NEUILLY-SUR-SEINE",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
       "officers": [],
       "accounts": null,
-      "siegeSince": "2026-06-19",
+      "siegeSince": "2026-06-11",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -16665,7 +16665,7 @@
         "siege since 2026"
       ],
       "alternatives": [
-        "992469189 EMPERIA AUDIT PARTNERS (5)",
+        "992715813 EMPERIA EXPERTISE ET CONSEIL (5)",
         "884151572 EMPERIA GROUP (4)"
       ]
     },
@@ -21905,32 +21905,31 @@
       "website": "http://accesinternet.ca",
       "blurb": "We provide great Internet services in Canada's small cities",
       "status": "resolved",
-      "siren": "499447605",
-      "legalName": "ACCES TELECOM INTERNATIONAL (A T I)",
+      "siren": "431282961",
+      "legalName": "ACCES TELECOM MULTIMEDIA (ATM)",
       "department": "13",
-      "naf": "46.52Z",
-      "founded": "2007-08-01",
-      "city": "MARSEILLE",
+      "naf": "62.02A",
+      "founded": "2000-05-02",
+      "city": "AUBAGNE",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
       "officers": [],
       "accounts": null,
-      "siegeSince": "2007-08-01",
-      "active": true,
+      "siegeSince": "2002-05-01",
+      "active": false,
       "confidence": "low",
       "scorerVersion": 5,
-      "score": 3,
+      "score": 1,
       "reasons": [
         "name prefix",
         "no declared employees",
         "dept 13",
-        "active",
-        "siege since 2007"
+        "ceased",
+        "tech NAF",
+        "siege since 2002"
       ],
-      "alternatives": [
-        "431282961 ACCES TELECOM MULTIMEDIA (ATM) (1)"
-      ]
+      "alternatives": []
     },
     "ACCREDIBLE": {
       "name": "Accredible",
@@ -47213,7 +47212,7 @@
       "website": "http://singuli.co",
       "blurb": "Inventory Optimization for Modern Retail",
       "status": "no-name-match",
-      "candidates": 17
+      "candidates": 16
     },
     "SKEW": {
       "name": "Skew",
@@ -61486,12 +61485,12 @@
       "website": null,
       "blurb": null,
       "status": "ambiguous",
-      "siren": "327925335",
+      "siren": "322120692",
       "legalName": "PUBECO",
-      "department": "75",
+      "department": "91",
       "naf": "77.10",
-      "founded": "1983-08-01",
-      "city": "PARIS 19",
+      "founded": "1981-05-26",
+      "city": "SAVIGNY-SUR-ORGE",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
@@ -61509,7 +61508,7 @@
         "ceased"
       ],
       "alternatives": [
-        "322120692 PUBECO (3)",
+        "327925335 PUBECO (3)",
         "504072182 PUBECO S.A.R.L (3)"
       ]
     },
