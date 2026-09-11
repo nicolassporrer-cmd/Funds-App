@@ -6217,7 +6217,7 @@
       "website": "https://plumerai.com",
       "blurb": "Powerful AI for trillions of edge devices",
       "status": "no-name-match",
-      "candidates": 13
+      "candidates": 12
     },
     "POPMEALS": {
       "name": "Popmeals",
@@ -10447,7 +10447,7 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
+      "website": "https://www.welcometothejungle.com/fr/companies/wttj/jobs/group-treasury-accounting-manager_paris",
       "blurb": "Welcome to the Jungle: XAnge‑backed career media platform providing company insights, job listings and recruitment content to connect talent.",
       "status": "no-name-match",
       "candidates": 1
@@ -10740,7 +10740,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
+      "website": "https://www.welcometothejungle.com/fr/companies/ouihelp/jobs/responsable-d-agence-service-d-aide-a-domicile-h-f_strasbourg_OUIHE_yq6GkVZ",
       "blurb": "Ouihelp provides bespoke home care for French seniors, fostering independence and peace of mind. Discover their trusted support for your loved ones.",
       "status": "resolved",
       "siren": "817947161",
@@ -11099,7 +11099,7 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
+      "website": "https://www.welcometothejungle.com/fr/companies/animaj/jobs/graphic-designer-mid-with-ai-creative-tools-experience_madrid",
       "blurb": "Animaj revolutionizes animal health with AI-driven telemetry & data analysis solutions, optimizing livestock welfare and performance for sustainable farming.",
       "status": "resolved",
       "siren": "912214673",
@@ -11298,7 +11298,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
+      "website": "https://www.welcometothejungle.com/fr/companies/coinhouse/jobs/growth-marketing-intern_paris",
       "blurb": "Coinhouse is a trusted European crypto hub offering secure purchase, storage and advisory services for Bitcoin and digital assets. Compliant and",
       "status": "resolved",
       "siren": "815254545",
@@ -12131,7 +12131,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://apply.workable.com/j/6884750D6D",
+      "website": "https://apply.workable.com/j/9139D377D4",
       "blurb": "Homerez is revolutionizing short-term rentals with a turnkey platform: management, revenue optimization and comprehensive support for owners.",
       "status": "resolved",
       "siren": "800197808",
@@ -14262,7 +14262,7 @@
       ],
       "alternatives": [
         "844263285 BERGAMOTTE (5)",
-        "312538838 BERGAMOTTE (2)"
+        "879100162 BERGAMOTTE (EURL ROSANE) (2)"
       ]
     },
     "CALIXAR": {
@@ -14290,35 +14290,7 @@
       "portfolioCountry": null,
       "website": "https://www.welcometothejungle.com/en/companies/xange",
       "blurb": "Chauffeur Privé, now part of FREE NOW, provides private car services across Europe, uniting taxis, private drivers and micromobility in a single seamless app.",
-      "status": "ambiguous",
-      "siren": "931154389",
-      "legalName": "CHAUFFEUR PRIVE",
-      "department": "59",
-      "naf": "49.32Z",
-      "founded": "2024-07-22",
-      "city": "LILLE",
-      "country": "France",
-      "headcount": "NN",
-      "sizeCategory": null,
-      "officers": [],
-      "accounts": null,
-      "siegeSince": "2024-07-22",
-      "active": true,
-      "confidence": "low",
-      "scorerVersion": 5,
-      "score": 1,
-      "reasons": [
-        "exact name",
-        "no declared employees",
-        "dept 59",
-        "active",
-        "shell-shaped NAF 49.32Z",
-        "siege since 2024"
-      ],
-      "alternatives": [
-        "903173144 CHAUFFEUR PRIVE (1)",
-        "813933223 CHAUFFEUR PRIVE (0)"
-      ]
+      "status": "not-found"
     },
     "CITILOG": {
       "name": "Citilog",
@@ -16955,18 +16927,18 @@
       "website": "https://www.hemea.com/",
       "blurb": "Hemea is revolutionizing the renovation sector by offering comprehensive, client-focused services that blend digital innovation with personalized support.",
       "status": "ambiguous",
-      "siren": "930226329",
-      "legalName": "HEMEA ECO",
-      "department": "59",
-      "naf": "43.32A",
-      "founded": "2024-06-21",
-      "city": "DUNKERQUE",
+      "siren": "882560360",
+      "legalName": "HEMEA IB",
+      "department": "44",
+      "naf": "66.22Z",
+      "founded": "2020-03-09",
+      "city": "NANTES",
       "country": "France",
       "headcount": "NN",
-      "sizeCategory": null,
+      "sizeCategory": "PME",
       "officers": [],
       "accounts": null,
-      "siegeSince": "2025-06-16",
+      "siegeSince": "2024-08-12",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -16974,12 +16946,12 @@
       "reasons": [
         "name prefix",
         "no declared employees",
-        "dept 59",
+        "dept 44",
         "active",
-        "siege since 2025"
+        "siege since 2024"
       ],
       "alternatives": [
-        "882560360 HEMEA IB (3)",
+        "930226329 HEMEA ECO (3)",
         "928156520 HEMEA MEKAOURI (0)"
       ]
     },
@@ -18147,18 +18119,18 @@
       "website": "https://underdog.shop/",
       "blurb": "Since our investment, they’ve refurbished over 500 appliances monthly, preventing 259 tonnes of waste and saving 2,600 tonnes of CO2.",
       "status": "ambiguous",
-      "siren": "849998646",
+      "siren": "937523694",
       "legalName": "UNDERDOG",
-      "department": "13",
-      "naf": "90.01Z",
-      "founded": "2019-02-27",
-      "city": "ALLEINS",
+      "department": "33",
+      "naf": "90.03A",
+      "founded": "2023-10-21",
+      "city": "BORDEAUX",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
       "officers": [],
       "accounts": null,
-      "siegeSince": "2020-09-18",
+      "siegeSince": "2023-10-21",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -18166,12 +18138,12 @@
       "reasons": [
         "exact name",
         "no declared employees",
-        "dept 13",
+        "dept 33",
         "active",
-        "siege since 2020"
+        "siege since 2023"
       ],
       "alternatives": [
-        "937523694 UNDERDOG (5)",
+        "849998646 UNDERDOG (5)",
         "523841054 UNDERDOG (5)"
       ]
     },
@@ -20274,10 +20246,7 @@
         "shell-shaped NAF 68.31Z",
         "siege since 2026"
       ],
-      "alternatives": [
-        "431712413 CASAVO (3)",
-        "520260654 CASAVO (2)"
-      ]
+      "alternatives": []
     },
     "ARBE": {
       "name": "Arbe",
@@ -23829,7 +23798,7 @@
       "website": "http://audi-on.com",
       "blurb": "We build technologies for the digital audio & podcast advertising industry",
       "status": "no-name-match",
-      "candidates": 20
+      "candidates": 10
     },
     "AUGUR": {
       "name": "Augur",
@@ -25311,46 +25280,6 @@
       "website": "http://boxc.com",
       "blurb": "B2C International shipping logistics simplified",
       "status": "not-found"
-    },
-    "BOXCO": {
-      "name": "BoxCo",
-      "funds": [
-        "kima"
-      ],
-      "holdings": {
-        "kima": "unknown"
-      },
-      "portfolioCountry": "United States of America",
-      "website": "http://joinboxco.com",
-      "blurb": "Connected fitness",
-      "status": "resolved",
-      "siren": "891512485",
-      "legalName": "BOXCO",
-      "department": "75",
-      "naf": "74.90B",
-      "founded": "2020-11-26",
-      "city": "PARIS",
-      "country": "France",
-      "headcount": "02",
-      "sizeCategory": "PME",
-      "officers": [],
-      "accounts": null,
-      "siegeSince": "2024-01-24",
-      "active": true,
-      "confidence": "high",
-      "scorerVersion": 5,
-      "score": 10,
-      "reasons": [
-        "exact name",
-        "has employees (bracket 02)",
-        "Île-de-France",
-        "active",
-        "tech NAF",
-        "siege since 2024"
-      ],
-      "alternatives": [
-        "832676126 BOXCO HOLDING (3)"
-      ]
     },
     "BRAINBOARD": {
       "name": "Brainboard",
@@ -29718,18 +29647,57 @@
       ]
     },
     "ED AI": {
-      "name": "Ed.ai",
+      "name": "ED AI",
       "funds": [
+        "xange",
         "kima"
       ],
       "holdings": {
+        "xange": "unknown",
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "http://ed.ai",
+      "website": "https://www.welcometothejungle.com/en/companies/xange",
       "blurb": "AI Assistant for teachers",
-      "status": "no-name-match",
-      "candidates": 10
+      "status": "resolved",
+      "siren": "932580087",
+      "legalName": "ED AI",
+      "department": "69",
+      "naf": "62.01Z",
+      "founded": "2024-09-02",
+      "city": "LYON",
+      "country": "France",
+      "headcount": "NN",
+      "sizeCategory": null,
+      "officers": [
+        {
+          "name": "SEFAC",
+          "role": "Commissaire aux comptes titulaire",
+          "siren": "328581202",
+          "auditor": true
+        },
+        {
+          "name": "XHAIL SAS",
+          "role": "Président de SAS",
+          "siren": "880237805",
+          "auditor": false
+        }
+      ],
+      "accounts": null,
+      "siegeSince": "2024-09-02",
+      "active": true,
+      "confidence": "medium",
+      "scorerVersion": 5,
+      "score": 6,
+      "reasons": [
+        "exact name",
+        "no declared employees",
+        "dept 69",
+        "active",
+        "tech NAF",
+        "siege since 2024"
+      ],
+      "alternatives": []
     },
     "EDISUN": {
       "name": "Edisun",
@@ -31078,7 +31046,7 @@
       ],
       "alternatives": [
         "990258162 FEELS (FEELS) (7)",
-        "897491106 FEELS RECORDS (6)"
+        "882412950 FEELS GOOD (5)"
       ]
     },
     "FENIX ENERGY": {
@@ -47212,7 +47180,7 @@
       "website": "http://singuli.co",
       "blurb": "Inventory Optimization for Modern Retail",
       "status": "no-name-match",
-      "candidates": 16
+      "candidates": 17
     },
     "SKEW": {
       "name": "Skew",
@@ -52169,34 +52137,34 @@
       "portfolioCountry": "United States of America",
       "website": "http://vybe.build",
       "blurb": "Vybe enables teams to build secure internal applications rapidly using AI and data integrations, enhancing productivity for both engineers and business users.",
-      "status": "ambiguous",
-      "siren": "853257905",
+      "status": "resolved",
+      "siren": "109490870",
       "legalName": "VYBE",
-      "department": "92",
-      "naf": "62.01Z",
-      "founded": "2019-08-12",
-      "city": "CLICHY",
+      "department": "83",
+      "naf": "61.90Z",
+      "founded": "2026-08-14",
+      "city": "PUGET-SUR-ARGENS",
       "country": "France",
       "headcount": "NN",
-      "sizeCategory": "PME",
+      "sizeCategory": null,
       "officers": [],
       "accounts": null,
-      "siegeSince": "2020-10-28",
-      "active": false,
-      "confidence": "low",
+      "siegeSince": "2026-08-14",
+      "active": true,
+      "confidence": "medium",
       "scorerVersion": 5,
-      "score": 5,
+      "score": 6,
       "reasons": [
         "exact name",
         "no declared employees",
-        "Île-de-France",
-        "ceased",
+        "dept 83",
+        "active",
         "tech NAF",
-        "siege since 2020"
+        "siege since 2026"
       ],
       "alternatives": [
-        "989548425 VYBE AGENCY (VYBE AGENCY) (5)",
-        "980461966 VYBE (3)"
+        "853257905 VYBE (5)",
+        "989548425 VYBE AGENCY (VYBE AGENCY) (5)"
       ]
     },
     "WALDO": {
@@ -59054,19 +59022,6 @@
       "blurb": null,
       "status": "not-found"
     },
-    "CARBYON": {
-      "name": "Carbyon",
-      "funds": [
-        "isai"
-      ],
-      "holdings": {
-        "isai": "unknown"
-      },
-      "portfolioCountry": null,
-      "website": null,
-      "blurb": null,
-      "status": "not-found"
-    },
     "CITIZENPLANE": {
       "name": "citizenplane",
       "funds": [
@@ -60482,23 +60437,23 @@
       "website": null,
       "blurb": null,
       "status": "ambiguous",
-      "siren": "815121330",
-      "legalName": "JAVELO",
-      "department": "75",
-      "naf": "64.20Z",
-      "founded": "2015-12-01",
-      "city": "PARIS",
+      "siren": "902107150",
+      "legalName": "JAVELO (AKOYAS PROVENCE)",
+      "department": "13",
+      "naf": "70.22Z",
+      "founded": "2021-08-04",
+      "city": "PLAN-D'ORGON",
       "country": "France",
-      "headcount": "NN",
+      "headcount": "01",
       "sizeCategory": "PME",
       "officers": [],
       "accounts": {
-        "2024": {
+        "2025": {
           "ca": 0,
-          "resultat_net": 269330
+          "resultat_net": 7379
         }
       },
-      "siegeSince": "2015-12-01",
+      "siegeSince": "2021-08-04",
       "active": true,
       "confidence": "medium",
       "scorerVersion": 5,
@@ -60506,12 +60461,13 @@
       "reasons": [
         "exact name",
         "no declared employees",
-        "Île-de-France",
+        "dept 13",
         "active",
-        "siege since 2015"
+        "tech NAF",
+        "siege since 2021"
       ],
       "alternatives": [
-        "902107150 JAVELO (AKOYAS PROVENCE) (7)"
+        "815121330 JAVELO (7)"
       ]
     },
     "KANDBAZ": {
@@ -61485,12 +61441,12 @@
       "website": null,
       "blurb": null,
       "status": "ambiguous",
-      "siren": "322120692",
+      "siren": "327925335",
       "legalName": "PUBECO",
-      "department": "91",
+      "department": "75",
       "naf": "77.10",
-      "founded": "1981-05-26",
-      "city": "SAVIGNY-SUR-ORGE",
+      "founded": "1983-08-01",
+      "city": "PARIS 19",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
@@ -61508,7 +61464,7 @@
         "ceased"
       ],
       "alternatives": [
-        "327925335 PUBECO (3)",
+        "322120692 PUBECO (3)",
         "504072182 PUBECO S.A.R.L (3)"
       ]
     },
@@ -63280,7 +63236,7 @@
       ],
       "alternatives": [
         "478681703 CHILLI (STELLAR) (7)",
-        "924615982 CHILLI MOTORS (5)"
+        "987730470 CHILLI FOUNDATION (5)"
       ]
     },
     "CLIMEFI": {
@@ -66799,6 +66755,32 @@
       },
       "portfolioCountry": null,
       "website": "https://serena.vasco.fund/",
+      "blurb": null,
+      "status": "not-found"
+    },
+    "AIRHIVE": {
+      "name": "Airhive",
+      "funds": [
+        "isai"
+      ],
+      "holdings": {
+        "isai": "unknown"
+      },
+      "portfolioCountry": null,
+      "website": null,
+      "blurb": null,
+      "status": "not-found"
+    },
+    "EARLYTRADE": {
+      "name": "Earlytrade",
+      "funds": [
+        "isai"
+      ],
+      "holdings": {
+        "isai": "unknown"
+      },
+      "portfolioCountry": null,
+      "website": null,
       "blurb": null,
       "status": "not-found"
     }
