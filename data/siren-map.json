@@ -6287,7 +6287,7 @@
       ],
       "alternatives": [
         "851155390 PRESTI' JANTES (PRESTI' JANTES) (7)",
-        "821541802 PRESTI BAT (7)"
+        "412484388 PRESTI SUD (6)"
       ]
     },
     "PRIMARYIO": {
@@ -8853,7 +8853,7 @@
       "website": "https://worders.net/",
       "blurb": "High-end online B2B translation solution",
       "status": "no-name-match",
-      "candidates": 17
+      "candidates": 18
     },
     "XENDIT": {
       "name": "Xendit",
@@ -13913,7 +13913,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://apply.workable.com/j/0CFA42418D",
+      "website": "https://apply.workable.com/j/40D24DDA37",
       "blurb": "WorkMotion simplifies global hiring and compliance. Enabling companies to onboard international employees via EoR services in 90+ countries efficiently.",
       "status": "resolved",
       "siren": "910571983",
@@ -14262,7 +14262,7 @@
       ],
       "alternatives": [
         "844263285 BERGAMOTTE (5)",
-        "879100162 BERGAMOTTE (EURL ROSANE) (2)"
+        "312538838 BERGAMOTTE (2)"
       ]
     },
     "CALIXAR": {
@@ -14290,7 +14290,35 @@
       "portfolioCountry": null,
       "website": "https://www.welcometothejungle.com/en/companies/xange",
       "blurb": "Chauffeur Privé, now part of FREE NOW, provides private car services across Europe, uniting taxis, private drivers and micromobility in a single seamless app.",
-      "status": "not-found"
+      "status": "ambiguous",
+      "siren": "903173144",
+      "legalName": "CHAUFFEUR PRIVE",
+      "department": "59",
+      "naf": "49.32Z",
+      "founded": "2021-09-10",
+      "city": "WAZIERS",
+      "country": "France",
+      "headcount": "NN",
+      "sizeCategory": "PME",
+      "officers": [],
+      "accounts": null,
+      "siegeSince": "2021-09-10",
+      "active": true,
+      "confidence": "low",
+      "scorerVersion": 5,
+      "score": 1,
+      "reasons": [
+        "exact name",
+        "no declared employees",
+        "dept 59",
+        "active",
+        "shell-shaped NAF 49.32Z",
+        "siege since 2021"
+      ],
+      "alternatives": [
+        "931154389 CHAUFFEUR PRIVE (1)",
+        "813933223 CHAUFFEUR PRIVE (0)"
+      ]
     },
     "CITILOG": {
       "name": "Citilog",
@@ -16507,38 +16535,39 @@
       "portfolioCountry": "United States of America",
       "website": "https://withdouble.com/",
       "blurb": "The world’s best assistant",
-      "status": "ambiguous",
-      "siren": "444172324",
-      "legalName": "DOUBLE M",
+      "status": "resolved",
+      "siren": "832103295",
+      "legalName": "DOUBLE JACK (JJ)",
       "department": "75",
-      "naf": "64.20Z",
-      "founded": "2002-11-15",
+      "naf": "62.01Z",
+      "founded": "2017-09-15",
       "city": "PARIS",
       "country": "France",
-      "headcount": "02",
+      "headcount": "03",
       "sizeCategory": "PME",
       "officers": [],
       "accounts": {
-        "2023": {
-          "ca": 169837,
-          "resultat_net": 176704
+        "2020": {
+          "ca": 45060,
+          "resultat_net": -16864
         }
       },
-      "siegeSince": "2007-09-01",
+      "siegeSince": "2023-12-13",
       "active": true,
-      "confidence": "medium",
+      "confidence": "high",
       "scorerVersion": 5,
-      "score": 7,
+      "score": 8,
       "reasons": [
         "name prefix",
-        "has employees (bracket 02)",
+        "has employees (bracket 03)",
         "Île-de-France",
         "active",
-        "siege since 2007"
+        "tech NAF",
+        "siege since 2023"
       ],
       "alternatives": [
-        "511339269 DOUBLE SOURCE (7)",
-        "793007071 DOUBLE RAME (7)"
+        "444172324 DOUBLE M (7)",
+        "511339269 DOUBLE SOURCE (7)"
       ]
     },
     "EDUMAPPER": {
@@ -18119,18 +18148,18 @@
       "website": "https://underdog.shop/",
       "blurb": "Since our investment, they’ve refurbished over 500 appliances monthly, preventing 259 tonnes of waste and saving 2,600 tonnes of CO2.",
       "status": "ambiguous",
-      "siren": "937523694",
+      "siren": "849998646",
       "legalName": "UNDERDOG",
-      "department": "33",
-      "naf": "90.03A",
-      "founded": "2023-10-21",
-      "city": "BORDEAUX",
+      "department": "13",
+      "naf": "90.01Z",
+      "founded": "2019-02-27",
+      "city": "ALLEINS",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
       "officers": [],
       "accounts": null,
-      "siegeSince": "2023-10-21",
+      "siegeSince": "2020-09-18",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -18138,12 +18167,12 @@
       "reasons": [
         "exact name",
         "no declared employees",
-        "dept 33",
+        "dept 13",
         "active",
-        "siege since 2023"
+        "siege since 2020"
       ],
       "alternatives": [
-        "849998646 UNDERDOG (5)",
+        "937523694 UNDERDOG (5)",
         "523841054 UNDERDOG (5)"
       ]
     },
@@ -20246,7 +20275,10 @@
         "shell-shaped NAF 68.31Z",
         "siege since 2026"
       ],
-      "alternatives": []
+      "alternatives": [
+        "431712413 CASAVO (3)",
+        "520260654 CASAVO (2)"
+      ]
     },
     "ARBE": {
       "name": "Arbe",
@@ -21874,31 +21906,32 @@
       "website": "http://accesinternet.ca",
       "blurb": "We provide great Internet services in Canada's small cities",
       "status": "resolved",
-      "siren": "431282961",
-      "legalName": "ACCES TELECOM MULTIMEDIA (ATM)",
+      "siren": "499447605",
+      "legalName": "ACCES TELECOM INTERNATIONAL (A T I)",
       "department": "13",
-      "naf": "62.02A",
-      "founded": "2000-05-02",
-      "city": "AUBAGNE",
+      "naf": "46.52Z",
+      "founded": "2007-08-01",
+      "city": "MARSEILLE",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
       "officers": [],
       "accounts": null,
-      "siegeSince": "2002-05-01",
-      "active": false,
+      "siegeSince": "2007-08-01",
+      "active": true,
       "confidence": "low",
       "scorerVersion": 5,
-      "score": 1,
+      "score": 3,
       "reasons": [
         "name prefix",
         "no declared employees",
         "dept 13",
-        "ceased",
-        "tech NAF",
-        "siege since 2002"
+        "active",
+        "siege since 2007"
       ],
-      "alternatives": []
+      "alternatives": [
+        "431282961 ACCES TELECOM MULTIMEDIA (ATM) (1)"
+      ]
     },
     "ACCREDIBLE": {
       "name": "Accredible",
@@ -23798,7 +23831,7 @@
       "website": "http://audi-on.com",
       "blurb": "We build technologies for the digital audio & podcast advertising industry",
       "status": "no-name-match",
-      "candidates": 10
+      "candidates": 20
     },
     "AUGUR": {
       "name": "Augur",
@@ -31046,7 +31079,7 @@
       ],
       "alternatives": [
         "990258162 FEELS (FEELS) (7)",
-        "882412950 FEELS GOOD (5)"
+        "897491106 FEELS RECORDS (6)"
       ]
     },
     "FENIX ENERGY": {
@@ -32112,7 +32145,7 @@
       ],
       "alternatives": [
         "949417547 FRAICHE TEA (7)",
-        "483248860 FRAICHE-CUT (6)"
+        "900095480 FRAICHE CONNECTION (6)"
       ]
     },
     "FRED DE LA COMPTA": {
@@ -47180,7 +47213,7 @@
       "website": "http://singuli.co",
       "blurb": "Inventory Optimization for Modern Retail",
       "status": "no-name-match",
-      "candidates": 17
+      "candidates": 16
     },
     "SKEW": {
       "name": "Skew",
@@ -60437,23 +60470,23 @@
       "website": null,
       "blurb": null,
       "status": "ambiguous",
-      "siren": "902107150",
-      "legalName": "JAVELO (AKOYAS PROVENCE)",
-      "department": "13",
-      "naf": "70.22Z",
-      "founded": "2021-08-04",
-      "city": "PLAN-D'ORGON",
+      "siren": "815121330",
+      "legalName": "JAVELO",
+      "department": "75",
+      "naf": "64.20Z",
+      "founded": "2015-12-01",
+      "city": "PARIS",
       "country": "France",
-      "headcount": "01",
+      "headcount": "NN",
       "sizeCategory": "PME",
       "officers": [],
       "accounts": {
-        "2025": {
+        "2024": {
           "ca": 0,
-          "resultat_net": 7379
+          "resultat_net": 269330
         }
       },
-      "siegeSince": "2021-08-04",
+      "siegeSince": "2015-12-01",
       "active": true,
       "confidence": "medium",
       "scorerVersion": 5,
@@ -60461,13 +60494,12 @@
       "reasons": [
         "exact name",
         "no declared employees",
-        "dept 13",
+        "Île-de-France",
         "active",
-        "tech NAF",
-        "siege since 2021"
+        "siege since 2015"
       ],
       "alternatives": [
-        "815121330 JAVELO (7)"
+        "902107150 JAVELO (AKOYAS PROVENCE) (7)"
       ]
     },
     "KANDBAZ": {
@@ -61441,12 +61473,12 @@
       "website": null,
       "blurb": null,
       "status": "ambiguous",
-      "siren": "327925335",
+      "siren": "322120692",
       "legalName": "PUBECO",
-      "department": "75",
+      "department": "91",
       "naf": "77.10",
-      "founded": "1983-08-01",
-      "city": "PARIS 19",
+      "founded": "1981-05-26",
+      "city": "SAVIGNY-SUR-ORGE",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
@@ -61464,7 +61496,7 @@
         "ceased"
       ],
       "alternatives": [
-        "322120692 PUBECO (3)",
+        "327925335 PUBECO (3)",
         "504072182 PUBECO S.A.R.L (3)"
       ]
     },
@@ -63236,7 +63268,7 @@
       ],
       "alternatives": [
         "478681703 CHILLI (STELLAR) (7)",
-        "987730470 CHILLI FOUNDATION (5)"
+        "924615982 CHILLI MOTORS (5)"
       ]
     },
     "CLIMEFI": {
@@ -66782,6 +66814,1027 @@
       "portfolioCountry": null,
       "website": null,
       "blurb": null,
+      "status": "not-found"
+    },
+    "ACTA POWER": {
+      "name": "Acta Power",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "France",
+      "website": "http://acta-power.com",
+      "blurb": null,
+      "status": "resolved",
+      "siren": "918578683",
+      "legalName": "ACTA POWER",
+      "department": "38",
+      "naf": "71.12B",
+      "founded": "2022-08-12",
+      "city": "BOURGOIN-JALLIEU",
+      "country": "France",
+      "headcount": "01",
+      "sizeCategory": "PME",
+      "officers": [],
+      "accounts": null,
+      "siegeSince": "2024-10-02",
+      "active": true,
+      "confidence": "medium",
+      "scorerVersion": 5,
+      "score": 7,
+      "reasons": [
+        "exact name",
+        "no declared employees",
+        "dept 38",
+        "active",
+        "tech NAF",
+        "siege since 2024"
+      ],
+      "alternatives": [
+        "101413821 ACTA POWER - ROUNDTABLE (6)"
+      ]
+    },
+    "ADSIDE": {
+      "name": "Adside",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "United States of America",
+      "website": "http://adside.ai",
+      "blurb": null,
+      "status": "no-name-match",
+      "candidates": 1
+    },
+    "AIRE FLOPS AND FRIENDS INC": {
+      "name": "AIRE (Flops & Friends, Inc)",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "France",
+      "website": "http://supercomputersandfriends.com",
+      "blurb": null,
+      "status": "not-found"
+    },
+    "ARMATURE": {
+      "name": "Armature",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "United States of America",
+      "website": "http://armature.tech",
+      "blurb": null,
+      "status": "resolved",
+      "siren": "103883070",
+      "legalName": "ARMATURE",
+      "department": "92",
+      "naf": "58.29C",
+      "founded": "2026-04-10",
+      "city": "NEUILLY-SUR-SEINE",
+      "country": "France",
+      "headcount": "NN",
+      "sizeCategory": null,
+      "officers": [],
+      "accounts": null,
+      "siegeSince": "2026-04-10",
+      "active": true,
+      "confidence": "high",
+      "scorerVersion": 5,
+      "score": 8,
+      "reasons": [
+        "exact name",
+        "no declared employees",
+        "Île-de-France",
+        "active",
+        "tech NAF",
+        "siege since 2026"
+      ],
+      "alternatives": [
+        "943971911 ARMATURE (8)",
+        "802815050 ASSOCIATION POUR LA REVELATION DE MUSICIENS PAR L ACCOMPAGNEMENT LE TUTORAT ET LA REALISATION D EVENEMENTS (ARMATURE) (7)"
+      ]
+    },
+    "ELLIS": {
+      "name": "Ellis",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "Luxembourg",
+      "website": "http://ellisclaims.ai",
+      "blurb": null,
+      "status": "resolved",
+      "siren": "525170205",
+      "legalName": "ELLIS ALLIANCE",
+      "department": "75",
+      "naf": "70.22Z",
+      "founded": "2010-09-22",
+      "city": "PARIS",
+      "country": "France",
+      "headcount": "03",
+      "sizeCategory": "PME",
+      "officers": [
+        {
+          "name": "AEGIDIS",
+          "role": "Président de SAS",
+          "siren": "524875739",
+          "auditor": false
+        }
+      ],
+      "accounts": {
+        "2025": {
+          "ca": 0,
+          "resultat_net": -58143
+        }
+      },
+      "siegeSince": "2015-01-10",
+      "active": true,
+      "confidence": "high",
+      "scorerVersion": 5,
+      "score": 8,
+      "reasons": [
+        "name prefix",
+        "has employees (bracket 03)",
+        "Île-de-France",
+        "active",
+        "tech NAF",
+        "siege since 2015"
+      ],
+      "alternatives": [
+        "105620645 ELLIS (8)",
+        "511998940 ELLIS (7)"
+      ]
+    },
+    "FAIRME": {
+      "name": "Fairme",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "France",
+      "website": "http://fairme.io",
+      "blurb": null,
+      "status": "resolved",
+      "siren": "888970837",
+      "legalName": "FAIRME",
+      "department": "38",
+      "naf": "72.19Z",
+      "founded": "2020-09-14",
+      "city": "SAINT-MARTIN-D'HERES",
+      "country": "France",
+      "headcount": "11",
+      "sizeCategory": "PME",
+      "officers": [
+        {
+          "name": "STUPENDOUS",
+          "role": "Président de SAS",
+          "siren": null,
+          "auditor": false
+        }
+      ],
+      "accounts": {
+        "2021": {
+          "ca": 0,
+          "resultat_net": -317793
+        }
+      },
+      "siegeSince": "2024-05-01",
+      "active": true,
+      "confidence": "high",
+      "scorerVersion": 5,
+      "score": 9,
+      "reasons": [
+        "exact name",
+        "has employees (bracket 11)",
+        "dept 38",
+        "active",
+        "tech NAF",
+        "siege since 2024"
+      ],
+      "alternatives": [
+        "105534309 FAIRME INVEST-1 (4)"
+      ]
+    },
+    "GALILEI": {
+      "name": "Galilei",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "France",
+      "website": "http://galileilabs.ai",
+      "blurb": null,
+      "status": "resolved",
+      "siren": "394277438",
+      "legalName": "GALILEI",
+      "department": "69",
+      "naf": "70.22Z",
+      "founded": "1994-04-10",
+      "city": "LYON",
+      "country": "France",
+      "headcount": "NN",
+      "sizeCategory": "PME",
+      "officers": [],
+      "accounts": {
+        "2017": {
+          "ca": 596,
+          "resultat_net": -7402
+        }
+      },
+      "siegeSince": "2005-06-01",
+      "active": true,
+      "confidence": "medium",
+      "scorerVersion": 5,
+      "score": 6,
+      "reasons": [
+        "exact name",
+        "no declared employees",
+        "dept 69",
+        "active",
+        "tech NAF",
+        "siege since 2005"
+      ],
+      "alternatives": [
+        "794164897 GALILEI INVEST (4)",
+        "424712297 GALILEI (3)"
+      ]
+    },
+    "GOJIBERRY": {
+      "name": "Gojiberry",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "United States of America",
+      "website": "http://gojiberry.ai",
+      "blurb": "AI sales agents that find, qualify, and engage prospects to book meetings for B2B teams",
+      "status": "not-found"
+    },
+    "HASTKO": {
+      "name": "Hastko",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "France",
+      "website": "http://hastko.com",
+      "blurb": "Le corewear de sport dédié aux sportives. From Chamonix Mont-Blanc",
+      "status": "no-name-match",
+      "candidates": 1
+    },
+    "HIRETHOMAS": {
+      "name": "HireThomas",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "United States of America",
+      "website": "http://madebythomas.ai",
+      "blurb": null,
+      "status": "not-found"
+    },
+    "INITIATIV": {
+      "name": "Initiativ",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "France",
+      "website": "http://takeinitiativ.com",
+      "blurb": null,
+      "status": "resolved",
+      "siren": "987788965",
+      "legalName": "INITIATIV",
+      "department": "75",
+      "naf": "58.29C",
+      "founded": "2024-02-27",
+      "city": "PARIS",
+      "country": "France",
+      "headcount": "NN",
+      "sizeCategory": null,
+      "officers": [],
+      "accounts": null,
+      "siegeSince": "2025-10-03",
+      "active": true,
+      "confidence": "high",
+      "scorerVersion": 5,
+      "score": 8,
+      "reasons": [
+        "exact name",
+        "no declared employees",
+        "Île-de-France",
+        "active",
+        "tech NAF",
+        "siege since 2025"
+      ],
+      "alternatives": [
+        "839999695 INITIATIV' (7)"
+      ]
+    },
+    "INTEETH": {
+      "name": "Inteeth",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "Switzerland",
+      "website": "http://inteeth.com",
+      "blurb": null,
+      "status": "not-found"
+    },
+    "KANDO": {
+      "name": "Kando",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "Belgium",
+      "website": "http://kando.care",
+      "blurb": "La plateforme intelligente des environnements de soins",
+      "status": "resolved",
+      "siren": "904144532",
+      "legalName": "KANDO",
+      "department": "94",
+      "naf": "70.22Z",
+      "founded": "2021-10-06",
+      "city": "VINCENNES",
+      "country": "France",
+      "headcount": "01",
+      "sizeCategory": "PME",
+      "officers": [],
+      "accounts": {
+        "2023": {
+          "ca": 499201,
+          "resultat_net": -113600
+        }
+      },
+      "siegeSince": "2021-10-06",
+      "active": true,
+      "confidence": "high",
+      "scorerVersion": 5,
+      "score": 9,
+      "reasons": [
+        "exact name",
+        "no declared employees",
+        "Île-de-France",
+        "active",
+        "tech NAF",
+        "siege since 2021"
+      ],
+      "alternatives": [
+        "830694386 KANDO (KANDO) (8)",
+        "838767952 KANDO (5)"
+      ]
+    },
+    "LIFT": {
+      "name": "Lift",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "France",
+      "website": "http://lift-ed.fr",
+      "blurb": "Lift helps organizations educate teens on mental health, relationships and other key life challenges.",
+      "status": "resolved",
+      "siren": "893433581",
+      "legalName": "LIFT",
+      "department": "75",
+      "naf": "66.19B",
+      "founded": "2021-01-25",
+      "city": "PARIS",
+      "country": "France",
+      "headcount": "01",
+      "sizeCategory": "PME",
+      "officers": [],
+      "accounts": {
+        "2024": {
+          "ca": 0,
+          "resultat_net": 1207
+        }
+      },
+      "siegeSince": "2023-02-10",
+      "active": true,
+      "confidence": "high",
+      "scorerVersion": 5,
+      "score": 8,
+      "reasons": [
+        "exact name",
+        "no declared employees",
+        "Île-de-France",
+        "active",
+        "siege since 2023"
+      ],
+      "alternatives": [
+        "984683177 LIFT (8)",
+        "520184946 LIFT (8)"
+      ]
+    },
+    "MANKINDS": {
+      "name": "Mankinds",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "France",
+      "website": "http://mankinds.io",
+      "blurb": null,
+      "status": "resolved",
+      "siren": "943065300",
+      "legalName": "MANKINDS",
+      "department": "92",
+      "naf": "62.01Z",
+      "founded": "2025-04-08",
+      "city": "SEVRES",
+      "country": "France",
+      "headcount": "NN",
+      "sizeCategory": null,
+      "officers": [],
+      "accounts": null,
+      "siegeSince": "2025-04-08",
+      "active": true,
+      "confidence": "high",
+      "scorerVersion": 5,
+      "score": 8,
+      "reasons": [
+        "exact name",
+        "no declared employees",
+        "Île-de-France",
+        "active",
+        "tech NAF",
+        "siege since 2025"
+      ],
+      "alternatives": []
+    },
+    "NESTAL": {
+      "name": "Nestal",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "France",
+      "website": "http://nestal.ai",
+      "blurb": null,
+      "status": "resolved",
+      "siren": "107472706",
+      "legalName": "NESTAL",
+      "department": "75",
+      "naf": "70.22Z",
+      "founded": "2026-07-02",
+      "city": "PARIS",
+      "country": "France",
+      "headcount": "NN",
+      "sizeCategory": null,
+      "officers": [
+        {
+          "name": "OCEAN HOLDINGS",
+          "role": "Président de SAS",
+          "siren": "105663702",
+          "auditor": false
+        }
+      ],
+      "accounts": null,
+      "siegeSince": "2026-07-02",
+      "active": true,
+      "confidence": "high",
+      "scorerVersion": 5,
+      "score": 8,
+      "reasons": [
+        "exact name",
+        "no declared employees",
+        "Île-de-France",
+        "active",
+        "tech NAF",
+        "siege since 2026"
+      ],
+      "alternatives": [
+        "109182097 NESTAL ACQUISITIONCO (6)"
+      ]
+    },
+    "NGT": {
+      "name": "NGT",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "France",
+      "website": "http://neutrogentechnologies.com",
+      "blurb": null,
+      "status": "resolved",
+      "siren": "853594521",
+      "legalName": "NGT",
+      "department": "91",
+      "naf": "43.12A",
+      "founded": "2019-07-11",
+      "city": "LIMOURS",
+      "country": "France",
+      "headcount": "01",
+      "sizeCategory": "PME",
+      "officers": [],
+      "accounts": {
+        "2022": {
+          "ca": 311988,
+          "resultat_net": 1923
+        }
+      },
+      "siegeSince": "2024-06-10",
+      "active": true,
+      "confidence": "high",
+      "scorerVersion": 5,
+      "score": 8,
+      "reasons": [
+        "exact name",
+        "no declared employees",
+        "Île-de-France",
+        "active",
+        "siege since 2024"
+      ],
+      "alternatives": [
+        "999568173 NGT (8)",
+        "512055179 NEXTGEN TECH (NGT) (7)"
+      ]
+    },
+    "OPENREVIEWS": {
+      "name": "OpenReviews",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "France",
+      "website": "http://openreviews.io",
+      "blurb": "Tous les avis de vos produits. Enfin réunis là où ils font vendre.",
+      "status": "not-found"
+    },
+    "PANORA": {
+      "name": "Panora",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "France",
+      "website": "http://panora.co",
+      "blurb": null,
+      "status": "resolved",
+      "siren": "531540466",
+      "legalName": "PANORA SERVICES",
+      "department": "92",
+      "naf": "64.19Z",
+      "founded": "2011-03-29",
+      "city": "NEUILLY-SUR-SEINE",
+      "country": "France",
+      "headcount": "12",
+      "sizeCategory": "PME",
+      "officers": [
+        {
+          "name": "AUDIT BUGEAUD",
+          "role": "Commissaire aux comptes titulaire",
+          "siren": "418234274",
+          "auditor": true
+        },
+        {
+          "name": "ALTEMYS",
+          "role": "Président de SAS",
+          "siren": "435361324",
+          "auditor": false
+        },
+        {
+          "name": "EURL THIBAUT RAVISE BACHELLERIE CONSEIL",
+          "role": "Directeur Général",
+          "siren": "439722992",
+          "auditor": false
+        }
+      ],
+      "accounts": {
+        "2023": {
+          "ca": 0,
+          "resultat_net": 130808
+        }
+      },
+      "siegeSince": "2013-02-21",
+      "active": true,
+      "confidence": "high",
+      "scorerVersion": 5,
+      "score": 8,
+      "reasons": [
+        "name prefix",
+        "has employees (bracket 12)",
+        "Île-de-France",
+        "active",
+        "siege since 2013"
+      ],
+      "alternatives": [
+        "103247284 PANORA (8)",
+        "995387727 PANORA (8)"
+      ]
+    },
+    "RAILNET": {
+      "name": "Railnet",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "France",
+      "website": "http://railnet.org",
+      "blurb": null,
+      "status": "resolved",
+      "siren": "107410367",
+      "legalName": "RAILNET",
+      "department": "75",
+      "naf": "62.01Z",
+      "founded": "2026-07-08",
+      "city": "PARIS",
+      "country": "France",
+      "headcount": "NN",
+      "sizeCategory": null,
+      "officers": [],
+      "accounts": null,
+      "siegeSince": "2026-07-08",
+      "active": true,
+      "confidence": "high",
+      "scorerVersion": 5,
+      "score": 8,
+      "reasons": [
+        "exact name",
+        "no declared employees",
+        "Île-de-France",
+        "active",
+        "tech NAF",
+        "siege since 2026"
+      ],
+      "alternatives": [
+        "439424094 RAILNET (5)"
+      ]
+    },
+    "REVALUE": {
+      "name": "Revalue",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "France",
+      "website": "http://revalue.eco",
+      "blurb": null,
+      "status": "resolved",
+      "siren": "940337587",
+      "legalName": "REVALUE GROUPE",
+      "department": "93",
+      "naf": "70.10Z",
+      "founded": "2025-01-31",
+      "city": "LIVRY-GARGAN",
+      "country": "France",
+      "headcount": "NN",
+      "sizeCategory": null,
+      "officers": [],
+      "accounts": null,
+      "siegeSince": "2025-01-31",
+      "active": true,
+      "confidence": "medium",
+      "scorerVersion": 5,
+      "score": 7,
+      "reasons": [
+        "name minus legal form",
+        "no declared employees",
+        "Île-de-France",
+        "active",
+        "tech NAF",
+        "siege since 2025"
+      ],
+      "alternatives": [
+        "988937066 REVALUE (6)",
+        "109154559 REVALUE (5)"
+      ]
+    },
+    "RIVAGE": {
+      "name": "Rivage",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "France",
+      "website": "http://rivage.immo",
+      "blurb": null,
+      "status": "resolved",
+      "siren": "940386303",
+      "legalName": "RIVAGE",
+      "department": "91",
+      "naf": "70.10Z",
+      "founded": "2025-02-01",
+      "city": "RIS-ORANGIS",
+      "country": "France",
+      "headcount": "NN",
+      "sizeCategory": null,
+      "officers": [],
+      "accounts": null,
+      "siegeSince": "2025-06-26",
+      "active": true,
+      "confidence": "high",
+      "scorerVersion": 5,
+      "score": 8,
+      "reasons": [
+        "exact name",
+        "no declared employees",
+        "Île-de-France",
+        "active",
+        "tech NAF",
+        "siege since 2025"
+      ],
+      "alternatives": [
+        "994309466 RIVAGE (6)",
+        "109119511 RIVAGE (6)"
+      ]
+    },
+    "RIVERMARKET": {
+      "name": "RiverMarket",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "United States of America",
+      "website": "http://rivermarkets.com",
+      "blurb": null,
+      "status": "not-found"
+    },
+    "SEROMLABS": {
+      "name": "SeromLabs",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "France",
+      "website": "http://serom.fr",
+      "blurb": null,
+      "status": "not-found"
+    },
+    "STEERLAB": {
+      "name": "Steerlab",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "France",
+      "website": "http://steerlab.ai",
+      "blurb": "Steerlab is an AI-first solution that automates your responses to RFPs and Security Questionnaires, elevates quality, and delivers insights on how to win.",
+      "status": "resolved",
+      "siren": "979285681",
+      "legalName": "STEERLAB",
+      "department": "75",
+      "naf": "62.01Z",
+      "founded": "2023-08-24",
+      "city": "PARIS",
+      "country": "France",
+      "headcount": "NN",
+      "sizeCategory": "PME",
+      "officers": [],
+      "accounts": null,
+      "siegeSince": "2025-09-18",
+      "active": true,
+      "confidence": "high",
+      "scorerVersion": 5,
+      "score": 8,
+      "reasons": [
+        "exact name",
+        "no declared employees",
+        "Île-de-France",
+        "active",
+        "tech NAF",
+        "siege since 2025"
+      ],
+      "alternatives": []
+    },
+    "SURPRISAL": {
+      "name": "Surprisal",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "United States of America",
+      "website": "http://surprisal.io",
+      "blurb": null,
+      "status": "not-found"
+    },
+    "TOKIDOS": {
+      "name": "Tokidos",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "Canada",
+      "website": "http://tokidos.com",
+      "blurb": "Tokidos builds the first screen-free interactive gaming and audio console for kids 3 to 8!",
+      "status": "resolved",
+      "siren": "108670035",
+      "legalName": "TOKIDOS EUROPE",
+      "department": "34",
+      "naf": "32.40Z",
+      "founded": "2026-08-10",
+      "city": "MONTPELLIER",
+      "country": "France",
+      "headcount": "NN",
+      "sizeCategory": null,
+      "officers": [],
+      "accounts": null,
+      "siegeSince": "2026-08-10",
+      "active": true,
+      "confidence": "low",
+      "scorerVersion": 5,
+      "score": 3,
+      "reasons": [
+        "name prefix",
+        "no declared employees",
+        "dept 34",
+        "active",
+        "siege since 2026"
+      ],
+      "alternatives": []
+    },
+    "UMAWELL": {
+      "name": "Umawell",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "France",
+      "website": "http://umawell.fr",
+      "blurb": null,
+      "status": "resolved",
+      "siren": "102558806",
+      "legalName": "UMAWELL CROISSANCE",
+      "department": "94",
+      "naf": "66.30Z",
+      "founded": "2026-03-13",
+      "city": "IVRY-SUR-SEINE",
+      "country": "France",
+      "headcount": "NN",
+      "sizeCategory": null,
+      "officers": [
+        {
+          "name": "EUROLAND CORPORATE",
+          "role": "Associé commandité",
+          "siren": "422760371",
+          "auditor": false
+        },
+        {
+          "name": "LORD GP FEEDER",
+          "role": "Membre du conseil de surveillance",
+          "siren": "921284311",
+          "auditor": false
+        },
+        {
+          "name": "LE DEAL CLUB",
+          "role": "Président du conseil de surveillance",
+          "siren": "980820120",
+          "auditor": false
+        },
+        {
+          "name": "OVERLORD FORMATION",
+          "role": "Membre du conseil de surveillance",
+          "siren": "994708121",
+          "auditor": false
+        }
+      ],
+      "accounts": null,
+      "siegeSince": "2026-03-13",
+      "active": true,
+      "confidence": "low",
+      "scorerVersion": 5,
+      "score": 5,
+      "reasons": [
+        "name prefix",
+        "no declared employees",
+        "Île-de-France",
+        "active",
+        "siege since 2026"
+      ],
+      "alternatives": [
+        "938872561 UMAWELL GLOBAL (3)"
+      ]
+    },
+    "VALKYRIE DYNAMICS": {
+      "name": "Valkyrie Dynamics",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "Luxembourg",
+      "website": "http://valkyriedynamics.ai",
+      "blurb": null,
+      "status": "not-found"
+    },
+    "WANIWANI": {
+      "name": "Waniwani",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "United States of America",
+      "website": "http://waniwani.ai",
+      "blurb": null,
+      "status": "resolved",
+      "siren": "107277444",
+      "legalName": "WANIWANI",
+      "department": "92",
+      "naf": "62.01Z",
+      "founded": "2026-06-26",
+      "city": "MONTROUGE",
+      "country": "France",
+      "headcount": "NN",
+      "sizeCategory": null,
+      "officers": [
+        {
+          "name": "WANIWANI INC.",
+          "role": "Président de SAS",
+          "siren": null,
+          "auditor": false
+        }
+      ],
+      "accounts": null,
+      "siegeSince": "2026-06-26",
+      "active": true,
+      "confidence": "high",
+      "scorerVersion": 5,
+      "score": 8,
+      "reasons": [
+        "exact name",
+        "no declared employees",
+        "Île-de-France",
+        "active",
+        "tech NAF",
+        "siege since 2026"
+      ],
+      "alternatives": []
+    },
+    "XYBRID": {
+      "name": "Xybrid",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "United States of America",
+      "website": "http://xybrid.ai",
+      "blurb": "High performance inference for edge-devices",
       "status": "not-found"
     }
   }
