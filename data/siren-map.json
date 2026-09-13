@@ -6217,7 +6217,7 @@
       "website": "https://plumerai.com",
       "blurb": "Powerful AI for trillions of edge devices",
       "status": "no-name-match",
-      "candidates": 12
+      "candidates": 13
     },
     "POPMEALS": {
       "name": "Popmeals",
@@ -6287,7 +6287,7 @@
       ],
       "alternatives": [
         "851155390 PRESTI' JANTES (PRESTI' JANTES) (7)",
-        "412484388 PRESTI SUD (6)"
+        "514431055 PRESTI TP (6)"
       ]
     },
     "PRIMARYIO": {
@@ -14237,18 +14237,23 @@
       "website": "https://www.welcometothejungle.com/en/companies/xange",
       "blurb": "Bergamotte delivers fresh, sustainably-sourced indoor & outdoor plants through an e-commerce platform. Combining design expertise with direct-to-door plant care",
       "status": "ambiguous",
-      "siren": "504823022",
+      "siren": "844263285",
       "legalName": "BERGAMOTTE",
       "department": "34",
-      "naf": "94.99Z",
-      "founded": "2008-05-01",
+      "naf": "66.30Z",
+      "founded": "2018-11-02",
       "city": "MONTPELLIER",
       "country": "France",
       "headcount": "NN",
-      "sizeCategory": null,
+      "sizeCategory": "PME",
       "officers": [],
-      "accounts": null,
-      "siegeSince": "2008-05-01",
+      "accounts": {
+        "2020": {
+          "ca": 0,
+          "resultat_net": -10486
+        }
+      },
+      "siegeSince": "2018-11-02",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -14258,10 +14263,10 @@
         "no declared employees",
         "dept 34",
         "active",
-        "siege since 2008"
+        "siege since 2018"
       ],
       "alternatives": [
-        "844263285 BERGAMOTTE (5)",
+        "504823022 BERGAMOTTE (5)",
         "312538838 BERGAMOTTE (2)"
       ]
     },
@@ -14291,18 +14296,18 @@
       "website": "https://www.welcometothejungle.com/en/companies/xange",
       "blurb": "Chauffeur Privé, now part of FREE NOW, provides private car services across Europe, uniting taxis, private drivers and micromobility in a single seamless app.",
       "status": "ambiguous",
-      "siren": "903173144",
+      "siren": "931154389",
       "legalName": "CHAUFFEUR PRIVE",
       "department": "59",
       "naf": "49.32Z",
-      "founded": "2021-09-10",
-      "city": "WAZIERS",
+      "founded": "2024-07-22",
+      "city": "LILLE",
       "country": "France",
       "headcount": "NN",
-      "sizeCategory": "PME",
+      "sizeCategory": null,
       "officers": [],
       "accounts": null,
-      "siegeSince": "2021-09-10",
+      "siegeSince": "2024-07-22",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -14313,10 +14318,10 @@
         "dept 59",
         "active",
         "shell-shaped NAF 49.32Z",
-        "siege since 2021"
+        "siege since 2024"
       ],
       "alternatives": [
-        "931154389 CHAUFFEUR PRIVE (1)",
+        "903173144 CHAUFFEUR PRIVE (1)",
         "813933223 CHAUFFEUR PRIVE (0)"
       ]
     },
@@ -18298,7 +18303,7 @@
       ],
       "alternatives": [
         "880879440 WILGO ABETAUW (SERIE L OUEST DE MARONI) (3)",
-        "501365944 WILGO MISIDJAN (MO KONTAN LANATYR) (3)"
+        "884127648 WILGO AFATA (ENTREPRISE AFATA & FILS) (3)"
       ]
     },
     "WITCO": {
@@ -21906,32 +21911,31 @@
       "website": "http://accesinternet.ca",
       "blurb": "We provide great Internet services in Canada's small cities",
       "status": "resolved",
-      "siren": "499447605",
-      "legalName": "ACCES TELECOM INTERNATIONAL (A T I)",
+      "siren": "431282961",
+      "legalName": "ACCES TELECOM MULTIMEDIA (ATM)",
       "department": "13",
-      "naf": "46.52Z",
-      "founded": "2007-08-01",
-      "city": "MARSEILLE",
+      "naf": "62.02A",
+      "founded": "2000-05-02",
+      "city": "AUBAGNE",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
       "officers": [],
       "accounts": null,
-      "siegeSince": "2007-08-01",
-      "active": true,
+      "siegeSince": "2002-05-01",
+      "active": false,
       "confidence": "low",
       "scorerVersion": 5,
-      "score": 3,
+      "score": 1,
       "reasons": [
         "name prefix",
         "no declared employees",
         "dept 13",
-        "active",
-        "siege since 2007"
+        "ceased",
+        "tech NAF",
+        "siege since 2002"
       ],
-      "alternatives": [
-        "431282961 ACCES TELECOM MULTIMEDIA (ATM) (1)"
-      ]
+      "alternatives": []
     },
     "ACCREDIBLE": {
       "name": "Accredible",
@@ -30854,8 +30858,8 @@
         "siege since 2021"
       ],
       "alternatives": [
-        "353097017 FAKS (3)",
-        "843521543 FAKS (3)"
+        "843521543 FAKS (3)",
+        "353097017 FAKS (3)"
       ]
     },
     "FAKTUS": {
@@ -31079,7 +31083,7 @@
       ],
       "alternatives": [
         "990258162 FEELS (FEELS) (7)",
-        "897491106 FEELS RECORDS (6)"
+        "882412950 FEELS GOOD (5)"
       ]
     },
     "FENIX ENERGY": {
@@ -32145,7 +32149,7 @@
       ],
       "alternatives": [
         "949417547 FRAICHE TEA (7)",
-        "900095480 FRAICHE CONNECTION (6)"
+        "483248860 FRAICHE-CUT (6)"
       ]
     },
     "FRED DE LA COMPTA": {
@@ -67557,7 +67561,7 @@
       },
       "portfolioCountry": "France",
       "website": "http://rivage.immo",
-      "blurb": null,
+      "blurb": "SaaS immobilier pour les administrateurs de biens",
       "status": "resolved",
       "siren": "940386303",
       "legalName": "RIVAGE",
@@ -67598,19 +67602,6 @@
       },
       "portfolioCountry": "United States of America",
       "website": "http://rivermarkets.com",
-      "blurb": null,
-      "status": "not-found"
-    },
-    "SEROMLABS": {
-      "name": "SeromLabs",
-      "funds": [
-        "kima"
-      ],
-      "holdings": {
-        "kima": "unknown"
-      },
-      "portfolioCountry": "France",
-      "website": "http://serom.fr",
       "blurb": null,
       "status": "not-found"
     },
@@ -67835,6 +67826,19 @@
       "portfolioCountry": "United States of America",
       "website": "http://xybrid.ai",
       "blurb": "High performance inference for edge-devices",
+      "status": "not-found"
+    },
+    "SEROM LABS": {
+      "name": "Serom Labs",
+      "funds": [
+        "kima"
+      ],
+      "holdings": {
+        "kima": "unknown"
+      },
+      "portfolioCountry": "France",
+      "website": "http://seromlabs.com",
+      "blurb": "All in one health supplements for women",
       "status": "not-found"
     }
   }
