@@ -6217,7 +6217,7 @@
       "website": "https://plumerai.com",
       "blurb": "Powerful AI for trillions of edge devices",
       "status": "no-name-match",
-      "candidates": 13
+      "candidates": 12
     },
     "POPMEALS": {
       "name": "Popmeals",
@@ -6287,7 +6287,7 @@
       ],
       "alternatives": [
         "851155390 PRESTI' JANTES (PRESTI' JANTES) (7)",
-        "514431055 PRESTI TP (6)"
+        "790116214 PRESTI COLOR (6)"
       ]
     },
     "PRIMARYIO": {
@@ -14237,23 +14237,18 @@
       "website": "https://www.welcometothejungle.com/en/companies/xange",
       "blurb": "Bergamotte delivers fresh, sustainably-sourced indoor & outdoor plants through an e-commerce platform. Combining design expertise with direct-to-door plant care",
       "status": "ambiguous",
-      "siren": "844263285",
+      "siren": "504823022",
       "legalName": "BERGAMOTTE",
       "department": "34",
-      "naf": "66.30Z",
-      "founded": "2018-11-02",
+      "naf": "94.99Z",
+      "founded": "2008-05-01",
       "city": "MONTPELLIER",
       "country": "France",
       "headcount": "NN",
-      "sizeCategory": "PME",
+      "sizeCategory": null,
       "officers": [],
-      "accounts": {
-        "2020": {
-          "ca": 0,
-          "resultat_net": -10486
-        }
-      },
-      "siegeSince": "2018-11-02",
+      "accounts": null,
+      "siegeSince": "2008-05-01",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -14263,10 +14258,10 @@
         "no declared employees",
         "dept 34",
         "active",
-        "siege since 2018"
+        "siege since 2008"
       ],
       "alternatives": [
-        "504823022 BERGAMOTTE (5)",
+        "844263285 BERGAMOTTE (5)",
         "312538838 BERGAMOTTE (2)"
       ]
     },
@@ -14296,18 +14291,18 @@
       "website": "https://www.welcometothejungle.com/en/companies/xange",
       "blurb": "Chauffeur Privé, now part of FREE NOW, provides private car services across Europe, uniting taxis, private drivers and micromobility in a single seamless app.",
       "status": "ambiguous",
-      "siren": "931154389",
+      "siren": "903173144",
       "legalName": "CHAUFFEUR PRIVE",
       "department": "59",
       "naf": "49.32Z",
-      "founded": "2024-07-22",
-      "city": "LILLE",
+      "founded": "2021-09-10",
+      "city": "WAZIERS",
       "country": "France",
       "headcount": "NN",
-      "sizeCategory": null,
+      "sizeCategory": "PME",
       "officers": [],
       "accounts": null,
-      "siegeSince": "2024-07-22",
+      "siegeSince": "2021-09-10",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -14318,10 +14313,10 @@
         "dept 59",
         "active",
         "shell-shaped NAF 49.32Z",
-        "siege since 2024"
+        "siege since 2021"
       ],
       "alternatives": [
-        "903173144 CHAUFFEUR PRIVE (1)",
+        "931154389 CHAUFFEUR PRIVE (1)",
         "813933223 CHAUFFEUR PRIVE (0)"
       ]
     },
@@ -18303,7 +18298,7 @@
       ],
       "alternatives": [
         "880879440 WILGO ABETAUW (SERIE L OUEST DE MARONI) (3)",
-        "884127648 WILGO AFATA (ENTREPRISE AFATA & FILS) (3)"
+        "501365944 WILGO MISIDJAN (MO KONTAN LANATYR) (3)"
       ]
     },
     "WITCO": {
@@ -21911,31 +21906,32 @@
       "website": "http://accesinternet.ca",
       "blurb": "We provide great Internet services in Canada's small cities",
       "status": "resolved",
-      "siren": "431282961",
-      "legalName": "ACCES TELECOM MULTIMEDIA (ATM)",
+      "siren": "499447605",
+      "legalName": "ACCES TELECOM INTERNATIONAL (A T I)",
       "department": "13",
-      "naf": "62.02A",
-      "founded": "2000-05-02",
-      "city": "AUBAGNE",
+      "naf": "46.52Z",
+      "founded": "2007-08-01",
+      "city": "MARSEILLE",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
       "officers": [],
       "accounts": null,
-      "siegeSince": "2002-05-01",
-      "active": false,
+      "siegeSince": "2007-08-01",
+      "active": true,
       "confidence": "low",
       "scorerVersion": 5,
-      "score": 1,
+      "score": 3,
       "reasons": [
         "name prefix",
         "no declared employees",
         "dept 13",
-        "ceased",
-        "tech NAF",
-        "siege since 2002"
+        "active",
+        "siege since 2007"
       ],
-      "alternatives": []
+      "alternatives": [
+        "431282961 ACCES TELECOM MULTIMEDIA (ATM) (1)"
+      ]
     },
     "ACCREDIBLE": {
       "name": "Accredible",
@@ -30858,8 +30854,8 @@
         "siege since 2021"
       ],
       "alternatives": [
-        "843521543 FAKS (3)",
-        "353097017 FAKS (3)"
+        "353097017 FAKS (3)",
+        "843521543 FAKS (3)"
       ]
     },
     "FAKTUS": {
@@ -31083,7 +31079,7 @@
       ],
       "alternatives": [
         "990258162 FEELS (FEELS) (7)",
-        "882412950 FEELS GOOD (5)"
+        "897491106 FEELS RECORDS (6)"
       ]
     },
     "FENIX ENERGY": {
@@ -32149,7 +32145,7 @@
       ],
       "alternatives": [
         "949417547 FRAICHE TEA (7)",
-        "483248860 FRAICHE-CUT (6)"
+        "900095480 FRAICHE CONNECTION (6)"
       ]
     },
     "FRED DE LA COMPTA": {
@@ -33961,8 +33957,8 @@
         "siege since 2025"
       ],
       "alternatives": [
-        "824308944 HOMELOC (1)",
-        "924854151 HOMELOC (1)"
+        "924854151 HOMELOC (1)",
+        "824308944 HOMELOC (1)"
       ]
     },
     "HOMEWINGS": {
