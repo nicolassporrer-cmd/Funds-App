@@ -212,6 +212,27 @@ td { padding: 8px 10px 8px 0; border-bottom: 1px solid var(--rule); vertical-ali
 .filters input { min-width: 210px; }
 .filters input:focus, .filters select:focus { outline: none; border-bottom-color: var(--rule-strong); }
 
+
+/* --- the deal log: the date is the organising fact, so it gets the structure */
+.quarter{display:flex;align-items:baseline;gap:14px;margin:32px 0 0;padding-bottom:5px;border-bottom:1px solid var(--rule-strong)}
+.quarter h2{margin:0;border:0;padding:0;font-size:13px;letter-spacing:.16em;text-transform:uppercase;font-weight:400;color:var(--ink)}
+.quarter .age{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--quiet)}
+.quarter .n{margin-left:auto;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:11px;color:var(--quiet)}
+.deal{display:grid;grid-template-columns:96px minmax(180px,1fr) minmax(0,1.4fr) 90px 92px;gap:0 18px;padding:11px 0;border-bottom:1px solid var(--rule);align-items:baseline;cursor:pointer}
+.deal:hover{background:var(--paper-2)}
+.deal .date{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12.5px;color:var(--ink-soft);white-space:nowrap}
+.deal .reg{display:block;font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;margin-top:2px}
+.reg-FR{color:var(--moderate)} .reg-US{color:var(--recent)}
+.deal .co-name{font-size:16.5px}
+.deal .sub{display:block;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:11px;color:var(--quiet);margin-top:2px}
+.deal .does{font-size:13px;color:var(--ink-soft)}
+.deal .amount{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:14px;font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+.deal .flag{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;text-align:right;white-space:nowrap}
+.f-due{color:var(--strong);font-weight:700} .f-soon{color:var(--moderate)} .f-later{color:var(--recent)}
+.mark{display:inline-block;margin-top:3px;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--strong)}
+.detail-inline{background:var(--paper-2);padding:14px 18px 18px;border-bottom:1px solid var(--rule)}
+@media (max-width:860px){.deal{grid-template-columns:86px 1fr 84px}.deal .does,.deal .amount{display:none}}
+
 .caveats { margin-top: 46px; border-top: 3px double var(--rule-strong); padding-top: 16px; }
 .caveats ol { margin: 0; padding-left: 1.3em; }
 .caveats li { font-size: 13px; color: var(--ink-soft); margin-bottom: 9px; max-width: 92ch; }
@@ -229,7 +250,7 @@ td { padding: 8px 10px 8px 0; border-bottom: 1px solid var(--rule); vertical-ali
 
 const html = `<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Funds App — which Paris portfolio companies are about to raise</title>
+<title>Funds App — Paris and New York deal log</title>
 <meta name="description" content="Companies in ${payload.totals.funds} Paris VC portfolios showing signs of raising again, dated from the French commercial register.">
 <style>${CSS}</style>
 <div class="sheet">
@@ -243,7 +264,8 @@ const html = `<meta charset="utf-8">
       <span>${payload.totals.roundCandidates} rounds dated</span>
     </div>
     <nav class="nav">
-      <a href="#/">Raising soon</a>
+      <a href="#/">Deal log</a>
+      <a href="#/signals">Raise signals</a>
       <a href="#/funds">The funds</a>
     </nav>
   </header>

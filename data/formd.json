@@ -1,0 +1,3010 @@
+{
+  "generatedAt": "2026-09-15T17:11:22.868Z",
+  "companies": {
+    "ENIGMA": {
+      "name": "Enigma",
+      "cik": "0001547343",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2012-04-04",
+          "filedAt": "2012-04-17",
+          "amountSold": 815000,
+          "amountOffered": 1250000,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2013-08-30",
+          "filedAt": "2014-02-12",
+          "amountSold": 4539888,
+          "amountOffered": 4539888,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2015-03-18",
+          "filedAt": "2015-07-06",
+          "amountSold": 28207227,
+          "amountOffered": 28207227,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "MOAT": {
+      "name": "Moat",
+      "cik": "0001528160",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2012-04-05",
+          "filedAt": "2012-04-20",
+          "amountSold": 13539491,
+          "amountOffered": 15139491,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "SYNTAX": {
+      "name": "Syntax",
+      "cik": "0001580968",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2025-12-22",
+          "filedAt": "2026-01-07",
+          "amountSold": 1655885,
+          "amountOffered": 6000000,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "VELOCITY": {
+      "name": "Velocity",
+      "cik": "0001900096",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2021-12-03",
+          "filedAt": "2026-04-09",
+          "amountSold": 65200000,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 6
+        }
+      ]
+    },
+    "SILK": {
+      "name": "Silk",
+      "cik": "0001816773",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2020-07-07",
+          "filedAt": "2020-07-07",
+          "amountSold": null,
+          "amountOffered": 10000000,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2022-09-28",
+          "filedAt": "2022-09-28",
+          "amountSold": null,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "SHELF": {
+      "name": "Shelf",
+      "cik": "0001761686",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2018-12-04",
+          "filedAt": "2018-12-13",
+          "amountSold": 1385447,
+          "amountOffered": 1385447,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "SHOGUN": {
+      "name": "Shogun",
+      "cik": "0001749031",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2018-10-31",
+          "filedAt": "2018-10-31",
+          "amountSold": null,
+          "amountOffered": 10000000,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "JASPER": {
+      "name": "Jasper",
+      "cik": "0001283488",
+      "state": "NY",
+      "funds": [
+        "insight",
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "1999-04-01",
+          "filedAt": "2019-11-22",
+          "amountSold": 45766000,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 11
+        }
+      ]
+    },
+    "PERIMETER": {
+      "name": "Perimeter",
+      "cik": "0001515180",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2011-03-04",
+          "filedAt": "2011-03-29",
+          "amountSold": 1000000,
+          "amountOffered": 1000000,
+          "industry": "Investing",
+          "revenueRange": "$1 - $1,000,000",
+          "amendments": 0
+        },
+        {
+          "date": "2011-06-27",
+          "filedAt": "2011-07-22",
+          "amountSold": 1000000,
+          "amountOffered": 5000000,
+          "industry": "Investing",
+          "revenueRange": "$1 - $1,000,000",
+          "amendments": 0
+        }
+      ]
+    },
+    "JELLYFISH": {
+      "name": "Jellyfish",
+      "cik": "0002038648",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2024-09-25",
+          "filedAt": "2024-09-25",
+          "amountSold": null,
+          "amountOffered": 1600000,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "REWIND": {
+      "name": "Rewind",
+      "cik": "0001559750",
+      "state": "NY",
+      "funds": [
+        "insight",
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2012-04-20",
+          "filedAt": "2012-10-09",
+          "amountSold": 800208,
+          "amountOffered": 800208,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "ALMA": {
+      "name": "Alma",
+      "cik": "0002131797",
+      "state": "NY",
+      "funds": [
+        "insight",
+        "primary"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2026-04-01",
+          "filedAt": "2026-04-28",
+          "amountSold": 10575000,
+          "amountOffered": 10575000,
+          "industry": "Manufacturing",
+          "revenueRange": "No Revenues",
+          "amendments": 0
+        }
+      ]
+    },
+    "MOONFARE": {
+      "name": "Moonfare",
+      "cik": "0001980801",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2023-04-17",
+          "filedAt": "2023-06-21",
+          "amountSold": 3770127,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "SATURN": {
+      "name": "Saturn",
+      "cik": "0001788630",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2021-08-03",
+          "filedAt": "2021-08-17",
+          "amountSold": 6500000,
+          "amountOffered": 6500000,
+          "industry": "Computers",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "FLANK": {
+      "name": "Flank",
+      "cik": "0001776490",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2019-05-10",
+          "filedAt": "2019-05-10",
+          "amountSold": null,
+          "amountOffered": 90000000,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2019-06-05",
+          "filedAt": "2020-05-07",
+          "amountSold": 60451000,
+          "amountOffered": 90000000,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 1
+        }
+      ]
+    },
+    "ATLAN": {
+      "name": "Atlan",
+      "cik": "0001817985",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2020-07-01",
+          "filedAt": "2020-07-21",
+          "amountSold": 412500,
+          "amountOffered": 412500,
+          "industry": "Other",
+          "revenueRange": "Not Applicable",
+          "amendments": 1
+        }
+      ]
+    },
+    "TURING": {
+      "name": "Turing",
+      "cik": "0001723859",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2017-11-17",
+          "filedAt": "2017-12-01",
+          "amountSold": 856508,
+          "amountOffered": 2101438,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2021-07-19",
+          "filedAt": "2021-08-04",
+          "amountSold": 9356373,
+          "amountOffered": 11091369,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "CRED": {
+      "name": "Cred",
+      "cik": "0001763287",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2018-12-20",
+          "filedAt": "2019-01-07",
+          "amountSold": 125000,
+          "amountOffered": 125000,
+          "industry": "REITS and Finance",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "AGORA": {
+      "name": "Agora",
+      "cik": "0001660488",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2015-11-27",
+          "filedAt": "2015-12-10",
+          "amountSold": 539000,
+          "amountOffered": 539000,
+          "industry": "Other",
+          "revenueRange": "No Revenues",
+          "amendments": 0
+        }
+      ]
+    },
+    "WIZ": {
+      "name": "Wiz",
+      "cik": "0001660141",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2015-12-08",
+          "filedAt": "2015-12-08",
+          "amountSold": null,
+          "amountOffered": 220000,
+          "industry": "Other",
+          "revenueRange": "Not Applicable",
+          "amendments": 0
+        }
+      ]
+    },
+    "BIONIC": {
+      "name": "Bionic",
+      "cik": "0001577570",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2013-05-10",
+          "filedAt": "2013-05-23",
+          "amountSold": 440000,
+          "amountOffered": 3000000,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "ROOT": {
+      "name": "Root",
+      "cik": "0002084368",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2025-08-28",
+          "filedAt": "2025-09-05",
+          "amountSold": 3950000,
+          "amountOffered": 4000000,
+          "industry": "Other",
+          "revenueRange": "$1,000,001 - $5,000,000",
+          "amendments": 0
+        }
+      ]
+    },
+    "UNIFORM": {
+      "name": "Uniform",
+      "cik": "0001742566",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2018-06-21",
+          "filedAt": "2018-06-21",
+          "amountSold": null,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "ISLAND": {
+      "name": "Island",
+      "cik": "0001716680",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2017-10-02",
+          "filedAt": "2017-10-04",
+          "amountSold": 142500,
+          "amountOffered": 142500,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "PRELUDE": {
+      "name": "Prelude",
+      "cik": "0001502740",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2010-10-01",
+          "filedAt": "2012-09-11",
+          "amountSold": 44521792,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 2
+        }
+      ]
+    },
+    "DASH": {
+      "name": "Dash",
+      "cik": "0001737909",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2018-08-31",
+          "filedAt": "2018-09-14",
+          "amountSold": 159466,
+          "amountOffered": 2930000,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "POMELO": {
+      "name": "Pomelo",
+      "cik": "0001543249",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2012-02-27",
+          "filedAt": "2012-02-27",
+          "amountSold": null,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2012-04-13",
+          "filedAt": "2018-03-02",
+          "amountSold": 38385844,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 7
+        }
+      ]
+    },
+    "FORA": {
+      "name": "Fora",
+      "cik": "0001746162",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2018-07-01",
+          "filedAt": "2019-08-13",
+          "amountSold": 1700000,
+          "amountOffered": 2000000,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 1
+        },
+        {
+          "date": "2020-02-25",
+          "filedAt": "2020-03-06",
+          "amountSold": 3000000,
+          "amountOffered": 3000000,
+          "industry": "Agriculture",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "MOTIVE": {
+      "name": "Motive",
+      "cik": "0001922191",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2022-04-07",
+          "filedAt": "2022-04-07",
+          "amountSold": null,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "GREENLITE": {
+      "name": "Greenlite",
+      "cik": "0002039238",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2024-06-11",
+          "filedAt": "2024-09-27",
+          "amountSold": 15999984,
+          "amountOffered": 15999984,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "LYRIC": {
+      "name": "Lyric",
+      "cik": "0001893494",
+      "state": "NY",
+      "funds": [
+        "insight",
+        "primary"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2021-11-18",
+          "filedAt": "2021-11-18",
+          "amountSold": null,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "DARWIN": {
+      "name": "Darwin",
+      "cik": "0001702567",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2017-02-23",
+          "filedAt": "2017-04-06",
+          "amountSold": 1000000,
+          "amountOffered": 1000000,
+          "industry": "Other Health Care",
+          "revenueRange": "$1,000,001 - $5,000,000",
+          "amendments": 0
+        }
+      ]
+    },
+    "GLASS": {
+      "name": "Glass",
+      "cik": "0001621592",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2014-09-30",
+          "filedAt": "2014-10-08",
+          "amountSold": 192500,
+          "amountOffered": 898000,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "FANATICS": {
+      "name": "Fanatics",
+      "cik": "0001547955",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2012-06-06",
+          "filedAt": "2012-06-21",
+          "amountSold": 150000061,
+          "amountOffered": 150000061,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2020-08-13",
+          "filedAt": "2021-09-10",
+          "amountSold": 350000018,
+          "amountOffered": 350000018,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 1
+        },
+        {
+          "date": "2021-04-29",
+          "filedAt": "2021-09-10",
+          "amountSold": 322556741,
+          "amountOffered": 322556741,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 1
+        },
+        {
+          "date": "2021-08-27",
+          "filedAt": "2021-09-10",
+          "amountSold": 336580477,
+          "amountOffered": 345000000,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2021-12-15",
+          "filedAt": "2022-12-23",
+          "amountSold": 1539572533,
+          "amountOffered": 1539572533,
+          "industry": "Retailing",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2022-10-24",
+          "filedAt": "2022-12-23",
+          "amountSold": 685485212,
+          "amountOffered": null,
+          "industry": "Retailing",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "DATACORE": {
+      "name": "Datacore",
+      "cik": "0001646652",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2015-06-30",
+          "filedAt": "2015-06-30",
+          "amountSold": null,
+          "amountOffered": 500000,
+          "industry": "Other Banking and Financial Services",
+          "revenueRange": "No Revenues",
+          "amendments": 0
+        },
+        {
+          "date": "2016-03-24",
+          "filedAt": "2016-03-24",
+          "amountSold": 780000,
+          "amountOffered": 3000000,
+          "industry": "Other Banking and Financial Services",
+          "revenueRange": "No Revenues",
+          "amendments": 1
+        }
+      ]
+    },
+    "FOURTH": {
+      "name": "Fourth",
+      "cik": "0001841682",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2020-12-30",
+          "filedAt": "2021-02-03",
+          "amountSold": 26500000,
+          "amountOffered": 26500000,
+          "industry": "Other Real Estate",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "STORABLE": {
+      "name": "Storable",
+      "cik": "0001857048",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2021-04-15",
+          "filedAt": "2021-04-15",
+          "amountSold": null,
+          "amountOffered": null,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2022-05-13",
+          "filedAt": "2022-05-13",
+          "amountSold": null,
+          "amountOffered": null,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2026-07-14",
+          "filedAt": "2026-07-14",
+          "amountSold": null,
+          "amountOffered": null,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "MURAL": {
+      "name": "Mural",
+      "cik": "0001919300",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2022-02-26",
+          "filedAt": "2022-03-24",
+          "amountSold": 52500,
+          "amountOffered": 52500,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "SIMPLY": {
+      "name": "Simply",
+      "cik": "0001589895",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2013-10-08",
+          "filedAt": "2013-10-24",
+          "amountSold": 300000,
+          "amountOffered": 300000,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "ILLUMINATE EDUCATION": {
+      "name": "Illuminate Education",
+      "cik": "0001750738",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2018-07-16",
+          "filedAt": "2021-08-09",
+          "amountSold": 40591770,
+          "amountOffered": null,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 3
+        }
+      ]
+    },
+    "BUBBLE": {
+      "name": "Bubble",
+      "cik": "0001850749",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2021-02-22",
+          "filedAt": "2021-03-17",
+          "amountSold": 1040000,
+          "amountOffered": 1040000,
+          "industry": "Other",
+          "revenueRange": "Not Applicable",
+          "amendments": 0
+        }
+      ]
+    },
+    "WRITER": {
+      "name": "Writer",
+      "cik": "0001540702",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2012-01-17",
+          "filedAt": "2012-01-30",
+          "amountSold": 57500,
+          "amountOffered": 250000,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "RITUAL": {
+      "name": "Ritual",
+      "cik": "0001979447",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2023-05-19",
+          "filedAt": "2023-06-02",
+          "amountSold": 4766194,
+          "amountOffered": 5200000,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "REAL": {
+      "name": "Real",
+      "cik": "0001329218",
+      "state": "NY",
+      "funds": [
+        "insight"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2013-12-19",
+          "filedAt": "2013-12-20",
+          "amountSold": null,
+          "amountOffered": 10000000,
+          "industry": "Other",
+          "revenueRange": "$1 - $1,000,000",
+          "amendments": 0
+        }
+      ]
+    },
+    "LANTERN": {
+      "name": "Lantern",
+      "cik": "0001989931",
+      "state": "NY",
+      "funds": [
+        "insight",
+        "primary"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2023-10-30",
+          "filedAt": "2023-11-13",
+          "amountSold": 500000,
+          "amountOffered": 2500000,
+          "industry": "Other Health Care",
+          "revenueRange": "No Revenues",
+          "amendments": 0
+        }
+      ]
+    },
+    "CRI": {
+      "name": "Cri",
+      "cik": "0001411546",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2009-07-10",
+          "filedAt": "2009-07-21",
+          "amountSold": 1000000,
+          "amountOffered": 1000000,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "CURRENT": {
+      "name": "Current",
+      "cik": "0001880292",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2021-08-27",
+          "filedAt": "2021-08-27",
+          "amountSold": 250000,
+          "amountOffered": 2000000,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": "Not Applicable",
+          "amendments": 0
+        },
+        {
+          "date": "2024-09-09",
+          "filedAt": "2024-09-24",
+          "amountSold": 585000,
+          "amountOffered": 1000000,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": "Not Applicable",
+          "amendments": 0
+        }
+      ]
+    },
+    "TOAST": {
+      "name": "Toast",
+      "cik": "0001760986",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2017-05-23",
+          "filedAt": "2019-04-12",
+          "amountSold": 4252166,
+          "amountOffered": 9677166,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "TRAJECTORY": {
+      "name": "Trajectory",
+      "cik": "0002004031",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2023-12-18",
+          "filedAt": "2023-12-18",
+          "amountSold": null,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2023-12-19",
+          "filedAt": "2024-12-16",
+          "amountSold": 20100000,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 1
+        }
+      ]
+    },
+    "TILE": {
+      "name": "Tile",
+      "cik": "0001498199",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2010-08-06",
+          "filedAt": "2010-08-16",
+          "amountSold": 1314000,
+          "amountOffered": 1314000,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "BEYOND": {
+      "name": "Beyond",
+      "cik": "0002022217",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2024-05-23",
+          "filedAt": "2024-05-23",
+          "amountSold": null,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "HATCH": {
+      "name": "Hatch",
+      "cik": "0001712789",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2017-04-20",
+          "filedAt": "2017-12-14",
+          "amountSold": 1780000,
+          "amountOffered": 1850000,
+          "industry": "Retailing",
+          "revenueRange": null,
+          "amendments": 1
+        },
+        {
+          "date": "2018-11-28",
+          "filedAt": "2019-03-22",
+          "amountSold": 1535640,
+          "amountOffered": 2000000,
+          "industry": "Retailing",
+          "revenueRange": null,
+          "amendments": 1
+        },
+        {
+          "date": "2019-04-30",
+          "filedAt": "2019-05-14",
+          "amountSold": 5163454,
+          "amountOffered": 5163454,
+          "industry": "Retailing",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "CENTS": {
+      "name": "Cents",
+      "cik": "0001691707",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2016-11-25",
+          "filedAt": "2016-12-12",
+          "amountSold": 96000,
+          "amountOffered": 350000,
+          "industry": "Other Technology",
+          "revenueRange": "No Revenues",
+          "amendments": 0
+        }
+      ]
+    },
+    "MANTA": {
+      "name": "Manta",
+      "cik": "0001789595",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2019-09-17",
+          "filedAt": "2019-10-02",
+          "amountSold": 3999998,
+          "amountOffered": 3999998,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2020-08-10",
+          "filedAt": "2020-08-21",
+          "amountSold": 12999997,
+          "amountOffered": 12999997,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "JINGLE": {
+      "name": "Jingle",
+      "cik": "0001492524",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2010-05-11",
+          "filedAt": "2010-06-02",
+          "amountSold": 900000,
+          "amountOffered": 900000,
+          "industry": "Other Technology",
+          "revenueRange": "$1,000,001 - $5,000,000",
+          "amendments": 0
+        }
+      ]
+    },
+    "PAVE": {
+      "name": "Pave",
+      "cik": "0001547118",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2012-03-28",
+          "filedAt": "2012-04-11",
+          "amountSold": 100,
+          "amountOffered": 100,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2012-10-15",
+          "filedAt": "2012-10-30",
+          "amountSold": 4975000,
+          "amountOffered": 6058997,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2016-02-29",
+          "filedAt": "2016-03-14",
+          "amountSold": 5600063,
+          "amountOffered": 9412499,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "VALENCE": {
+      "name": "Valence",
+      "cik": "0001544406",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2012-03-14",
+          "filedAt": "2012-03-14",
+          "amountSold": null,
+          "amountOffered": 175000000,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2012-03-30",
+          "filedAt": "2013-03-14",
+          "amountSold": 60800000,
+          "amountOffered": 175000000,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 1
+        }
+      ]
+    },
+    "FERN": {
+      "name": "Fern",
+      "cik": "0001753580",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2018-09-19",
+          "filedAt": "2018-09-19",
+          "amountSold": null,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "SPIRE": {
+      "name": "Spire",
+      "cik": "0001573920",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2013-03-29",
+          "filedAt": "2015-04-14",
+          "amountSold": 325675000,
+          "amountOffered": 325675000,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 3
+        }
+      ]
+    },
+    "ACQUIRE": {
+      "name": "Acquire",
+      "cik": "0001666754",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2016-02-16",
+          "filedAt": "2016-02-16",
+          "amountSold": null,
+          "amountOffered": 1050000,
+          "industry": "Commercial",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "RAMP": {
+      "name": "Ramp",
+      "cik": "0001803782",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2019-06-28",
+          "filedAt": "2020-02-26",
+          "amountSold": 4499996,
+          "amountOffered": 4499996,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2020-01-15",
+          "filedAt": "2020-02-26",
+          "amountSold": 15494931,
+          "amountOffered": 15494931,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2020-08-31",
+          "filedAt": "2020-12-29",
+          "amountSold": 31874853,
+          "amountOffered": 31874853,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2021-03-17",
+          "filedAt": "2021-04-09",
+          "amountSold": 65689108,
+          "amountOffered": 65689108,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2021-08-06",
+          "filedAt": "2021-09-08",
+          "amountSold": 350749955,
+          "amountOffered": 350749955,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2021-12-30",
+          "filedAt": "2022-04-05",
+          "amountSold": 198279780,
+          "amountOffered": 210759810,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2023-08-22",
+          "filedAt": "2023-12-14",
+          "amountSold": 339000000,
+          "amountOffered": 339000000,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2024-04-25",
+          "filedAt": "2024-05-10",
+          "amountSold": 156109975,
+          "amountOffered": 157449975,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2025-06-16",
+          "filedAt": "2025-08-05",
+          "amountSold": 199999557,
+          "amountOffered": 199999557,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2025-07-28",
+          "filedAt": "2025-08-20",
+          "amountSold": 514088705,
+          "amountOffered": 599999270,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2025-11-17",
+          "filedAt": "2025-12-29",
+          "amountSold": 311722380,
+          "amountOffered": 311759100,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2026-06-01",
+          "filedAt": "2026-06-17",
+          "amountSold": 781998720,
+          "amountOffered": 868313280,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "NPM": {
+      "name": "Npm",
+      "cik": "0002087926",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2025-08-28",
+          "filedAt": "2025-09-24",
+          "amountSold": 9525990,
+          "amountOffered": 9525990,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "ELECTRIC": {
+      "name": "Electric",
+      "cik": "0001687058",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2016-09-30",
+          "filedAt": "2016-10-13",
+          "amountSold": 1018999,
+          "amountOffered": 2000000,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2017-09-22",
+          "filedAt": "2017-10-06",
+          "amountSold": 1000000,
+          "amountOffered": 1000000,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2018-03-14",
+          "filedAt": "2018-03-28",
+          "amountSold": 9250002,
+          "amountOffered": 9250002,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2019-01-08",
+          "filedAt": "2019-01-23",
+          "amountSold": 23099999,
+          "amountOffered": 25000000,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2020-03-06",
+          "filedAt": "2020-05-08",
+          "amountSold": 20460851,
+          "amountOffered": 21500002,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 1
+        },
+        {
+          "date": "2021-02-12",
+          "filedAt": "2021-02-24",
+          "amountSold": 39999998,
+          "amountOffered": 39999998,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2021-10-14",
+          "filedAt": "2021-10-28",
+          "amountSold": 90000002,
+          "amountOffered": 90000002,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2022-03-24",
+          "filedAt": "2022-08-22",
+          "amountSold": 23350001,
+          "amountOffered": 23350001,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 1
+        }
+      ]
+    },
+    "BETTERMENT": {
+      "name": "Betterment",
+      "cik": "0001508388",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2010-11-23",
+          "filedAt": "2010-12-20",
+          "amountSold": 3000000,
+          "amountOffered": 3000000,
+          "industry": "Other Banking and Financial Services",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2014-04-02",
+          "filedAt": "2014-04-16",
+          "amountSold": 30038315,
+          "amountOffered": 32000000,
+          "industry": "Other Banking and Financial Services",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2015-02-18",
+          "filedAt": "2015-02-23",
+          "amountSold": 60000000,
+          "amountOffered": 60000000,
+          "industry": "Other Banking and Financial Services",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2016-03-29",
+          "filedAt": "2016-04-12",
+          "amountSold": 91999956,
+          "amountOffered": 99999967,
+          "industry": "Other Banking and Financial Services",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2017-08-23",
+          "filedAt": "2017-09-01",
+          "amountSold": 69999997,
+          "amountOffered": 69999997,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2021-09-24",
+          "filedAt": "2021-10-08",
+          "amountSold": 59999997,
+          "amountOffered": 59999997,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "NYM": {
+      "name": "Nym",
+      "cik": "0002044637",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2024-11-14",
+          "filedAt": "2024-11-20",
+          "amountSold": 91000,
+          "amountOffered": 125000,
+          "industry": "REITS and Finance",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "ADA": {
+      "name": "Ada",
+      "cik": "0001447529",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2008-10-01",
+          "filedAt": "2014-10-14",
+          "amountSold": 22681710,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 3
+        }
+      ]
+    },
+    "PORT": {
+      "name": "Port",
+      "cik": "0001872796",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2021-07-22",
+          "filedAt": "2021-07-22",
+          "amountSold": null,
+          "amountOffered": null,
+          "industry": "Commercial",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "KINDRED": {
+      "name": "Kindred",
+      "cik": "0001767505",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2019-02-05",
+          "filedAt": "2019-02-19",
+          "amountSold": 3000000,
+          "amountOffered": 3000000,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2020-01-01",
+          "filedAt": "2020-01-31",
+          "amountSold": 5200000,
+          "amountOffered": 5200000,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "SPRUCE": {
+      "name": "Spruce",
+      "cik": "0001746688",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2018-07-03",
+          "filedAt": "2018-07-18",
+          "amountSold": 15577000,
+          "amountOffered": null,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2021-05-18",
+          "filedAt": "2021-06-02",
+          "amountSold": 59999979,
+          "amountOffered": 59999979,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "SENT": {
+      "name": "Sent",
+      "cik": "0002068880",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2025-05-09",
+          "filedAt": "2025-05-22",
+          "amountSold": 4121612,
+          "amountOffered": 4121612,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2026-06-04",
+          "filedAt": "2026-06-22",
+          "amountSold": 9649977,
+          "amountOffered": 11599974,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "ALLOY": {
+      "name": "Alloy",
+      "cik": "0001922351",
+      "state": "NY",
+      "funds": [
+        "bessemer",
+        "primary"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2022-04-01",
+          "filedAt": "2022-04-15",
+          "amountSold": 20657498,
+          "amountOffered": 20689644,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "PERISCOPE": {
+      "name": "Periscope",
+      "cik": "0001483522",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2010-02-01",
+          "filedAt": "2012-03-06",
+          "amountSold": 17000000,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 2
+        }
+      ]
+    },
+    "NYDIG": {
+      "name": "Nydig",
+      "cik": "0001779988",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2019-07-01",
+          "filedAt": "2020-10-02",
+          "amountSold": 2405749,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 2
+        }
+      ]
+    },
+    "BEVI": {
+      "name": "Bevi",
+      "cik": "0001798258",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2019-12-20",
+          "filedAt": "2020-01-10",
+          "amountSold": 310483,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "SOLOMON": {
+      "name": "Solomon",
+      "cik": "0002079591",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2025-07-21",
+          "filedAt": "2025-08-11",
+          "amountSold": 8500000,
+          "amountOffered": 8500000,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "PANA": {
+      "name": "Pana",
+      "cik": "0001863484",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2021-06-02",
+          "filedAt": "2021-06-07",
+          "amountSold": 615000,
+          "amountOffered": 615000,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "NALA": {
+      "name": "Nala",
+      "cik": "0001983278",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2023-06-14",
+          "filedAt": "2023-07-17",
+          "amountSold": 100000,
+          "amountOffered": null,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "WATERSHED": {
+      "name": "Watershed",
+      "cik": "0001877772",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2021-09-20",
+          "filedAt": "2021-09-20",
+          "amountSold": null,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2021-09-22",
+          "filedAt": "2024-11-27",
+          "amountSold": 24222500,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 3
+        }
+      ]
+    },
+    "UNITED CAPITAL": {
+      "name": "United Capital",
+      "cik": "0001920465",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2022-03-30",
+          "filedAt": "2022-03-30",
+          "amountSold": null,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "LITIFY": {
+      "name": "Litify",
+      "cik": "0002004187",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2023-12-05",
+          "filedAt": "2023-12-18",
+          "amountSold": 19843248,
+          "amountOffered": 19845400,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "COURIER": {
+      "name": "Courier",
+      "cik": "0001876058",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2021-07-21",
+          "filedAt": "2021-08-05",
+          "amountSold": 3950002,
+          "amountOffered": 4000002,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "SCYTALE": {
+      "name": "Scytale",
+      "cik": "0001726463",
+      "state": "NY",
+      "funds": [
+        "bessemer",
+        "workbench"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2017-12-27",
+          "filedAt": "2017-12-27",
+          "amountSold": null,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "VERSE": {
+      "name": "Verse",
+      "cik": "0002105374",
+      "state": "NY",
+      "funds": [
+        "bessemer"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2025-12-19",
+          "filedAt": "2026-01-16",
+          "amountSold": 1431994,
+          "amountOffered": 1581994,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "ARK": {
+      "name": "Ark",
+      "cik": "0001878550",
+      "state": "NY",
+      "funds": [
+        "primary"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2021-09-01",
+          "filedAt": "2022-11-10",
+          "amountSold": 1690000,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 2
+        }
+      ]
+    },
+    "BEDROCK": {
+      "name": "Bedrock",
+      "cik": "0001776646",
+      "state": "NY",
+      "funds": [
+        "primary"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2019-05-28",
+          "filedAt": "2019-05-28",
+          "amountSold": null,
+          "amountOffered": 15000000,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "CASPIAN": {
+      "name": "Caspian",
+      "cik": "0001473965",
+      "state": "NY",
+      "funds": [
+        "primary"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2009-10-01",
+          "filedAt": "2011-10-04",
+          "amountSold": 120000000,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 2
+        }
+      ]
+    },
+    "CHIEF": {
+      "name": "Chief",
+      "cik": "0001969471",
+      "state": "NY",
+      "funds": [
+        "primary"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2023-02-10",
+          "filedAt": "2023-04-10",
+          "amountSold": 5805000,
+          "amountOffered": 5805000,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "ELECTRIC AI": {
+      "name": "Electric AI",
+      "cik": "0001687058",
+      "state": "NY",
+      "funds": [
+        "primary"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2016-09-30",
+          "filedAt": "2016-10-13",
+          "amountSold": 1018999,
+          "amountOffered": 2000000,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2017-09-22",
+          "filedAt": "2017-10-06",
+          "amountSold": 1000000,
+          "amountOffered": 1000000,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2018-03-14",
+          "filedAt": "2018-03-28",
+          "amountSold": 9250002,
+          "amountOffered": 9250002,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2019-01-08",
+          "filedAt": "2019-01-23",
+          "amountSold": 23099999,
+          "amountOffered": 25000000,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2020-03-06",
+          "filedAt": "2020-05-08",
+          "amountSold": 20460851,
+          "amountOffered": 21500002,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 1
+        },
+        {
+          "date": "2021-02-12",
+          "filedAt": "2021-02-24",
+          "amountSold": 39999998,
+          "amountOffered": 39999998,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2021-10-14",
+          "filedAt": "2021-10-28",
+          "amountSold": 90000002,
+          "amountOffered": 90000002,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2022-03-24",
+          "filedAt": "2022-08-22",
+          "amountSold": 23350001,
+          "amountOffered": 23350001,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 1
+        }
+      ]
+    },
+    "EOS": {
+      "name": "Eos",
+      "cik": "0001460966",
+      "state": "NY",
+      "funds": [
+        "primary"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2004-11-01",
+          "filedAt": "2026-01-30",
+          "amountSold": 297380183,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 17
+        }
+      ]
+    },
+    "KINETIC": {
+      "name": "Kinetic",
+      "cik": "0001562749",
+      "state": "NY",
+      "funds": [
+        "primary"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2013-05-30",
+          "filedAt": "2013-06-07",
+          "amountSold": 2250000,
+          "amountOffered": 5000000,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "MARKER": {
+      "name": "Marker",
+      "cik": "0001806679",
+      "state": "NY",
+      "funds": [
+        "primary"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2020-03-16",
+          "filedAt": "2020-03-16",
+          "amountSold": null,
+          "amountOffered": 5000000,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "MIRROR": {
+      "name": "Mirror",
+      "cik": "0001611541",
+      "state": "NY",
+      "funds": [
+        "primary"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2014-06-11",
+          "filedAt": "2014-06-26",
+          "amountSold": 2022185,
+          "amountOffered": 2022185,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2016-04-07",
+          "filedAt": "2016-04-13",
+          "amountSold": 899997,
+          "amountOffered": 1249996,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2017-03-27",
+          "filedAt": "2017-04-05",
+          "amountSold": 674996,
+          "amountOffered": 951619,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "OLLIE": {
+      "name": "Ollie",
+      "cik": "0001762075",
+      "state": "NY",
+      "funds": [
+        "primary"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2019-02-14",
+          "filedAt": "2019-02-27",
+          "amountSold": 1166667,
+          "amountOffered": 3500000,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "OPERATOR": {
+      "name": "Operator",
+      "cik": "0001813222",
+      "state": "NY",
+      "funds": [
+        "primary"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2020-05-13",
+          "filedAt": "2022-04-13",
+          "amountSold": 41366666,
+          "amountOffered": 41366666,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 2
+        }
+      ]
+    },
+    "PLURAL": {
+      "name": "Plural",
+      "cik": "0001431289",
+      "state": "NY",
+      "funds": [
+        "primary"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2008-03-07",
+          "filedAt": "2011-03-11",
+          "amountSold": 22410025,
+          "amountOffered": null,
+          "industry": "Investing",
+          "revenueRange": null,
+          "amendments": 3
+        }
+      ]
+    },
+    "PLY": {
+      "name": "Ply",
+      "cik": "0001924924",
+      "state": "NY",
+      "funds": [
+        "primary"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2022-04-06",
+          "filedAt": "2022-04-21",
+          "amountSold": 1675001,
+          "amountOffered": 2000000,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2023-07-19",
+          "filedAt": "2023-08-03",
+          "amountSold": 4000003,
+          "amountOffered": 4000003,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "REALM": {
+      "name": "Realm",
+      "cik": "0001824650",
+      "state": "NY",
+      "funds": [
+        "primary"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2020-09-01",
+          "filedAt": "2020-09-15",
+          "amountSold": 2950000,
+          "amountOffered": 3000000,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2021-06-30",
+          "filedAt": "2021-07-15",
+          "amountSold": 11999996,
+          "amountOffered": 11999996,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2022-01-18",
+          "filedAt": "2022-01-25",
+          "amountSold": 4499998,
+          "amountOffered": 4499998,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2023-08-22",
+          "filedAt": "2023-08-29",
+          "amountSold": 9713002,
+          "amountOffered": 11999999,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "RELAY": {
+      "name": "Relay",
+      "cik": "0001653734",
+      "state": "NY",
+      "funds": [
+        "primary"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2015-09-21",
+          "filedAt": "2015-10-06",
+          "amountSold": 750000,
+          "amountOffered": 750000,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "SPARKAI": {
+      "name": "Sparkai",
+      "cik": "0001830831",
+      "state": "NY",
+      "funds": [
+        "primary"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2020-10-19",
+          "filedAt": "2020-11-02",
+          "amountSold": 1090000,
+          "amountOffered": 2500000,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2021-11-23",
+          "filedAt": "2021-12-08",
+          "amountSold": 6774990,
+          "amountOffered": 7339989,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "1UP": {
+      "name": "1up",
+      "cik": "0002051442",
+      "state": "NY",
+      "funds": [
+        "rre"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2024-12-27",
+          "filedAt": "2025-01-17",
+          "amountSold": 8622291,
+          "amountOffered": 8622291,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "AMICUS": {
+      "name": "Amicus",
+      "cik": "0001562255",
+      "state": "NY",
+      "funds": [
+        "rre"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2012-10-30",
+          "filedAt": "2012-11-15",
+          "amountSold": 5435662,
+          "amountOffered": null,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "ANOMALY": {
+      "name": "Anomaly",
+      "cik": "0001857620",
+      "state": "NY",
+      "funds": [
+        "rre"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2021-04-23",
+          "filedAt": "2021-04-23",
+          "amountSold": null,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2021-06-01",
+          "filedAt": "2026-04-07",
+          "amountSold": 92187000,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 5
+        }
+      ]
+    },
+    "AVANT": {
+      "name": "Avant",
+      "cik": "0001972528",
+      "state": "NY",
+      "funds": [
+        "rre"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2023-05-12",
+          "filedAt": "2024-12-23",
+          "amountSold": 57450000,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 1
+        }
+      ]
+    },
+    "BETAWORKS": {
+      "name": "Betaworks",
+      "cik": "0001674961",
+      "state": "NY",
+      "funds": [
+        "rre"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2016-04-22",
+          "filedAt": "2016-06-07",
+          "amountSold": 3655000,
+          "amountOffered": 3655000,
+          "industry": "Agriculture",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "BOLT": {
+      "name": "Bolt",
+      "cik": "0001954955",
+      "state": "NY",
+      "funds": [
+        "rre"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2022-11-23",
+          "filedAt": "2022-11-30",
+          "amountSold": 375000,
+          "amountOffered": 1805000,
+          "industry": "Commercial",
+          "revenueRange": "No Revenues",
+          "amendments": 0
+        }
+      ]
+    },
+    "BOWERY FARMING": {
+      "name": "Bowery Farming",
+      "cik": "0001655038",
+      "state": "NY",
+      "funds": [
+        "rre"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2017-04-28",
+          "filedAt": "2017-06-14",
+          "amountSold": 22175364,
+          "amountOffered": 22675361,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2018-12-05",
+          "filedAt": "2018-12-13",
+          "amountSold": 91041974,
+          "amountOffered": 91041974,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2021-05-18",
+          "filedAt": "2021-08-13",
+          "amountSold": 320729584,
+          "amountOffered": 325729613,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 1
+        },
+        {
+          "date": "2022-02-10",
+          "filedAt": "2022-02-25",
+          "amountSold": 8400500,
+          "amountOffered": 8400500,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2023-10-25",
+          "filedAt": "2023-11-09",
+          "amountSold": 85406508,
+          "amountOffered": 220496798,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "BRANCH": {
+      "name": "Branch",
+      "cik": "0001890910",
+      "state": "NY",
+      "funds": [
+        "rre"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2021-10-13",
+          "filedAt": "2021-10-28",
+          "amountSold": 25000005,
+          "amountOffered": 25000005,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "CAMP": {
+      "name": "Camp",
+      "cik": "0002035118",
+      "state": "NY",
+      "funds": [
+        "rre"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2023-10-03",
+          "filedAt": "2026-05-20",
+          "amountSold": 2637500,
+          "amountOffered": 3900000,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 1
+        },
+        {
+          "date": "2024-08-26",
+          "filedAt": "2024-08-26",
+          "amountSold": null,
+          "amountOffered": 3500000,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "CAPITALIZE": {
+      "name": "Capitalize",
+      "cik": "0001808467",
+      "state": "NY",
+      "funds": [
+        "rre"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2020-03-25",
+          "filedAt": "2020-04-06",
+          "amountSold": 2000000,
+          "amountOffered": 2000000,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2020-12-22",
+          "filedAt": "2021-01-06",
+          "amountSold": 12271417,
+          "amountOffered": 12500000,
+          "industry": "Other Technology",
+          "revenueRange": null,
+          "amendments": 0
+        },
+        {
+          "date": "2024-07-02",
+          "filedAt": "2024-08-14",
+          "amountSold": 18701726,
+          "amountOffered": 18701726,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "PETRA": {
+      "name": "Petra",
+      "cik": "0001591808",
+      "state": "NY",
+      "funds": [
+        "workbench"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": true,
+      "rounds": [
+        {
+          "date": "2013-11-01",
+          "filedAt": "2015-11-13",
+          "amountSold": 2710000,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 4
+        },
+        {
+          "date": "2013-11-14",
+          "filedAt": "2013-11-14",
+          "amountSold": null,
+          "amountOffered": null,
+          "industry": "Pooled Investment Fund",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    },
+    "SHIPYARD": {
+      "name": "Shipyard",
+      "cik": "0001828010",
+      "state": "NY",
+      "funds": [
+        "workbench"
+      ],
+      "cikUnverified": false,
+      "isFundVehicle": false,
+      "rounds": [
+        {
+          "date": "2020-09-25",
+          "filedAt": "2020-10-13",
+          "amountSold": 2299999,
+          "amountOffered": 2299999,
+          "industry": "Other",
+          "revenueRange": null,
+          "amendments": 0
+        }
+      ]
+    }
+  },
+  "errors": []
+}

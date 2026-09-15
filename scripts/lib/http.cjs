@@ -25,7 +25,7 @@ async function throttle(host, minGapMs) {
 
 // Fetch with retry. `cacheKey` writes the body to data/raw/ so a re-run while
 // developing an adapter does not re-hammer the fund's website.
-async function get(url, { minGapMs = 250, retries = 3, cacheKey = null, json = false } = {}) {
+async function get(url, { minGapMs = 250, retries = 3, cacheKey = null, json = false, headers = {} } = {}) {
   const cachePath = cacheKey ? path.join(CACHE_DIR, cacheKey) : null;
   if (cachePath && process.env.USE_CACHE === '1' && fs.existsSync(cachePath)) {
     const body = fs.readFileSync(cachePath, 'utf8');
@@ -39,7 +39,9 @@ async function get(url, { minGapMs = 250, retries = 3, cacheKey = null, json = f
     await throttle(host, minGapMs);
     try {
       const res = await fetch(url, {
-        headers: { 'User-Agent': UA, Accept: json ? 'application/json' : 'text/html,*/*' },
+        // SEC requires its own "AppName contact@email" user agent and answers 403
+        // without one, so a caller-supplied header always wins over the browser UA.
+        headers: { 'User-Agent': UA, Accept: json ? 'application/json' : 'text/html,*/*', ...headers },
         redirect: 'follow',
       });
       // 429 and 5xx are worth retrying; a 404 is a wrong URL and never fixes itself.
