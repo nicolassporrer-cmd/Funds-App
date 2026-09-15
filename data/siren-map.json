@@ -55,8 +55,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "346 is a fintech innovator offering embedded pension and savings solutions tailored for gig‑workers and freelancers. Redefining financial security.",
+      "website": null,
+      "blurb": null,
       "status": "no-name-match",
       "candidates": 20
     },
@@ -69,8 +69,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Elum Energy’s AI controllers and software optimise solar-plant and microgrid energy mixes for peak efficiency, reliability and sustainability,",
+      "website": null,
+      "blurb": null,
       "status": "no-name-match",
       "candidates": 20
     },
@@ -83,8 +83,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Discover Sinequa’s AI-powered enterprise search platform, empowering organizations to access and analyze vast data for smarter decisions and innovation.",
+      "website": null,
+      "blurb": null,
       "status": "no-name-match",
       "candidates": 20
     },
@@ -9361,7 +9361,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": "The centralized data platform that democratizes the use of data science and AI",
       "status": "resolved",
       "siren": "791012081",
@@ -9684,7 +9684,7 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://generare.bio/",
+      "website": null,
       "blurb": "Bioactives from nature’s code — accelerating drug discovery with microbe intelligence",
       "status": "resolved",
       "siren": "920335072",
@@ -9997,7 +9997,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": "High-integrity certification and registry for carbon removal credits",
       "status": "resolved",
       "siren": "953273984",
@@ -10325,8 +10325,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://jobs.lever.co/360learning/3c800c89-28af-4e15-af2e-7959a8a9d62a",
-      "blurb": "360Learning’s platform empowers companies to upskill their workforce by enabling internal experts to create, share and refine collaborative online courses.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "ODOO": {
@@ -10338,8 +10338,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Odoo delivers an all-in-one open-source ERP for businesses. integrating CRM, e-commerce, accounting and HR modules with scalability from SMBs to enterprises.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "918484270",
       "legalName": "ODOO CONSULTING (ODOO CONSULTING)",
@@ -10374,15 +10374,17 @@
       "name": "Gleamer",
       "funds": [
         "xange",
-        "kima"
+        "kima",
+        "elaia"
       ],
       "holdings": {
         "xange": "unknown",
-        "kima": "unknown"
+        "kima": "unknown",
+        "elaia": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Gleamer offers AI to assist in medical diagnosis through imaging, accelerating the detection of pathologies and optimizing the radiological workflow.",
+      "website": "http://gleamer.ai",
+      "blurb": "Gleamer develops an AI-powered software to enhance radiologists’ productivity. Our software is able to detect and characterize abnormalities through standard X-rays, and generate a report that radiologist can validate, in a few clicks.",
       "status": "resolved",
       "siren": "834105470",
       "legalName": "GLEAMER",
@@ -10439,8 +10441,8 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://www.welcometothejungle.com/fr/companies/wttj/jobs/group-treasury-accounting-manager_paris",
-      "blurb": "Welcome to the Jungle: XAnge‑backed career media platform providing company insights, job listings and recruitment content to connect talent.",
+      "website": "http://welcometothejungle.co",
+      "blurb": "Digital platform redesigning the job market",
       "status": "no-name-match",
       "candidates": 1
     },
@@ -10453,8 +10455,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Lydia: leading French mobile payment & finance app in XAnge’s portfolio, offering peer-to-peer transfers, banking features & fintech innovation.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "534479589",
       "legalName": "LYDIA SOLUTIONS",
@@ -10515,8 +10517,8 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://jobs.lever.co/ledger/9377374f-771b-476a-93a6-bfdb795629fa",
-      "blurb": "Ledger secures assets with hardware wallets and infrastructure, delivering secure storage and transaction management for consumers and institutions.",
+      "website": "http://ledger.co",
+      "blurb": "Security solutions for Bitcoin and Blockchain applications",
       "status": "resolved",
       "siren": "529991119",
       "legalName": "LEDGER",
@@ -10574,8 +10576,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://indeed.com/cmp/Aerospacelab/jobs",
-      "blurb": "Aerospacelab delivers end-to-end satellite solutions. Developing, manufacturing and operating advanced geospatial tech to provide across industries.",
+      "website": null,
+      "blurb": null,
       "status": "ambiguous",
       "siren": "942188251",
       "legalName": "AEROSPACELAB",
@@ -10633,8 +10635,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Treefrog offers data‑driven urban greening services that improve biodiversity and air quality in cities. Leveraging IoT monitoring and XAnge support to scale",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "844370320",
       "legalName": "TREEFROG THERAPEUTICS",
@@ -10687,8 +10689,8 @@
         "serena": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Implicity’s remote monitoring platform automates connected pacemaker & defibrillator alerts. AI-driven triage of critical events to optimize cardiology care.",
+      "website": "http://implicity.fr",
+      "blurb": "Cloud platform for remote healthcare monitoring of patients",
       "status": "resolved",
       "siren": "820529089",
       "legalName": "IMPLICITY (IMPLICITY)",
@@ -10732,8 +10734,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/fr/companies/ouihelp/jobs/responsable-d-agence-service-d-aide-a-domicile-h-f_strasbourg_OUIHE_06eyg1y",
-      "blurb": "Ouihelp provides bespoke home care for French seniors, fostering independence and peace of mind. Discover their trusted support for your loved ones.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "817947161",
       "legalName": "OUIHELP",
@@ -10789,8 +10791,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://misterspex.wd103.myworkdayjobs.com/Mister_Spex_Careers/job/Krefeld-Germany/Augenoptikermeister-mit-technischer-Leitung--m-w-d--in-Krefeld_JR104505",
-      "blurb": "Mister Spex is Europe’s omnichannel eyewear brand, combining virtual try-on tech, expert service & 40+ stores for a seamless shopping experience.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "529026833",
       "legalName": "MISTER SPEX FRANCE",
@@ -10833,8 +10835,8 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://www.welcometothejungle.com/fr/companies/gladia/jobs/vp-revenue_paris",
-      "blurb": "Gladia propose une plateforme IA d&#x27;analyse de documents et traitement du langage, automatisant l’extraction d’informations pour améliorer la productivité.",
+      "website": "http://gladia.io",
+      "blurb": "Gladia offers a high-accuracy multilingual audio transcription API designed for real-time and asynchronous speech-to-text applications, optimizing productivity across various industries.",
       "status": "resolved",
       "siren": "909935736",
       "legalName": "GLADIA",
@@ -10874,8 +10876,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Raisin’s fintech marketplace connects consumers with competitive savings & investment products from banks across Europe. Unlocking better interest rates.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "817402878",
       "legalName": "RAISIN",
@@ -10915,8 +10917,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/fr/companies/greenly/jobs/senior-product-marketing-manager_paris",
-      "blurb": "Greenly’s carbon accounting SaaS helps businesses track, cut and offset emissions. Discover how this ClimateTech star accelerates your net-zero journey.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "999234222",
       "legalName": "GREENLY DISTRIBUTION",
@@ -10955,8 +10957,8 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "PrestaShop is an innovative e-commerce platform with comprehensive tools to create and grow online stores, offering seamless customization and scalability.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "497916635",
       "legalName": "PRESTASHOP",
@@ -11002,8 +11004,8 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Shine, the neobank for self-employed people and SMEs: integrated banking services and administrative assistance to manage invoicing, finances and compliance.",
+      "website": "http://shine.fr",
+      "blurb": "Shine is a bank account / administrative assistant for freelancers.",
       "status": "resolved",
       "siren": "828701557",
       "legalName": "SHINE FRANCE",
@@ -11061,8 +11063,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Tomorro is a French AI‑powered legaltech transforming contract lifecycle management. Freeing up teams from manual workflows with its Oro assistant.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "12POINT5": {
@@ -11074,8 +11076,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "12point5 converts unused 12.5 m² underground parking spots into secure, shared two‑wheeler hubs in Paris. Backed by XAnge in a $3.7 M seed round.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "ANIMAJ": {
@@ -11091,8 +11093,8 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://www.welcometothejungle.com/fr/companies/animaj/jobs/graphic-designer-mid-with-ai-creative-tools-experience_madrid",
-      "blurb": "Animaj revolutionizes animal health with AI-driven telemetry & data analysis solutions, optimizing livestock welfare and performance for sustainable farming.",
+      "website": "http://animaj.com",
+      "blurb": "Animaj is a dynamic media company dedicated to inspiring children and families through engaging, high-quality stories and innovative, AI-driven content across multiple platforms.",
       "status": "resolved",
       "siren": "912214673",
       "legalName": "ANIMAJ",
@@ -11149,8 +11151,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Digitize compliance workflows with Apiax’s regtech platform. Embedded solutions that help financial institutions navigate complex regulations seamlessly.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "935082651",
       "legalName": "APIAX",
@@ -11187,8 +11189,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://jobs.lever.co/bigblue/5e700dc2-7d55-4839-b2ee-34eea37019c1",
-      "blurb": "Bigblue: fulfillment-as-a-service platform empowering e-commerce brands with fast, reliable logistics to scale effortlessly and enhance customer experience.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "824041461",
       "legalName": "BIGBLUE",
@@ -11252,8 +11254,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Carbonable tokenizes carbon offset projects via NFTs, giving investors high-yield access to climate finance. Learn how it powers global decarbonization.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "905389268",
       "legalName": "CARBONABLE TECH (CARBONABLE TECH) (CT)",
@@ -11290,8 +11292,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/fr/companies/coinhouse/jobs/growth-marketing-intern_paris",
-      "blurb": "Coinhouse is a trusted European crypto hub offering secure purchase, storage and advisory services for Bitcoin and digital assets. Compliant and",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "815254545",
       "legalName": "COINHOUSE (LA MAISON DU BITCOIN ET LMDB)",
@@ -11343,8 +11345,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Commanders Act lets marketers collect, unify and activate cookieless data with tag, consent and CDP tools. Drive compliant, high-performance campaigns.",
+      "website": null,
+      "blurb": null,
       "status": "no-name-match",
       "candidates": 1
     },
@@ -11357,8 +11359,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Core Biogenesis enables scalable cell therapies with synthetic scaffolds, streamlining regenerative medicine development for diverse clinical applications.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "883231128",
       "legalName": "CORE BIOGENESIS",
@@ -11407,8 +11409,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/fr/companies/dattak/jobs/stage-gestionnaire-de-sinistres-cyber_paris",
-      "blurb": "Dattak offers SMEs proactive cyber insurance, security services, risk assessment, continuous monitoring and coverage against cyber threats. Learn more today.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "907857817",
       "legalName": "DATTAK (DATTAK)",
@@ -11459,8 +11461,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/fr/companies/dealt/jobs/business-developper-stage-4-mois_levallois-perret",
-      "blurb": "Discover Dealt, a B2B2C SaaS platform offering 350+ white-label services. installation, maintenance, gardening. To help businesses enhance customer experience",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "820538007",
       "legalName": "DEALT (DEALT)",
@@ -11511,8 +11513,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Destia: XAnge‑supported design analytics SaaS helping e-commerce teams optimize UX and product listing performance with actionable insights.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "903396844",
       "legalName": "DESTIA",
@@ -11581,8 +11583,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Diagnoly uses AI to revolutionize ultrasound analysis. Automating image interpretation to improve diagnostic accuracy and speed in clinical settings.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "882659360",
       "legalName": "DIAGNOLY",
@@ -11626,8 +11628,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "DivRiots: XAnge-backed security startup offering deception-based cybersecurity to proactively detect threats in cloud and enterprise systems.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "DOLEAD": {
@@ -11639,8 +11641,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://dolead.teamtailor.com/jobs/8325430-account-executive-home-improvement-nam-s2-2026",
-      "blurb": "Dolead’s AI-driven Leads-as-a-Service platform delivers exclusive, sales-ready leads at scale. Explore how semantic tech transforms paid media into growth.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "499425700",
       "legalName": "DOLEAD",
@@ -11689,8 +11691,8 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Elba offers ergonomic, smart kitchen appliances that automate cooking processes. Helping home cooks prepare restaurant-quality meals with ease.",
+      "website": "http://elba.security",
+      "blurb": "Elba is a comprehensive security platform designed to effortlessly manage human cyber risks and empower IT teams with integrated tools for compliance and data protection.",
       "status": "resolved",
       "siren": "488540790",
       "legalName": "ELBA FRANCE (ELBA PLV - SHAFT DESIGN- ELBA INTERNATIONAL)",
@@ -11747,8 +11749,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Ensweet’s hybrid digital & human-supported platform enables remote cardiac rehabilitation, empowering patients with home-based care alongside their care teams.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "885050625",
       "legalName": "ENSWEET",
@@ -11792,8 +11794,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Epoca offers a hybrid tech-human platform for remote monitoring of elderly patients with complex conditions, enabling long-term care and acute-phase support.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "923361331",
       "legalName": "EPOCA",
@@ -11832,8 +11834,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Ergosanté specializes in ergonomic workplace solutions. Designing adjustable workstations and health-focused furniture to improve employee well-being.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "790648851",
       "legalName": "ERGOSANTE (ERGOSANTE)",
@@ -11890,8 +11892,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://estuaire.dev/documents/JD-Sales-marketing-intern.pdf",
-      "blurb": "Meet Estuaire, innovating in sustainable coastal and marine technologies with smart environmental monitoring solutions to protect and manage waterways",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "913135422",
       "legalName": "ESTUAIRE",
@@ -11931,8 +11933,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Ensure responsible AI compliance in healthcare with Ethik-IA’s human oversight. Validation aligned with the EU AI Act for safer healthtech innovation.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "887880284",
       "legalName": "ETHIK-IA (ETHIK-IA)",
@@ -11974,8 +11976,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Cajoo is an on‑demand grocery startup in XAnge’s portfolio: reshaping European e‑grocery with rapid delivery, tech innovation and customer convenience.",
+      "website": null,
+      "blurb": null,
       "status": "ambiguous",
       "siren": "928119734",
       "legalName": "CAJOO",
@@ -12019,8 +12021,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Goodays – part of XAnge’s portfolio: transforming onboarding and benefits for digital workplaces through seamless, modern employee engagement tools.",
+      "website": null,
+      "blurb": null,
       "status": "no-name-match",
       "candidates": 7
     },
@@ -12033,8 +12035,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Green Fusion: XAnge-backed greentech innovator delivering industrial digitalization solutions to optimize resource use and circular processes.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "933939258",
       "legalName": "GREEN FUSION",
@@ -12070,8 +12072,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "HelloBetter’s digital therapeutics for insomnia, depression and anxiety are clinically proven. Discover how they elevate mental-health care.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "HOMAIO": {
@@ -12083,8 +12085,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Homaio lets you invest in regulated carbon assets that cut CO₂ and grow your wealth. Discover how this climate-tech platform delivers impact and returns.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "923522338",
       "legalName": "HOMAIO",
@@ -12123,8 +12125,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://apply.workable.com/j/8961FBF2C9",
-      "blurb": "Homerez is revolutionizing short-term rentals with a turnkey platform: management, revenue optimization and comprehensive support for owners.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "800197808",
       "legalName": "HOMEREZ",
@@ -12188,8 +12190,8 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "JOIN software helps brands and content creators craft engaging, cross-channel stories. Drive audience engagement and elevate brand experiences.",
+      "website": "http://join-stories.com",
+      "blurb": "JOIN Stories offers immersive Web Stories that enhance brand engagement through visual storytelling across various platforms.",
       "status": "resolved",
       "siren": "833938269",
       "legalName": "JOIN",
@@ -12234,8 +12236,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Jobvalley matches German students and grads with flexible, paid gigs via an easy digital app. Earn experience and income while shaping your career path.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "KIPLIN": {
@@ -12247,8 +12249,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Kiplin’s gamified health platform helps employees with challenges and rewards to improve well-being. Reducing absenteeism and fostering a culture of wellness.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "808669642",
       "legalName": "KIPLIN",
@@ -12297,8 +12299,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Knowunity: AI-powered digital learning companion offering student-generated content to simplify studies and boost success for 6M+ monthly learners worldwide.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "LE FOURGON": {
@@ -12312,8 +12314,8 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://jobs.lefourgon.com/o/preparateur-de-commandes-hf-lesquin-cdi-35h-1",
-      "blurb": "Le Fourgon: XAnge‑backed French logistics startup enabling SMEs to optimize city deliveries via shared electric vans for sustainable transport.",
+      "website": "http://lefourgon.com",
+      "blurb": "Le Fourgon offer a service of deposit bottle delivery directly to your doorstep.",
       "status": "resolved",
       "siren": "893397810",
       "legalName": "LE FOURGON (LF)",
@@ -12381,8 +12383,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/fr/companies/legalplace/jobs/head-of-business-ops_paris",
-      "blurb": "LegalPlace: XAnge‑supported legal-tech platform empowering entrepreneurs with easy online formation, compliance and document automation tools.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "814428785",
       "legalName": "LEGALPLACE",
@@ -12434,8 +12436,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "With its productivity-focused SaaS, Letsmeet streamlines meeting organization. Empowering teams to schedule, manage and track sessions seamlessly.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "907883003",
       "legalName": "LETSMEET CORPORATION",
@@ -12475,8 +12477,8 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://www.welcometothejungle.com/fr/companies/lifeaz/jobs/ingenieur-systemes-embarques-cdi_paris",
-      "blurb": "Lifeaz brings life-saving tech home: discover the smart, user-friendly defibrillator and see how XAnge backs Lifeaz’s mission to protect every family.",
+      "website": "http://lifeaz.co",
+      "blurb": "Lifeaz gives to citizens, companies and entire cities the power to save lives through the perfect combination of 1st Aid digital training and a new generation of smart connected defibrillators.",
       "status": "resolved",
       "siren": "814042958",
       "legalName": "LIFEAZ (LIFE)",
@@ -12518,8 +12520,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Lyv: XAnge portfolio telehealth provider streamlined for vaccine delivery, public health and occupational healthcare across Europe with secure mobile clinics.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "894947589",
       "legalName": "LYV HEALTHCARE (LYV)",
@@ -12559,8 +12561,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Mdoloris Medical Systems: XAnge‑backed medtech innovator offering non‑invasive, continuous monitoring of pain and comfort to optimize anesthesia and critical",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "523257657",
       "legalName": "MDOLORIS MEDICAL SYSTEMS",
@@ -12608,8 +12610,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://mirsense.com/2021/03/14/assembly-operator/",
-      "blurb": "Mirsense’s quantum-cascade laser sensors deliver ultra-precise gas detection for industry, defense and security. Explore this semiconductor breakthrough today.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "809229750",
       "legalName": "MIRSENSE (MIRSENSE)",
@@ -12669,10 +12671,10 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Nelson Mobility helps companies electrify their fleets faster using data they already own — turning mobility data into a clear, driver-by-driver EV roadmap.",
+      "website": null,
+      "blurb": null,
       "status": "no-name-match",
-      "candidates": 1
+      "candidates": 3
     },
     "NEOBRAIN": {
       "name": "Neobrain",
@@ -12683,8 +12685,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Neobrain is an AI-driven talent management platform that enables strategic skills mapping, performance tracking, learning and mobility with €20 M Series A for",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "834104648",
       "legalName": "NEOBRAIN",
@@ -12739,8 +12741,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Omie & Cie is a purpose-driven organic brand championing regenerative agriculture and transparency, co-creating low-carbon products with local producers.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "PINA EARTH": {
@@ -12752,8 +12754,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://pina.jobs.personio.de/job/2540474",
-      "blurb": "Pina‑Earth: XAnge-backed climate‑tech startup using smart IoT devices to monitor soil health and optimize regenerative agriculture practices.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "PLANETARY": {
@@ -12765,8 +12767,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Planetary builds and operates a global network of fermentation facilities, scaling sustainable biomanufacturing through biomass and precision fermentation.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "942815788",
       "legalName": "PLANETARY RESEARCH COOPERATIVE",
@@ -12808,8 +12810,8 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Pony’s shared-ownership micro-mobility model empowers cities with locally owned bikes and e-scooters. See how sustainable transport rides into town.",
+      "website": "http://getapony.com",
+      "blurb": "Decentralised micromobility",
       "status": "resolved",
       "siren": "848742490",
       "legalName": "PONY",
@@ -12863,8 +12865,8 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Popsink’s no-code, real-time data integration lets any team build live pipelines without engineers. Discover how it turns streaming data into decisions fast.",
+      "website": "http://popsink.com",
+      "blurb": "Supercharge your data teams with real-time ETLs.",
       "status": "resolved",
       "siren": "902290824",
       "legalName": "POPSINK SAS",
@@ -12901,8 +12903,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Discover Promus’s mission to reconnect local producers and restaurants: a digital wholesale platform cutting intermediaries and promoting sustainable sourcing.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "QUBIT PHARMACEUTICALS": {
@@ -12914,8 +12916,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://qubitpharmaceuticals.teamtailor.com/jobs/6890315-head-of-quantum-computing-m-f",
-      "blurb": "Qubit Pharmaceuticals uses AI-driven quantum chemistry models to accelerate drug discovery. Designing novel molecules faster, cheaper and more accurately.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "883649238",
       "legalName": "QUBIT PHARMACEUTICALS",
@@ -12966,8 +12968,8 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://www.welcometothejungle.com/fr/companies/reelevant/jobs/sdr-bdr-h-f_paris",
-      "blurb": "Reelevant delivers real-time, context-aware emails that change at open, lifting engagement and conversion. Explore how dynamic content elevates your marketing.",
+      "website": "http://reelevant.com",
+      "blurb": "App lab focusing on SaaS and marketplace models for SMBs",
       "status": "resolved",
       "siren": "521917468",
       "legalName": "REELEVANT",
@@ -13018,8 +13020,8 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://getreflect.notion.site/Junior-Software-Engineer-1-a003f2ed12e84b6fb26887da58707700",
-      "blurb": "Reflect provides enterprise mindfulness and well-being programs. Blending digital tools with coaching to enhance workplace mental health and resilience.",
+      "website": "http://getreflect.io",
+      "blurb": "Reflect is an all-in-one HR data visualization platform that centralizes, analyzes, and automates recruitment and compliance reporting for effective decision-making.",
       "status": "resolved",
       "siren": "909475535",
       "legalName": "REFLECT",
@@ -13072,8 +13074,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Request Finance revolutionizes SaaS invoicing and crypto payment reconciliation. Helping finance teams automate billing and bookkeeping across traditional and",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "880400106",
       "legalName": "REQUEST FINANCE",
@@ -13115,7 +13117,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "803603489",
@@ -13165,8 +13167,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Roctool delivers patented heat‑and‑cool induction molding technology. installed in 380+ facilities worldwide. To enhance production precision, reduce cycle.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "433278363",
       "legalName": "ROCTOOL",
@@ -13227,8 +13229,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Roof offers modular rooftop solar and energy-saving solutions for residential and commercial buildings. Helping reduce energy bills and CO₂ footprints.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "410088710",
       "legalName": "ROOF INTERNATIONAL",
@@ -13279,8 +13281,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.samantree.com/jobs",
-      "blurb": "Samantree Medical develops AI-powered decision support tools for gastrointestinal care. Empowering physicians with data insights to improve endoscopy outcomes.",
+      "website": null,
+      "blurb": null,
       "status": "ambiguous",
       "siren": "907468300",
       "legalName": "SAMANTREE MEDICAL SA",
@@ -13319,8 +13321,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://saporo.bamboohr.com/careers/37",
-      "blurb": "Saporo fournit des solutions de personnalisation client (CDP) en ligne, exploitant données et IA pour optimiser engagement et conversion sur tous les canaux.",
+      "website": null,
+      "blurb": null,
       "status": "ambiguous",
       "siren": "899775944",
       "legalName": "SAPORO (POPOTTE)",
@@ -13360,8 +13362,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://sensorberg.jobs.personio.de/job/2702689",
-      "blurb": "Sensorberg specializes in smart building access and IoT management. Streamlining facility control and occupancy insights for workplaces and housing.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "SILVR": {
@@ -13377,8 +13379,8 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Silvr is a XAnge-backed fintech providing real-time financial control for service providers and contractors, simplifying invoicing and cash flow management.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "884558453",
       "legalName": "SILVR GROUP (SILVR)",
@@ -13430,8 +13432,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.sirona.tech/open-position/machine-designer",
-      "blurb": "Sirona delivers personalized women&#x27;s health solutions via connected devices and digital coaching. Empowering users with data-driven wellness tools.",
+      "website": null,
+      "blurb": null,
       "status": "ambiguous",
       "siren": "803264753",
       "legalName": "SIRONA 86 (T'AS K VAPOTER)",
@@ -13470,8 +13472,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Smart Tribune’s AI self-care platform cuts support tickets with dynamic FAQs and chatbots. Learn how enterprises boost CX while saving costs.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "STANE SUPPORTS HEALTHCARE ENTREPRENEURS IN THE CRE": {
@@ -13483,8 +13485,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Stane is building France’s leading network of multidisciplinary health centres. Find out how XAnge supports Stane’s mission to modernise primary care.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "SUNACARE": {
@@ -13496,8 +13498,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://sunacare.jobs.personio.de/job/630694",
-      "blurb": "Sunacare develops cutting‑edge sun‑protection solutions (skincare, fabrics...) to reduce UV impact. Protect yourself with smarter, sustainable products.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "SURGAR": {
@@ -13509,8 +13511,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "SurgAR blends AI and augmented reality to expose tumors in real time, giving minimally invasive surgeons pinpoint guidance and safer outcomes.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "878322155",
       "legalName": "SURGAR",
@@ -13565,8 +13567,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://careers.synapse-medicine.com/jobs/8093689-chef-de-projet-saas-b2b-h-f",
-      "blurb": "Synapse Medicine’s AI engine gives clinicians real-time drug insights and decision support, slashing prescription errors and boosting patient safety.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "827466590",
       "legalName": "SYNAPSE MEDICINE",
@@ -13621,8 +13623,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Teeptrak’s plug-and-play IoT sensors let manufacturers track machine and manual performance in real time. Boosting OEE and ROI with zero downtime.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "804462570",
       "legalName": "TEEPTRAK",
@@ -13673,8 +13675,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Explore Travador’s curated, affordable short vacations, wellness retreats, weekend escapes, adventures. Delivering unique experiences at competitive prices.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "VALUECASE": {
@@ -13686,8 +13688,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Valuecase – XAnge portfolio SaaS solution empowering B2B teams with content creation, training and onboarding tools to drive customer success.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "VERTICAL COMPUTE IS A EUROPEAN DEEP TECH SEMICONDU": {
@@ -13699,8 +13701,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://verticalcompute.recruitee.com/o/3d-chiplet-expert",
-      "blurb": "Vertical Compute’s universal memory blends DRAM speed and SRAM efficiency for lightning-fast AI and data. Discover how this European deep-tech reinvents chips.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "VERTUOZA": {
@@ -13712,8 +13714,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://vertuoza.recruitee.com/o/marketing-ops",
-      "blurb": "Vertuoza’s vertical ERP empowers SMB construction firms to streamline projects, budgets and teams for higher productivity and profit. Discover how.",
+      "website": null,
+      "blurb": null,
       "status": "no-name-match",
       "candidates": 1
     },
@@ -13726,8 +13728,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Vianova: XAnge‑supported mobility platform enabling cities and transport operators to analyze traffic data, support MaaS integration and reduce congestion.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "831679733",
       "legalName": "VIANOVA",
@@ -13791,8 +13793,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/fr/companies/wandercraft/jobs/us-content-manager_new-york-city",
-      "blurb": "Wandercraft’s Atalante X is a hands-free, self-balancing exoskeleton restoring mobility for paraplegia and stroke rehabilitation. Backed by XAnge since 2017.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "788627198",
       "legalName": "WANDERCRAFT (WANDERCRAFT)",
@@ -13841,8 +13843,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Winncare’s smart mattress sensors and AI analytics monitor patient movements, preventing pressure ulcers and optimizing care in nursing homes and hospitals.",
+      "website": null,
+      "blurb": null,
       "status": "ambiguous",
       "siren": "950020180",
       "legalName": "WINNCARE FRANCE (MEDICATLANTIC)",
@@ -13905,8 +13907,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://apply.workable.com/j/1587918F40",
-      "blurb": "WorkMotion simplifies global hiring and compliance. Enabling companies to onboard international employees via EoR services in 90+ countries efficiently.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "910571983",
       "legalName": "WORKMOTION FRANCE",
@@ -13957,8 +13959,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://gitti.jobs.personio.de/job/2792862",
-      "blurb": "Gitti: sustainable vegan nail polish brand delivering innovative, eco-friendly beauty with high-performance, toxin-free colors for conscious consumers.",
+      "website": null,
+      "blurb": null,
       "status": "no-name-match",
       "candidates": 2
     },
@@ -13971,8 +13973,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "mindDay blends human guidance, science and digital programs to deliver instant, personalized mental-wellness support. See why its hybrid model is resonating.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "898335047",
       "legalName": "MINDDAY",
@@ -14009,8 +14011,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Sêmeia&#x27;s MedicWise lets care teams remotely monitor chronic patients in real time, with automated data collection — reimbursed by French health insurance.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "ARCURE": {
@@ -14022,8 +14024,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Meet Arcure: pioneers in AI-powered embedded vision, with the Blaxtair system preventing industrial vehicle pedestrian collisions. A €18.7M‑revenue.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "519060131",
       "legalName": "ARCURE",
@@ -14089,8 +14091,8 @@
         "isai": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "AssoConnect: XAnge‑backed SaaS empowering non‑profits in Europe with CRM, finance and communication tools for efficient association management.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "530775576",
       "legalName": "ASSOCONNECT",
@@ -14147,8 +14149,8 @@
         "ventech": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "ATEME’s video delivery solutions optimize streaming quality and bandwidth, powering leading broadcasters and OTT platforms with scalable encoders.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "382231991",
       "legalName": "ATEME (ATEME)",
@@ -14226,8 +14228,8 @@
         "360capital": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Bergamotte delivers fresh, sustainably-sourced indoor & outdoor plants through an e-commerce platform. Combining design expertise with direct-to-door plant care",
+      "website": null,
+      "blurb": null,
       "status": "ambiguous",
       "siren": "504823022",
       "legalName": "BERGAMOTTE",
@@ -14266,8 +14268,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Calixar isolates and stabilizes fully native membrane proteins to preserve their structure and function, accelerating drug discovery and therapy development.",
+      "website": null,
+      "blurb": null,
       "status": "no-name-match",
       "candidates": 10
     },
@@ -14280,8 +14282,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Chauffeur Privé, now part of FREE NOW, provides private car services across Europe, uniting taxis, private drivers and micromobility in a single seamless app.",
+      "website": null,
+      "blurb": null,
       "status": "ambiguous",
       "siren": "903173144",
       "legalName": "CHAUFFEUR PRIVE",
@@ -14321,8 +14323,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Citilog provides AI-based video analytics for smart cities, offering real-time traffic monitoring and incident detection to enhance urban safety and mobility.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "412472912",
       "legalName": "CITILOG",
@@ -14364,8 +14366,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Codenvy is a cloud-based development environment in XAnge’s portfolio, enabling collaborative coding, scalable dev workflows and remote developer productivity.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "COLETTE": {
@@ -14379,8 +14381,8 @@
         "ventech": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Colette connects students with hosts, transforming vacant rooms into affordable housing for youth while boosting hosts’ income and fostering community ties.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "824487102",
       "legalName": "COLETTE",
@@ -14419,8 +14421,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Currencycloud’s API-driven engine simplifies cross-border transactions with real-time FX, multi-currency accounts and global payment processing.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "DOGAMI": {
@@ -14432,8 +14434,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Dogami merges pet wellness with blockchain gaming. Creating a Web3 platform where users raise, trade and care for virtual dogs in a fun, community-driven app.",
+      "website": null,
+      "blurb": null,
       "status": "no-name-match",
       "candidates": 1
     },
@@ -14446,8 +14448,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "DynAdmic fuses audio AI with programmatic video to place ads in brand-safe content, lifting ROI. See why XAnge backs this French AdTech pioneer.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "753502582",
       "legalName": "DYNADMIC",
@@ -14502,8 +14504,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Ekinops provides optical transport networking solutions enabling high‑capacity, flexible connectivity for telecoms. Fueling next‑gen infra with SFP‑tech.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "439441999",
       "legalName": "EKINOPS FRANCE (EKINOPS FRANCE)",
@@ -14554,8 +14556,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Discover Eldim, XAnge‑backed specialist in optical measurement systems. Precision in display viewing‑angle analysis for high‑performance optics.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "383745528",
       "legalName": "ELDIM",
@@ -14634,8 +14636,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Epigene Labs harnesses epigenetics and genomics to speed precision oncology drug discovery. See how its platform unlocks targeted therapies against cancer.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "845367713",
       "legalName": "EPIGENE LABS",
@@ -14677,8 +14679,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Eptica’s AI-driven customer engagement platform combines chatbot, email automation and knowledge management to deliver personalized omnichannel support.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "438993966",
       "legalName": "EPTICA (EPTICA)",
@@ -14722,8 +14724,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Etsy: global online marketplace in XAnge’s portfolio focused on unique, handmade and vintage goods connecting creative sellers with passionate buyers.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "510843006",
       "legalName": "ETSY FRANCE SAS",
@@ -14775,8 +14777,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "EVE creates advanced verification and emulation tools for chip developers. accelerating semiconductor testing and reducing time-to-market in hardware design.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "FIDOR BANK": {
@@ -14788,8 +14790,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Fidor Bank is a digital challenger bank that combines banking, fintech and community platforms to offer instant, transparent and socially‑focused financial.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "914876172",
       "legalName": "FIDOR BANK AG",
@@ -14824,8 +14826,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Impika: XAnge portfolio hardware‑as‑a‑service startup enhancing industrial productivity with automated post‑printing part finishing solutions.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "447690314",
       "legalName": "IMPIKA (IMPIKA)",
@@ -14879,8 +14881,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Intent Technologies: XAnge‑backed predictive analytics SaaS helping industrial operators optimize energy usage and reduce carbon footprints.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "532829561",
       "legalName": "INTENT-TECHNOLOGIES",
@@ -14929,8 +14931,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Iptego develops advanced IoT hardware for predictive maintenance in industries. Delivering real-time equipment monitoring and smart analytics for operational.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "ITRIS AUTOMATION": {
@@ -14942,8 +14944,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Découvrez Itris Automation : son logiciel optimise productivité et qualité de code en automation industrielle, avant son acquisition par Schneider Electric.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "502494511",
       "legalName": "ITRIS AUTOMATION SQUARE",
@@ -14998,9 +15000,10 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "KissKissBankBank is France’s leading crowdfunding platform for creative, community and social innovation projects. Connecting visionaries with supporters.",
-      "status": "not-found"
+      "website": null,
+      "blurb": null,
+      "status": "no-name-match",
+      "candidates": 1
     },
     "LA RUCHE QUI DIT OUI": {
       "name": "LA Ruche Qui Dit Oui",
@@ -15013,8 +15016,8 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "La Ruche Qui Dit Oui connects you directly with local farmers so you can buy fresh, sustainable food online. How this marketplace is reshaping farm-to-table.",
+      "website": "http://laruchequiditoui.fr",
+      "blurb": "Platform of local food communities available in 9 european countries",
       "status": "ambiguous",
       "siren": "995054970",
       "legalName": "LA RUCHE QUI DIT OUI LIEUSAINT (LRQDOL)",
@@ -15053,8 +15056,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Make Me Reach is a performance marketing & influencer platform. Connecting brands with creators and optimizing social campaigns through data-driven insights.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "517413969",
       "legalName": "MAKE ME REACH",
@@ -15098,8 +15101,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "MeinAuto: XAnge portfolio online car sales marketplace offering personalized recommendations and seamless digital buying experience in Europe.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "MICRODON": {
@@ -15111,8 +15114,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "MicroDon enables businesses and charities to facilitate micro-donations at checkout. Streamlining charitable giving and supporting social impact campaigns.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "510143282",
       "legalName": "MICRODON",
@@ -15164,8 +15167,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Naskeo delivers AI‑enhanced hearing diagnostics and rehabilitation tools. Reinventing audiology with remote‑first technology for personalized hearing care.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "482142544",
       "legalName": "NASKEO ENVIRONNEMENT",
@@ -15225,8 +15228,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Neolane revolutionised cross-channel marketing automation; discover its path from French startup to Adobe acquisition and the power of personalised campaigns.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "438384406",
       "legalName": "NEOLANE",
@@ -15265,8 +15268,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Netasq, the former French leader in cybersecurity, offered integrated firewalls, IPS and VPNs before evolving into Stormshield following a strategic merger.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "421277211",
       "legalName": "NETASQ",
@@ -15303,8 +15306,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "News Republic, part of XAnge&#x27;s portfolio: personalized news aggregation app delivering real-time global topics in a sleek, user-friendly interface.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "503085342",
       "legalName": "NEWS REPUBLIC",
@@ -15353,8 +15356,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "OneUp is a cloud ERP for SMBs, automating accounting, invoicing, bookkeeping & inventory management to streamline operations and boost visibility.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "853926905",
       "legalName": "ONE UP (1 UP) (1 UP)",
@@ -15405,8 +15408,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Peerby is a sharing economy platform enabling neighbours to lend and borrow everyday items. Boosting local access and reducing consumption through community.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "RUN MY PROCESS": {
@@ -15418,8 +15421,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Run My Process digitizes invoice workflows and automates finance operations. Empowering accounting and procurement teams with end-to-end process optimization.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "SCULPTEO": {
@@ -15431,7 +15434,7 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "514971654",
@@ -15488,8 +15491,8 @@
         "isai": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Shopmium turns everyday shopping into instant savings. Cashback offers and deals at your fingertips. Explore how XAnge helps Shopmium grow your grocery budget.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "532432457",
       "legalName": "SHOPMIUM",
@@ -15538,8 +15541,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Sidetrade’s AI Aimie accelerates order-to-cash, predicts payment risks and boosts cash flow. See why XAnge bet early on Sidetrade’s fintech innovation.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "430007252",
       "legalName": "SIDETRADE",
@@ -15600,8 +15603,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Sweagle, acquis par ServiceNow, offre une plateforme SaaS de Configuration Data Management pour automatiser et sécuriser les données de configuration complexes.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "883356941",
       "legalName": "SWEAGLE NW",
@@ -15637,8 +15640,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "UBAQ provides quality management & regulatory affairs software for life-science companies, automating compliance workflows to accelerate market access.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "WEBEDIA": {
@@ -15650,8 +15653,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Explore Webedia, a global media and entertainment group shaping digital content and communities across gaming, lifestyle, esport and pop‑culture verticals.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "501106520",
       "legalName": "WEBEDIA",
@@ -15703,8 +15706,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Worklife: an all-in-one employee benefits platform with payment card and mobile app to simplify perks management, boost engagement and streamline HR processes.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "533592051",
       "legalName": "WORKLIFE",
@@ -15758,8 +15761,8 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Zenchef is an all‑in‑one SaaS suite for restaurants. Reservation, CRM, loyalty, social & payment tools. Empowering venues to boost direct bookings and reduce",
+      "website": "http://zenchef.com",
+      "blurb": "Leading end-to-end marketing platform for Restaurants.",
       "status": "resolved",
       "siren": "528389794",
       "legalName": "ZENCHEF",
@@ -15809,8 +15812,8 @@
         "xange": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
-      "blurb": "Airfocus provides a modular Product Management OS for roadmapping, prioritization and OKRs. Backed by XAnge via Series A ($5 M) and Newion-led $7.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "890197627",
       "legalName": "AIRFOCUS GMBH",
@@ -15845,8 +15848,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://airthium.com/",
-      "blurb": "Airthium’s groundbreaking technology is paving the way for a sustainable transformation, making it a natural addition to our portfolio of impactful investments.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "819326083",
       "legalName": "AIRTHIUM",
@@ -15895,8 +15898,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://usealbatross.ai/",
-      "blurb": "Being able to develop such sophisticated ML algorithms would normally only be possible for tech behemoths with an unlimited budget, but Albatross is truly making real-time personalization more accessible for different size companies.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "484916259",
       "legalName": "ALBATROSS CONSULTING (ALBATROSS SHIPPING)",
@@ -15943,7 +15946,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://amilabs.xyz/",
+      "website": null,
       "blurb": null,
       "status": "no-name-match",
       "candidates": 1
@@ -15957,8 +15960,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://ankar.ai/",
-      "blurb": "Empowering innovation teams to create, protect, and scale their ideas with AI-powered precision. Accelerating innovation, protecting ideas.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "379098049",
       "legalName": "ANKAR",
@@ -15998,8 +16001,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://anotherbrain.ai/",
-      "blurb": "AnotherBrain’s bio-inspired approach to AI, adaptive, efficient, and energy-smart, represents a paradigm shift.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "ANTESCOFO": {
@@ -16011,8 +16014,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://metronautapp.com/",
-      "blurb": "Antescofo allows you to play any instrument as if you had a real orchestra at your own rhythm to accompany you.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "821738515",
       "legalName": "ANTESCOFO",
@@ -16054,8 +16057,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://fr.apiday.com/",
-      "blurb": "This game-changing approach aligns perfectly with our investment thesis: that using data to operationalize sustainability is key to creating real, lasting change.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "903077253",
       "legalName": "APIDAY",
@@ -16094,7 +16097,7 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.astralsystems.com/",
+      "website": null,
       "blurb": null,
       "status": "no-name-match",
       "candidates": 1
@@ -16108,8 +16111,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.backmarket.fr/",
-      "blurb": "Saving 1.6 million tons of CO2 and the energy of 210,000 US households.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "989088448",
       "legalName": "BACK MARKET GERMANY GMBH",
@@ -16147,7 +16150,7 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://bacta.bio/",
+      "website": "http://bacta.life",
       "blurb": "Carbon-negative rubber from engineered micro-organisms",
       "status": "resolved",
       "siren": "951824770",
@@ -16195,8 +16198,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://trybadge.com/",
-      "blurb": "By providing an intuitive platform for creating and managing digital passes, Badge enables companies to leverage mobile wallet technology effectively, enhancing customer interaction and loyalty.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "989475181",
       "legalName": "BADGE",
@@ -16236,8 +16239,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://beendi.com/",
-      "blurb": "Beena Paradin Migotto, Yannick Migotto",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "BUTTERFLY AI": {
@@ -16249,7 +16252,7 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.butterfly.ai/",
+      "website": null,
       "blurb": null,
       "status": "no-name-match",
       "candidates": 18
@@ -16263,8 +16266,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.carbonmaps.io/",
-      "blurb": "By turning environmental data into actionable insights, Carbon Maps is proving that businesses can thrive while protecting the planet.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "CERTO": {
@@ -16276,7 +16279,7 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.askcerto.com/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "992900886",
@@ -16323,7 +16326,7 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.terraspark.energy/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "931497697",
@@ -16366,8 +16369,8 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://www.comet.co/",
-      "blurb": "Comet is reshaping the way companies and freelancers connect, bridging the gap between demand for talent and the booming freelance economy.",
+      "website": "http://hellocomet.co",
+      "blurb": "Comet seamlessly matches the best hard-skill freelancers with top companies.",
       "status": "resolved",
       "siren": "821075413",
       "legalName": "COMET",
@@ -16427,8 +16430,8 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://cozycozy.com/",
-      "blurb": "Cozycozy approach to providing transparent, tailored solutions aligns perfectly with our vision for accessible and customer-centric innovation.",
+      "website": "http://cozycozy.com",
+      "blurb": "Unbiased & comprehensive accommodation metasearch solution",
       "status": "not-found"
     },
     "DEMA": {
@@ -16440,8 +16443,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.dema.ai/",
-      "blurb": "Dema.ai addresses the critical challenges of profitability in the e-commerce industry by providing a comprehensive platform that delivers real-time, actionable insights.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "502863079",
       "legalName": "DEMA",
@@ -16480,8 +16483,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://dift.com/",
-      "blurb": "By turning marketing budgets into impactful and participative strategies, Dift empowers companies to go beyond traditional advertising and create meaningful connections.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "934238510",
       "legalName": "DIFT HOLDING",
@@ -16523,7 +16526,7 @@
         "kima": "unknown"
       },
       "portfolioCountry": "United States of America",
-      "website": "https://withdouble.com/",
+      "website": "http://withdouble.com",
       "blurb": "The world’s best assistant",
       "status": "resolved",
       "siren": "832103295",
@@ -16571,8 +16574,8 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://www.edumapper.com/",
-      "blurb": "Orientation that works like students think.",
+      "website": "http://edumapper.com",
+      "blurb": "Edumapper is a developing platform that helps students explore, compare, and choose higher education paths while estimating their chances of admission.",
       "status": "resolved",
       "siren": "934662081",
       "legalName": "EDUMAPPER",
@@ -16616,7 +16619,7 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://emfas.ai/",
+      "website": null,
       "blurb": null,
       "status": "not-found"
     },
@@ -16629,21 +16632,21 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://emperiavr.com/",
-      "blurb": "Emperia is revolutionizing the retail industry by providing a platform that enables brands to create immersive and interactive virtual stores.",
+      "website": null,
+      "blurb": null,
       "status": "ambiguous",
-      "siren": "992469189",
-      "legalName": "EMPERIA AUDIT PARTNERS",
+      "siren": "992715813",
+      "legalName": "EMPERIA EXPERTISE ET CONSEIL",
       "department": "92",
       "naf": "69.20Z",
-      "founded": "2025-10-07",
+      "founded": "2025-10-02",
       "city": "NEUILLY-SUR-SEINE",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
       "officers": [],
       "accounts": null,
-      "siegeSince": "2026-06-11",
+      "siegeSince": "2026-06-19",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -16656,7 +16659,7 @@
         "siege since 2026"
       ],
       "alternatives": [
-        "992715813 EMPERIA EXPERTISE ET CONSEIL (5)",
+        "992469189 EMPERIA AUDIT PARTNERS (5)",
         "884151572 EMPERIA GROUP (4)"
       ]
     },
@@ -16669,8 +16672,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.epyr.co/",
-      "blurb": "Replacing oil & gas with sun and wind for the same price. Bricks that store heat. Power that decarbonizes industry.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "938163904",
       "legalName": "EPYR",
@@ -16707,8 +16710,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://everdye.fr/",
-      "blurb": "EverDye reinvents textile dyeing with a breakthrough chemical process that cuts energy use 10-fold and eliminates toxic pollution.",
+      "website": null,
+      "blurb": null,
       "status": "no-name-match",
       "candidates": 1
     },
@@ -16723,8 +16726,8 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://www.faume.co/",
-      "blurb": "Faume has the ability to align environmental sustainability with clear economic benefits, proving that circularity can be both impactful and profitable.",
+      "website": "http://faume.co",
+      "blurb": "Second Hand solution for retailers",
       "status": "resolved",
       "siren": "848562112",
       "legalName": "FAUME",
@@ -16792,8 +16795,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://fifteen.eu/",
-      "blurb": "Fifteen is at the forefront of transforming urban transportation by providing innovative bike-sharing solutions that address environmental challenges and enhance city living.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "505280727",
       "legalName": "FIFTEEN",
@@ -16845,8 +16848,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.flow48.com/",
-      "blurb": "By providing fast, flexible, and non-dilutive capital solutions, Flow48 empowers SMEs to overcome traditional financing barriers, enhance liquidity, and drive growth.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "GEEV": {
@@ -16858,8 +16861,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.geev.com/",
-      "blurb": "Geev has saved 258,000 tonnes of CO2, the equivalent of canceling 500,000 Paris-New York flights.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "819435744",
       "legalName": "GEEV",
@@ -16929,7 +16932,7 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.terraspark.energy/",
+      "website": null,
       "blurb": null,
       "status": "no-name-match",
       "candidates": 1
@@ -16943,21 +16946,21 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.hemea.com/",
-      "blurb": "Hemea is revolutionizing the renovation sector by offering comprehensive, client-focused services that blend digital innovation with personalized support.",
+      "website": null,
+      "blurb": null,
       "status": "ambiguous",
-      "siren": "930226329",
-      "legalName": "HEMEA ECO",
-      "department": "59",
-      "naf": "43.32A",
-      "founded": "2024-06-21",
-      "city": "DUNKERQUE",
+      "siren": "882560360",
+      "legalName": "HEMEA IB",
+      "department": "44",
+      "naf": "66.22Z",
+      "founded": "2020-03-09",
+      "city": "NANTES",
       "country": "France",
       "headcount": "NN",
-      "sizeCategory": null,
+      "sizeCategory": "PME",
       "officers": [],
       "accounts": null,
-      "siegeSince": "2025-06-16",
+      "siegeSince": "2024-08-12",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -16965,12 +16968,12 @@
       "reasons": [
         "name prefix",
         "no declared employees",
-        "dept 59",
+        "dept 44",
         "active",
-        "siege since 2025"
+        "siege since 2024"
       ],
       "alternatives": [
-        "882560360 HEMEA IB (3)",
+        "930226329 HEMEA ECO (3)",
         "928156520 HEMEA MEKAOURI (0)"
       ]
     },
@@ -16983,8 +16986,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.hubcycled.com/",
-      "blurb": "More than 7,000 TCO2 already avoided in 2024.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "820071843",
       "legalName": "HUBCYCLE",
@@ -17028,8 +17031,8 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://www.getjust.eu/",
-      "blurb": "Just sets a new standard in online shopping by eliminating friction and empowering e-merchants to compete with giants like Amazon through a streamlined interface and seamless payments via PSPs.",
+      "website": "http://getjust.eu",
+      "blurb": "JUST enhances e-commerce by providing a seamless, smart, and social checkout experience that boosts brands' revenues and customer satisfaction.",
       "status": "resolved",
       "siren": "879474401",
       "legalName": "JUST",
@@ -17073,8 +17076,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://karavela.ai/",
-      "blurb": "Karavela is laying the infrastructure for a new era in neuroscience and healthtech.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "944250448",
       "legalName": "KARAVELA",
@@ -17113,8 +17116,8 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://kerys.software/",
-      "blurb": "The future of IT runs lean, clean, and secure.",
+      "website": "http://kerys.software",
+      "blurb": "KERYS Software is a Deeptech software publisher whose goal is to help companies reduce their infrastructure costs, exposure to cyber-threats and carbon footprint by rethinking how their employees are equipped. KERYS Software offers a unique solution that allows multiple work environments to be poole",
       "status": "resolved",
       "siren": "983802828",
       "legalName": "KERYS SOFTWARE",
@@ -17155,8 +17158,8 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.kleio.ai/",
-      "blurb": "Kleio simplifies this journey by offering tailored web design, SEO, graphic design, and community management services, ensuring clients not only establish a compelling online presence.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "798422044",
       "legalName": "KLEIO",
@@ -17195,8 +17198,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.kolet.com/",
-      "blurb": "2.6 billion people still lack internet access, and fair-priced transparent telecom packages are almost non-existent on the market. Kolet is reshaping global connectivity through an eSIM.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "981094261",
       "legalName": "KOLET",
@@ -17243,8 +17246,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.k-words.io/",
-      "blurb": "New approach to Search by decentralizing it from few dominant players like Google, Amazon & Meta, given brands more control and transparency.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "LEOCARE": {
@@ -17256,8 +17259,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://leocare.eu/",
-      "blurb": "Insurance has long been perceived as complex and frustrating, but Leocare is rewriting the rules.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "831053863",
       "legalName": "LEOCARE (LEOCARE)",
@@ -17313,7 +17316,7 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.terraspark.energy/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "910500354",
@@ -17359,7 +17362,7 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://logistica-os.com/",
+      "website": null,
       "blurb": null,
       "status": "not-found"
     },
@@ -17372,8 +17375,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.terraspark.energy/",
-      "blurb": "Smart, safe, and kind — finally an AI made for kids.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "MEMOBANK": {
@@ -17385,8 +17388,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://memo.bank/",
-      "blurb": "By addressing the unique challenges SMEs face, Memo Bank is helping businesses streamline their finances, secure tailored credit, and unlock growth opportunities.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "MODJO": {
@@ -17398,8 +17401,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.modjo.ai/",
-      "blurb": "Modjo helps sales teams to optimize their processes, focusing on high-value activities and achieving better results.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "851921015",
       "legalName": "MODJO",
@@ -17438,8 +17441,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.moonwatt.com/",
-      "blurb": "This eco-friendly and cost-effective innovation makes Moonwatt’s energy storage solutions not just greener but also scalable for the future.",
+      "website": null,
+      "blurb": null,
       "status": "no-name-match",
       "candidates": 5
     },
@@ -17452,7 +17455,7 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://neotis.com/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "981001845",
@@ -17492,8 +17495,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.ng.cash/",
-      "blurb": "Revolutionizing the financial market and showing that the New Generation is already here and wants a bank made for them.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "PASQAL": {
@@ -17507,8 +17510,8 @@
         "isai": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.pasqal.com/",
-      "blurb": "Simulating the unsimulable with the energy of 4 hair dryers for an all HPC computation power.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "849441522",
       "legalName": "PASQAL",
@@ -17560,8 +17563,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://poolday.ai/",
-      "blurb": "Poolday empowers marketers to produce high-quality, engaging videos rapidly, enhancing campaign performance and operational efficiency.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "PREDIKO": {
@@ -17573,8 +17576,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.prediko.io/",
-      "blurb": "Prediko empowers businesses to optimize their operations, reduce costs, and enhance customer satisfaction.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "903538916",
       "legalName": "PREDIKO FRANCE",
@@ -17611,8 +17614,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.pruna.ai/",
-      "blurb": "Their cutting-edge model compression technology reduces energy use by 2 to 5 times for foundational models and over 100 times for others, making AI both greener and more scalable.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "934424904",
       "legalName": "PRUNA AI",
@@ -17651,7 +17654,7 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://reduck.ai/",
+      "website": null,
       "blurb": null,
       "status": "not-found"
     },
@@ -17666,8 +17669,8 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://www.reliefapp.ai/",
-      "blurb": "Relief promises is to empower industrials to improve margins by making quoting more data-driven.",
+      "website": "http://reliefapp.ai",
+      "blurb": "Relief is revolutionizing how manufacturers achieve profitability. Our mission is to significantly enhance our clients' gross margins by delivering an AI powered SaaS solution that redefines quoting accuracy and empowers better commercial and financial decision-making.",
       "status": "resolved",
       "siren": "890106800",
       "legalName": "RELIEF",
@@ -17706,8 +17709,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://rocapi.ne/",
-      "blurb": "Rocapine delivers personalized and engaging user experiences that drive adherence and positive health outcomes.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "929934503",
       "legalName": "ROCAPINE",
@@ -17766,8 +17769,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.sora.space/",
-      "blurb": "With up to 30% of office space demand expected to vanish in major cities by 2030, businesses are seeking smarter, more cost-effective solutions. Sora provides exactly that.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "913423471",
       "legalName": "SORA",
@@ -17819,8 +17822,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.starton.com/",
-      "blurb": "Starton addresses the critical challenges hindering blockchain adoption by offering a suite of developer-friendly APIs and tools that simprocesses.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "882006133",
       "legalName": "STARTON",
@@ -17858,8 +17861,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.stockly.ai/",
-      "blurb": "Stockly addresses critical inventory challenges in the e-commerce sector by providing a platform that connects retailers to a shared network of products.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "828286880",
       "legalName": "STOCKLY",
@@ -17923,8 +17926,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://subscribfy.io/",
-      "blurb": "Subscribfy enables brands to build personalized membership programs that enhance customer experience.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "SWILE": {
@@ -17938,8 +17941,8 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://www.swile.co/",
-      "blurb": "In an era where workplace disengagement is rising, Swile transforms team dynamics by combining technology with human connection.",
+      "website": "http://swile.co",
+      "blurb": "Swile is a worktech launched in 2018 by its founder and CEO Loïc Soubeyrand. In a constantly evolving world of work teeming with ever more numerous and complex tools, Swile - the first employee Super-app - offers a unified, modern and personalized experience that enhances engagement at work. Swile, ",
       "status": "resolved",
       "siren": "824012173",
       "legalName": "SWILE (SWILE)",
@@ -17997,7 +18000,7 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.terraspark.energy/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "109323154",
@@ -18033,8 +18036,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://tilt-energy.com/",
-      "blurb": "Tilt Energy enhances grid stability, reduces carbon emissions, and provides financial incentives, paving the way for a sustainable and resilient energy future. Power to the people, flexibility to the grid.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "344258892",
       "legalName": "TILT SERVICES",
@@ -18075,8 +18078,8 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://trusk.com/",
-      "blurb": "By replacing fuel trucks with electric ones and optimising the truck’s loading capacity, Trusk is removing polluting trucks while improving the delivery user experience.",
+      "website": "http://trusk.com",
+      "blurb": "Get a man (or 2) with a van from 5 to 25 m3 to carry on demand and transport your things anywhere downtown Paris and its region 24h/7d",
       "status": "resolved",
       "siren": "818234395",
       "legalName": "TRUSK FRANCE",
@@ -18135,8 +18138,8 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://underdog.shop/",
-      "blurb": "Since our investment, they’ve refurbished over 500 appliances monthly, preventing 259 tonnes of waste and saving 2,600 tonnes of CO2.",
+      "website": null,
+      "blurb": null,
       "status": "ambiguous",
       "siren": "849998646",
       "legalName": "UNDERDOG",
@@ -18175,8 +18178,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://voltfang.de/",
-      "blurb": "Voltfang’s innovative approach to repurposing batteries into smart energy storage solutions offers a sustainable way to renewable energy adoption.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "VORTEX IO": {
@@ -18188,7 +18191,7 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.vortex-io.fr/",
+      "website": null,
       "blurb": null,
       "status": "not-found"
     },
@@ -18201,8 +18204,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://mywaysia.com/",
-      "blurb": "A vertical model relying on in-house and tech-based warehousing and logistics.",
+      "website": null,
+      "blurb": null,
       "status": "not-found"
     },
     "WELFAIRE": {
@@ -18216,8 +18219,8 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://welfaire.com/",
-      "blurb": "Welfaire is at the forefront of revolutionizing health insurance by offering fully digital solutions tailored to the specific needs of professionals.",
+      "website": "http://welfaire.com",
+      "blurb": "Welfaire offers comprehensive digital health and life insurance solutions tailored specifically for professionals, emphasizing flexibility, user-friendliness, and social responsibility.",
       "status": "resolved",
       "siren": "883356511",
       "legalName": "WELFAIRE",
@@ -18260,8 +18263,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://wilgo.ai/",
-      "blurb": "Homework that finally works for kids.",
+      "website": null,
+      "blurb": null,
       "status": "ambiguous",
       "siren": "531891331",
       "legalName": "WILGO PHEBE (JR ENTREPRISE)",
@@ -18300,8 +18303,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://www.witco.io/",
-      "blurb": "Witco is revolutionizing the workplace by providing an all-in-one platform that integrates hybrid scheduling, space optimization, and employee engagement tools.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "431472398",
       "legalName": "WITCO",
@@ -18339,8 +18342,8 @@
         "daphni": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://zoe.com/",
-      "blurb": "ZOE isn’t just a product, it’s a movement that’s reshaping the future of nutrition and preventative healthcare.",
+      "website": null,
+      "blurb": null,
       "status": "resolved",
       "siren": "491756722",
       "legalName": "ZOE",
@@ -21378,7 +21381,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "920850807",
@@ -21895,29 +21898,48 @@
       "portfolioCountry": "Canada",
       "website": "http://accesinternet.ca",
       "blurb": "We provide great Internet services in Canada's small cities",
-      "status": "resolved",
-      "siren": "499447605",
-      "legalName": "ACCES TELECOM INTERNATIONAL (A T I)",
+      "status": "ambiguous",
+      "siren": "805229218",
+      "legalName": "ACCES TELECOM MEDITERRANEE (ATM)",
       "department": "13",
-      "naf": "46.52Z",
-      "founded": "2007-08-01",
-      "city": "MARSEILLE",
+      "naf": "61.90Z",
+      "founded": "2014-09-15",
+      "city": "LA PENNE-SUR-HUVEAUNE",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
-      "officers": [],
-      "accounts": null,
-      "siegeSince": "2007-08-01",
-      "active": true,
+      "officers": [
+        {
+          "name": "ARCHE",
+          "role": "Commissaire aux comptes titulaire",
+          "siren": "418616751",
+          "auditor": true
+        },
+        {
+          "name": "JLB TELECOM",
+          "role": "Président de SAS",
+          "siren": "508260460",
+          "auditor": false
+        }
+      ],
+      "accounts": {
+        "2016": {
+          "ca": 524372,
+          "resultat_net": -1673
+        }
+      },
+      "siegeSince": "2014-09-15",
+      "active": false,
       "confidence": "low",
       "scorerVersion": 5,
-      "score": 3,
+      "score": 1,
       "reasons": [
         "name prefix",
         "no declared employees",
         "dept 13",
-        "active",
-        "siege since 2007"
+        "ceased",
+        "tech NAF",
+        "siege since 2014"
       ],
       "alternatives": [
         "431282961 ACCES TELECOM MULTIMEDIA (ATM) (1)"
@@ -28679,30 +28701,23 @@
       "website": "http://detail.co",
       "blurb": "Mobile app for fast video and podcast creation.",
       "status": "ambiguous",
-      "siren": "391194313",
-      "legalName": "DETAIL INOX",
-      "department": "73",
-      "naf": "25.50B",
-      "founded": "1993-03-24",
-      "city": "GRESY-SUR-AIX",
+      "siren": "390702348",
+      "legalName": "DETAIL VIANDES",
+      "department": "32",
+      "naf": "47.22Z",
+      "founded": "1993-04-05",
+      "city": "SAMATAN",
       "country": "France",
       "headcount": "11",
-      "sizeCategory": "ETI",
-      "officers": [
-        {
-          "name": "ERNST & YOUNG ET AUTRES",
-          "role": "Commissaire aux comptes titulaire",
-          "siren": "438476913",
-          "auditor": true
-        }
-      ],
+      "sizeCategory": "PME",
+      "officers": [],
       "accounts": {
         "2024": {
-          "ca": 6556600,
-          "resultat_net": -26413
+          "ca": 0,
+          "resultat_net": -119948
         }
       },
-      "siegeSince": "1993-03-24",
+      "siegeSince": "1993-04-05",
       "active": true,
       "confidence": "low",
       "scorerVersion": 5,
@@ -28710,12 +28725,12 @@
       "reasons": [
         "name prefix",
         "has employees (bracket 11)",
-        "dept 73",
+        "dept 32",
         "active",
         "siege since 1993"
       ],
       "alternatives": [
-        "390702348 DETAIL VIANDES (4)",
+        "391194313 DETAIL INOX (4)",
         "878155654 DETAIL (1)"
       ]
     },
@@ -29685,7 +29700,7 @@
         "kima": "unknown"
       },
       "portfolioCountry": "France",
-      "website": "https://www.welcometothejungle.com/en/companies/xange",
+      "website": "http://ed.ai",
       "blurb": "AI Assistant for teachers",
       "status": "resolved",
       "siren": "932580087",
@@ -32155,7 +32170,7 @@
       "website": "http://freddelacompta.com",
       "blurb": "Fred, votre comptable connecté, vous suit partout, range vos documents, répond à vos questions, vous informe sur votre actualité, établit et déclare vos comptes.",
       "status": "no-name-match",
-      "candidates": 3
+      "candidates": 4
     },
     "FREEDA": {
       "name": "Freeda",
@@ -33952,8 +33967,8 @@
         "siege since 2025"
       ],
       "alternatives": [
-        "924854151 HOMELOC (1)",
-        "824308944 HOMELOC (1)"
+        "824308944 HOMELOC (1)",
+        "924854151 HOMELOC (1)"
       ]
     },
     "HOMEWINGS": {
@@ -34427,10 +34442,12 @@
       "name": "Ibanfirst",
       "funds": [
         "kima",
+        "elaia",
         "serena"
       ],
       "holdings": {
         "kima": "unknown",
+        "elaia": "unknown",
         "serena": "unknown"
       },
       "portfolioCountry": "France",
@@ -40939,7 +40956,7 @@
       "website": "http://newquest.ai",
       "blurb": "Ambient and Personal AI Advisor",
       "status": "no-name-match",
-      "candidates": 2
+      "candidates": 3
     },
     "NEWSCATCHER": {
       "name": "Newscatcher",
@@ -41203,7 +41220,7 @@
       ],
       "alternatives": [
         "990694192 NOMI (7)",
-        "800127532 NOMI (7)"
+        "101209914 NOMI (6)"
       ]
     },
     "NOM NOM NOW": {
@@ -47202,7 +47219,7 @@
       "website": "http://singuli.co",
       "blurb": "Inventory Optimization for Modern Retail",
       "status": "no-name-match",
-      "candidates": 16
+      "candidates": 17
     },
     "SKEW": {
       "name": "Skew",
@@ -53735,7 +53752,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "794196055",
@@ -55682,23 +55699,23 @@
       "website": null,
       "blurb": null,
       "status": "ambiguous",
-      "siren": "902107150",
-      "legalName": "JAVELO (AKOYAS PROVENCE)",
-      "department": "13",
-      "naf": "70.22Z",
-      "founded": "2021-08-04",
-      "city": "PLAN-D'ORGON",
+      "siren": "815121330",
+      "legalName": "JAVELO",
+      "department": "75",
+      "naf": "64.20Z",
+      "founded": "2015-12-01",
+      "city": "PARIS",
       "country": "France",
-      "headcount": "01",
+      "headcount": "NN",
       "sizeCategory": "PME",
       "officers": [],
       "accounts": {
-        "2025": {
+        "2024": {
           "ca": 0,
-          "resultat_net": 7379
+          "resultat_net": 269330
         }
       },
-      "siegeSince": "2021-08-04",
+      "siegeSince": "2015-12-01",
       "active": true,
       "confidence": "medium",
       "scorerVersion": 5,
@@ -55706,13 +55723,12 @@
       "reasons": [
         "exact name",
         "no declared employees",
-        "dept 13",
+        "Île-de-France",
         "active",
-        "tech NAF",
-        "siege since 2021"
+        "siege since 2015"
       ],
       "alternatives": [
-        "815121330 JAVELO (7)"
+        "902107150 JAVELO (AKOYAS PROVENCE) (7)"
       ]
     },
     "KANDBAZ": {
@@ -55931,7 +55947,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "323180588",
@@ -56354,7 +56370,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "878277912",
@@ -56686,12 +56702,12 @@
       "website": null,
       "blurb": null,
       "status": "ambiguous",
-      "siren": "327925335",
+      "siren": "322120692",
       "legalName": "PUBECO",
-      "department": "75",
+      "department": "91",
       "naf": "77.10",
-      "founded": "1983-08-01",
-      "city": "PARIS 19",
+      "founded": "1981-05-26",
+      "city": "SAVIGNY-SUR-ORGE",
       "country": "France",
       "headcount": "NN",
       "sizeCategory": null,
@@ -56709,7 +56725,7 @@
         "ceased"
       ],
       "alternatives": [
-        "322120692 PUBECO (3)",
+        "327925335 PUBECO (3)",
         "504072182 PUBECO S.A.R.L (3)"
       ]
     },
@@ -57399,7 +57415,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "822686788",
@@ -58184,7 +58200,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "512854514",
@@ -58481,7 +58497,7 @@
       ],
       "alternatives": [
         "478681703 CHILLI (STELLAR) (7)",
-        "924615982 CHILLI MOTORS (5)"
+        "932039860 CHILLI BURGER (1)"
       ]
     },
     "CLIMEFI": {
@@ -58940,7 +58956,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "891586299",
@@ -58999,7 +59015,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "809234586",
@@ -59045,7 +59061,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "837811256",
@@ -59088,7 +59104,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "ambiguous",
       "siren": "447555178",
@@ -59129,7 +59145,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "928038876",
@@ -59169,7 +59185,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "not-found"
     },
@@ -59182,7 +59198,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "789873866",
@@ -59222,7 +59238,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "ambiguous",
       "siren": "821389145",
@@ -59267,7 +59283,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "791341274",
@@ -59318,7 +59334,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "102224813",
@@ -59356,7 +59372,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "807462692",
@@ -59439,7 +59455,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "105578264",
@@ -59477,7 +59493,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "501388573",
@@ -59528,7 +59544,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "no-name-match",
       "candidates": 14
@@ -59542,7 +59558,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "844188151",
@@ -59588,7 +59604,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "508023371",
@@ -59639,7 +59655,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "521089441",
@@ -59713,7 +59729,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "823555495",
@@ -59778,7 +59794,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "442748455",
@@ -59840,7 +59856,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "804203792",
@@ -59894,7 +59910,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "830520201",
@@ -59937,7 +59953,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "803608389",
@@ -59986,7 +60002,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "950747113",
@@ -60026,7 +60042,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "798867503",
@@ -60084,7 +60100,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "751517038",
@@ -60130,7 +60146,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "450249677",
@@ -60194,7 +60210,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "990305260",
@@ -60233,7 +60249,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "510188311",
@@ -60276,7 +60292,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "no-name-match",
       "candidates": 1
@@ -60290,7 +60306,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "914686480",
@@ -60343,7 +60359,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "not-found"
     },
@@ -60356,7 +60372,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "478130388",
@@ -60416,7 +60432,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "451799845",
@@ -60468,7 +60484,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "843359357",
@@ -60512,7 +60528,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "813145745",
@@ -60562,7 +60578,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "831023197",
@@ -60603,7 +60619,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "882922289",
@@ -60653,7 +60669,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "500375571",
@@ -60693,7 +60709,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "878794064",
@@ -60738,7 +60754,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "499393189",
@@ -60790,7 +60806,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "879605350",
@@ -60860,7 +60876,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "842709644",
@@ -60919,7 +60935,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "838012565",
@@ -60977,7 +60993,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "991662420",
@@ -61018,7 +61034,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "913425633",
@@ -61066,7 +61082,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "892021577",
@@ -61112,7 +61128,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "851036947",
@@ -61158,7 +61174,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "880335435",
@@ -61222,7 +61238,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "not-found"
     },
@@ -61235,7 +61251,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "822074258",
@@ -61281,7 +61297,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "530422427",
@@ -61335,7 +61351,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "912160389",
@@ -61372,7 +61388,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "830721098",
@@ -61422,7 +61438,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "no-name-match",
       "candidates": 20
@@ -61436,7 +61452,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "509553285",
@@ -61498,7 +61514,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "921682076",
@@ -61536,7 +61552,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "not-found"
     },
@@ -61549,7 +61565,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "833096860",
@@ -61593,7 +61609,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "not-found"
     },
@@ -61606,7 +61622,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "931361398",
@@ -61644,7 +61660,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "939584645",
@@ -61689,7 +61705,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "no-name-match",
       "candidates": 20
@@ -61703,7 +61719,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "818145211",
@@ -61756,7 +61772,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "889263117",
@@ -61798,7 +61814,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "not-found"
     },
@@ -61811,7 +61827,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "no-name-match",
       "candidates": 5
@@ -61825,7 +61841,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "979093523",
@@ -61868,7 +61884,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "106538465",
@@ -61908,7 +61924,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "931881833",
@@ -61945,7 +61961,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "no-name-match",
       "candidates": 1
@@ -61959,7 +61975,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "resolved",
       "siren": "938797099",
@@ -61999,7 +62015,7 @@
         "serena": "unknown"
       },
       "portfolioCountry": null,
-      "website": "https://serena.vasco.fund/",
+      "website": null,
       "blurb": null,
       "status": "not-found"
     },
@@ -63049,6 +63065,286 @@
       "website": "http://seromlabs.com",
       "blurb": "All in one health supplements for women",
       "status": "not-found"
+    },
+    "SANDBOXAQ": {
+      "name": "Sandboxaq",
+      "funds": [
+        "elaia"
+      ],
+      "holdings": {
+        "elaia": "unknown"
+      },
+      "portfolioCountry": null,
+      "website": null,
+      "blurb": null,
+      "status": "not-found"
+    },
+    "VIBE CO": {
+      "name": "Vibe CO",
+      "funds": [
+        "elaia"
+      ],
+      "holdings": {
+        "elaia": "unknown"
+      },
+      "portfolioCountry": null,
+      "website": null,
+      "blurb": null,
+      "status": "no-name-match",
+      "candidates": 1
+    },
+    "SHIFT TECHNOLOGY": {
+      "name": "Shift Technology",
+      "funds": [
+        "elaia"
+      ],
+      "holdings": {
+        "elaia": "unknown"
+      },
+      "portfolioCountry": null,
+      "website": null,
+      "blurb": null,
+      "status": "resolved",
+      "siren": "791862618",
+      "legalName": "SHIFT TECHNOLOGY",
+      "department": "75",
+      "naf": "58.29A",
+      "founded": "2013-03-11",
+      "city": "PARIS",
+      "country": "France",
+      "headcount": "32",
+      "sizeCategory": "ETI",
+      "officers": [
+        {
+          "name": "VACHON & ASSOCIES",
+          "role": "Commissaire aux comptes titulaire",
+          "siren": "394348155",
+          "auditor": true
+        },
+        {
+          "name": "KPMG S.A",
+          "role": "Commissaire aux comptes titulaire",
+          "siren": "775726417",
+          "auditor": true
+        }
+      ],
+      "accounts": null,
+      "siegeSince": "2018-05-17",
+      "active": true,
+      "confidence": "high",
+      "scorerVersion": 5,
+      "score": 12,
+      "reasons": [
+        "exact name",
+        "has employees (bracket 32)",
+        "Île-de-France",
+        "active",
+        "tech NAF",
+        "siege since 2018"
+      ],
+      "alternatives": []
+    },
+    "PROXIMA FUSION": {
+      "name": "Proxima Fusion",
+      "funds": [
+        "elaia"
+      ],
+      "holdings": {
+        "elaia": "unknown"
+      },
+      "portfolioCountry": null,
+      "website": null,
+      "blurb": null,
+      "status": "not-found"
+    },
+    "MIRAKL": {
+      "name": "Mirakl",
+      "funds": [
+        "elaia"
+      ],
+      "holdings": {
+        "elaia": "unknown"
+      },
+      "portfolioCountry": null,
+      "website": null,
+      "blurb": null,
+      "status": "resolved",
+      "siren": "530897990",
+      "legalName": "MIRAKL",
+      "department": "75",
+      "naf": "63.11Z",
+      "founded": "2011-02-14",
+      "city": "PARIS",
+      "country": "France",
+      "headcount": "32",
+      "sizeCategory": "ETI",
+      "officers": [
+        {
+          "name": "R.B.A.",
+          "role": "Commissaire aux comptes titulaire",
+          "siren": "329815070",
+          "auditor": true
+        },
+        {
+          "name": "ERNST & YOUNG ET AUTRES",
+          "role": "Commissaire aux comptes titulaire",
+          "siren": "438476913",
+          "auditor": true
+        },
+        {
+          "name": "ACTARUS",
+          "role": "Président de SAS",
+          "siren": "440113421",
+          "auditor": false
+        },
+        {
+          "name": "ELAIA PARTNERS",
+          "role": "Administrateur",
+          "siren": "443990668",
+          "auditor": false
+        },
+        {
+          "name": "MIRK UK HOLDCO LIMITED",
+          "role": null,
+          "siren": null,
+          "auditor": false
+        }
+      ],
+      "accounts": null,
+      "siegeSince": "2021-01-01",
+      "active": true,
+      "confidence": "high",
+      "scorerVersion": 5,
+      "score": 12,
+      "reasons": [
+        "exact name",
+        "has employees (bracket 32)",
+        "Île-de-France",
+        "active",
+        "tech NAF",
+        "siege since 2021"
+      ],
+      "alternatives": [
+        "939456844 MIRAKL FINANCIAL SERVICES (6)",
+        "989305701 MIRAKL (3)"
+      ]
+    },
+    "HOLDED": {
+      "name": "Holded",
+      "funds": [
+        "elaia"
+      ],
+      "holdings": {
+        "elaia": "unknown"
+      },
+      "portfolioCountry": null,
+      "website": null,
+      "blurb": null,
+      "status": "not-found"
+    },
+    "H AI": {
+      "name": "H AI",
+      "funds": [
+        "elaia"
+      ],
+      "holdings": {
+        "elaia": "unknown"
+      },
+      "portfolioCountry": null,
+      "website": null,
+      "blurb": null,
+      "status": "no-name-match",
+      "candidates": 12
+    },
+    "DEXORY": {
+      "name": "Dexory",
+      "funds": [
+        "elaia"
+      ],
+      "holdings": {
+        "elaia": "unknown"
+      },
+      "portfolioCountry": null,
+      "website": null,
+      "blurb": null,
+      "status": "not-found"
+    },
+    "AQEMIA": {
+      "name": "Aqemia",
+      "funds": [
+        "elaia"
+      ],
+      "holdings": {
+        "elaia": "unknown"
+      },
+      "portfolioCountry": null,
+      "website": null,
+      "blurb": null,
+      "status": "resolved",
+      "siren": "851519702",
+      "legalName": "AQEMIA",
+      "department": "75",
+      "naf": "58.29C",
+      "founded": "2019-06-12",
+      "city": "PARIS",
+      "country": "France",
+      "headcount": "21",
+      "sizeCategory": "PME",
+      "officers": [
+        {
+          "name": "EURAZEO INVESTMENT MANAGER - EIM",
+          "role": "Autre",
+          "siren": "414735175",
+          "auditor": false
+        },
+        {
+          "name": "BPIFRANCE INVESTISSEMENT",
+          "role": "Autre",
+          "siren": "433975224",
+          "auditor": false
+        },
+        {
+          "name": "ELAIA PARTNERS",
+          "role": "Autre",
+          "siren": "443990668",
+          "auditor": false
+        },
+        {
+          "name": "HASTINGS AUDIT",
+          "role": "Commissaire aux comptes titulaire",
+          "siren": "798759973",
+          "auditor": true
+        }
+      ],
+      "accounts": null,
+      "siegeSince": "2019-06-12",
+      "active": true,
+      "confidence": "high",
+      "scorerVersion": 5,
+      "score": 12,
+      "reasons": [
+        "exact name",
+        "has employees (bracket 21)",
+        "Île-de-France",
+        "active",
+        "tech NAF",
+        "siege since 2019"
+      ],
+      "alternatives": []
+    },
+    "ALICE BOB": {
+      "name": "Alice Bob",
+      "funds": [
+        "elaia"
+      ],
+      "holdings": {
+        "elaia": "unknown"
+      },
+      "portfolioCountry": null,
+      "website": null,
+      "blurb": null,
+      "status": "no-name-match",
+      "candidates": 7
     }
   }
 }

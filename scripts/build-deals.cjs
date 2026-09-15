@@ -34,19 +34,41 @@ const HEADCOUNT_ORDER = ['00', '01', '02', '03', '11', '12', '21', '22', '31', '
 const bigEnough = (bracket) =>
   HEADCOUNT_ORDER.indexOf(bracket) >= HEADCOUNT_ORDER.indexOf(HEADCOUNT_FLOOR);
 
-function seriesATest({ priorRounds, headcount }) {
+// The third route, US only. Form D states the amount, and an $8.6m or $19.8m
+// round is past seed whatever its filing history says.
+//
+// Without this the prior-round test alone cut the US list from 17 rounds to 6 and
+// threw out Greenlite at $16.0m and Litify at $19.8m, because a company's FIRST
+// Form D looks identical to a seed. Form D history is shallower than BODACC
+// history — many US companies have only ever filed once — so prior-round count
+// is a much weaker instrument there than in France.
+//
+// This mirrors the French side rather than departing from it: each country gets
+// the same primary test plus whichever scale evidence its own register publishes.
+const SERIES_A_USD_FLOOR = 5_000_000;
+
+function seriesATest({ priorRounds, headcount, amountSold }) {
   if (priorRounds >= 1) {
     return { pass: true, test: 'prior-rounds', why: `${priorRounds} earlier round${priorRounds > 1 ? 's' : ''} already on the register, so this is not a first raise` };
   }
   if (headcount && bigEnough(headcount)) {
     return { pass: true, test: 'headcount', why: `No earlier round on record, but the company declares INSEE headcount bracket ${headcount}` };
   }
+  if (amountSold && amountSold >= SERIES_A_USD_FLOOR) {
+    return {
+      pass: true,
+      test: 'amount',
+      why: `No earlier round on record, but Form D states $${Math.round(amountSold).toLocaleString('en-US')} sold — past a seed round on size`,
+    };
+  }
   return {
     pass: false,
     test: null,
     why: headcount
       ? `First round on the register, and headcount bracket ${headcount} is below the floor`
-      : 'First round on the register, and no headcount is filed to corroborate scale',
+      : amountSold
+        ? `First round on the register, and Form D states $${Math.round(amountSold).toLocaleString('en-US')} sold, below the $5m floor`
+        : 'First round on the register, and no headcount or amount is filed to corroborate scale',
   };
 }
 
@@ -68,7 +90,7 @@ function build(today) {
     const priced = company.events.filter((e) => e.verdict === 'round-candidate');
     priced.forEach((event, index) => {
       const later = company.events.filter((e) => e.date > event.date);
-      const gate = seriesATest({ priorRounds: index, headcount: meta.headcount });
+      const gate = seriesATest({ priorRounds: index, headcount: meta.headcount, amountSold: null });
       deals.push({
         id: `FR:${company.siren}:${event.date}`,
         register: 'FR',
@@ -112,12 +134,14 @@ function build(today) {
   }
 
   for (const [key, company] of Object.entries(formd.companies || {})) {
-    if (company.cikUnverified) continue;
+    // A fund raising its own capital is not dealflow.
+    if (company.cikUnverified || company.isFundVehicle) continue;
     const meta = cikMap.companies[key] || {};
-    company.rounds.forEach((round, index) => {
+    const realRounds = company.rounds.filter((r) => r.industry !== 'Pooled Investment Fund');
+    realRounds.forEach((round, index) => {
       // No headcount exists for a US issuer, so only the prior-round test can
       // apply here. That asymmetry is carried onto the row, not hidden.
-      const gate = seriesATest({ priorRounds: index, headcount: null });
+      const gate = seriesATest({ priorRounds: index, headcount: null, amountSold: round.amountSold });
       deals.push({
         id: `US:${company.cik}:${round.date}`,
         register: 'US',
@@ -142,7 +166,7 @@ function build(today) {
           ? `Form D: $${Math.round(round.amountSold).toLocaleString('en-US')} sold`
           : 'Form D filed, amount not stated',
         priorRounds: index,
-        isLatest: index === company.rounds.length - 1,
+        isLatest: index === realRounds.length - 1,
         bridgeSince: false,
         seriesA: gate.pass,
         seriesATest: gate.test,
@@ -175,6 +199,7 @@ if (require.main === module) {
   console.log(`  Series A or later        ${deals.filter((d) => d.seriesA).length}`);
   console.log(`    via prior rounds       ${deals.filter((d) => d.seriesATest === 'prior-rounds').length}`);
   console.log(`    via headcount only     ${deals.filter((d) => d.seriesATest === 'headcount').length}`);
+  console.log(`    via Form D amount      ${deals.filter((d) => d.seriesATest === 'amount').length}`);
   console.log(`  latest round per company ${latestA.length}`);
   console.log(`  in the 18-30 month band  ${inWindow.length}`);
   console.log(`  US deals with an amount  ${us.filter((d) => d.amountSold).length}/${us.length}`);
