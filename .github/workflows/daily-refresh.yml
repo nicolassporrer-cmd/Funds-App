@@ -2,10 +2,14 @@ name: Daily refresh
 
 # Re-runs the whole pipeline and commits the derived JSON.
 #
-# No secrets are needed: every source is keyless open data (fund websites,
-# recherche-entreprises.api.gouv.fr, BODACC via DILA). If that ever changes, add
-# the secret here AND make the step fail loudly when it is absent rather than
-# committing a thinner dataset.
+# SEC_USER_AGENT is REQUIRED for the New York half. www.sec.gov answers 403 to
+# any request without a declared "AppName contact@email" user agent, on the very
+# first call, and its message claims a rate-limit that is not the real cause.
+# The job fails loudly if it is absent rather than committing a France-only
+# dataset that would look like every US company had stopped raising.
+#
+# The French sources (fund websites, recherche-entreprises.api.gouv.fr, BODACC
+# via DILA) need no key.
 on:
   schedule:
     - cron: '40 6 * * *'      # 06:40 UTC daily
@@ -24,11 +28,25 @@ jobs:
     timeout-minutes: 90
     outputs:
       changed: ${{ steps.commit.outputs.changed }}
+    env:
+      SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+
+      - name: Require the SEC user agent
+        run: |
+          if [ -z "$SEC_USER_AGENT" ]; then
+            echo "::error::SEC_USER_AGENT is not set. Add it under Settings > Secrets and variables > Actions."
+            echo "Expected form: Funds-App you@example.com"
+            exit 1
+          fi
+          case "$SEC_USER_AGENT" in
+            *@*) echo "SEC user agent is set." ;;
+            *) echo "::error::SEC_USER_AGENT has no email address in it; SEC will return 403."; exit 1 ;;
+          esac
 
       # Fund sites get redesigned without warning. This step does not fail when
       # one adapter breaks — the other nine still refresh — but it prints the
@@ -44,8 +62,11 @@ jobs:
 
       # Cached: a name already resolved to a SIREN is never re-queried, so this
       # only spends API calls on companies that are new since yesterday.
-      - name: Resolve new company names to SIRENs
+      - name: Resolve new company names to SIRENs (Paris funds)
         run: node scripts/resolve-sirens.cjs
+
+      - name: Resolve new company names to SEC CIKs (New York funds)
+        run: node scripts/resolve-ciks.cjs
 
       - name: Fetch register announcements from BODACC
         run: node scripts/fetch-events.cjs
@@ -53,8 +74,14 @@ jobs:
       - name: Classify capital events
         run: node scripts/classify-rounds.cjs
 
+      - name: Fetch Form D offerings from SEC
+        run: node scripts/fetch-formd.cjs
+
       - name: Score which companies look like they are about to raise
         run: node scripts/score-prospects.cjs
+
+      - name: Assemble the deal log across both registers
+        run: node scripts/build-deals.cjs
 
       - name: Assemble the page payload
         run: node scripts/build-payload.cjs

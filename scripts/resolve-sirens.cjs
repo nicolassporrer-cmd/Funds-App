@@ -206,7 +206,10 @@ async function resolve(name) {
 module.exports = { resolve, normalise, score };
 
 if (require.main === module) (async () => {
-  const { funds } = JSON.parse(fs.readFileSync(path.join(DATA, 'portfolios.json'), 'utf8'));
+  const allFunds = JSON.parse(fs.readFileSync(path.join(DATA, 'portfolios.json'), 'utf8')).funds;
+  // Only French funds: a US portfolio company has no SIREN, and searching for one
+  // would match an unrelated French namesake with the same name.
+  const funds = allFunds.filter((f) => f.register !== 'US');
   const existing = fs.existsSync(MAP_PATH)
     ? JSON.parse(fs.readFileSync(MAP_PATH, 'utf8'))
     : { note: 'name -> SIREN cache. Hand-edit an entry and set "manual": true to pin it; the pipeline never overwrites those.', companies: {} };

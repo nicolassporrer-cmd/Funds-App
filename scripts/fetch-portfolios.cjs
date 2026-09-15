@@ -38,9 +38,11 @@ const MIN_EXPECTED = 5;
       // of its 271 companies "Alumni". Where the fund publishes that distinction
       // on separate archive pages, fold it back in here.
       let kept = companies;
+      let statusPagesYielded = 0;
       if (fund.statusPages) {
         for (const source of fund.statusPages) {
           const slugs = await pagedSlugs(get, source.url, source.prefix);
+          statusPagesYielded += slugs.size;
           let applied = 0;
           for (const company of companies) {
             if (company.slug && slugs.has(company.slug)) {
@@ -56,10 +58,16 @@ const MIN_EXPECTED = 5;
         // including "Mirakl Raises 300m..." and four copies of "Testing Mosaic
         // For Elaia". The status taxonomy only ever tags real holdings, so on a
         // fund that publishes one, an untagged entry is not a company.
-        if (fund.requireStatus) {
+        // Only when the status pages actually returned something. Elaia moved its
+        // /status/ archives and they began 404ing; without this guard requireStatus
+        // silently dropped all 130 of its companies and reported the fund as broken
+        // — a site change turning into a total data loss.
+        if (fund.requireStatus && statusPagesYielded > 0) {
           const before = kept.length;
           kept = companies.filter((c) => c.holding && c.holding !== 'unknown');
           console.log(`  requireStatus: dropped ${before - kept.length} untagged entries (press posts, tests)`);
+        } else if (fund.requireStatus) {
+          console.log('  requireStatus SKIPPED: status pages returned nothing, keeping all entries');
         }
         process.stdout.write(`${''.padEnd(13)}`);
       }

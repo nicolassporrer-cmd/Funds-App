@@ -15,6 +15,42 @@ const rounds = read('rounds.json');
 const prospects = read('prospects.json');
 const contacts = read('contacts.json');
 
+// The deal log — one row per round across both registers. Shipped self-contained
+// rather than joined to `companies` client-side, because US companies come from
+// Form D and never appear in the French company list.
+let dealFile = { deals: [] };
+try {
+  dealFile = read('deals.json');
+} catch {
+  // build-deals has not run yet; the rest of the payload is still valid.
+}
+const deals = dealFile.deals.map((d) => ({
+  id: d.id,
+  register: d.register,
+  region: d.region,
+  date: d.date,
+  monthsAgo: d.monthsAgo,
+  company: d.company,
+  key: d.key,
+  identifier: d.identifier,
+  funds: d.funds,
+  blurb: d.blurb ? d.blurb.slice(0, 180) : null,
+  website: d.website || null,
+  country: d.country,
+  city: d.city,
+  founded: d.founded,
+  headcount: d.headcount,
+  amountSold: d.amountSold,
+  amountOffered: d.amountOffered,
+  capitalAfter: d.capitalAfter,
+  priorRounds: d.priorRounds,
+  isLatest: d.isLatest,
+  bridgeSince: d.bridgeSince,
+  seriesA: d.seriesA,
+  seriesATest: d.seriesATest,
+  seriesAWhy: d.seriesAWhy,
+}));
+
 const prospectByKey = new Map(prospects.companies.map((p) => [p.key, p]));
 
 // Scraped deal lead per company, where a fund publishes one.
@@ -187,6 +223,8 @@ const fundsOut = fundList.map((fund) => {
     id: fund.id,
     name: fund.name,
     city: fund.city,
+    region: fund.region || 'Paris',
+    register: fund.register || 'FR',
     type: fund.type,
     site: fund.site,
     portfolioUrl: fund.portfolioUrl,
@@ -201,6 +239,8 @@ const fundsOut = fundList.map((fund) => {
     // Companies this fund holds that are showing a raise signal — the headline
     // number for a fund, and what its row is sorted by.
     raising: mine.filter((c) => c.tracked && !['exited','dormant','unverified'].includes(c.status) && c.score >= 40).length,
+    deals: deals.filter((d) => d.funds.includes(fund.id)).length,
+    dealsSeriesA: deals.filter((d) => d.funds.includes(fund.id) && d.seriesA && d.isLatest).length,
     overdue: mine.filter((c) => c.status === 'overdue').length,
     dueSoon: mine.filter((c) => c.status === 'due-soon').length,
   };
@@ -232,6 +272,11 @@ const payload = {
     withBridge: companies.filter((c) => c.hasBridge).length,
     withInvestorOfficer: companies.filter((c) => c.investorOfficers.length).length,
     withContact: companies.filter((c) => c.contact).length,
+    deals: deals.length,
+    dealsFR: deals.filter((d) => d.register === 'FR').length,
+    dealsUS: deals.filter((d) => d.register === 'US').length,
+    dealsSeriesA: deals.filter((d) => d.seriesA).length,
+    dealsWithAmount: deals.filter((d) => d.amountSold).length,
   },
   sources: [
     { name: 'Fund portfolio pages', detail: `${fundsOut.length} Paris funds, scraped from their own published portfolio or sitemap` },
@@ -251,6 +296,7 @@ const payload = {
     'Companies marked “unverified” matched a SIREN that has no register announcements at all. An operating French company always has some, so the name almost certainly matched a dormant namesake. They are listed separately and never counted in the alerts.',
   ],
   funds: fundsOut,
+  deals,
   companies,
 };
 

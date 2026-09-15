@@ -35,7 +35,8 @@ const isLive = (c) => !GONE.includes(c.status);
 
 const SIGNAL_ICON = { bridge: '◆', governance: '●', auditor: '▲', investor: '■', cycle: '○', size: '·', alive: '·' };
 
-const state = { minScore: 20, q: '', fund: 'all', sort: 'score', fundQ: '', fundSort: 'lastRound', includeGone: false };
+const state = { minScore: 20, q: '', fund: 'all', sort: 'score', fundQ: '', fundSort: 'lastRound', includeGone: false,
+  window: 'two', region: 'all', seriesAOnly: true, dealQ: '' };
 
 // ---------- routing
 function route() {
@@ -47,10 +48,153 @@ function route() {
   });
   if (fund) renderFund(fund);
   else if (hash.startsWith('#/funds')) renderFunds();
-  else renderRaising();
+  else if (hash.startsWith('#/signals')) renderRaising();
+  else renderDeals();
   window.scrollTo(0, 0);
 }
 window.addEventListener('hashchange', route);
+
+
+// ---------- the deal log: the landing view
+//
+// One row per round, grouped by the quarter it happened in, because the date is
+// the whole signal. Paris rounds come from BODACC, New York rounds from SEC
+// Form D — and only the US register publishes an amount, so the money column is
+// empty for every French row by nature rather than by omission.
+const WINDOWS = [
+  { id: 'two', label: 'Around 2 years ago', lo: 18, hi: 30 },
+  { id: 'oneTwo', label: '1 to 2 years', lo: 12, hi: 24 },
+  { id: 'twoThree', label: '2 to 3 years', lo: 24, hi: 36 },
+  { id: 'wide', label: 'Everything 1-4 years', lo: 12, hi: 48 },
+  { id: 'all', label: 'Every deal on record', lo: 0, hi: 1e6 },
+];
+
+const usd = (n) => {
+  if (n == null) return null;
+  if (n >= 1e9) return '$' + (n / 1e9).toFixed(1) + 'bn';
+  if (n >= 1e6) return '$' + (n / 1e6).toFixed(1) + 'm';
+  return '$' + Math.round(n / 1000) + 'k';
+};
+const quarterOf = (d) => d.slice(0, 4) + ' Q' + (Math.floor(Number(d.slice(5, 7)) - 1) / 3 + 1 | 0);
+const dueFlag = (m) =>
+  m >= 30 ? ['f-later', 'Past due'] : m >= 21 ? ['f-due', 'Due now'] : m >= 15 ? ['f-soon', 'Due soon'] : ['f-later', 'Early'];
+
+function dealRows() {
+  const w = WINDOWS.find((x) => x.id === state.window);
+  const q = state.dealQ.trim().toLowerCase();
+  return DATA.deals
+    .filter((d) => d.isLatest)
+    .filter((d) => !state.seriesAOnly || d.seriesA)
+    .filter((d) => state.region === 'all' || d.region === state.region)
+    .filter((d) => state.fund === 'all' || d.funds.includes(state.fund))
+    .filter((d) => d.monthsAgo >= w.lo && d.monthsAgo < w.hi)
+    .filter((d) => !q || d.company.toLowerCase().includes(q) || (d.blurb || '').toLowerCase().includes(q))
+    .sort((a, b) => b.date.localeCompare(a.date));
+}
+
+function renderDeals() {
+  const funds = DATA.funds;
+  $('#view').innerHTML = `
+    <p class="note" style="margin-top:20px">
+      One row per fundraising round, newest first, grouped by the quarter it happened in.
+      A round about two years old is a company approaching its next raise &mdash; the date is the
+      whole flag, and it is an official filing rather than an estimate.
+      Paris rounds come from the French commercial register; New York rounds from SEC Form D,
+      which is the only one of the two that publishes an amount.
+    </p>
+    <div class="filters" id="dealWindows">
+      ${WINDOWS.map((w) => `<button data-dim="window" data-value="${w.id}" aria-pressed="${state.window === w.id}">${w.label}</button>`).join('')}
+    </div>
+    <div class="filters">
+      <button data-dim="region" data-value="all" aria-pressed="${state.region === 'all'}">Both cities</button>
+      <button data-dim="region" data-value="Paris" aria-pressed="${state.region === 'Paris'}">Paris</button>
+      <button data-dim="region" data-value="New York" aria-pressed="${state.region === 'New York'}">New York</button>
+      <button data-dim="seriesAOnly" data-value="toggle" aria-pressed="${state.seriesAOnly}">
+        ${state.seriesAOnly ? 'Series A or later only' : 'Including first rounds'}
+      </button>
+      <select id="dealFund" aria-label="Filter by fund">
+        <option value="all">All funds</option>
+        ${funds.map((f) => `<option value="${f.id}"${state.fund === f.id ? ' selected' : ''}>${esc(f.name)} &middot; ${esc(f.region)}</option>`).join('')}
+      </select>
+      <input id="dq" type="search" placeholder="Search company or business" aria-label="Search deals" value="${esc(state.dealQ)}">
+    </div>
+    <p class="tally" id="dealTally"></p>
+    <div id="dealLog"></div>`;
+
+  renderDealRows();
+  $('#dq').addEventListener('input', (e) => { state.dealQ = e.target.value; renderDealRows(); });
+  $('#dealFund').addEventListener('change', (e) => { state.fund = e.target.value; renderDealRows(); });
+}
+
+function renderDealRows() {
+  const rows = dealRows();
+  const paris = rows.filter((d) => d.region === 'Paris').length;
+  const withAmount = rows.filter((d) => d.amountSold);
+  const raised = withAmount.reduce((s, d) => s + d.amountSold, 0);
+
+  $('#dealTally').innerHTML =
+    `<b>${rows.length}</b> rounds<span class="sep">|</span>` +
+    `<b>${paris}</b> Paris<span class="sep">|</span>` +
+    `<b>${rows.length - paris}</b> New York<span class="sep">|</span>` +
+    `<b class="f-due">${rows.filter((d) => d.monthsAgo >= 21 && d.monthsAgo < 30).length}</b> in the 21&ndash;30 month band` +
+    (withAmount.length ? `<span class="sep">|</span><b>${usd(raised)}</b> across the ${withAmount.length} with a published amount` : '');
+
+  const byQ = {};
+  rows.forEach((d) => { (byQ[quarterOf(d.date)] = byQ[quarterOf(d.date)] || []).push(d); });
+
+  $('#dealLog').innerHTML = Object.keys(byQ).sort().reverse().map((q) => {
+    const items = byQ[q];
+    const avg = Math.round(items.reduce((s, d) => s + d.monthsAgo, 0) / items.length);
+    return `<section><div class="quarter"><h2>${q}</h2>` +
+      `<span class="age">${avg} months ago</span>` +
+      `<span class="n">${items.length} round${items.length > 1 ? 's' : ''}</span></div>` +
+      items.map((d) => {
+        const [cls, label] = dueFlag(d.monthsAgo);
+        return `<article class="deal co" data-deal="${esc(d.id)}">
+          <span class="date">${d.date.slice(5)}<span class="reg reg-${d.register}">${d.register === 'FR' ? 'Paris' : 'NY'}</span></span>
+          <span><span class="co-name">${esc(d.company)}</span>
+            <span class="sub">${d.funds.map((f) => esc(fundOf(f).name)).join(' · ')}</span></span>
+          <span class="does">${d.blurb ? esc(clip(d.blurb, 120)) : '<span class="dash">no description published</span>'}</span>
+          <span class="amount">${d.amountSold ? esc(usd(d.amountSold)) : '<span class="dash" title="The French register never publishes round amounts">&mdash;</span>'}</span>
+          <span class="flag ${cls}">${label}${d.bridgeSince ? '<br><span class="mark">bridge since</span>' : ''}</span>
+        </article>`;
+      }).join('') + '</section>';
+  }).join('') || '<p class="empty">No rounds in this window.</p>';
+}
+
+function dealDetail(d) {
+  const amount = d.amountSold
+    ? `<b>${usd(d.amountSold)} sold</b>${d.amountOffered && d.amountOffered !== d.amountSold ? ' of ' + usd(d.amountOffered) + ' offered' : ''} <span class="marker">(SEC Form D)</span>`
+    : 'Not published. <span class="marker">In a French SAS the money goes into the prime d’émission, which the register never prints — only nominal capital moves.</span>';
+  return `<div class="detail-inline">
+    <div class="cols">
+      <div>
+        <h3>The round</h3>
+        <p class="why">${d.date} · ${Math.round(d.monthsAgo)} months ago · ${esc(d.region)}</p>
+        <p class="why">Amount: ${amount}</p>
+        <p class="why">Series A or later: <b>${d.seriesA ? 'yes' : 'no'}</b> — ${esc(d.seriesAWhy)}</p>
+        ${d.bridgeSince ? '<p class="why">A smaller capital increase has been registered since, which reads as a bridge from existing investors.</p>' : ''}
+      </div>
+      <div>
+        <h3>The company</h3>
+        <p class="why">${d.blurb ? esc(d.blurb) : '<span class="dash">No description published by the fund.</span>'}</p>
+        <p class="meta" style="border:0;padding:0">
+          ${esc(d.company)}
+          ${d.founded ? ' · incorporated ' + esc(d.founded) : ''}
+          ${d.city ? ' · ' + esc(d.city) : ''}${d.country ? ', ' + esc(d.country) : ''}
+          ${d.headcount ? ' · INSEE headcount bracket ' + esc(d.headcount) : ''}
+          ${d.capitalAfter != null ? ' · capital after ' + eur(d.capitalAfter) : ''}
+          · ${d.register === 'FR' ? 'SIREN ' + esc(d.identifier) : 'CIK ' + esc(d.identifier)}
+          · <a href="${d.register === 'FR'
+            ? 'https://annuaire-entreprises.data.gouv.fr/entreprise/' + esc(d.identifier)
+            : 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=' + esc(d.identifier) + '&type=D'}"
+            target="_blank" rel="noopener">official filing</a>
+          ${d.website ? ' · <a href="' + esc(d.website) + '" target="_blank" rel="noopener">website</a>' : ''}
+        </p>
+      </div>
+    </div>
+  </div>`;
+}
 
 // ---------- the raise list
 function raisingRows() {
@@ -311,6 +455,16 @@ function renderFundRows(fund) {
 
 // ---------- interaction
 document.addEventListener('click', (ev) => {
+  const dealRow = ev.target.closest('.deal[data-deal]');
+  if (dealRow) {
+    const open = dealRow.nextElementSibling && dealRow.nextElementSibling.classList.contains('detail-inline');
+    document.querySelectorAll('.detail-inline').forEach((d) => d.remove());
+    if (!open) {
+      const d = DATA.deals.find((x) => x.id === dealRow.dataset.deal);
+      dealRow.insertAdjacentHTML('afterend', dealDetail(d));
+    }
+    return;
+  }
   const row = ev.target.closest('.co');
   if (row) {
     const open = row.nextElementSibling && row.nextElementSibling.classList.contains('detail');
@@ -324,6 +478,7 @@ document.addEventListener('click', (ev) => {
   const btn = ev.target.closest('.filters button');
   if (!btn) return;
   if (btn.dataset.dim === 'includeGone') state.includeGone = !state.includeGone;
+  else if (btn.dataset.dim === 'seriesAOnly') state.seriesAOnly = !state.seriesAOnly;
   else if (btn.dataset.dim === 'minScore') state.minScore = Number(btn.dataset.value);
   else state[btn.dataset.dim] = btn.dataset.value;
   route();

@@ -1,5 +1,5 @@
 {
-  "note": "Hand-curated seed list. TRACKED in git — the pipeline never rewrites this file. `extractor` and `options` are set by inspecting the fund's actual portfolio page; see scripts/lib/adapters.cjs. statusPages, where a fund publishes them, mark whether it still holds the company; otherwise holding stays \"unknown\".",
+  "note": "Hand-curated fund list. TRACKED in git — the pipeline never rewrites this file. `register` decides which public register a fund's companies are looked up in: FR = BODACC via SIREN, US = SEC Form D via CIK. `extractor` and `options` are set by inspecting the fund's actual portfolio page; see scripts/lib/adapters.cjs.",
   "funds": [
     {
       "id": "partech",
@@ -12,7 +12,9 @@
       "options": {
         "arrayKey": "companies",
         "nameField": "name"
-      }
+      },
+      "region": "Paris",
+      "register": "FR"
     },
     {
       "id": "alven",
@@ -22,7 +24,9 @@
       "site": "https://www.alven.co",
       "portfolioUrl": "https://www.alven.co/portfolio",
       "extractor": "framer-pairs",
-      "options": {}
+      "options": {},
+      "region": "Paris",
+      "register": "FR"
     },
     {
       "id": "xange",
@@ -34,7 +38,9 @@
       "extractor": "slug-links",
       "options": {
         "prefix": "/portfolio"
-      }
+      },
+      "region": "Paris",
+      "register": "FR"
     },
     {
       "id": "daphni",
@@ -47,7 +53,9 @@
       "options": {
         "prefix": "/portfolio"
       },
-      "sourceUrl": "https://www.daphni.com/sitemap.xml"
+      "sourceUrl": "https://www.daphni.com/sitemap.xml",
+      "region": "Paris",
+      "register": "FR"
     },
     {
       "id": "360capital",
@@ -57,7 +65,9 @@
       "site": "https://360cap.vc",
       "portfolioUrl": "https://360cap.vc/portfolio",
       "extractor": "headings",
-      "options": {}
+      "options": {},
+      "region": "Paris",
+      "register": "FR"
     },
     {
       "id": "kima",
@@ -67,33 +77,25 @@
       "site": "https://www.kimaventures.com",
       "portfolioUrl": "https://www.kimaventures.com/portfolio",
       "extractor": "next-data",
-      "options": {}
+      "options": {},
+      "region": "Paris",
+      "register": "FR"
     },
     {
       "id": "elaia",
       "name": "Elaia Partners",
       "city": "Paris",
       "type": "VC",
-      "site": "https://www.elaia.com",
-      "portfolioUrl": "https://www.elaia.com/portfolio/",
+      "site": "https://elaia.com",
+      "portfolioUrl": "https://elaia.com/portfolio",
       "extractor": "sitemap",
       "options": {
         "prefix": "/portfolio"
       },
-      "sourceUrl": "https://www.elaia.com/wp-sitemap-posts-portfolio-1.xml",
-      "statusPages": [
-        {
-          "holding": "exited",
-          "url": "https://www.elaia.com/status/exited/",
-          "prefix": "/portfolio"
-        },
-        {
-          "holding": "current",
-          "url": "https://www.elaia.com/status/active/",
-          "prefix": "/portfolio"
-        }
-      ],
-      "requireStatus": true
+      "sourceUrl": "https://elaia.com/portfolio-sitemap.xml",
+      "region": "Paris",
+      "register": "FR",
+      "note": "Elaia rebuilt its site in 2026 on Next.js: the WordPress sitemaps and the /status/active,/status/exited archives are gone, and the new portfolio publishes only a selection. Coverage dropped from 130 companies to 12, and the current/exited split is no longer available."
     },
     {
       "id": "isai",
@@ -103,7 +105,9 @@
       "site": "https://www.isai.fr",
       "portfolioUrl": "https://www.isai.fr/portfolio/",
       "extractor": "img-alt",
-      "options": {}
+      "options": {},
+      "region": "Paris",
+      "register": "FR"
     },
     {
       "id": "ventech",
@@ -113,7 +117,9 @@
       "site": "https://www.ventechvc.com",
       "portfolioUrl": "https://www.ventechvc.com/portfolio/",
       "extractor": "headings",
-      "options": {}
+      "options": {},
+      "region": "Paris",
+      "register": "FR"
     },
     {
       "id": "serena",
@@ -126,7 +132,90 @@
       "options": {
         "prefix": "/portfolio-profile"
       },
-      "sourceUrl": "https://www.serena.vc/wp-sitemap-posts-portfolio-profile-1.xml"
+      "sourceUrl": "https://www.serena.vc/wp-sitemap-posts-portfolio-profile-1.xml",
+      "region": "Paris",
+      "register": "FR"
+    },
+    {
+      "id": "insight",
+      "name": "Insight Partners",
+      "city": "New York",
+      "type": "VC / Growth",
+      "site": "https://www.insightpartners.com",
+      "portfolioUrl": "https://www.insightpartners.com/portfolio/",
+      "sourceUrl": "https://www.insightpartners.com/sfcompany-sitemap.xml",
+      "extractor": "sitemap",
+      "options": {
+        "prefix": "/portfolio"
+      },
+      "region": "New York",
+      "register": "US"
+    },
+    {
+      "id": "bessemer",
+      "name": "Bessemer Venture Partners",
+      "city": "New York",
+      "type": "VC / Growth",
+      "site": "https://www.bvp.com",
+      "portfolioUrl": "https://www.bvp.com/portfolio",
+      "sourceUrl": "https://www.bvp.com/sitemap.xml",
+      "extractor": "sitemap",
+      "options": {
+        "prefix": "/portfolio"
+      },
+      "region": "New York",
+      "register": "US"
+    },
+    {
+      "id": "primary",
+      "name": "Primary Venture Partners",
+      "city": "New York",
+      "type": "VC",
+      "site": "https://www.primary.vc",
+      "portfolioUrl": "https://www.primary.vc/companies",
+      "sourceUrl": "https://www.primary.vc/sitemap.xml",
+      "extractor": "sitemap",
+      "options": {
+        "prefix": "/companies"
+      },
+      "region": "New York",
+      "register": "US"
+    },
+    {
+      "id": "greycroft",
+      "name": "Greycroft",
+      "city": "New York",
+      "type": "VC",
+      "site": "https://www.greycroft.com",
+      "portfolioUrl": "https://www.greycroft.com/portfolio",
+      "extractor": "img-alt",
+      "options": {},
+      "region": "New York",
+      "register": "US"
+    },
+    {
+      "id": "rre",
+      "name": "RRE Ventures",
+      "city": "New York",
+      "type": "VC",
+      "site": "https://www.rre.com",
+      "portfolioUrl": "https://www.rre.com/portfolio",
+      "extractor": "headings",
+      "options": {},
+      "region": "New York",
+      "register": "US"
+    },
+    {
+      "id": "workbench",
+      "name": "Work-Bench",
+      "city": "New York",
+      "type": "VC",
+      "site": "https://www.work-bench.com",
+      "portfolioUrl": "https://www.work-bench.com/portfolio",
+      "extractor": "headings",
+      "options": {},
+      "region": "New York",
+      "register": "US"
     }
   ]
 }
