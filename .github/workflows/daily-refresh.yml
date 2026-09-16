@@ -65,17 +65,17 @@ jobs:
       - name: Resolve new company names to SIRENs (Paris funds)
         run: node scripts/resolve-sirens.cjs
 
-      - name: Resolve new company names to SEC CIKs (New York funds)
-        run: node scripts/resolve-ciks.cjs
-
       - name: Fetch register announcements from BODACC
         run: node scripts/fetch-events.cjs
 
       - name: Classify capital events
         run: node scripts/classify-rounds.cjs
 
-      - name: Fetch Form D offerings from SEC
-        run: node scripts/fetch-formd.cjs
+      # Every New York venture round, plus US rounds by any tracked fund's portfolio
+      # company. Historical quarters are kept in data/us-deals.json and never
+      # re-downloaded; only the latest two quarters are refreshed each day.
+      - name: Fetch US venture rounds from SEC bulk Form D data
+        run: node scripts/fetch-formd-bulk.cjs
 
       - name: Score which companies look like they are about to raise
         run: node scripts/score-prospects.cjs
