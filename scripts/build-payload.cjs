@@ -30,6 +30,7 @@ const deals = dealFile.deals.map((d) => ({
   region: d.region,
   regions: d.regions || [d.region],
   fundAttribution: d.fundAttribution || null,
+  source: d.source || null,
   industry: d.industry || null,
   directors: (d.directors || []).slice(0, 8),
   investorCount: d.investorCount || null,

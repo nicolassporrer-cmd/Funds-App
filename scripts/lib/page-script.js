@@ -176,9 +176,12 @@ function dealDetail(d) {
         <p class="why">${d.date} · ${Math.round(d.monthsAgo)} months ago · ${esc(d.region)}</p>
         <p class="why">Amount: ${amount}</p>
         <p class="why">Series A or later: <b>${d.seriesA ? 'yes' : 'no'}</b> — ${esc(d.seriesAWhy)}</p>
-        ${d.register === 'US' ? '<p class="why">Funds: ' + (d.funds.length
-          ? d.funds.map((f) => esc(fundOf(f).name)).join(', ') + ' <span class="marker">(matched by company name to the fund’s own portfolio page — Form D does not name investors)</span>'
-          : '<span class="dash">not one of the tracked funds</span> <span class="marker">— Form D does not name investors</span>') + '</p>' : ''}
+        ${(d.register === 'US' || d.source === 'paris-market') ? '<p class="why">Funds: ' + (d.funds.length
+          ? d.funds.map((f) => esc(fundOf(f).name)).join(', ') + ' <span class="marker">(' + (d.fundAttribution === 'siren'
+              ? 'the fund lists this company, matched on its SIREN'
+              : 'matched by company name to the fund’s own portfolio page') + ')</span>'
+          : '<span class="dash">not one of the tracked funds</span> <span class="marker">— ' + (d.register === 'US' ? 'Form D' : 'the French register') + ' does not name investors</span>') + '</p>' : ''}
+        ${d.source === 'paris-market' ? '<p class="why"><span class="marker">Found in the Île-de-France register sweep, not on a fund’s portfolio page.</span></p>' : ''}
         ${d.investorCount ? '<p class="why">' + d.investorCount + ' investors in the offering <span class="marker">(Form D)</span></p>' : ''}
         ${(d.directors || []).length ? '<p class="why">Directors and officers named in the filing: ' + d.directors.map((p) => esc(p.name)).join(', ') + ' <span class="marker">— fund partners who took a board seat appear here</span></p>' : ''}
         ${d.bridgeSince ? '<p class="why">A smaller capital increase has been registered since, which reads as a bridge from existing investors.</p>' : ''}

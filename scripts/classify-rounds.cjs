@@ -24,6 +24,7 @@ const DATA = path.join(__dirname, '..', 'data');
 
 // --- Tunable thresholds. Change these here, not inline.
 const ROUND_MIN_GROWTH = 0.10;   // capital must grow >=10% to look like a round
+const ROUND_MAX_GROWTH = 3.00;   // ...and by no more than 300%; beyond that it is a restructure
 const ROUND_MIN_ABSOLUTE = 2000; // ...and by >=2,000 EUR nominal, to drop rounding noise
 const BRIDGE_MIN_GROWTH = 0.02;  // 2-10% reads as a bridge, below that as option exercises
 const DEFAULT_CYCLE_MONTHS = 20; // typical gap between rounds when we cannot measure one
@@ -41,6 +42,16 @@ const DORMANT_MONTHS = 48;
 // numbers alone, and catches the case where capital data is missing.
 const SAYS_INCREASE = /capital\s*\(augmentation\)|augmentation de capital/;
 const SAYS_DECREASE = /capital\s*\(diminution\)|r[ée]duction de capital/;
+
+// Registries do not word this consistently. Paris writes "le capital
+// (augmentation)"; Nanterre — which registers every company in Hauts-de-Seine,
+// so Boulogne, Issy and La Défense — writes "modification du capital" and never
+// says which direction. Matching only the first phrasing silently dropped around
+// 1,680 capital changes, every round at a Hauts-de-Seine company among them.
+//
+// So any wording that mentions the capital changing counts, and the arithmetic on
+// the published capital decides whether it went up or down.
+const SAYS_CAPITAL_CHANGE = /modification (survenue sur|du) (le )?capital|\ble capital\b/;
 // Governance changes. Worth surfacing next to a capital move — an investor
 // taking a board seat looks like this — but NOT sufficient on their own to call
 // something a round; see the note further down.
@@ -55,9 +66,8 @@ function classify(events) {
   let previousCapital = null;
 
   for (const event of sorted) {
-    const increase = SAYS_INCREASE.test(event.descriptif || '');
-    const decrease = SAYS_DECREASE.test(event.descriptif || '');
-    const structuralChanges = (event.descriptif || '').match(STRUCTURAL)?.length || 0;
+    const text = event.descriptif || '';
+    const structuralChanges = text.match(STRUCTURAL)?.length || 0;
 
     let growth = null;
     let delta = null;
@@ -65,6 +75,12 @@ function classify(events) {
       delta = event.capital - previousCapital;
       growth = delta / previousCapital;
     }
+
+    // An undirected "modification du capital" is an increase when the published
+    // capital went up, a decrease when it went down.
+    const undirected = !SAYS_INCREASE.test(text) && !SAYS_DECREASE.test(text) && SAYS_CAPITAL_CHANGE.test(text);
+    const increase = SAYS_INCREASE.test(text) || (undirected && delta !== null && delta > 0);
+    const decrease = SAYS_DECREASE.test(text) || (undirected && delta !== null && delta < 0);
 
     let verdict = 'other';
     let basis = null;
@@ -76,6 +92,15 @@ function classify(events) {
       // wording, and never format a fall as a rise.
       verdict = 'capital-restructure';
       basis = `capital ${(growth * 100).toFixed(1)}% (${Math.round(delta).toLocaleString('fr-FR')} EUR) — a fall, so a redenomination or reduction, not a raise`;
+    } else if (increase && delta !== null && growth > ROUND_MAX_GROWTH) {
+      // The mirror image of the case above. A round dilutes existing holders by
+      // perhaps 15-40%, so capital grows by roughly that much; it does not grow
+      // tenfold. Growth on that scale is a company raising its shares' nominal
+      // value or folding reserves into capital, with no new money coming in.
+      // Recovering Nanterre's wording surfaced 64 of these, one at 683 million
+      // percent.
+      verdict = 'capital-restructure';
+      basis = `capital +${Math.round(growth * 100).toLocaleString('fr-FR')}% — far beyond any funding round's dilution, so a change to share nominal value or reserves rather than new money`;
     } else if (increase && delta !== null) {
       if (growth >= ROUND_MIN_GROWTH && delta >= ROUND_MIN_ABSOLUTE) {
         verdict = 'round-candidate';
