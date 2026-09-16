@@ -85,7 +85,7 @@ function dealRows() {
   return DATA.deals
     .filter((d) => d.isLatest)
     .filter((d) => !state.seriesAOnly || d.seriesA)
-    .filter((d) => state.region === 'all' || d.region === state.region)
+    .filter((d) => state.region === 'all' || (d.regions || [d.region]).includes(state.region))
     .filter((d) => state.fund === 'all' || d.funds.includes(state.fund))
     .filter((d) => d.monthsAgo >= w.lo && d.monthsAgo < w.hi)
     .filter((d) => !q || d.company.toLowerCase().includes(q) || (d.blurb || '').toLowerCase().includes(q))
@@ -128,14 +128,17 @@ function renderDeals() {
 
 function renderDealRows() {
   const rows = dealRows();
-  const paris = rows.filter((d) => d.region === 'Paris').length;
+  const paris = rows.filter((d) => (d.regions || [d.region]).includes('Paris')).length;
+  const newYork = rows.filter((d) => (d.regions || [d.region]).includes('New York')).length;
+  const attributed = rows.filter((d) => d.funds.length).length;
   const withAmount = rows.filter((d) => d.amountSold);
   const raised = withAmount.reduce((s, d) => s + d.amountSold, 0);
 
   $('#dealTally').innerHTML =
     `<b>${rows.length}</b> rounds<span class="sep">|</span>` +
     `<b>${paris}</b> Paris<span class="sep">|</span>` +
-    `<b>${rows.length - paris}</b> New York<span class="sep">|</span>` +
+    `<b>${newYork}</b> New York<span class="sep">|</span>` +
+    `<b>${attributed}</b> with a tracked fund<span class="sep">|</span>` +
     `<b class="f-due">${rows.filter((d) => d.monthsAgo >= 21 && d.monthsAgo < 30).length}</b> in the 21&ndash;30 month band` +
     (withAmount.length ? `<span class="sep">|</span><b>${usd(raised)}</b> across the ${withAmount.length} with a published amount` : '');
 
@@ -153,7 +156,7 @@ function renderDealRows() {
         return `<article class="deal co" data-deal="${esc(d.id)}">
           <span class="date">${d.date.slice(5)}<span class="reg reg-${d.register}">${d.register === 'FR' ? 'Paris' : 'NY'}</span></span>
           <span><span class="co-name">${esc(d.company)}</span>
-            <span class="sub">${d.funds.map((f) => esc(fundOf(f).name)).join(' · ')}</span></span>
+            <span class="sub">${d.funds.length ? d.funds.map((f) => esc(fundOf(f).name)).join(' · ') : (d.city ? esc(d.city) : '')}${d.industry ? ' · ' + esc(d.industry) : ''}</span></span>
           <span class="does">${d.blurb ? esc(clip(d.blurb, 120)) : '<span class="dash">no description published</span>'}</span>
           <span class="amount">${d.amountSold ? esc(usd(d.amountSold)) : '<span class="dash" title="The French register never publishes round amounts">&mdash;</span>'}</span>
           <span class="flag ${cls}">${label}${d.bridgeSince ? '<br><span class="mark">bridge since</span>' : ''}</span>
@@ -173,6 +176,11 @@ function dealDetail(d) {
         <p class="why">${d.date} · ${Math.round(d.monthsAgo)} months ago · ${esc(d.region)}</p>
         <p class="why">Amount: ${amount}</p>
         <p class="why">Series A or later: <b>${d.seriesA ? 'yes' : 'no'}</b> — ${esc(d.seriesAWhy)}</p>
+        ${d.register === 'US' ? '<p class="why">Funds: ' + (d.funds.length
+          ? d.funds.map((f) => esc(fundOf(f).name)).join(', ') + ' <span class="marker">(matched by company name to the fund’s own portfolio page — Form D does not name investors)</span>'
+          : '<span class="dash">not one of the tracked funds</span> <span class="marker">— Form D does not name investors</span>') + '</p>' : ''}
+        ${d.investorCount ? '<p class="why">' + d.investorCount + ' investors in the offering <span class="marker">(Form D)</span></p>' : ''}
+        ${(d.directors || []).length ? '<p class="why">Directors and officers named in the filing: ' + d.directors.map((p) => esc(p.name)).join(', ') + ' <span class="marker">— fund partners who took a board seat appear here</span></p>' : ''}
         ${d.bridgeSince ? '<p class="why">A smaller capital increase has been registered since, which reads as a bridge from existing investors.</p>' : ''}
       </div>
       <div>

@@ -95,6 +95,7 @@ function build(today) {
         id: `FR:${company.siren}:${event.date}`,
         register: 'FR',
         region: 'Paris',
+        regions: ['Paris'],
         date: event.date,
         monthsAgo: Math.round(monthsBetween(event.date, today) * 10) / 10,
         company: company.name,
@@ -123,50 +124,72 @@ function build(today) {
     });
   }
 
-  // --- New York: every Form D offering.
-  let formd = { companies: {} };
-  let cikMap = { companies: {} };
+  // --- United States: every venture round from SEC's bulk Form D data.
+  //
+  // Two populations, both from fetch-formd-bulk.cjs: every New York venture round
+  // regardless of backer, and any US round by a company on a tracked fund's
+  // portfolio page wherever it is based. The first is what makes the New York
+  // dealflow complete; the second is what shows a Paris fund's American deals.
+  let usDeals = { quarters: {} };
   try {
-    formd = read('formd.json');
-    cikMap = read('cik-map.json');
+    usDeals = read('us-deals.json');
   } catch {
-    // The US stages have not run yet. Ship the French deals rather than nothing.
+    // The US stage has not run yet. Ship the French deals rather than nothing.
   }
 
-  for (const [key, company] of Object.entries(formd.companies || {})) {
-    // A fund raising its own capital is not dealflow.
-    if (company.cikUnverified || company.isFundVehicle) continue;
-    const meta = cikMap.companies[key] || {};
-    const realRounds = company.rounds.filter((r) => r.industry !== 'Pooled Investment Fund');
-    realRounds.forEach((round, index) => {
-      // No headcount exists for a US issuer, so only the prior-round test can
-      // apply here. That asymmetry is carried onto the row, not hidden.
+  // Group by company so prior rounds and "latest" are computed across quarters.
+  // A company can also appear twice in one quarter when it files a second
+  // offering, so rounds are keyed on sale date as well.
+  const byCik = new Map();
+  for (const quarter of Object.values(usDeals.quarters || {})) {
+    for (const d of quarter.deals) {
+      if (!d.date) continue;
+      const list = byCik.get(d.cik) || [];
+      if (!list.some((x) => x.date === d.date)) list.push(d);
+      byCik.set(d.cik, list);
+    }
+  }
+
+  for (const [cik, companyRounds] of byCik) {
+    companyRounds.sort((a, b) => a.date.localeCompare(b.date));
+    companyRounds.forEach((round, index) => {
       const gate = seriesATest({ priorRounds: index, headcount: null, amountSold: round.amountSold });
+      // The regions a deal belongs to: New York if the company is there, plus the
+      // city of every tracked fund that lists it. A Kima company in Virginia is a
+      // Paris fund's deal; a Bessemer company in New York is both.
+      const regions = new Set();
+      if (round.state === 'NY') regions.add('New York');
+      for (const f of round.funds) if (fundRegion[f]) regions.add(fundRegion[f].region);
       deals.push({
-        id: `US:${company.cik}:${round.date}`,
+        id: `US:${cik}:${round.date}`,
         register: 'US',
-        region: 'New York',
+        region: [...regions][0] || 'New York',
+        regions: [...regions],
         date: round.date,
         monthsAgo: Math.round(monthsBetween(round.date, today) * 10) / 10,
-        company: company.name,
-        legalName: meta.legalName || null,
-        key,
-        identifier: company.cik,
-        funds: company.funds,
-        blurb: meta.blurb || null,
-        website: meta.website || null,
+        company: round.company,
+        legalName: round.company,
+        key: `US:${cik}`,
+        identifier: cik,
+        funds: round.funds,
+        // Name match against the fund's own portfolio page, never confirmed by
+        // SEC — Form D does not name investors. Shown as such on the page.
+        fundAttribution: round.funds.length ? 'name-match' : null,
+        blurb: round.blurb || null,
+        website: round.website || null,
         country: 'United States',
-        city: meta.city || null,
-        founded: null,
+        city: round.city ? `${round.city}, ${round.state}` : round.state,
+        founded: round.incorporated || null,
         headcount: null,
+        industry: round.industry,
+        directors: round.directors || [],
+        investorCount: round.investors || null,
         amountSold: round.amountSold,
         amountOffered: round.amountOffered,
         capitalAfter: null,
-        basis: round.amountSold
-          ? `Form D: $${Math.round(round.amountSold).toLocaleString('en-US')} sold`
-          : 'Form D filed, amount not stated',
+        basis: `Form D: $${Math.round(round.amountSold).toLocaleString('en-US')} sold`,
         priorRounds: index,
-        isLatest: index === realRounds.length - 1,
+        isLatest: index === companyRounds.length - 1,
         bridgeSince: false,
         seriesA: gate.pass,
         seriesATest: gate.test,
