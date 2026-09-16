@@ -71,6 +71,12 @@ jobs:
       - name: Classify capital events
         run: node scripts/classify-rounds.cjs
 
+      # Every capital change filed in Ile-de-France, filtered to venture-shaped
+      # companies. Months already exported and companies already looked up are
+      # cached, so a normal day fetches two months and a handful of new companies.
+      - name: Sweep the Ile-de-France register for venture rounds
+        run: node scripts/fetch-paris-market.cjs
+
       # Every New York venture round, plus US rounds by any tracked fund's portfolio
       # company. Historical quarters are kept in data/us-deals.json and never
       # re-downloaded; only the latest two quarters are refreshed each day.

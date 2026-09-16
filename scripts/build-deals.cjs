@@ -72,6 +72,35 @@ function seriesATest({ priorRounds, headcount, amountSold }) {
   };
 }
 
+// Plain-language sector for a French NAF code. A company found through the
+// register sweep has no fund description, and "62.01Z" means nothing to a reader,
+// so the code's own INSEE heading stands in. Codes not listed show nothing rather
+// than a guess.
+const NAF_LABELS = [
+  [/^62\.01/, 'Software development'],
+  [/^62\.0/, 'IT services'],
+  [/^58\.2/, 'Software publishing'],
+  [/^63\.1/, 'Data processing and web platforms'],
+  [/^72\.1/, 'Scientific R&D'],
+  [/^72\.2/, 'Social sciences R&D'],
+  [/^21/, 'Pharmaceuticals'],
+  [/^26/, 'Electronics'],
+  [/^32\.5/, 'Medical devices'],
+  [/^61/, 'Telecommunications'],
+  [/^64\.9|^66\.1/, 'Financial services'],
+  [/^65/, 'Insurance'],
+  [/^73/, 'Advertising and market research'],
+  [/^74\.9/, 'Specialist services'],
+  [/^78/, 'Employment services'],
+  [/^85/, 'Education'],
+  [/^86|^87|^88/, 'Health and care'],
+  [/^47\.91/, 'E-commerce'],
+  [/^10|^11/, 'Food and drink'],
+  [/^29|^30/, 'Vehicles and transport equipment'],
+  [/^27|^28/, 'Machinery and electrical equipment'],
+];
+const SECTOR_LABEL = (naf) => (naf && NAF_LABELS.find(([re]) => re.test(naf))?.[1]) || null;
+
 const monthsBetween = (a, b) => (new Date(b) - new Date(a)) / (1000 * 60 * 60 * 24 * 30.44);
 const GONE = ['exited', 'dormant', 'unverified'];
 
@@ -117,6 +146,73 @@ function build(today) {
         priorRounds: index,
         isLatest: index === priced.length - 1,
         bridgeSince: later.some((e) => e.verdict === 'bridge'),
+        seriesA: gate.pass,
+        seriesATest: gate.test,
+        seriesAWhy: gate.why,
+      });
+    });
+  }
+
+  // --- Paris, market-wide: venture-shaped companies from every capital change
+  // filed in Île-de-France, not only those on a tracked fund's page.
+  //
+  // A company already covered above is skipped — same register, and the portfolio
+  // route carries the fund's own description. Attribution for the rest is by
+  // SIREN, which is exact: if a tracked fund lists the company and its SIREN was
+  // resolved, that fund is named; otherwise the round shows no fund, because the
+  // French register does not name investors either.
+  let parisMarket = { companies: [] };
+  try {
+    parisMarket = read('paris-market.json');
+  } catch {
+    // Market sweep has not run; the portfolio route above still stands.
+  }
+  const coveredSirens = new Set(rounds.companies.map((c) => c.siren));
+  const fundsBySiren = new Map();
+  for (const meta of Object.values(sirenMap.companies)) {
+    if (meta.siren && meta.status === 'resolved' && meta.confidence !== 'low') fundsBySiren.set(meta.siren, meta);
+  }
+
+  for (const company of parisMarket.companies || []) {
+    if (coveredSirens.has(company.siren)) continue;
+    const known = fundsBySiren.get(company.siren);
+    const sector = SECTOR_LABEL(company.naf);
+    company.rounds.forEach((round, index) => {
+      const later = company.series.filter((s) => s.date > round.date);
+      const gate = seriesATest({ priorRounds: index, headcount: company.headcount, amountSold: null });
+      deals.push({
+        id: `FR:${company.siren}:${round.date}`,
+        register: 'FR',
+        region: 'Paris',
+        regions: ['Paris'],
+        date: round.date,
+        monthsAgo: Math.round(monthsBetween(round.date, today) * 10) / 10,
+        company: company.name,
+        legalName: company.name,
+        key: `FR:${company.siren}`,
+        identifier: company.siren,
+        funds: known?.funds || [],
+        fundAttribution: known ? 'siren' : null,
+        blurb: known?.blurb || null,
+        website: known?.website || null,
+        industry: sector,
+        country: 'France',
+        city: company.city,
+        founded: company.founded,
+        headcount: company.headcount,
+        amountSold: null,
+        amountOffered: null,
+        capitalAfter: round.capitalAfter,
+        basis: `capital +${Math.round(round.growth * 100)}% (${Math.round(round.capitalBefore).toLocaleString('fr-FR')} → ${Math.round(round.capitalAfter).toLocaleString('fr-FR')} EUR nominal)`,
+        priorRounds: index,
+        isLatest: index === company.rounds.length - 1,
+        // A small capital step after the round is the bridge pattern.
+        bridgeSince: later.some((s, i) => {
+          const prev = i === 0 ? round.capitalAfter : later[i - 1].capital;
+          const g = (s.capital - prev) / prev;
+          return g >= 0.02 && g < 0.10;
+        }),
+        source: 'paris-market',
         seriesA: gate.pass,
         seriesATest: gate.test,
         seriesAWhy: gate.why,
