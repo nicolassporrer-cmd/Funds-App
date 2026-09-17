@@ -89,6 +89,11 @@ jobs:
       - name: Assemble the deal log across both registers
         run: node scripts/build-deals.cjs
 
+      # One sentence per company from its own website. Cached for 120 days, so a
+      # normal day only looks up companies that are new to the deal log.
+      - name: Fetch company descriptions from their websites
+        run: node scripts/fetch-descriptions.cjs
+
       - name: Assemble the page payload
         run: node scripts/build-payload.cjs
 
