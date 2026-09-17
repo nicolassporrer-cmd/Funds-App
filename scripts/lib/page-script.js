@@ -13,6 +13,7 @@ const esc = (s) => String(s == null ? '' : s).replace(/[&<>"]/g, (c) => ({ '&': 
 const eur = (n) => (n == null ? '—' : Math.round(n).toLocaleString('fr-FR') + ' €');
 const dash = (v) => (v ? esc(v) : '<span class="dash">—</span>');
 const year = (d) => (d ? d.slice(0, 4) : null);
+const hostOf = (url) => { try { return new URL(url).hostname.replace(/^www./, ''); } catch { return 'website'; } };
 // Cut on a word boundary: slicing mid-word looks like corrupted data rather than
 // a shortened description.
 const clip = (text, max) => {
@@ -157,7 +158,7 @@ function renderDealRows() {
           <span class="date">${d.date.slice(5)}<span class="reg reg-${d.register}">${d.register === 'FR' ? 'Paris' : 'NY'}</span></span>
           <span><span class="co-name">${esc(d.company)}</span>
             <span class="sub">${d.funds.length ? d.funds.map((f) => esc(fundOf(f).name)).join(' · ') : (d.city ? esc(d.city) : '')}${d.industry ? ' · ' + esc(d.industry) : ''}</span></span>
-          <span class="does">${d.blurb ? esc(clip(d.blurb, 120)) : '<span class="dash">no description published</span>'}</span>
+          <span class="does">${d.blurb ? esc(clip(d.blurb, 120)) : '<span class="dash">no description found</span>'}</span>
           <span class="amount">${d.amountSold ? esc(usd(d.amountSold)) : '<span class="dash" title="The French register never publishes round amounts">&mdash;</span>'}</span>
           <span class="flag ${cls}">${label}${d.bridgeSince ? '<br><span class="mark">bridge since</span>' : ''}</span>
         </article>`;
@@ -188,7 +189,7 @@ function dealDetail(d) {
       </div>
       <div>
         <h3>The company</h3>
-        <p class="why">${d.blurb ? esc(d.blurb) : '<span class="dash">No description published by the fund.</span>'}</p>
+        <p class="why">${d.blurb ? esc(d.blurb) + ' <span class="marker">— ' + (d.descriptionSource === 'website' ? 'from ' + esc(hostOf(d.website)) : d.descriptionSource === 'registry' ? 'from registry filings; no website description could be matched safely' : 'from the fund’s page') + '</span>' : '<span class="dash">No description found.</span> <span class="marker">' + esc(d.descriptionMissing || '') + '</span>'}</p>
         <p class="meta" style="border:0;padding:0">
           ${esc(d.company)}
           ${d.founded ? ' · incorporated ' + esc(d.founded) : ''}
@@ -327,7 +328,7 @@ function detailRow(c, colspan) {
         <h3>Why it is on this list</h3>
         ${signals ? '<ul class="signals">' + signals + '</ul>' : '<p class="why">No positive signals — listed only because you asked to see all live companies.</p>'}
         <h3>What it does</h3>
-        <p class="why">${c.blurb ? esc(c.blurb) : '<span class="dash">No description published by the fund.</span>'}</p>
+        <p class="why">${c.blurb ? esc(c.blurb) + ' <span class="marker">— ' + (c.descriptionSource === 'website' ? 'from the company’s website' : 'from the fund’s page') + '</span>' : '<span class="dash">No description found.</span>'}</p>
         <h3>Investors</h3>
         <p class="why">
           Listed by: ${heldBy}.

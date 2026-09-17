@@ -18,6 +18,60 @@ const contacts = read('contacts.json');
 // The deal log — one row per round across both registers. Shipped self-contained
 // rather than joined to `companies` client-side, because US companies come from
 // Form D and never appear in the French company list.
+// One-sentence descriptions from each company's own website (fetch-descriptions.cjs).
+// The website's own wording wins; the fund's description is the fallback, and
+// the page says which one it is showing.
+let descriptions = {};
+try {
+  descriptions = read('descriptions.json');
+} catch {
+  // Not fetched yet: fall back to fund descriptions everywhere.
+}
+// INSEE headcount brackets in words.
+const HEADCOUNT_WORDS = {
+  '11': '10–19', '12': '20–49', '21': '50–99', '22': '100–199', '31': '200–249',
+  '32': '250–499', '41': '500–999', '42': '1,000–1,999', '51': '2,000–4,999', '52': '5,000–9,999', '53': '10,000+',
+};
+
+// The last resort, and the only one that is never wrong: a sentence assembled
+// purely from registry filings — sector from the INSEE activity code or the
+// Form D industry, location, incorporation year, declared headcount. It says less
+// than a website tagline, but it is used instead of guessing a website.
+function registryLine(d) {
+  if (!d) return null;
+  let sector = d.industry || null;
+  if (sector === 'Other Technology') sector = 'Technology';
+  else if (sector === 'Other Health Care') sector = 'Health care';
+  else if (sector === 'Other') sector = null;
+  // Title-case shouted city names, but leave two-letter state codes alone:
+  // "NEW YORK, NY" should read "New York, NY", not "New York, Ny".
+  const place = d.city ? String(d.city).replace(/\b([A-Z])([A-Z]{2,})\b/g, (_, a, b) => a + b.toLowerCase()) : d.region;
+  const year = d.founded ? String(d.founded).slice(0, 4) : null;
+  const staff = HEADCOUNT_WORDS[d.headcount];
+  if (!sector && !place) return null;
+  let s = `${sector ? `${sector} company` : 'Company'}${place ? ` based in ${place}` : ''}`;
+  if (year) s += `, ${d.register === 'US' ? 'incorporated' : 'founded'} in ${year}`;
+  if (staff) s += `, with ${staff} employees`;
+  return s + '.';
+}
+
+function describeCompany(key, fundBlurb, fundWebsite, deal) {
+  const d = descriptions[key];
+  if (d && d.status === 'found') {
+    return { description: d.description, descriptionSource: 'website', website: d.website };
+  }
+  if (fundBlurb) {
+    return { description: fundBlurb.slice(0, 220), descriptionSource: 'fund page', website: (d && d.website) || fundWebsite || null };
+  }
+  const line = registryLine(deal);
+  return {
+    description: line,
+    descriptionSource: line ? 'registry' : null,
+    website: (d && d.website) || fundWebsite || null,
+    descriptionMissing: d ? d.why || d.status : 'not looked up yet',
+  };
+}
+
 let dealFile = { deals: [] };
 try {
   dealFile = read('deals.json');
@@ -40,8 +94,7 @@ const deals = dealFile.deals.map((d) => ({
   key: d.key,
   identifier: d.identifier,
   funds: d.funds,
-  blurb: d.blurb ? d.blurb.slice(0, 180) : null,
-  website: d.website || null,
+  ...(() => { const x = describeCompany(d.key, d.blurb, d.website, d); return { blurb: x.description, descriptionSource: x.descriptionSource, website: x.website, descriptionMissing: x.descriptionMissing || null }; })(),
   country: d.country,
   city: d.city,
   founded: d.founded,
@@ -155,7 +208,7 @@ const tracked = rounds.companies.map((c) => {
     city: meta.city || null,
     country: meta.country || meta.portfolioCountry || null,
     website: meta.website || null,
-    blurb: meta.blurb || null,
+    ...(() => { const x = describeCompany(c.key, meta.blurb, meta.website); return { blurb: x.description, descriptionSource: x.descriptionSource }; })(),
     funds: c.funds,
     // A fund saying it has exited outranks anything the register timing implies:
     // there is no point alerting that a company is overdue to raise from a fund
@@ -207,7 +260,7 @@ const untracked = Object.entries(sirenMap.companies)
     city: null,
     country: meta.portfolioCountry || null,
     website: meta.website || null,
-    blurb: meta.blurb || null,
+    ...(() => { const x = describeCompany(key, meta.blurb, meta.website); return { blurb: x.description, descriptionSource: x.descriptionSource }; })(),
     funds: meta.funds || [],
     status: 'untracked',
     why: UNTRACKED_REASON[meta.status] || 'No French company registry match confident enough to use.',
