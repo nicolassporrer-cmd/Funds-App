@@ -37,7 +37,8 @@ const isLive = (c) => !GONE.includes(c.status);
 const SIGNAL_ICON = { bridge: '◆', governance: '●', auditor: '▲', investor: '■', cycle: '○', size: '·', alive: '·' };
 
 const state = { minScore: 20, q: '', fund: 'all', sort: 'score', fundQ: '', fundSort: 'lastRound', includeGone: false,
-  window: 'two', region: 'all', seriesAOnly: true, dealQ: '' };
+  window: 'two', region: 'all', seriesAOnly: true, dealQ: '',
+  nySort: 'raised', nyType: 'all', nyQ: '' };
 
 // ---------- routing
 function route() {
@@ -48,6 +49,7 @@ function route() {
     a.setAttribute('aria-current', String(a.getAttribute('href') === (fund ? '#/funds' : hash)));
   });
   if (fund) renderFund(fund);
+  else if (hash.startsWith('#/ny-funds')) renderNyFunds();
   else if (hash.startsWith('#/funds')) renderFunds();
   else if (hash.startsWith('#/signals')) renderRaising();
   else renderDeals();
@@ -363,6 +365,124 @@ function detailRow(c, colspan) {
   </td></tr>`;
 }
 
+
+// ---------- the New York fund universe
+//
+// Every venture and private-equity firm in New York that has raised at least
+// $50m across two or more vehicles, from their own Form D filings. Buyout,
+// property, credit and infrastructure houses are excluded by name, and a
+// private-equity firm only appears if one of its partners actually turns up on a
+// tech round — otherwise the list opened with Apollo and Blackstone Real Estate.
+//
+// The money is filed and exact. The deal counts are NOT: nobody files who
+// invested in a company, so a round is only linked when a fund partner is named
+// as a director of the company. That catches roughly one New York round in eight,
+// so every count here is a floor.
+function nyRows() {
+  const q = state.nyQ.trim().toLowerCase();
+  return (DATA.nyFunds || [])
+    .filter((f) => state.nyType === 'all' || (state.nyType === 'venture' ? f.type === 'Venture' : f.type !== 'Venture'))
+    .filter((f) => !q || f.key.toLowerCase().includes(q) || (f.recentDeals || []).some((d) => d.company.toLowerCase().includes(q)))
+    .sort((a, b) => {
+      if (state.nySort === 'recent') return (b.lastClose || '').localeCompare(a.lastClose || '');
+      if (state.nySort === 'deals') return b.linkedDeals - a.linkedDeals;
+      return b.raised - a.raised;
+    });
+}
+
+function renderNyFunds() {
+  const all = DATA.nyFunds || [];
+  const raised = all.reduce((n, f) => n + f.raised, 0);
+  const closed2026 = all.filter((f) => f.raised2026 > 0);
+
+  $('#view').innerHTML = `
+    <h2>New York venture and growth firms</h2>
+    <p class="note">
+      Every firm in New York that has declared itself a venture or private-equity fund to the SEC and raised
+      at least $50m across two or more vehicles — ${all.length} of them. Buyout, property, credit and
+      infrastructure houses are left out by name, and a private-equity firm is only listed if one of its
+      partners actually appears on a tech round. These are not funds we scrape: everything here comes from
+      their own filings.
+    </p>
+    <p class="tally">
+      <b>${all.length}</b> firms<span class="sep">|</span>
+      <b>${usd(raised)}</b> raised across ${all.reduce((n, f) => n + f.vehicles, 0)} vehicles<span class="sep">|</span>
+      <b>${closed2026.length}</b> closed money in 2026<span class="sep">|</span>
+      <b>${all.filter((f) => f.linkedDeals > 0).length}</b> with a round we can link to them
+    </p>
+    <div class="filters">
+      <button data-dim="nySort" data-value="raised" aria-pressed="${state.nySort === 'raised'}">By capital raised</button>
+      <button data-dim="nySort" data-value="recent" aria-pressed="${state.nySort === 'recent'}">By most recent close</button>
+      <button data-dim="nySort" data-value="deals" aria-pressed="${state.nySort === 'deals'}">By linked deals</button>
+      <button data-dim="nyType" data-value="all" aria-pressed="${state.nyType === 'all'}">All</button>
+      <button data-dim="nyType" data-value="venture" aria-pressed="${state.nyType === 'venture'}">Venture</button>
+      <button data-dim="nyType" data-value="pe" aria-pressed="${state.nyType === 'pe'}">Growth / PE</button>
+      <input id="nyq" type="search" placeholder="Search firm or company" aria-label="Search firms" value="${esc(state.nyQ)}">
+    </div>
+    <table>
+      <thead><tr>
+        <th>Firm</th><th class="hide-s">Type</th><th class="right">Raised</th>
+        <th class="right hide-s">Vehicles</th><th>Last close</th>
+        <th class="right hide-s">Raised 2026</th><th class="right">Linked rounds</th>
+      </tr></thead>
+      <tbody id="nyrows"></tbody>
+    </table>
+    <p class="count" id="nycount"></p>
+    <p class="note" style="margin-top:18px">
+      <b>Read the two columns together.</b> A firm that closed a vehicle recently and shows few rounds since
+      is the one still holding capital; one that closed years ago and has been busy is the opposite. Nobody
+      publishes uncalled capital, so neither this page nor anyone else can tell you a dry-powder figure.
+    </p>`;
+
+  renderNyRows();
+  $('#nyq').addEventListener('input', (e) => { state.nyQ = e.target.value; renderNyRows(); });
+}
+
+function renderNyRows() {
+  const rows = nyRows();
+  $('#nycount').textContent = `${rows.length} of ${(DATA.nyFunds || []).length} firms`;
+  $('#nyrows').innerHTML = rows.map((f) => `
+    <tr class="co ny" data-ny="${esc(f.key)}">
+      <td><span class="nm">${esc(titleCaseFirm(f.key))}</span></td>
+      <td class="hide-s"><span class="stamp ${f.type === 'Venture' ? 's-recent' : 's-due-soon'}">${f.type}</span></td>
+      <td class="num right">${usd(f.raised)}</td>
+      <td class="num right hide-s">${f.vehicles}</td>
+      <td class="num">${f.lastClose || '<span class="dash">—</span>'}</td>
+      <td class="num right hide-s">${f.raised2026 ? usd(f.raised2026) : '<span class="dash">—</span>'}</td>
+      <td class="num right">${f.linkedDeals || '<span class="dash">—</span>'}${f.linkedDeals2026 ? ' <span class="marker">' + f.linkedDeals2026 + ' in 2026</span>' : ''}</td>
+    </tr>`).join('') || '<tr><td colspan="7" class="empty">No firm matches.</td></tr>';
+}
+
+// Firm keys come out of the filings in capitals.
+const titleCaseFirm = (k) => k.toLowerCase().replace(/\b([a-z])/g, (m) => m.toUpperCase()).replace(/\b(Ai|Llc|Lp|Xn|Zmc|Wcas|Tq|Lcv)\b/g, (m) => m.toUpperCase());
+
+function nyDetail(f) {
+  const vehicles = (f.topVehicles || []).map((v) => `
+    <tr><td class="num">${v.date || '<span class="dash">—</span>'}</td><td>${esc(v.name)}</td>
+      <td class="num right">${v.amountSold ? usd(v.amountSold) : '<span class="marker">nothing drawn yet</span>'}</td></tr>`).join('');
+  const deals = (f.recentDeals || []).map((d) => `
+    <tr><td class="num">${d.date}</td><td>${esc(d.company)}</td><td class="num right">${usd(d.amount)}</td></tr>`).join('');
+  return `<tr class="detail"><td colspan="7">
+    <div class="cols">
+      <div>
+        <h3>Vehicles filed</h3>
+        ${vehicles ? '<table class="ledger"><tbody>' + vehicles + '</tbody></table>' : '<p class="why"><span class="dash">None.</span></p>'}
+        <p class="marker">${f.vehicles} in total, ${usd(f.raised)} raised. Vehicles are grouped into one firm by name, so the names are shown to be checked.</p>
+      </div>
+      <div>
+        <h3>Rounds we can link to them</h3>
+        ${deals ? '<table class="ledger"><tbody>' + deals + '</tbody></table>'
+          : '<p class="why"><span class="dash">None linked.</span></p>'}
+        <p class="marker">
+          Linked when one of the firm's ${f.partners} named partners appears as a director on the company's own
+          Form D. Roughly one New York round in eight can be linked this way, so this is a floor, not their deal count —
+          and it never sees rounds led by funds based outside New York.
+        </p>
+      </div>
+    </div>
+  </td></tr>`;
+}
+
 // ---------- the funds
 function renderFunds() {
   const rows = [...DATA.funds].sort((a, b) => b.raising - a.raising).map((f) => `
@@ -558,6 +678,13 @@ function renderFundRows(fund) {
 
 // ---------- interaction
 document.addEventListener('click', (ev) => {
+  const nyRow = ev.target.closest('tr.ny[data-ny]');
+  if (nyRow) {
+    const open = nyRow.nextElementSibling && nyRow.nextElementSibling.classList.contains('detail');
+    document.querySelectorAll('.detail').forEach((d) => d.remove());
+    if (!open) nyRow.insertAdjacentHTML('afterend', nyDetail(DATA.nyFunds.find((f) => f.key === nyRow.dataset.ny)));
+    return;
+  }
   const dealRow = ev.target.closest('.deal[data-deal]');
   if (dealRow) {
     const open = dealRow.nextElementSibling && dealRow.nextElementSibling.classList.contains('detail-inline');

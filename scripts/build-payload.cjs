@@ -17,6 +17,15 @@ const contacts = read('contacts.json');
 
 // What each fund has been doing lately: deals by quarter, its own fund vehicles
 // filed with the SEC, portfolio companies in trouble, and recent press.
+// The wider New York fund universe from Form D — firms we do not scrape, listed
+// with what they raised and any rounds their partners can be linked to.
+let nyFunds = { firms: [] };
+try {
+  nyFunds = read('ny-funds.json');
+} catch {
+  // fetch-ny-funds has not run yet.
+}
+
 let fundActivity = { funds: {} };
 try {
   fundActivity = read('fund-activity.json');
@@ -369,6 +378,8 @@ const payload = {
     'Companies marked “unverified” matched a SIREN that has no register announcements at all. An operating French company always has some, so the name almost certainly matched a dormant namesake. They are listed separately and never counted in the alerts.',
   ],
   funds: fundsOut,
+  nyFunds: nyFunds.firms || [],
+  nyFundRules: nyFunds.rules || null,
   deals,
   companies,
 };

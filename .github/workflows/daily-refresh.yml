@@ -89,6 +89,11 @@ jobs:
       - name: Assemble the deal log across both registers
         run: node scripts/build-deals.cjs
 
+      # The wider New York venture and growth universe, from the same bulk Form D
+      # files already downloaded above.
+      - name: Build the New York fund directory
+        run: node scripts/fetch-ny-funds.cjs
+
       # Per fund: deals by quarter, its own SEC fund vehicles, portfolio companies
       # in the register, and recent press. News is re-checked daily; the rest is local.
       - name: Build fund activity and press
