@@ -1,0 +1,3509 @@
+{
+ "generatedAt": "2026-09-28T16:17:47.948Z",
+ "rules": {
+  "state": "NY",
+  "types": "Venture Capital Fund or Private Equity Fund",
+  "minRaised": 50000000,
+  "minVehicles": 2
+ },
+ "firms": [
+  {
+   "key": "TIGER GLOBAL PRIVATE INVESTMENT PARTNERS XV",
+   "name": "Tiger Global Private Investment Partners XV, L.P.",
+   "vehicles": 2,
+   "raised": 14862380309,
+   "raised2026": 0,
+   "lastClose": "2021-10-18",
+   "type": "Venture",
+   "partners": 2,
+   "topVehicles": [
+    {
+     "name": "Tiger Global Private Investment Partners XV, L.P.",
+     "amountSold": 11444299809,
+     "date": "2021-10-18"
+    },
+    {
+     "name": "Tiger Global Private Investment Partners XV Feeder, L.P.",
+     "amountSold": 3418080500,
+     "date": "2021-10-18"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "THRIVE CAPITAL PARTNERS",
+   "name": "Thrive Capital Partners X Growth-B, L.P.",
+   "vehicles": 24,
+   "raised": 10304335556,
+   "raised2026": 524999822,
+   "lastClose": "2026-03-27",
+   "type": "Venture",
+   "partners": 17,
+   "topVehicles": [
+    {
+     "name": "Thrive Capital Partners X Growth-B, L.P.",
+     "amountSold": 74999822,
+     "date": "2026-03-27"
+    },
+    {
+     "name": "Thrive Capital Partners X Growth-A, L.P.",
+     "amountSold": 450000000,
+     "date": "2026-01-23"
+    },
+    {
+     "name": "Thrive Capital Partners Investments, L.P.",
+     "amountSold": 0,
+     "date": "2026-01-13"
+    },
+    {
+     "name": "Thrive Capital Partners VI-J, LLC",
+     "amountSold": 7419071,
+     "date": "2025-12-02"
+    }
+   ],
+   "linkedDeals": 2,
+   "linkedDeals2026": 0,
+   "recentDeals": [
+    {
+     "company": "Justworks, Inc.",
+     "date": "2023-09-27",
+     "amount": 16837671
+    },
+    {
+     "company": "Geneva Technologies, Inc.",
+     "date": "2022-09-02",
+     "amount": 15505802
+    }
+   ]
+  },
+  {
+   "key": "WCAS",
+   "name": "WCAS XIV Access Investment Fund, L.P.",
+   "vehicles": 6,
+   "raised": 5152530378,
+   "raised2026": 0,
+   "lastClose": "2022-07-18",
+   "type": "Private equity",
+   "partners": 23,
+   "topVehicles": [
+    {
+     "name": "WCAS XIV Access Investment Fund, L.P.",
+     "amountSold": 118850000,
+     "date": "2022-07-18"
+    },
+    {
+     "name": "WCAS XIV Co-Investors I LLC",
+     "amountSold": 264366250,
+     "date": "2022-03-31"
+    },
+    {
+     "name": "WCAS XIV Co-Investors II LLC",
+     "amountSold": 84950000,
+     "date": "2022-02-28"
+    },
+    {
+     "name": "WCAS XIV Cayman, L.P.",
+     "amountSold": 368737475,
+     "date": "2022-01-19"
+    }
+   ],
+   "linkedDeals": 1,
+   "linkedDeals2026": 0,
+   "recentDeals": [
+    {
+     "company": "Spartan TopCo Corp.",
+     "date": "2022-12-05",
+     "amount": 40000000
+    }
+   ]
+  },
+  {
+   "key": "XN",
+   "name": "XN Opportunities 2026 - Series 1 LP",
+   "vehicles": 13,
+   "raised": 3273781883,
+   "raised2026": 2170093590,
+   "lastClose": "2026-05-20",
+   "type": "Private equity",
+   "partners": 6,
+   "topVehicles": [
+    {
+     "name": "XN Opportunities 2026 - Series 1 LP",
+     "amountSold": 1820313990,
+     "date": "2026-05-20"
+    },
+    {
+     "name": "XN Opportunities X LP",
+     "amountSold": 349779600,
+     "date": "2026-01-26"
+    },
+    {
+     "name": "XN Opportunities IX LP",
+     "amountSold": 10175000,
+     "date": "2025-11-04"
+    },
+    {
+     "name": "XN Opportunities VIII LP",
+     "amountSold": 78015825,
+     "date": "2025-10-03"
+    }
+   ],
+   "linkedDeals": 1,
+   "linkedDeals2026": 0,
+   "recentDeals": [
+    {
+     "company": "Momo Orchard Holdings, Inc.",
+     "date": "2023-03-03",
+     "amount": 17603647
+    }
+   ]
+  },
+  {
+   "key": "TIGER GLOBAL PRIVATE INVESTMENT PARTNERS XVI",
+   "name": "Tiger Global Private Investment Partners XVI, L.P.",
+   "vehicles": 2,
+   "raised": 2685732500,
+   "raised2026": 0,
+   "lastClose": "2023-01-18",
+   "type": "Venture",
+   "partners": 2,
+   "topVehicles": [
+    {
+     "name": "Tiger Global Private Investment Partners XVI, L.P.",
+     "amountSold": 2063087500,
+     "date": "2023-01-18"
+    },
+    {
+     "name": "Tiger Global Private Investment Partners XVI Feeder, L.P.",
+     "amountSold": 622645000,
+     "date": "2023-01-18"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "LONG RIDGE EQUITY PARTNERS",
+   "name": "Long Ridge Equity Partners IV-C, LP",
+   "vehicles": 3,
+   "raised": 2196000000,
+   "raised2026": 0,
+   "lastClose": "2023-07-10",
+   "type": "Venture",
+   "partners": 6,
+   "topVehicles": [
+    {
+     "name": "Long Ridge Equity Partners IV-C, LP",
+     "amountSold": 732000000,
+     "date": "2023-07-10"
+    },
+    {
+     "name": "Long Ridge Equity Partners IV-B, LP",
+     "amountSold": 732000000,
+     "date": "2023-06-26"
+    },
+    {
+     "name": "Long Ridge Equity Partners IV, LP",
+     "amountSold": 732000000,
+     "date": "2023-06-26"
+    }
+   ],
+   "linkedDeals": 2,
+   "linkedDeals2026": 0,
+   "recentDeals": [
+    {
+     "company": "Softworks Holdings, Inc.",
+     "date": "2024-11-27",
+     "amount": 5999999
+    },
+    {
+     "company": "Softworks Holdings, Inc.",
+     "date": "2021-07-26",
+     "amount": 21946489
+    }
+   ]
+  },
+  {
+   "key": "VALAR FUND",
+   "name": "Valar Fund IX LP",
+   "vehicles": 3,
+   "raised": 1828300000,
+   "raised2026": 0,
+   "lastClose": "2023-06-21",
+   "type": "Venture",
+   "partners": 5,
+   "topVehicles": [
+    {
+     "name": "Valar Fund IX LP",
+     "amountSold": 300000000,
+     "date": "2023-06-21"
+    },
+    {
+     "name": "Valar Fund VIII LP",
+     "amountSold": 665000000,
+     "date": "2022-01-31"
+    },
+    {
+     "name": "Valar Fund VII LP",
+     "amountSold": 863300000,
+     "date": "2021-03-25"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "AVISTA HEALTHCARE PARTNERS",
+   "name": "Avista Healthcare Partners (Offshore) VI, L.P.",
+   "vehicles": 6,
+   "raised": 1457050000,
+   "raised2026": 0,
+   "lastClose": "2022-05-18",
+   "type": "Private equity",
+   "partners": 2,
+   "topVehicles": [
+    {
+     "name": "Avista Healthcare Partners (Offshore) VI, L.P.",
+     "amountSold": 728525000,
+     "date": "2022-05-18"
+    },
+    {
+     "name": "Avista Healthcare Partners VI, L.P.",
+     "amountSold": 728525000,
+     "date": "2022-05-18"
+    },
+    {
+     "name": "Avista Healthcare Partners (Offshore) IV, L.P.",
+     "amountSold": 0,
+     "date": null
+    },
+    {
+     "name": "Avista Healthcare Partners IV, L.P.",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 2,
+   "linkedDeals2026": 0,
+   "recentDeals": [
+    {
+     "company": "ACP Hyperdrive Holdings, Inc.",
+     "date": "2022-08-12",
+     "amount": 10214200
+    },
+    {
+     "company": "ACP Hyperdrive Holdings, Inc.",
+     "date": "2022-03-08",
+     "amount": 310936600
+    }
+   ]
+  },
+  {
+   "key": "ZMC",
+   "name": "ZMC IV, L.P.",
+   "vehicles": 3,
+   "raised": 1341400000,
+   "raised2026": 0,
+   "lastClose": "2023-03-15",
+   "type": "Private equity",
+   "partners": 7,
+   "topVehicles": [
+    {
+     "name": "ZMC IV, L.P.",
+     "amountSold": 670700000,
+     "date": "2023-03-15"
+    },
+    {
+     "name": "ZMC IV PARALLEL, L.P.",
+     "amountSold": 670700000,
+     "date": "2023-03-15"
+    },
+    {
+     "name": "ZMC II EXTENDED VALUE FUND, L.P.",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 1,
+   "linkedDeals2026": 0,
+   "recentDeals": [
+    {
+     "company": "Gympass, Inc.",
+     "date": "2019-11-22",
+     "amount": 5410314
+    }
+   ]
+  },
+  {
+   "key": "RECOGNIZE PARTNERS",
+   "name": "Recognize Partners II-A, L.P.",
+   "vehicles": 2,
+   "raised": 1223600000,
+   "raised2026": 0,
+   "lastClose": "2025-04-23",
+   "type": "Private equity",
+   "partners": 5,
+   "topVehicles": [
+    {
+     "name": "Recognize Partners II-A, L.P.",
+     "amountSold": 474250000,
+     "date": "2025-04-23"
+    },
+    {
+     "name": "Recognize Partners II, L.P.",
+     "amountSold": 749350000,
+     "date": "2025-04-23"
+    }
+   ],
+   "linkedDeals": 8,
+   "linkedDeals2026": 0,
+   "recentDeals": [
+    {
+     "company": "Compass, Inc.",
+     "date": "2025-09-10",
+     "amount": 8999976
+    },
+    {
+     "company": "Compass, Inc.",
+     "date": "2025-08-28",
+     "amount": 254749514
+    },
+    {
+     "company": "Compass, Inc.",
+     "date": "2024-05-07",
+     "amount": 15680277
+    },
+    {
+     "company": "Compass, Inc.",
+     "date": "2024-04-03",
+     "amount": 6750000
+    },
+    {
+     "company": "Compass, Inc.",
+     "date": "2024-01-09",
+     "amount": 5119000
+    },
+    {
+     "company": "Compass, Inc.",
+     "date": "2023-10-06",
+     "amount": 7424998
+    },
+    {
+     "company": "Compass, Inc.",
+     "date": "2023-08-24",
+     "amount": 32399865
+    },
+    {
+     "company": "Ren Systems, Inc.",
+     "date": "2021-11-05",
+     "amount": 5330000
+    }
+   ]
+  },
+  {
+   "key": "ORBIMED ASIA PARTNERS",
+   "name": "OrbiMed Asia Partners VI, L.P.",
+   "vehicles": 2,
+   "raised": 1185856014,
+   "raised2026": 0,
+   "lastClose": "2025-09-30",
+   "type": "Private equity",
+   "partners": 9,
+   "topVehicles": [
+    {
+     "name": "OrbiMed Asia Partners VI, L.P.",
+     "amountSold": 533984000,
+     "date": "2025-09-30"
+    },
+    {
+     "name": "OrbiMed Asia Partners V, L.P.",
+     "amountSold": 651872014,
+     "date": "2022-04-29"
+    }
+   ],
+   "linkedDeals": 1,
+   "linkedDeals2026": 0,
+   "recentDeals": [
+    {
+     "company": "Belenos Biosciences, Inc.",
+     "date": "2024-07-08",
+     "amount": 48000000
+    }
+   ]
+  },
+  {
+   "key": "LUX VENTURES",
+   "name": "Lux Ventures IX Entrepreneurs Fund, L.P.",
+   "vehicles": 4,
+   "raised": 1150970500,
+   "raised2026": 0,
+   "lastClose": "2025-12-31",
+   "type": "Venture",
+   "partners": 4,
+   "topVehicles": [
+    {
+     "name": "Lux Ventures IX Entrepreneurs Fund, L.P.",
+     "amountSold": 5360000,
+     "date": "2025-12-31"
+    },
+    {
+     "name": "Lux Ventures VIII Entrepreneurs Fund, L.P.",
+     "amountSold": 3885000,
+     "date": "2023-04-10"
+    },
+    {
+     "name": "Lux Ventures VIII, L.P.",
+     "amountSold": 1141725500,
+     "date": "2023-04-03"
+    },
+    {
+     "name": "Lux Ventures IX, L.P.",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "EVOLUTION TECHNOLOGY FUND",
+   "name": "Evolution Technology Fund III, L.P.",
+   "vehicles": 2,
+   "raised": 899798680,
+   "raised2026": 0,
+   "lastClose": "2022-06-03",
+   "type": "Venture",
+   "partners": 10,
+   "topVehicles": [
+    {
+     "name": "Evolution Technology Fund III, L.P.",
+     "amountSold": 899798680,
+     "date": "2022-06-03"
+    },
+    {
+     "name": "Evolution Technology Fund IV, L.P.",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 2,
+   "linkedDeals2026": 0,
+   "recentDeals": [
+    {
+     "company": "Beyond Identity Inc.",
+     "date": "2022-02-11",
+     "amount": 100300000
+    },
+    {
+     "company": "Solidus Labs, Inc.",
+     "date": "2022-01-20",
+     "amount": 40000005
+    }
+   ]
+  },
+  {
+   "key": "LCV",
+   "name": "LCV 2025 08 LLC",
+   "vehicles": 8,
+   "raised": 864805899,
+   "raised2026": 1900000,
+   "lastClose": "2026-02-09",
+   "type": "Venture",
+   "partners": 7,
+   "topVehicles": [
+    {
+     "name": "LCV 2025 08 LLC",
+     "amountSold": 1900000,
+     "date": "2026-02-09"
+    },
+    {
+     "name": "LCV 2022 10 LLC",
+     "amountSold": 8210000,
+     "date": "2024-07-08"
+    },
+    {
+     "name": "LCV FUND III, L.P.",
+     "amountSold": 416640899,
+     "date": "2023-07-03"
+    },
+    {
+     "name": "LCV FUND VIII, L.P.",
+     "amountSold": 438055000,
+     "date": "2021-05-10"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "CAPITALSPRING INVESTMENT PARTNERS",
+   "name": "CapitalSpring Investment Partners VI Parallel II, LP",
+   "vehicles": 2,
+   "raised": 670715000,
+   "raised2026": 0,
+   "lastClose": "2021-01-01",
+   "type": "Private equity",
+   "partners": 5,
+   "topVehicles": [
+    {
+     "name": "CapitalSpring Investment Partners VI Parallel II, LP",
+     "amountSold": 184800000,
+     "date": "2021-01-01"
+    },
+    {
+     "name": "CapitalSpring Investment Partners VI, LP",
+     "amountSold": 485915000,
+     "date": "2021-01-01"
+    }
+   ],
+   "linkedDeals": 1,
+   "linkedDeals2026": 0,
+   "recentDeals": [
+    {
+     "company": "22nd Century Group, Inc.",
+     "date": "2022-05-13",
+     "amount": 58003000
+    }
+   ]
+  },
+  {
+   "key": "INSPIRED CAPITAL PARTNERS",
+   "name": "Inspired Capital Partners III, L.P.",
+   "vehicles": 2,
+   "raised": 611030000,
+   "raised2026": 0,
+   "lastClose": "2024-02-28",
+   "type": "Venture",
+   "partners": 3,
+   "topVehicles": [
+    {
+     "name": "Inspired Capital Partners III, L.P.",
+     "amountSold": 330000000,
+     "date": "2024-02-28"
+    },
+    {
+     "name": "Inspired Capital Partners II, L.P.",
+     "amountSold": 281030000,
+     "date": "2021-08-20"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "CATALYST",
+   "name": "Catalyst Co-Invest LLC, 2024 Series",
+   "vehicles": 4,
+   "raised": 604832250,
+   "raised2026": 0,
+   "lastClose": "2024-06-11",
+   "type": "Venture",
+   "partners": 7,
+   "topVehicles": [
+    {
+     "name": "Catalyst Co-Invest LLC, 2024 Series",
+     "amountSold": 22750000,
+     "date": "2024-06-11"
+    },
+    {
+     "name": "Catalyst Access Fund 2 LLC",
+     "amountSold": 4552000,
+     "date": "2022-06-20"
+    },
+    {
+     "name": "CATALYST INVESTORS V, L.P.",
+     "amountSold": 158530250,
+     "date": "2020-12-15"
+    },
+    {
+     "name": "Catalyst Investors QP IV, L.P.",
+     "amountSold": 419000000,
+     "date": "2015-01-29"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "ALLEYCORP PARTNERS",
+   "name": "AlleyCorp Partners II LP",
+   "vehicles": 2,
+   "raised": 588950000,
+   "raised2026": 0,
+   "lastClose": "2025-05-30",
+   "type": "Venture",
+   "partners": 4,
+   "topVehicles": [
+    {
+     "name": "AlleyCorp Partners II LP",
+     "amountSold": 335000000,
+     "date": "2025-05-30"
+    },
+    {
+     "name": "AlleyCorp Partners LP",
+     "amountSold": 253950000,
+     "date": "2023-07-14"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "GREYCROFT PARTNERS",
+   "name": "Greycroft Partners VIII, L.P.",
+   "vehicles": 4,
+   "raised": 581512000,
+   "raised2026": 0,
+   "lastClose": "2026-01-30",
+   "type": "Venture",
+   "partners": 5,
+   "topVehicles": [
+    {
+     "name": "Greycroft Partners VIII, L.P.",
+     "amountSold": 0,
+     "date": "2026-01-30"
+    },
+    {
+     "name": "Greycroft Partners VII, L.P.",
+     "amountSold": 450837000,
+     "date": "2022-01-28"
+    },
+    {
+     "name": "Greycroft Partners II, L.P.",
+     "amountSold": 130675000,
+     "date": "2010-02-05"
+    },
+    {
+     "name": "Greycroft Partners VII-E, L.P.",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "PEAKSPAN CAPITAL GROWTH PARTNERS",
+   "name": "PeakSpan Capital Growth Partners III-A, L.P.",
+   "vehicles": 4,
+   "raised": 573150000,
+   "raised2026": 0,
+   "lastClose": "2022-01-14",
+   "type": "Venture",
+   "partners": 6,
+   "topVehicles": [
+    {
+     "name": "PeakSpan Capital Growth Partners III-A, L.P.",
+     "amountSold": 17650000,
+     "date": "2022-01-14"
+    },
+    {
+     "name": "PeakSpan Capital Growth Partners III, L.P.",
+     "amountSold": 555500000,
+     "date": "2021-11-15"
+    },
+    {
+     "name": "PeakSpan Capital Growth Partners IV-A, L.P.",
+     "amountSold": 0,
+     "date": null
+    },
+    {
+     "name": "PeakSpan Capital Growth Partners IV, L.P.",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "IMAGINARY",
+   "name": "Imaginary Venture Capital NK-1, L.P.",
+   "vehicles": 10,
+   "raised": 568129820,
+   "raised2026": 36930000,
+   "lastClose": "2026-02-09",
+   "type": "Venture",
+   "partners": 2,
+   "topVehicles": [
+    {
+     "name": "Imaginary Venture Capital NK-1, L.P.",
+     "amountSold": 26730000,
+     "date": "2026-02-09"
+    },
+    {
+     "name": "Imaginary Venture Capital WA-1, L.P",
+     "amountSold": 10200000,
+     "date": "2026-01-28"
+    },
+    {
+     "name": "Imaginary Venture Capital TR-1, L.P.",
+     "amountSold": 32745520,
+     "date": "2024-07-30"
+    },
+    {
+     "name": "Imaginary Venture Capital EIP Fund III, L.P.",
+     "amountSold": 2250000,
+     "date": "2022-03-08"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "INVOPPS",
+   "name": "InvOpps FT3 LP",
+   "vehicles": 5,
+   "raised": 544179352,
+   "raised2026": 0,
+   "lastClose": "2023-10-30",
+   "type": "Venture",
+   "partners": 5,
+   "topVehicles": [
+    {
+     "name": "InvOpps FT3 LP",
+     "amountSold": 205025060,
+     "date": "2023-10-30"
+    },
+    {
+     "name": "InvOpps FT3A LP",
+     "amountSold": 210320554,
+     "date": "2021-06-11"
+    },
+    {
+     "name": "InvOpps FT1A LLC",
+     "amountSold": 128833738,
+     "date": "2018-04-20"
+    },
+    {
+     "name": "InvOpps VI Investors, L.P.",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "AQUARIAN",
+   "name": "Aquarian Holdings IV L.P.",
+   "vehicles": 18,
+   "raised": 512086500,
+   "raised2026": 0,
+   "lastClose": "2022-12-27",
+   "type": "Private equity",
+   "partners": 12,
+   "topVehicles": [
+    {
+     "name": "Aquarian Holdings IV L.P.",
+     "amountSold": 403100000,
+     "date": "2022-12-27"
+    },
+    {
+     "name": "Aquarian Holdings III L.P.",
+     "amountSold": 108986500,
+     "date": "2020-02-28"
+    },
+    {
+     "name": "Aquarian Secured Lending II Offshore Feeder (Levered), L.P.",
+     "amountSold": 0,
+     "date": null
+    },
+    {
+     "name": "Aquarian Secured Lending II Onshore Feeder (Levered), L.P.",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 1,
+   "linkedDeals2026": 0,
+   "recentDeals": [
+    {
+     "company": "Somerset Holdings International Ltd.",
+     "date": "2022-12-30",
+     "amount": 928275000
+    }
+   ]
+  },
+  {
+   "key": "REVERE",
+   "name": "REVERE MASTER SPV LLC - SERIES VII - A (BYJUS)",
+   "vehicles": 3,
+   "raised": 482361000,
+   "raised2026": 0,
+   "lastClose": "2022-07-18",
+   "type": "Venture",
+   "partners": 1,
+   "topVehicles": [
+    {
+     "name": "REVERE MASTER SPV LLC - SERIES VII - A (BYJUS)",
+     "amountSold": 200000000,
+     "date": "2022-07-18"
+    },
+    {
+     "name": "Revere Master SPV LLC Series VII (Byju)",
+     "amountSold": 275000000,
+     "date": "2022-06-29"
+    },
+    {
+     "name": "REVERE MASTER SPV LLC, SERIES 1",
+     "amountSold": 7361000,
+     "date": "2022-02-04"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "TQ VENTURES",
+   "name": "TQ Ventures IV LP",
+   "vehicles": 3,
+   "raised": 455234916,
+   "raised2026": 0,
+   "lastClose": "2025-07-01",
+   "type": "Venture",
+   "partners": 3,
+   "topVehicles": [
+    {
+     "name": "TQ Ventures IV LP",
+     "amountSold": 91769116,
+     "date": "2025-07-01"
+    },
+    {
+     "name": "TQ Ventures III Growth LP",
+     "amountSold": 272599350,
+     "date": "2022-02-01"
+    },
+    {
+     "name": "TQ Ventures III Early LP",
+     "amountSold": 90866450,
+     "date": "2022-02-01"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "TOWN HALL VENTURES",
+   "name": "TOWN HALL VENTURES IV, L.P.",
+   "vehicles": 3,
+   "raised": 452850000,
+   "raised2026": 0,
+   "lastClose": "2024-12-20",
+   "type": "Venture",
+   "partners": 6,
+   "topVehicles": [
+    {
+     "name": "TOWN HALL VENTURES IV, L.P.",
+     "amountSold": 182350000,
+     "date": "2024-12-20"
+    },
+    {
+     "name": "TOWN HALL VENTURES III-A, L.P.",
+     "amountSold": 11750000,
+     "date": "2022-03-09"
+    },
+    {
+     "name": "TOWN HALL VENTURES III, L.P.",
+     "amountSold": 258750000,
+     "date": "2022-03-09"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "LERER HIPPEAU",
+   "name": "Lerer Hippeau VIII, LP",
+   "vehicles": 6,
+   "raised": 446667250,
+   "raised2026": 0,
+   "lastClose": "2022-01-12",
+   "type": "Venture",
+   "partners": 10,
+   "topVehicles": [
+    {
+     "name": "Lerer Hippeau VIII, LP",
+     "amountSold": 143180300,
+     "date": "2022-01-12"
+    },
+    {
+     "name": "Lerer Hippeau Select Fund IV, LP",
+     "amountSold": 85963450,
+     "date": "2022-01-12"
+    },
+    {
+     "name": "Lerer Hippeau ZB, LP",
+     "amountSold": 3450000,
+     "date": "2021-10-27"
+    },
+    {
+     "name": "Lerer Hippeau VII, LP",
+     "amountSold": 130000000,
+     "date": "2019-12-20"
+    }
+   ],
+   "linkedDeals": 1,
+   "linkedDeals2026": 0,
+   "recentDeals": [
+    {
+     "company": "Opentrons Labworks Inc.",
+     "date": "2021-09-20",
+     "amount": 209019995
+    }
+   ]
+  },
+  {
+   "key": "BLUE CLOUD VENTURES",
+   "name": "Blue Cloud Ventures V, LP",
+   "vehicles": 2,
+   "raised": 445756000,
+   "raised2026": 0,
+   "lastClose": "2024-08-30",
+   "type": "Venture",
+   "partners": 5,
+   "topVehicles": [
+    {
+     "name": "Blue Cloud Ventures V, LP",
+     "amountSold": 192488000,
+     "date": "2024-08-30"
+    },
+    {
+     "name": "Blue Cloud Ventures IV LP",
+     "amountSold": 253268000,
+     "date": "2020-10-20"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "CONTI VENTURE FUND",
+   "name": "CONTI VENTURE FUND II-A L.P.",
+   "vehicles": 2,
+   "raised": 417978000,
+   "raised2026": 0,
+   "lastClose": "2022-06-17",
+   "type": "Venture",
+   "partners": 3,
+   "topVehicles": [
+    {
+     "name": "CONTI VENTURE FUND II-A L.P.",
+     "amountSold": 208989000,
+     "date": "2022-06-17"
+    },
+    {
+     "name": "CONTI VENTURE FUND II L.P.",
+     "amountSold": 208989000,
+     "date": "2022-06-17"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "TRU ARROW TECHNOLOGY PARTNERS",
+   "name": "Tru Arrow Technology Partners CIV VIII, LP",
+   "vehicles": 10,
+   "raised": 390822681,
+   "raised2026": 0,
+   "lastClose": "2025-12-02",
+   "type": "Venture",
+   "partners": 4,
+   "topVehicles": [
+    {
+     "name": "Tru Arrow Technology Partners CIV VIII, LP",
+     "amountSold": 31000000,
+     "date": "2025-12-02"
+    },
+    {
+     "name": "Tru Arrow Technology Partners CIV VI, LP",
+     "amountSold": 9595000,
+     "date": "2025-11-05"
+    },
+    {
+     "name": "Tru Arrow Technology Partners II, LP",
+     "amountSold": 74265000,
+     "date": "2025-09-02"
+    },
+    {
+     "name": "Tru Arrow Technology Partners CIV V, LP",
+     "amountSold": 2000000,
+     "date": "2025-07-22"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "ARIA GROWTH PARTNERS FUND",
+   "name": "ARIA GROWTH PARTNERS FUND II-A LP",
+   "vehicles": 6,
+   "raised": 385015000,
+   "raised2026": 0,
+   "lastClose": "2023-12-29",
+   "type": "Private equity",
+   "partners": 1,
+   "topVehicles": [
+    {
+     "name": "ARIA GROWTH PARTNERS FUND II-A LP",
+     "amountSold": 152000000,
+     "date": "2023-12-29"
+    },
+    {
+     "name": "ARIA GROWTH PARTNERS FUND II LP",
+     "amountSold": 152000000,
+     "date": "2023-12-29"
+    },
+    {
+     "name": "ARIA GROWTH PARTNERS FUND I-A LP",
+     "amountSold": 26105000,
+     "date": "2021-06-22"
+    },
+    {
+     "name": "ARIA GROWTH PARTNERS FUND I LP",
+     "amountSold": 26105000,
+     "date": "2021-06-22"
+    }
+   ],
+   "linkedDeals": 2,
+   "linkedDeals2026": 0,
+   "recentDeals": [
+    {
+     "company": "Que Onda Beverage, Inc.",
+     "date": "2021-11-23",
+     "amount": 9449240
+    },
+    {
+     "company": "Hero Cosmetics, Inc.",
+     "date": "2021-07-16",
+     "amount": 15449284
+    }
+   ]
+  },
+  {
+   "key": "CARBON DIRECT",
+   "name": "Carbon Direct SPV II LP",
+   "vehicles": 6,
+   "raised": 379685000,
+   "raised2026": 0,
+   "lastClose": "2024-05-06",
+   "type": "Private equity",
+   "partners": 5,
+   "topVehicles": [
+    {
+     "name": "Carbon Direct SPV II LP",
+     "amountSold": 14050000,
+     "date": "2024-05-06"
+    },
+    {
+     "name": "Carbon Direct Fund II-A LP",
+     "amountSold": 44425000,
+     "date": "2022-02-09"
+    },
+    {
+     "name": "Carbon Direct Fund II LP",
+     "amountSold": 321210000,
+     "date": "2022-02-09"
+    },
+    {
+     "name": "Carbon Direct SPV III LP",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 1,
+   "linkedDeals2026": 0,
+   "recentDeals": [
+    {
+     "company": "Carbon Direct Inc.",
+     "date": "2022-08-17",
+     "amount": 60786321
+    }
+   ]
+  },
+  {
+   "key": "BOLDSTART",
+   "name": "Boldstart Opportunities III L.P.",
+   "vehicles": 3,
+   "raised": 379068111,
+   "raised2026": 0,
+   "lastClose": "2021-11-09",
+   "type": "Venture",
+   "partners": 4,
+   "topVehicles": [
+    {
+     "name": "Boldstart Opportunities III L.P.",
+     "amountSold": 175000000,
+     "date": "2021-11-09"
+    },
+    {
+     "name": "Boldstart Ventures VI L.P.",
+     "amountSold": 192168111,
+     "date": "2021-11-09"
+    },
+    {
+     "name": "Boldstart Osprey, LLC",
+     "amountSold": 11900000,
+     "date": "2021-08-24"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "GREYCROFT GROWTH",
+   "name": "Greycroft Growth IV, L.P.",
+   "vehicles": 3,
+   "raised": 377597000,
+   "raised2026": 0,
+   "lastClose": "2022-01-28",
+   "type": "Venture",
+   "partners": 3,
+   "topVehicles": [
+    {
+     "name": "Greycroft Growth IV, L.P.",
+     "amountSold": 377597000,
+     "date": "2022-01-28"
+    },
+    {
+     "name": "Greycroft Growth IV-E, L.P.",
+     "amountSold": 0,
+     "date": null
+    },
+    {
+     "name": "Greycroft Growth IV Holdings, L.P.",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "TRUE BEAUTY VENTURES",
+   "name": "True Beauty Ventures II, LP",
+   "vehicles": 2,
+   "raised": 350403940,
+   "raised2026": 0,
+   "lastClose": "2022-12-23",
+   "type": "Venture",
+   "partners": 2,
+   "topVehicles": [
+    {
+     "name": "True Beauty Ventures II, LP",
+     "amountSold": 308250000,
+     "date": "2022-12-23"
+    },
+    {
+     "name": "True Beauty Ventures, LP",
+     "amountSold": 42153940,
+     "date": "2020-10-23"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "ALIGNMENT GROWTH FUND",
+   "name": "Alignment Growth Fund I, LP",
+   "vehicles": 2,
+   "raised": 350100000,
+   "raised2026": 0,
+   "lastClose": "2021-10-21",
+   "type": "Venture",
+   "partners": 7,
+   "topVehicles": [
+    {
+     "name": "Alignment Growth Fund I, LP",
+     "amountSold": 350100000,
+     "date": "2021-10-21"
+    },
+    {
+     "name": "Alignment Growth Fund II, LP",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 1,
+   "linkedDeals2026": 0,
+   "recentDeals": [
+    {
+     "company": "Fever Labs, Inc.",
+     "date": "2023-01-11",
+     "amount": 68499992
+    }
+   ]
+  },
+  {
+   "key": "DIMENSION CAPITAL",
+   "name": "Dimension Capital I, L.P.",
+   "vehicles": 3,
+   "raised": 350000000,
+   "raised2026": 0,
+   "lastClose": "2022-07-29",
+   "type": "Venture",
+   "partners": 8,
+   "topVehicles": [
+    {
+     "name": "Dimension Capital I, L.P.",
+     "amountSold": 350000000,
+     "date": "2022-07-29"
+    },
+    {
+     "name": "Dimension Capital II, L.P.",
+     "amountSold": 0,
+     "date": null
+    },
+    {
+     "name": "Dimension Capital III, L.P.",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "645 VENTURES",
+   "name": "645 Ventures IV, L.P.",
+   "vehicles": 2,
+   "raised": 347479591,
+   "raised2026": 0,
+   "lastClose": "2022-07-01",
+   "type": "Venture",
+   "partners": 5,
+   "topVehicles": [
+    {
+     "name": "645 Ventures IV, L.P.",
+     "amountSold": 194468730,
+     "date": "2022-07-01"
+    },
+    {
+     "name": "645 Ventures Select I, L.P.",
+     "amountSold": 153010861,
+     "date": "2022-07-01"
+    }
+   ],
+   "linkedDeals": 5,
+   "linkedDeals2026": 0,
+   "recentDeals": [
+    {
+     "company": "Clerq Inc.",
+     "date": "2025-08-29",
+     "amount": 11999954
+    },
+    {
+     "company": "Efficient Capital Labs Inc.",
+     "date": "2024-05-31",
+     "amount": 10917596
+    },
+    {
+     "company": "ReflexAI, Inc.",
+     "date": "2024-04-19",
+     "amount": 6527582
+    },
+    {
+     "company": "Efficient Capital Labs Inc.",
+     "date": "2022-12-22",
+     "amount": 6999999
+    },
+    {
+     "company": "Negotiatus Corp.",
+     "date": "2021-07-28",
+     "amount": 26271252
+    }
+   ]
+  },
+  {
+   "key": "DELTA",
+   "name": "Delta Blockchain Fund QP LP",
+   "vehicles": 3,
+   "raised": 325778333,
+   "raised2026": 0,
+   "lastClose": "2021-11-29",
+   "type": "Venture",
+   "partners": 8,
+   "topVehicles": [
+    {
+     "name": "Delta Blockchain Fund QP LP",
+     "amountSold": 295420000,
+     "date": "2021-11-29"
+    },
+    {
+     "name": "Delta Blockchain Fund LP",
+     "amountSold": 30358333,
+     "date": "2021-09-16"
+    },
+    {
+     "name": "Delta Opportunities LP",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "FJ LABS",
+   "name": "FJ Labs IV, LP",
+   "vehicles": 3,
+   "raised": 312775000,
+   "raised2026": 0,
+   "lastClose": "2025-03-14",
+   "type": "Venture",
+   "partners": 10,
+   "topVehicles": [
+    {
+     "name": "FJ Labs IV, LP",
+     "amountSold": 73525000,
+     "date": "2025-03-14"
+    },
+    {
+     "name": "FJ Labs Archangel I, LP",
+     "amountSold": 117175000,
+     "date": "2021-08-11"
+    },
+    {
+     "name": "FJ Labs III, LP",
+     "amountSold": 122075000,
+     "date": "2021-07-20"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "HUMBLE GROWTH FUND",
+   "name": "Humble Growth Fund I, LP",
+   "vehicles": 2,
+   "raised": 312690000,
+   "raised2026": 0,
+   "lastClose": "2022-09-07",
+   "type": "Venture",
+   "partners": 6,
+   "topVehicles": [
+    {
+     "name": "Humble Growth Fund I, LP",
+     "amountSold": 312690000,
+     "date": "2022-09-07"
+    },
+    {
+     "name": "Humble Growth Fund II, LP",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 2,
+   "linkedDeals2026": 0,
+   "recentDeals": [
+    {
+     "company": "Linus Technology NewCo, Inc.",
+     "date": "2025-05-09",
+     "amount": 74999714
+    },
+    {
+     "company": "Linus Technology, Inc.",
+     "date": "2024-08-06",
+     "amount": 7500000
+    }
+   ]
+  },
+  {
+   "key": "ZIGG CAPITAL",
+   "name": "Zigg Capital III, L.P.",
+   "vehicles": 2,
+   "raised": 312679467,
+   "raised2026": 0,
+   "lastClose": "2023-02-17",
+   "type": "Venture",
+   "partners": 2,
+   "topVehicles": [
+    {
+     "name": "Zigg Capital III, L.P.",
+     "amountSold": 212479467,
+     "date": "2023-02-17"
+    },
+    {
+     "name": "Zigg Capital I, L.P.",
+     "amountSold": 100200000,
+     "date": "2018-12-19"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "SHINE CAPITAL",
+   "name": "Shine Capital II, L.P.",
+   "vehicles": 5,
+   "raised": 300000000,
+   "raised2026": 0,
+   "lastClose": "2022-02-18",
+   "type": "Venture",
+   "partners": 4,
+   "topVehicles": [
+    {
+     "name": "Shine Capital II, L.P.",
+     "amountSold": 200000000,
+     "date": "2022-02-18"
+    },
+    {
+     "name": "Shine Capital Opportunities Fund I, L.P.",
+     "amountSold": 100000000,
+     "date": "2022-02-18"
+    },
+    {
+     "name": "Shine Capital III, L.P.",
+     "amountSold": 0,
+     "date": null
+    },
+    {
+     "name": "Shine Capital Opportunities Advisor Fund I, L.P.",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 3,
+   "linkedDeals2026": 0,
+   "recentDeals": [
+    {
+     "company": "10Beauty, Inc.",
+     "date": "2023-12-08",
+     "amount": 16450543
+    },
+    {
+     "company": "Blackbird Labs, Inc.",
+     "date": "2022-06-17",
+     "amount": 10999977
+    },
+    {
+     "company": "Imvela Corp.",
+     "date": "2021-09-13",
+     "amount": 28397117
+    }
+   ]
+  },
+  {
+   "key": "VALOR VENTURE FUND",
+   "name": "Valor Venture Fund V-A, L.P.",
+   "vehicles": 5,
+   "raised": 290470000,
+   "raised2026": 0,
+   "lastClose": "2024-07-04",
+   "type": "Venture",
+   "partners": 5,
+   "topVehicles": [
+    {
+     "name": "Valor Venture Fund V-A, L.P.",
+     "amountSold": 3250000,
+     "date": "2024-07-04"
+    },
+    {
+     "name": "Valor Venture Fund V, L.P.",
+     "amountSold": 100375000,
+     "date": "2024-06-28"
+    },
+    {
+     "name": "Valor Venture Fund IV-B, L.P.",
+     "amountSold": 1530000,
+     "date": "2022-03-04"
+    },
+    {
+     "name": "Valor Venture Fund IV, L.P.",
+     "amountSold": 185315000,
+     "date": "2021-09-16"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "BIOSPRING PARTNERS",
+   "name": "Biospring Partners CHR, LP",
+   "vehicles": 6,
+   "raised": 268982947,
+   "raised2026": 5000000,
+   "lastClose": "2026-03-27",
+   "type": "Venture",
+   "partners": 6,
+   "topVehicles": [
+    {
+     "name": "Biospring Partners CHR, LP",
+     "amountSold": 5000000,
+     "date": "2026-03-27"
+    },
+    {
+     "name": "BIOSPRING PARTNERS 2, LP",
+     "amountSold": 10000000,
+     "date": "2025-06-16"
+    },
+    {
+     "name": "Biospring Partners ABZ Fund V, L.P.",
+     "amountSold": 16500000,
+     "date": "2022-08-24"
+    },
+    {
+     "name": "Biospring Partners ABZ Fund, L.P.",
+     "amountSold": 12104000,
+     "date": "2020-07-21"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "TORCH",
+   "name": "Torch Opportunity II LLC - Investment Series 8",
+   "vehicles": 16,
+   "raised": 256068421,
+   "raised2026": 21130375,
+   "lastClose": "2026-02-11",
+   "type": "Venture",
+   "partners": 4,
+   "topVehicles": [
+    {
+     "name": "Torch Opportunity II LLC - Investment Series 8",
+     "amountSold": 13297250,
+     "date": "2026-02-11"
+    },
+    {
+     "name": "Torch Opportunity II LLC - Investment Series 7",
+     "amountSold": 7833125,
+     "date": "2026-01-20"
+    },
+    {
+     "name": "Torch Opportunity II LLC - Investment Series 6",
+     "amountSold": 3339375,
+     "date": "2025-07-09"
+    },
+    {
+     "name": "Torch Opportunity II LLC - Investment Series 5",
+     "amountSold": 2146375,
+     "date": "2024-12-30"
+    }
+   ],
+   "linkedDeals": 2,
+   "linkedDeals2026": 0,
+   "recentDeals": [
+    {
+     "company": "Priority Private Care Management, Inc.",
+     "date": "2024-08-30",
+     "amount": 27613162
+    },
+    {
+     "company": "Priority Private Care Management, Inc.",
+     "date": "2021-11-12",
+     "amount": 35101958
+    }
+   ]
+  },
+  {
+   "key": "THIRDBASE",
+   "name": "Thirdbase Opportunity LP - Series ER III",
+   "vehicles": 45,
+   "raised": 255330580,
+   "raised2026": 80061800,
+   "lastClose": "2026-06-09",
+   "type": "Venture",
+   "partners": 3,
+   "topVehicles": [
+    {
+     "name": "Thirdbase Opportunity LP - Series ER III",
+     "amountSold": 31000000,
+     "date": "2026-06-09"
+    },
+    {
+     "name": "Thirdbase Opportunity LP - Series PA",
+     "amountSold": 4000000,
+     "date": "2026-05-01"
+    },
+    {
+     "name": "Thirdbase Opportunity LP - Series AL",
+     "amountSold": 4500000,
+     "date": "2026-05-01"
+    },
+    {
+     "name": "Thirdbase Opportunity LP - Series RT",
+     "amountSold": 5000000,
+     "date": "2026-03-18"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "COLLAB",
+   "name": "Collab PL - A, L.P.",
+   "vehicles": 9,
+   "raised": 240080224,
+   "raised2026": 15000000,
+   "lastClose": "2026-05-28",
+   "type": "Venture",
+   "partners": 12,
+   "topVehicles": [
+    {
+     "name": "Collab PL - A, L.P.",
+     "amountSold": 15000000,
+     "date": "2026-05-28"
+    },
+    {
+     "name": "Collab Sustainable Solutions II, L.P.",
+     "amountSold": 100080225,
+     "date": "2024-10-10"
+    },
+    {
+     "name": "Collab VI, L.P.",
+     "amountSold": 124999999,
+     "date": "2024-06-06"
+    },
+    {
+     "name": "Collab II - W G, L.P.",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "RHI",
+   "name": "RHI HOLDINGS 3-A SPV, LP",
+   "vehicles": 11,
+   "raised": 238675000,
+   "raised2026": 0,
+   "lastClose": "2023-06-01",
+   "type": "Venture",
+   "partners": 4,
+   "topVehicles": [
+    {
+     "name": "RHI HOLDINGS 3-A SPV, LP",
+     "amountSold": 260000,
+     "date": "2023-06-01"
+    },
+    {
+     "name": "RHI HOLDINGS 3 SPV, LP",
+     "amountSold": 44415000,
+     "date": "2023-06-01"
+    },
+    {
+     "name": "RHI HOLDINGS 3 SPV (OFFSHORE), LP",
+     "amountSold": 26250000,
+     "date": "2023-06-01"
+    },
+    {
+     "name": "RHI HOLDINGS 3-SI, LP",
+     "amountSold": 12500000,
+     "date": "2023-06-01"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "VALAR CO INVEST",
+   "name": "Valar Co-Invest 13 LP",
+   "vehicles": 3,
+   "raised": 232810096,
+   "raised2026": 0,
+   "lastClose": "2021-11-09",
+   "type": "Venture",
+   "partners": 3,
+   "topVehicles": [
+    {
+     "name": "Valar Co-Invest 13 LP",
+     "amountSold": 119510096,
+     "date": "2021-11-09"
+    },
+    {
+     "name": "Valar Co-Invest 12 LP",
+     "amountSold": 11000000,
+     "date": "2021-06-24"
+    },
+    {
+     "name": "Valar Co-Invest 11 LP",
+     "amountSold": 102300000,
+     "date": "2021-06-22"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "MIRAE ASSET GAIA FUND",
+   "name": "Mirae Asset Gaia Fund III, LP",
+   "vehicles": 3,
+   "raised": 229658474,
+   "raised2026": 111181955,
+   "lastClose": "2026-01-27",
+   "type": "Venture",
+   "partners": 5,
+   "topVehicles": [
+    {
+     "name": "Mirae Asset Gaia Fund III, LP",
+     "amountSold": 111181955,
+     "date": "2026-01-27"
+    },
+    {
+     "name": "Mirae Asset Gaia Fund II, LP",
+     "amountSold": 22264260,
+     "date": "2024-11-21"
+    },
+    {
+     "name": "Mirae Asset Gaia Fund I, LP",
+     "amountSold": 96212259,
+     "date": "2024-05-10"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "FLYBRIDGE",
+   "name": "Flybridge 2025, L.P.",
+   "vehicles": 6,
+   "raised": 229510353,
+   "raised2026": 0,
+   "lastClose": "2024-07-26",
+   "type": "Venture",
+   "partners": 9,
+   "topVehicles": [
+    {
+     "name": "Flybridge 2025, L.P.",
+     "amountSold": 65300000,
+     "date": "2024-07-26"
+    },
+    {
+     "name": "Flybridge 2019 Leaders, L.P.",
+     "amountSold": 18535353,
+     "date": "2022-09-12"
+    },
+    {
+     "name": "Flybridge Opportunities 2022, L.P.",
+     "amountSold": 35302500,
+     "date": "2022-07-13"
+    },
+    {
+     "name": "Flybridge 2022, L.P.",
+     "amountSold": 110372500,
+     "date": "2022-07-13"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "MIRAE ASSET PROJECT MARS FUND",
+   "name": "Mirae Asset Project Mars Fund IV, LP",
+   "vehicles": 3,
+   "raised": 213392436,
+   "raised2026": 0,
+   "lastClose": "2023-06-01",
+   "type": "Venture",
+   "partners": 4,
+   "topVehicles": [
+    {
+     "name": "Mirae Asset Project Mars Fund IV, LP",
+     "amountSold": 10308000,
+     "date": "2023-06-01"
+    },
+    {
+     "name": "Mirae Asset Project Mars Fund III, LP",
+     "amountSold": 95954443,
+     "date": "2023-01-12"
+    },
+    {
+     "name": "Mirae Asset Project Mars Fund I, LP",
+     "amountSold": 107129993,
+     "date": "2022-07-13"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "HOF CAPITAL GROWTH",
+   "name": "HOF Capital Growth Opportunity XL, LLC",
+   "vehicles": 23,
+   "raised": 193108281,
+   "raised2026": 0,
+   "lastClose": "2022-09-15",
+   "type": "Venture",
+   "partners": 1,
+   "topVehicles": [
+    {
+     "name": "HOF Capital Growth Opportunity XL, LLC",
+     "amountSold": 20000000,
+     "date": "2022-09-15"
+    },
+    {
+     "name": "HOF Capital Growth Opportunity XLVI, LLC",
+     "amountSold": 10249693,
+     "date": "2022-06-09"
+    },
+    {
+     "name": "HOF Capital Growth Opportunity XLV, LLC",
+     "amountSold": 3291597,
+     "date": "2022-04-14"
+    },
+    {
+     "name": "HOF Capital Growth AA, LLC",
+     "amountSold": 4080000,
+     "date": "2022-03-14"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "EQUAL VENTURES",
+   "name": "Equal Ventures 2, LP",
+   "vehicles": 4,
+   "raised": 169800000,
+   "raised2026": 0,
+   "lastClose": "2022-03-30",
+   "type": "Venture",
+   "partners": 6,
+   "topVehicles": [
+    {
+     "name": "Equal Ventures 2, LP",
+     "amountSold": 94800000,
+     "date": "2022-03-30"
+    },
+    {
+     "name": "Equal Ventures Opportunity 1, LP",
+     "amountSold": 75000000,
+     "date": "2022-02-14"
+    },
+    {
+     "name": "Equal Ventures Opportunity 2, LP",
+     "amountSold": 0,
+     "date": null
+    },
+    {
+     "name": "Equal Ventures 3, LP",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 1,
+   "linkedDeals2026": 0,
+   "recentDeals": [
+    {
+     "company": "Texture Corp.",
+     "date": "2025-12-19",
+     "amount": 12469994
+    }
+   ]
+  },
+  {
+   "key": "RETHINK EDUCATION",
+   "name": "Rethink Education IV, LP",
+   "vehicles": 2,
+   "raised": 169436596,
+   "raised2026": 0,
+   "lastClose": "2024-04-12",
+   "type": "Venture",
+   "partners": 7,
+   "topVehicles": [
+    {
+     "name": "Rethink Education IV, LP",
+     "amountSold": 48936596,
+     "date": "2024-04-12"
+    },
+    {
+     "name": "Rethink Education III, LP",
+     "amountSold": 120500000,
+     "date": "2019-04-25"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "CATALIO GENESIS FUND",
+   "name": "Catalio Genesis Fund X, LLC",
+   "vehicles": 8,
+   "raised": 161196212,
+   "raised2026": 19101212,
+   "lastClose": "2026-02-09",
+   "type": "Venture",
+   "partners": 7,
+   "topVehicles": [
+    {
+     "name": "Catalio Genesis Fund X, LLC",
+     "amountSold": 19101212,
+     "date": "2026-02-09"
+    },
+    {
+     "name": "Catalio Genesis Fund IX, LLC",
+     "amountSold": 8625000,
+     "date": "2025-06-03"
+    },
+    {
+     "name": "Catalio Genesis Fund VIII, LLC",
+     "amountSold": 15247500,
+     "date": "2025-04-04"
+    },
+    {
+     "name": "Catalio Genesis Fund VI, LLC",
+     "amountSold": 15497500,
+     "date": "2025-04-04"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "ENDEAVOR CATALYST",
+   "name": "Endeavor Catalyst V, L.P.",
+   "vehicles": 2,
+   "raised": 151250000,
+   "raised2026": 0,
+   "lastClose": "2025-09-23",
+   "type": "Venture",
+   "partners": 2,
+   "topVehicles": [
+    {
+     "name": "Endeavor Catalyst V, L.P.",
+     "amountSold": 51525000,
+     "date": "2025-09-23"
+    },
+    {
+     "name": "Endeavor Catalyst IV, L.P.",
+     "amountSold": 99725000,
+     "date": "2022-01-14"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "PLACEHOLDER FUND",
+   "name": "Placeholder Fund II, LP",
+   "vehicles": 2,
+   "raised": 149400000,
+   "raised2026": 0,
+   "lastClose": "2020-12-23",
+   "type": "Venture",
+   "partners": 3,
+   "topVehicles": [
+    {
+     "name": "Placeholder Fund II, LP",
+     "amountSold": 149400000,
+     "date": "2020-12-23"
+    },
+    {
+     "name": "Placeholder Fund III, LP",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "MEDICAL EXCELLENCE CAPITAL PARTNERS",
+   "name": "Medical Excellence Capital Partners, LP",
+   "vehicles": 2,
+   "raised": 145650000,
+   "raised2026": 0,
+   "lastClose": "2020-11-19",
+   "type": "Venture",
+   "partners": 11,
+   "topVehicles": [
+    {
+     "name": "Medical Excellence Capital Partners, LP",
+     "amountSold": 145650000,
+     "date": "2020-11-19"
+    },
+    {
+     "name": "Medical Excellence Capital Partners ll, LP",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "LONETREE",
+   "name": "LoneTree LIO Co-Invest, L.P.",
+   "vehicles": 4,
+   "raised": 144150000,
+   "raised2026": 0,
+   "lastClose": "2025-11-25",
+   "type": "Private equity",
+   "partners": 3,
+   "topVehicles": [
+    {
+     "name": "LoneTree LIO Co-Invest, L.P.",
+     "amountSold": 6300000,
+     "date": "2025-11-25"
+    },
+    {
+     "name": "LoneTree I, L.P.",
+     "amountSold": 137850000,
+     "date": "2023-04-11"
+    },
+    {
+     "name": "LoneTree BLN Co-Invest, L.P.",
+     "amountSold": 0,
+     "date": null
+    },
+    {
+     "name": "LoneTree SPG Co-Invest L.P.",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 1,
+   "linkedDeals2026": 0,
+   "recentDeals": [
+    {
+     "company": "Tyrone, Inc.",
+     "date": "2024-08-02",
+     "amount": 12728211
+    }
+   ]
+  },
+  {
+   "key": "VOLT OPPORTUNITIES FUND",
+   "name": "Volt Opportunities Fund III-B, L.P.",
+   "vehicles": 2,
+   "raised": 139500000,
+   "raised2026": 0,
+   "lastClose": "2025-04-16",
+   "type": "Venture",
+   "partners": 2,
+   "topVehicles": [
+    {
+     "name": "Volt Opportunities Fund III-B, L.P.",
+     "amountSold": 139500000,
+     "date": "2025-04-16"
+    },
+    {
+     "name": "Volt Opportunities Fund III-A, L.P.",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "TUSK VENTURE PARTNERS",
+   "name": "Tusk Venture Partners III, L.P.",
+   "vehicles": 2,
+   "raised": 138647959,
+   "raised2026": 0,
+   "lastClose": "2021-04-01",
+   "type": "Venture",
+   "partners": 2,
+   "topVehicles": [
+    {
+     "name": "Tusk Venture Partners III, L.P.",
+     "amountSold": 138647959,
+     "date": "2021-04-01"
+    },
+    {
+     "name": "Tusk Venture Partners Breakout I, L.P.",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 4,
+   "linkedDeals2026": 0,
+   "recentDeals": [
+    {
+     "company": "DASTA Inc",
+     "date": "2025-03-21",
+     "amount": 26275695
+    },
+    {
+     "company": "Elaborate Health Inc.",
+     "date": "2022-11-09",
+     "amount": 7350000
+    },
+    {
+     "company": "Arlozorov9, Inc.",
+     "date": "2022-05-24",
+     "amount": 129999997
+    },
+    {
+     "company": "Arlozorov9, Inc.",
+     "date": "2021-05-26",
+     "amount": 49999907
+    }
+   ]
+  },
+  {
+   "key": "PRIMARY SELECT FUND",
+   "name": "Primary Select Fund II, L.P.",
+   "vehicles": 3,
+   "raised": 128437208,
+   "raised2026": 0,
+   "lastClose": "2021-02-05",
+   "type": "Venture",
+   "partners": 10,
+   "topVehicles": [
+    {
+     "name": "Primary Select Fund II, L.P.",
+     "amountSold": 128437208,
+     "date": "2021-02-05"
+    },
+    {
+     "name": "Primary Select Fund III, L.P.",
+     "amountSold": 0,
+     "date": null
+    },
+    {
+     "name": "Primary Select Fund IV, L.P.",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "MANIV MOBILITY",
+   "name": "Maniv Mobility III, L.P.",
+   "vehicles": 12,
+   "raised": 127599415,
+   "raised2026": 0,
+   "lastClose": "2022-06-08",
+   "type": "Venture",
+   "partners": 2,
+   "topVehicles": [
+    {
+     "name": "Maniv Mobility III, L.P.",
+     "amountSold": 127599415,
+     "date": "2022-06-08"
+    },
+    {
+     "name": "Maniv Mobility Special Opportunities, L.P. (Series 2)",
+     "amountSold": 0,
+     "date": null
+    },
+    {
+     "name": "Maniv Mobility Special Opportunities, L.P. (Series 1)",
+     "amountSold": 0,
+     "date": null
+    },
+    {
+     "name": "Maniv Mobility Special Opportunities, L.P. (Series 5)",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "ARTIST GROWTH",
+   "name": "Artist Growth Opportunity X LP",
+   "vehicles": 6,
+   "raised": 126999951,
+   "raised2026": 14999964,
+   "lastClose": "2026-02-12",
+   "type": "Venture",
+   "partners": 1,
+   "topVehicles": [
+    {
+     "name": "Artist Growth Opportunity X LP",
+     "amountSold": 14999964,
+     "date": "2026-02-12"
+    },
+    {
+     "name": "Artist Growth Opportunity IX LP",
+     "amountSold": 32000000,
+     "date": "2025-12-02"
+    },
+    {
+     "name": "Artist Growth Opportunity V LP",
+     "amountSold": 5000000,
+     "date": "2025-06-30"
+    },
+    {
+     "name": "Artist Growth Opportunity VII LP",
+     "amountSold": 74999987,
+     "date": "2025-06-25"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "PARKWAY FUND",
+   "name": "Parkway Fund 3 LP",
+   "vehicles": 3,
+   "raised": 122990971,
+   "raised2026": 0,
+   "lastClose": "2023-03-09",
+   "type": "Venture",
+   "partners": 2,
+   "topVehicles": [
+    {
+     "name": "Parkway Fund 3 LP",
+     "amountSold": 9826471,
+     "date": "2023-03-09"
+    },
+    {
+     "name": "Parkway Fund 3 QP LP",
+     "amountSold": 89339500,
+     "date": "2023-03-01"
+    },
+    {
+     "name": "Parkway Fund 2 LP",
+     "amountSold": 23825000,
+     "date": "2020-10-23"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "BOC VENTURES",
+   "name": "BOC Ventures XXV, LP",
+   "vehicles": 32,
+   "raised": 121315319,
+   "raised2026": 0,
+   "lastClose": "2025-10-02",
+   "type": "Venture",
+   "partners": 39,
+   "topVehicles": [
+    {
+     "name": "BOC Ventures XXV, LP",
+     "amountSold": 3130000,
+     "date": "2025-10-02"
+    },
+    {
+     "name": "BOC Ventures XXIV, LP",
+     "amountSold": 2835000,
+     "date": "2025-08-14"
+    },
+    {
+     "name": "BOC Ventures XIV-B, LP",
+     "amountSold": 1300000,
+     "date": "2025-07-01"
+    },
+    {
+     "name": "BOC Ventures Fund III-B Leaders 1, LP",
+     "amountSold": 2000000,
+     "date": "2025-04-29"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "8090 INDUSTRIES DECARBONIZATION",
+   "name": "8090 Industries Decarbonization Fund II, LP",
+   "vehicles": 2,
+   "raised": 120940000,
+   "raised2026": 0,
+   "lastClose": "2022-12-05",
+   "type": "Venture",
+   "partners": 1,
+   "topVehicles": [
+    {
+     "name": "8090 Industries Decarbonization Fund II, LP",
+     "amountSold": 90275000,
+     "date": "2022-12-05"
+    },
+    {
+     "name": "8090 Industries Decarbonization I, LLC",
+     "amountSold": 30665000,
+     "date": "2021-04-10"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "A4 GALAXY",
+   "name": "A4 Galaxy QP, LP",
+   "vehicles": 2,
+   "raised": 119600000,
+   "raised2026": 119600000,
+   "lastClose": "2026-01-02",
+   "type": "Venture",
+   "partners": 3,
+   "topVehicles": [
+    {
+     "name": "A4 Galaxy QP, LP",
+     "amountSold": 24100000,
+     "date": "2026-01-02"
+    },
+    {
+     "name": "A4 Galaxy, LP",
+     "amountSold": 95500000,
+     "date": "2026-01-02"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "4DX VENTURES",
+   "name": "4DX VENTURES X1 LP",
+   "vehicles": 10,
+   "raised": 116074700,
+   "raised2026": 0,
+   "lastClose": "2025-09-22",
+   "type": "Venture",
+   "partners": 6,
+   "topVehicles": [
+    {
+     "name": "4DX VENTURES X1 LP",
+     "amountSold": 1183700,
+     "date": "2025-09-22"
+    },
+    {
+     "name": "4DX Ventures T1, LP",
+     "amountSold": 1563000,
+     "date": "2022-09-15"
+    },
+    {
+     "name": "4DX Ventures M2, LP",
+     "amountSold": 1055500,
+     "date": "2022-09-13"
+    },
+    {
+     "name": "4DX Ventures III, L.P.",
+     "amountSold": 48910000,
+     "date": "2022-06-17"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "CROSSBEAM VENTURE PARTNERS FUND",
+   "name": "Crossbeam Venture Partners Fund III LP",
+   "vehicles": 3,
+   "raised": 111121000,
+   "raised2026": 0,
+   "lastClose": "2025-02-07",
+   "type": "Venture",
+   "partners": 5,
+   "topVehicles": [
+    {
+     "name": "Crossbeam Venture Partners Fund III LP",
+     "amountSold": 69819000,
+     "date": "2025-02-07"
+    },
+    {
+     "name": "Crossbeam Venture Partners Fund II-A LP",
+     "amountSold": 36190000,
+     "date": "2021-10-20"
+    },
+    {
+     "name": "Crossbeam Venture Partners Fund II LP",
+     "amountSold": 5112000,
+     "date": "2021-10-20"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "VALOR VENTURES P AI",
+   "name": "Valor Ventures P-AI II, L.P.",
+   "vehicles": 2,
+   "raised": 103710000,
+   "raised2026": 0,
+   "lastClose": "2025-09-02",
+   "type": "Venture",
+   "partners": 3,
+   "topVehicles": [
+    {
+     "name": "Valor Ventures P-AI II, L.P.",
+     "amountSold": 22885000,
+     "date": "2025-09-02"
+    },
+    {
+     "name": "Valor Ventures P-AI, L.P.",
+     "amountSold": 80825000,
+     "date": "2025-06-03"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "GALAXY INTERACTIVE",
+   "name": "Galaxy Interactive Fund II, LP",
+   "vehicles": 3,
+   "raised": 101229808,
+   "raised2026": 0,
+   "lastClose": "2022-03-22",
+   "type": "Venture",
+   "partners": 9,
+   "topVehicles": [
+    {
+     "name": "Galaxy Interactive Fund II, LP",
+     "amountSold": 88604000,
+     "date": "2022-03-22"
+    },
+    {
+     "name": "Galaxy Interactive SPV II, LP",
+     "amountSold": 4545000,
+     "date": "2022-01-28"
+    },
+    {
+     "name": "Galaxy Interactive SPV I, LP",
+     "amountSold": 8080808,
+     "date": "2021-11-08"
+    }
+   ],
+   "linkedDeals": 1,
+   "linkedDeals2026": 0,
+   "recentDeals": [
+    {
+     "company": "OpenDeal Inc.",
+     "date": "2021-10-15",
+     "amount": 99104306
+    }
+   ]
+  },
+  {
+   "key": "ANTLER US FUND",
+   "name": "Antler US Fund II-A LP",
+   "vehicles": 2,
+   "raised": 100729500,
+   "raised2026": 0,
+   "lastClose": "2023-12-08",
+   "type": "Venture",
+   "partners": 6,
+   "topVehicles": [
+    {
+     "name": "Antler US Fund II-A LP",
+     "amountSold": 89809500,
+     "date": "2023-12-08"
+    },
+    {
+     "name": "Antler US Fund II LP",
+     "amountSold": 10920000,
+     "date": "2023-12-08"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "CATALIO ACCESS FUND",
+   "name": "Catalio Access Fund XI, LLC",
+   "vehicles": 7,
+   "raised": 100024998,
+   "raised2026": 71899998,
+   "lastClose": "2026-04-21",
+   "type": "Venture",
+   "partners": 7,
+   "topVehicles": [
+    {
+     "name": "Catalio Access Fund XI, LLC",
+     "amountSold": 14300000,
+     "date": "2026-04-21"
+    },
+    {
+     "name": "Catalio Access Fund X, LLC",
+     "amountSold": 20255000,
+     "date": "2026-03-18"
+    },
+    {
+     "name": "Catalio Access Fund IX, LLC",
+     "amountSold": 12345000,
+     "date": "2026-03-09"
+    },
+    {
+     "name": "Catalio Access Fund VIII, LLC",
+     "amountSold": 24999998,
+     "date": "2026-03-05"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "VALOR OPPORTUNITY FUND",
+   "name": "Valor Opportunity Fund II Brazil, LLC",
+   "vehicles": 3,
+   "raised": 97622000,
+   "raised2026": 0,
+   "lastClose": "2024-04-30",
+   "type": "Venture",
+   "partners": 4,
+   "topVehicles": [
+    {
+     "name": "Valor Opportunity Fund II Brazil, LLC",
+     "amountSold": 24200000,
+     "date": "2024-04-30"
+    },
+    {
+     "name": "Valor Opportunity Fund II, L.P.",
+     "amountSold": 73422000,
+     "date": "2021-09-16"
+    },
+    {
+     "name": "Valor Opportunity Fund II-A, L.P.",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "DISTRIBUTED VENTURES FUND",
+   "name": "Distributed Ventures Fund I, L.P.",
+   "vehicles": 2,
+   "raised": 97085000,
+   "raised2026": 0,
+   "lastClose": "2021-10-22",
+   "type": "Venture",
+   "partners": 2,
+   "topVehicles": [
+    {
+     "name": "Distributed Ventures Fund I, L.P.",
+     "amountSold": 90350000,
+     "date": "2021-10-22"
+    },
+    {
+     "name": "Distributed Ventures Fund I-A, L.P.",
+     "amountSold": 6735000,
+     "date": "2021-10-22"
+    }
+   ],
+   "linkedDeals": 2,
+   "linkedDeals2026": 0,
+   "recentDeals": [
+    {
+     "company": "Wingspan Networks, Inc.",
+     "date": "2025-04-25",
+     "amount": 19999994
+    },
+    {
+     "company": "Wingspan Networks, Inc.",
+     "date": "2023-01-04",
+     "amount": 18515990
+    }
+   ]
+  },
+  {
+   "key": "PARKWAY CO INVESTMENT 12 FIGURE",
+   "name": "Parkway Co-Investment 12 (Figure Series C) LP",
+   "vehicles": 2,
+   "raised": 88236256,
+   "raised2026": 0,
+   "lastClose": "2025-03-03",
+   "type": "Venture",
+   "partners": 1,
+   "topVehicles": [
+    {
+     "name": "Parkway Co-Investment 12 (Figure Series C) LP",
+     "amountSold": 6215500,
+     "date": "2025-03-03"
+    },
+    {
+     "name": "Parkway Co-Investment 12 (Figure Series C) QP LP",
+     "amountSold": 82020756,
+     "date": "2025-02-24"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "CAVU VENTURE PARTNERS",
+   "name": "CAVU Venture Partners FD, LP",
+   "vehicles": 3,
+   "raised": 87750000,
+   "raised2026": 0,
+   "lastClose": "2022-06-08",
+   "type": "Venture",
+   "partners": 9,
+   "topVehicles": [
+    {
+     "name": "CAVU Venture Partners FD, LP",
+     "amountSold": 19750000,
+     "date": "2022-06-08"
+    },
+    {
+     "name": "CAVU Venture Partners WP LLC",
+     "amountSold": 68000000,
+     "date": "2021-08-23"
+    },
+    {
+     "name": "CAVU Venture Partners IV, LP",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "THIRD PRIME ALPHA FUND",
+   "name": "THIRD PRIME ALPHA FUND IV, LP",
+   "vehicles": 3,
+   "raised": 87595000,
+   "raised2026": 0,
+   "lastClose": "2024-07-03",
+   "type": "Venture",
+   "partners": 5,
+   "topVehicles": [
+    {
+     "name": "THIRD PRIME ALPHA FUND IV, LP",
+     "amountSold": 87595000,
+     "date": "2024-07-03"
+    },
+    {
+     "name": "THIRD PRIME ALPHA FUND III, LP",
+     "amountSold": 0,
+     "date": null
+    },
+    {
+     "name": "THIRD PRIME ALPHA FUND III-A, LP",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "ALPACA VC",
+   "name": "Alpaca VC SPV #5 LLC",
+   "vehicles": 7,
+   "raised": 85509198,
+   "raised2026": 0,
+   "lastClose": "2022-11-04",
+   "type": "Venture",
+   "partners": 6,
+   "topVehicles": [
+    {
+     "name": "Alpaca VC SPV #5 LLC",
+     "amountSold": 1050000,
+     "date": "2022-11-04"
+    },
+    {
+     "name": "Alpaca VC SPV #4 LLC",
+     "amountSold": 1650000,
+     "date": "2022-05-27"
+    },
+    {
+     "name": "Alpaca VC SPV #3 LLC",
+     "amountSold": 3580000,
+     "date": "2022-02-07"
+    },
+    {
+     "name": "Alpaca VC SPV #2 LLC",
+     "amountSold": 900000,
+     "date": "2022-02-02"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "MIRAE ASSET PATHSEEKER FUND",
+   "name": "Mirae Asset Pathseeker Fund II, LP",
+   "vehicles": 2,
+   "raised": 85000000,
+   "raised2026": 0,
+   "lastClose": "2025-08-12",
+   "type": "Venture",
+   "partners": 1,
+   "topVehicles": [
+    {
+     "name": "Mirae Asset Pathseeker Fund II, LP",
+     "amountSold": 60000000,
+     "date": "2025-08-12"
+    },
+    {
+     "name": "MIRAE ASSET PATHSEEKER FUND LP",
+     "amountSold": 25000000,
+     "date": "2025-06-20"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "HC9",
+   "name": "HC9 Ventures I, L.P.",
+   "vehicles": 3,
+   "raised": 83200000,
+   "raised2026": 0,
+   "lastClose": "2022-01-27",
+   "type": "Venture",
+   "partners": 4,
+   "topVehicles": [
+    {
+     "name": "HC9 Ventures I, L.P.",
+     "amountSold": 83200000,
+     "date": "2022-01-27"
+    },
+    {
+     "name": "HC9 SPV F-I, LLC",
+     "amountSold": 0,
+     "date": null
+    },
+    {
+     "name": "HC9 SPV F-II, LLC",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 1,
+   "linkedDeals2026": 0,
+   "recentDeals": [
+    {
+     "company": "Post Acute Recovery, Inc.",
+     "date": "2022-12-05",
+     "amount": 14547236
+    }
+   ]
+  },
+  {
+   "key": "NEWEDGE VENTURE",
+   "name": "NewEdge Venture Opportunities II, L.P.",
+   "vehicles": 2,
+   "raised": 81800000,
+   "raised2026": 50950000,
+   "lastClose": "2026-01-14",
+   "type": "Venture",
+   "partners": 3,
+   "topVehicles": [
+    {
+     "name": "NewEdge Venture Opportunities II, L.P.",
+     "amountSold": 50950000,
+     "date": "2026-01-14"
+    },
+    {
+     "name": "NewEdge Venture Opportunities I, L.P.",
+     "amountSold": 30850000,
+     "date": "2023-04-19"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "HHC",
+   "name": "HHC Wealth I, LP",
+   "vehicles": 4,
+   "raised": 78281326,
+   "raised2026": 77000000,
+   "lastClose": "2026-03-13",
+   "type": "Private equity",
+   "partners": 7,
+   "topVehicles": [
+    {
+     "name": "HHC Wealth I, LP",
+     "amountSold": 38500000,
+     "date": "2026-03-13"
+    },
+    {
+     "name": "HHC Wealth I-A, LP",
+     "amountSold": 38500000,
+     "date": "2026-03-13"
+    },
+    {
+     "name": "HHC Investors II, LLC",
+     "amountSold": 1281326,
+     "date": "2018-10-10"
+    },
+    {
+     "name": "HHC InXpress Group CV, LP",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 1,
+   "linkedDeals2026": 0,
+   "recentDeals": [
+    {
+     "company": "Under Technologies, Inc.",
+     "date": "2021-10-28",
+     "amount": 74999742
+    }
+   ]
+  },
+  {
+   "key": "CERBERUS VENTURES",
+   "name": "Cerberus Ventures One, L.P.",
+   "vehicles": 2,
+   "raised": 74720000,
+   "raised2026": 0,
+   "lastClose": "2024-04-12",
+   "type": "Venture",
+   "partners": 7,
+   "topVehicles": [
+    {
+     "name": "Cerberus Ventures One, L.P.",
+     "amountSold": 74720000,
+     "date": "2024-04-12"
+    },
+    {
+     "name": "Cerberus Ventures II, L.P.",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "JEFFERIES PARTNERS VC FUND",
+   "name": "Jefferies Partners VC Fund 2023 LP",
+   "vehicles": 2,
+   "raised": 74300000,
+   "raised2026": 0,
+   "lastClose": "2023-05-31",
+   "type": "Venture",
+   "partners": 3,
+   "topVehicles": [
+    {
+     "name": "Jefferies Partners VC Fund 2023 LP",
+     "amountSold": 17300000,
+     "date": "2023-05-31"
+    },
+    {
+     "name": "Jefferies Partners VC Fund 2023 (Dedicated) LP",
+     "amountSold": 57000000,
+     "date": "2023-05-31"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "JOULE",
+   "name": "Joule SPV VI, LP",
+   "vehicles": 5,
+   "raised": 73374747,
+   "raised2026": 0,
+   "lastClose": "2025-07-28",
+   "type": "Venture",
+   "partners": 12,
+   "topVehicles": [
+    {
+     "name": "Joule SPV VI, LP",
+     "amountSold": 12703030,
+     "date": "2025-07-28"
+    },
+    {
+     "name": "Joule Ventures V-A, L.P.",
+     "amountSold": 9040404,
+     "date": "2024-09-17"
+    },
+    {
+     "name": "Joule Ventures V, L.P.",
+     "amountSold": 51631313,
+     "date": "2023-08-02"
+    },
+    {
+     "name": "Joule Co-Invest 2 L.P.",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "PRUDENCE FUND",
+   "name": "PRUDENCE FUND III QP, LP",
+   "vehicles": 2,
+   "raised": 70287000,
+   "raised2026": 0,
+   "lastClose": "2022-09-26",
+   "type": "Venture",
+   "partners": 1,
+   "topVehicles": [
+    {
+     "name": "PRUDENCE FUND III QP, LP",
+     "amountSold": 4405000,
+     "date": "2022-09-26"
+    },
+    {
+     "name": "PRUDENCE FUND III, LP",
+     "amountSold": 65882000,
+     "date": "2022-01-31"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "NEW FORM CAPITAL",
+   "name": "New Form Capital II, L.P.",
+   "vehicles": 2,
+   "raised": 70085859,
+   "raised2026": 0,
+   "lastClose": "2021-12-01",
+   "type": "Venture",
+   "partners": 4,
+   "topVehicles": [
+    {
+     "name": "New Form Capital II, L.P.",
+     "amountSold": 70085859,
+     "date": "2021-12-01"
+    },
+    {
+     "name": "New Form Capital III, L.P.",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "FMZ VENTURES FUND",
+   "name": "FMZ Ventures Fund I, LP",
+   "vehicles": 2,
+   "raised": 69065000,
+   "raised2026": 0,
+   "lastClose": "2021-06-11",
+   "type": "Private equity",
+   "partners": 5,
+   "topVehicles": [
+    {
+     "name": "FMZ Ventures Fund I, LP",
+     "amountSold": 69065000,
+     "date": "2021-06-11"
+    },
+    {
+     "name": "FMZ Ventures Fund II, LP",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 1,
+   "linkedDeals2026": 0,
+   "recentDeals": [
+    {
+     "company": "Fever Labs, Inc.",
+     "date": "2021-12-31",
+     "amount": 220878504
+    }
+   ]
+  },
+  {
+   "key": "RECIPROCAL VENTURES",
+   "name": "Reciprocal Ventures, a Series of Decile Start Fund, LP",
+   "vehicles": 2,
+   "raised": 68767500,
+   "raised2026": 217500,
+   "lastClose": "2026-02-03",
+   "type": "Venture",
+   "partners": 8,
+   "topVehicles": [
+    {
+     "name": "Reciprocal Ventures, a Series of Decile Start Fund, LP",
+     "amountSold": 217500,
+     "date": "2026-02-03"
+    },
+    {
+     "name": "Reciprocal Ventures II, L.P.",
+     "amountSold": 68550000,
+     "date": "2020-07-16"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "BBG VENTURES",
+   "name": "BBG Ventures IV-I, L.P.",
+   "vehicles": 2,
+   "raised": 63260606,
+   "raised2026": 0,
+   "lastClose": "2024-10-29",
+   "type": "Venture",
+   "partners": 2,
+   "topVehicles": [
+    {
+     "name": "BBG Ventures IV-I, L.P.",
+     "amountSold": 6060606,
+     "date": "2024-10-29"
+    },
+    {
+     "name": "BBG Ventures IV, L.P.",
+     "amountSold": 57200000,
+     "date": "2022-10-12"
+    }
+   ],
+   "linkedDeals": 4,
+   "linkedDeals2026": 0,
+   "recentDeals": [
+    {
+     "company": "MASC, Inc.",
+     "date": "2025-06-25",
+     "amount": 21148499
+    },
+    {
+     "company": "Arise Health, Inc.",
+     "date": "2024-01-12",
+     "amount": 6479998
+    },
+    {
+     "company": "MASC, Inc.",
+     "date": "2023-02-10",
+     "amount": 11429403
+    },
+    {
+     "company": "Canela Media Inc",
+     "date": "2022-01-19",
+     "amount": 20360834
+    }
+   ]
+  },
+  {
+   "key": "BLACK OPAL VENTURES FUND",
+   "name": "Black Opal Ventures Fund I, L.P.",
+   "vehicles": 2,
+   "raised": 62665000,
+   "raised2026": 0,
+   "lastClose": "2023-12-08",
+   "type": "Venture",
+   "partners": 5,
+   "topVehicles": [
+    {
+     "name": "Black Opal Ventures Fund I, L.P.",
+     "amountSold": 62665000,
+     "date": "2023-12-08"
+    },
+    {
+     "name": "Black Opal Ventures Fund II, L.P.",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "CONTOUR VENTURE PARTNERS",
+   "name": "Contour Venture Partners V-A, L.P.",
+   "vehicles": 2,
+   "raised": 62100000,
+   "raised2026": 0,
+   "lastClose": "2023-12-04",
+   "type": "Venture",
+   "partners": 2,
+   "topVehicles": [
+    {
+     "name": "Contour Venture Partners V-A, L.P.",
+     "amountSold": 20000000,
+     "date": "2023-12-04"
+    },
+    {
+     "name": "Contour Venture Partners V, L.P.",
+     "amountSold": 42100000,
+     "date": "2023-05-25"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "ADIT GROWTH EQUITY",
+   "name": "Adit Growth Equity III Co-Invest, LLC - Series Astrocast-1",
+   "vehicles": 5,
+   "raised": 61583153,
+   "raised2026": 0,
+   "lastClose": "2021-02-26",
+   "type": "Venture",
+   "partners": 5,
+   "topVehicles": [
+    {
+     "name": "Adit Growth Equity III Co-Invest, LLC - Series Astrocast-1",
+     "amountSold": 3923550,
+     "date": "2021-02-26"
+    },
+    {
+     "name": "Adit Growth Equity III Co-Invest, LLC - Series Klarna-1",
+     "amountSold": 1937000,
+     "date": "2020-03-11"
+    },
+    {
+     "name": "Adit Growth Equity III Co-Invest, LLC - Series Spacex-1",
+     "amountSold": 1000000,
+     "date": "2020-02-26"
+    },
+    {
+     "name": "Adit Growth Equity III Co-Invest, LLC - Series Airbnb-1",
+     "amountSold": 775000,
+     "date": "2020-01-16"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "ZIP FUND",
+   "name": "ZIP Fund II, L.P.",
+   "vehicles": 2,
+   "raised": 61325000,
+   "raised2026": 0,
+   "lastClose": "2025-06-06",
+   "type": "Venture",
+   "partners": 4,
+   "topVehicles": [
+    {
+     "name": "ZIP Fund II, L.P.",
+     "amountSold": 61325000,
+     "date": "2025-06-06"
+    },
+    {
+     "name": "ZIP Fund I, L.P.",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "BOARDMAN BAY VENTURES",
+   "name": "Boardman Bay Ventures, LP - Series Q7",
+   "vehicles": 5,
+   "raised": 60365440,
+   "raised2026": 49700440,
+   "lastClose": "2026-03-16",
+   "type": "Venture",
+   "partners": 1,
+   "topVehicles": [
+    {
+     "name": "Boardman Bay Ventures, LP - Series Q7",
+     "amountSold": 5500000,
+     "date": "2026-03-16"
+    },
+    {
+     "name": "Boardman Bay Ventures, LP - Series I7",
+     "amountSold": 6478522,
+     "date": "2026-02-20"
+    },
+    {
+     "name": "Boardman Bay Ventures, LP - Series I",
+     "amountSold": 21901943,
+     "date": "2026-02-18"
+    },
+    {
+     "name": "Boardman Bay Ventures, LP - Series Q",
+     "amountSold": 15819975,
+     "date": "2026-02-05"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "MAGNOLIA",
+   "name": "Magnolia Opportunities LLC Series 4",
+   "vehicles": 4,
+   "raised": 57800000,
+   "raised2026": 0,
+   "lastClose": "2025-10-01",
+   "type": "Venture",
+   "partners": 2,
+   "topVehicles": [
+    {
+     "name": "Magnolia Opportunities LLC Series 4",
+     "amountSold": 6000000,
+     "date": "2025-10-01"
+    },
+    {
+     "name": "Magnolia Opportunities LLC Series 3",
+     "amountSold": 25500000,
+     "date": "2025-03-31"
+    },
+    {
+     "name": "Magnolia Opportunities LLC 2",
+     "amountSold": 21500000,
+     "date": "2023-10-31"
+    },
+    {
+     "name": "Magnolia Opportunities LLC - Series 1",
+     "amountSold": 4800000,
+     "date": "2023-09-11"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "FEMALE FOUNDERS FUND",
+   "name": "Female Founders Fund III, L.P.",
+   "vehicles": 2,
+   "raised": 57494950,
+   "raised2026": 0,
+   "lastClose": "2020-03-17",
+   "type": "Venture",
+   "partners": 5,
+   "topVehicles": [
+    {
+     "name": "Female Founders Fund III, L.P.",
+     "amountSold": 57494950,
+     "date": "2020-03-17"
+    },
+    {
+     "name": "Female Founders Fund IV, L.P.",
+     "amountSold": 0,
+     "date": null
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "SEG VENREX",
+   "name": "SEG Venrex XI, L.P.",
+   "vehicles": 2,
+   "raised": 56074687,
+   "raised2026": 0,
+   "lastClose": "2024-07-26",
+   "type": "Venture",
+   "partners": 2,
+   "topVehicles": [
+    {
+     "name": "SEG Venrex XI, L.P.",
+     "amountSold": 17573787,
+     "date": "2024-07-26"
+    },
+    {
+     "name": "SEG Venrex X-US, L.P.",
+     "amountSold": 38500900,
+     "date": "2022-03-29"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "NEW LEGACY OPPORTUNITY FUND",
+   "name": "New Legacy Opportunity Fund II, LP",
+   "vehicles": 2,
+   "raised": 55500000,
+   "raised2026": 15050000,
+   "lastClose": "2026-05-06",
+   "type": "Venture",
+   "partners": 3,
+   "topVehicles": [
+    {
+     "name": "New Legacy Opportunity Fund II, LP",
+     "amountSold": 15050000,
+     "date": "2026-05-06"
+    },
+    {
+     "name": "New Legacy Opportunity Fund, LP",
+     "amountSold": 40450000,
+     "date": "2022-01-31"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "FUNDOMO FUND",
+   "name": "Fundomo Fund II, LP",
+   "vehicles": 2,
+   "raised": 54980000,
+   "raised2026": 0,
+   "lastClose": "2025-04-25",
+   "type": "Venture",
+   "partners": 2,
+   "topVehicles": [
+    {
+     "name": "Fundomo Fund II, LP",
+     "amountSold": 12000000,
+     "date": "2025-04-25"
+    },
+    {
+     "name": "Fundomo Fund I, LP",
+     "amountSold": 42980000,
+     "date": "2023-12-01"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "SC GROWTH",
+   "name": "SC Growth 2 LLC",
+   "vehicles": 2,
+   "raised": 54659311,
+   "raised2026": 0,
+   "lastClose": "2025-12-19",
+   "type": "Venture",
+   "partners": 1,
+   "topVehicles": [
+    {
+     "name": "SC Growth 2 LLC",
+     "amountSold": 39352311,
+     "date": "2025-12-19"
+    },
+    {
+     "name": "SC Growth LLC",
+     "amountSold": 15307000,
+     "date": "2025-09-12"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "AUTOPILOT HORIZON",
+   "name": "Autopilot Horizon XI LLC",
+   "vehicles": 6,
+   "raised": 51322159,
+   "raised2026": 2019967,
+   "lastClose": "2026-02-19",
+   "type": "Venture",
+   "partners": 9,
+   "topVehicles": [
+    {
+     "name": "Autopilot Horizon XI LLC",
+     "amountSold": 2019967,
+     "date": "2026-02-19"
+    },
+    {
+     "name": "Autopilot Horizon X LLC",
+     "amountSold": 10015000,
+     "date": "2025-12-15"
+    },
+    {
+     "name": "Autopilot Horizon IX-A LLC",
+     "amountSold": 4990411,
+     "date": "2025-09-16"
+    },
+    {
+     "name": "Autopilot Horizon IX LLC",
+     "amountSold": 12952872,
+     "date": "2025-09-16"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  },
+  {
+   "key": "MGI INVESTMENTS",
+   "name": "MGI Investments LP - Series 43",
+   "vehicles": 18,
+   "raised": 51261187,
+   "raised2026": 11665330,
+   "lastClose": "2026-06-05",
+   "type": "Venture",
+   "partners": 3,
+   "topVehicles": [
+    {
+     "name": "MGI Investments LP - Series 43",
+     "amountSold": 2999992,
+     "date": "2026-06-05"
+    },
+    {
+     "name": "MGI Investments LP - Series 42",
+     "amountSold": 5103969,
+     "date": "2026-04-24"
+    },
+    {
+     "name": "MGI Investments LP - Series 41",
+     "amountSold": 500000,
+     "date": "2026-04-21"
+    },
+    {
+     "name": "MGI Investments LP - Series 39",
+     "amountSold": 1037578,
+     "date": "2026-02-27"
+    }
+   ],
+   "linkedDeals": 0,
+   "linkedDeals2026": 0,
+   "recentDeals": []
+  }
+ ]
+}

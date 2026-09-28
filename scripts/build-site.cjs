@@ -279,7 +279,8 @@ const html = `<meta charset="utf-8">
     <nav class="nav">
       <a href="#/">Deal log</a>
       <a href="#/signals">Raise signals</a>
-      <a href="#/funds">The funds</a>
+      <a href="#/funds">Our funds</a>
+      <a href="#/ny-funds">New York funds</a>
     </nav>
   </header>
 
