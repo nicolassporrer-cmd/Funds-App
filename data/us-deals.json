@@ -2516,17 +2516,17 @@
    "tally": {
     "filings": 16640,
     "inState": 2491,
-    "viaPortfolio": 15,
+    "viaPortfolio": 18,
     "kept": 67,
     "amendment": 1123,
     "notEquity": 643,
-    "small": 543,
+    "small": 546,
     "entity": 111,
     "industry": 16,
     "spvName": 1,
     "public": 2
    },
-   "parsedAt": "2026-09-16T09:42:45.441Z"
+   "parsedAt": "2026-09-28T13:53:08.058Z"
   },
   "2026q1": {
    "deals": [
@@ -5105,17 +5105,17 @@
    "tally": {
     "filings": 15734,
     "inState": 2533,
-    "viaPortfolio": 25,
+    "viaPortfolio": 27,
     "kept": 68,
-    "amendment": 1258,
-    "notEquity": 600,
+    "amendment": 1259,
+    "notEquity": 601,
     "small": 496,
     "entity": 119,
     "industry": 11,
     "spvName": 0,
     "public": 6
    },
-   "parsedAt": "2026-09-16T09:42:48.993Z"
+   "parsedAt": "2026-09-28T13:53:09.116Z"
   },
   "2025q4": {
    "deals": [
@@ -5269,6 +5269,37 @@
      "blurb": null,
      "website": null,
      "source": "new-york-market"
+    },
+    {
+     "accession": "0001959835-25-000005",
+     "cik": "1959835",
+     "company": "Rembrand, Inc",
+     "city": "Palo Alto",
+     "state": "CA",
+     "date": "2025-11-21",
+     "incorporated": "2022",
+     "incorporatedWithinFiveYears": true,
+     "industry": "Other Technology",
+     "amountSold": 37500000,
+     "amountOffered": 37500000,
+     "investors": 87,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "Omar Tawakol",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Mohamed Khalil",
+       "role": "Executive Officer"
+      }
+     ],
+     "funds": [
+      "greycroft"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
     },
     {
      "accession": "0001231919-25-000670",
@@ -8176,17 +8207,17 @@
    "tally": {
     "filings": 14637,
     "inState": 2321,
-    "viaPortfolio": 25,
-    "kept": 78,
-    "amendment": 1059,
-    "notEquity": 568,
+    "viaPortfolio": 28,
+    "kept": 79,
+    "amendment": 1060,
+    "notEquity": 569,
     "small": 505,
     "entity": 114,
     "industry": 16,
     "spvName": 1,
     "public": 5
    },
-   "parsedAt": "2026-09-16T09:42:50.928Z"
+   "parsedAt": "2026-09-28T13:53:10.209Z"
   },
   "2025q3": {
    "deals": [
@@ -11301,6 +11332,69 @@
      "source": "new-york-market"
     },
     {
+     "accession": "0001766293-25-000001",
+     "cik": "1766293",
+     "company": "Ocient Inc.",
+     "city": "CHICAGO",
+     "state": "IL",
+     "date": "2025-06-23",
+     "incorporated": null,
+     "incorporatedWithinFiveYears": false,
+     "industry": "Other Technology",
+     "amountSold": 17777824,
+     "amountOffered": 20000000,
+     "investors": 31,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "Michael S. Seedman",
+       "role": "Director"
+      },
+      {
+       "name": "Kumar S. Abhijeet",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Laura S. Troutman",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Christopher S. Gladwin",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Henry S. Marshall",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Joseph S. Jablonski",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Mark S. Terbeek",
+       "role": "Director"
+      },
+      {
+       "name": "John S. Morris",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "James S. Dugan",
+       "role": "Director"
+      },
+      {
+       "name": "George S. Kondiles",
+       "role": "Executive Officer"
+      }
+     ],
+     "funds": [
+      "greycroft"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
+    },
+    {
      "accession": "0002075873-25-000002",
      "cik": "2075722",
      "company": "Cornerstone Builders of Rockland, Inc",
@@ -11463,17 +11557,17 @@
    "tally": {
     "filings": 13979,
     "inState": 2257,
-    "viaPortfolio": 21,
-    "kept": 80,
-    "amendment": 1068,
+    "viaPortfolio": 25,
+    "kept": 81,
+    "amendment": 1069,
     "notEquity": 562,
-    "small": 436,
+    "small": 438,
     "entity": 119,
     "industry": 4,
     "spvName": 1,
     "public": 8
    },
-   "parsedAt": "2026-09-16T09:42:52.726Z"
+   "parsedAt": "2026-09-28T13:53:11.421Z"
   },
   "2025q2": {
    "deals": [
@@ -14409,7 +14503,7 @@
     "spvName": 1,
     "public": 3
    },
-   "parsedAt": "2026-09-16T09:42:54.432Z"
+   "parsedAt": "2026-09-28T13:53:12.485Z"
   },
   "2025q1": {
    "deals": [
@@ -14711,6 +14805,37 @@
      "source": "new-york-market"
     },
     {
+     "accession": "0001891725-25-000001",
+     "cik": "1891725",
+     "company": "PROCURATED, INC.",
+     "city": "WASHINGTON",
+     "state": "DC",
+     "date": "2025-03-06",
+     "incorporated": null,
+     "incorporatedWithinFiveYears": false,
+     "industry": "Other Technology",
+     "amountSold": 8804459,
+     "amountOffered": 11032527,
+     "investors": 15,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "DAVID YARKIN",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "PAUL FINNEGAN",
+       "role": "Director"
+      }
+     ],
+     "funds": [
+      "greycroft"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
+    },
+    {
      "accession": "0001767642-25-000001",
      "cik": "1767642",
      "company": "ALL INSPIRE HEALTH, INC.",
@@ -14814,6 +14939,77 @@
      ],
      "funds": [
       "insight"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
+    },
+    {
+     "accession": "0001572900-25-000001",
+     "cik": "1572900",
+     "company": "ICERTIS, Inc.",
+     "city": "BELLEVUE",
+     "state": "WA",
+     "date": "2025-03-04",
+     "incorporated": null,
+     "incorporatedWithinFiveYears": false,
+     "industry": "Other Technology",
+     "amountSold": 50000000,
+     "amountOffered": 50000000,
+     "investors": 5,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "Samir Bodas",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Todd Smith",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Rajat Bhari",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "John Connors",
+       "role": "Director"
+      },
+      {
+       "name": "Paul Madera",
+       "role": "Director"
+      },
+      {
+       "name": "Penny Pritzker",
+       "role": "Director"
+      },
+      {
+       "name": "Kabir Narang",
+       "role": "Director"
+      },
+      {
+       "name": "Monish Darda",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Allan Golston",
+       "role": "Director"
+      },
+      {
+       "name": "Mark Terbeek",
+       "role": "Director"
+      },
+      {
+       "name": "Jim Moffatt",
+       "role": "Director"
+      },
+      {
+       "name": "Vijay Vashee",
+       "role": "Director"
+      }
+     ],
+     "funds": [
+      "greycroft"
      ],
      "blurb": null,
      "website": null,
@@ -15046,7 +15242,9 @@
        "role": "Executive Officer"
       }
      ],
-     "funds": [],
+     "funds": [
+      "greycroft"
+     ],
      "blurb": null,
      "website": null,
      "source": "new-york-market"
@@ -16715,17 +16913,17 @@
    "tally": {
     "filings": 14757,
     "inState": 2297,
-    "viaPortfolio": 22,
-    "kept": 58,
+    "viaPortfolio": 25,
+    "kept": 60,
     "amendment": 1222,
     "notEquity": 419,
-    "small": 507,
+    "small": 508,
     "entity": 104,
     "industry": 3,
     "spvName": 3,
     "public": 3
    },
-   "parsedAt": "2026-09-16T09:42:56.192Z"
+   "parsedAt": "2026-09-28T13:53:13.530Z"
   },
   "2024q4": {
    "deals": [
@@ -16970,6 +17168,41 @@
      ],
      "funds": [
       "bessemer"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
+    },
+    {
+     "accession": "0001802002-24-000001",
+     "cik": "1802002",
+     "company": "Mapped Inc.",
+     "city": "EL SEGUNDO",
+     "state": "CA",
+     "date": "2024-11-27",
+     "incorporated": "2019",
+     "incorporatedWithinFiveYears": true,
+     "industry": "Other Technology",
+     "amountSold": 25485829,
+     "amountOffered": 26150000,
+     "investors": 14,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "Shaun Cooley",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Brentt Baltimore",
+       "role": "Director"
+      },
+      {
+       "name": "Zak Schwarzman",
+       "role": "Director"
+      }
+     ],
+     "funds": [
+      "greycroft"
      ],
      "blurb": null,
      "website": null,
@@ -18861,6 +19094,45 @@
      "source": "new-york-market"
     },
     {
+     "accession": "0002039854-24-000001",
+     "cik": "2039854",
+     "company": "PicassoMD, Inc.",
+     "city": "BETHESDA",
+     "state": "MD",
+     "date": "2024-09-17",
+     "incorporated": "2020",
+     "incorporatedWithinFiveYears": true,
+     "industry": "Other Technology",
+     "amountSold": 9403514,
+     "amountOffered": 10573514,
+     "investors": 24,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "Samuel von Pollaro",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Dale White",
+       "role": "Director"
+      },
+      {
+       "name": "Reza Sanai",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Gareth Dickens",
+       "role": "Director"
+      }
+     ],
+     "funds": [
+      "greycroft"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
+    },
+    {
      "accession": "0001879051-24-000001",
      "cik": "1879051",
      "company": "Cruisebound, Inc.",
@@ -18909,17 +19181,17 @@
    "tally": {
     "filings": 13611,
     "inState": 2032,
-    "viaPortfolio": 26,
-    "kept": 55,
+    "viaPortfolio": 30,
+    "kept": 57,
     "amendment": 971,
     "notEquity": 469,
-    "small": 472,
+    "small": 474,
     "entity": 79,
     "industry": 7,
     "spvName": 2,
     "public": 3
    },
-   "parsedAt": "2026-09-16T09:42:58.005Z"
+   "parsedAt": "2026-09-28T13:53:14.609Z"
   },
   "2024q3": {
    "deals": [
@@ -20459,6 +20731,41 @@
      "source": "new-york-market"
     },
     {
+     "accession": "0001461767-24-000001",
+     "cik": "1461767",
+     "company": "Inventables, Inc.",
+     "city": "CHICAGO",
+     "state": "IL",
+     "date": "2024-07-30",
+     "incorporated": null,
+     "incorporatedWithinFiveYears": false,
+     "industry": "Other",
+     "amountSold": 11059084,
+     "amountOffered": 13500000,
+     "investors": 14,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "Zach Kaplan",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Phil Black",
+       "role": "Director"
+      },
+      {
+       "name": "Sue Khim",
+       "role": "Director"
+      }
+     ],
+     "funds": [
+      "greycroft"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
+    },
+    {
      "accession": "0001815098-24-000003",
      "cik": "1815098",
      "company": "Autobahn Therapeutics, Inc.",
@@ -21660,8 +21967,8 @@
    "tally": {
     "filings": 13222,
     "inState": 1951,
-    "viaPortfolio": 23,
-    "kept": 70,
+    "viaPortfolio": 24,
+    "kept": 71,
     "amendment": 1010,
     "notEquity": 421,
     "small": 392,
@@ -21670,7 +21977,7 @@
     "spvName": 1,
     "public": 1
    },
-   "parsedAt": "2026-09-16T09:42:59.573Z"
+   "parsedAt": "2026-09-28T13:53:15.529Z"
   },
   "2024q2": {
    "deals": [
@@ -22463,6 +22770,53 @@
      "source": "new-york-market"
     },
     {
+     "accession": "0001740560-24-000001",
+     "cik": "1740560",
+     "company": "Crafty Holdings, Inc.",
+     "city": "CHICAGO",
+     "state": "IL",
+     "date": "2024-05-17",
+     "incorporated": null,
+     "incorporatedWithinFiveYears": false,
+     "industry": "Other",
+     "amountSold": 8699995,
+     "amountOffered": 9999996,
+     "investors": 6,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "Christopher Ritter",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Brian Hirsch",
+       "role": "Director"
+      },
+      {
+       "name": "Faisal Masud",
+       "role": "Director"
+      },
+      {
+       "name": "Nathan Rosenstock",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Elaine Russell",
+       "role": "Director"
+      },
+      {
+       "name": "James Paul",
+       "role": "Executive Officer"
+      }
+     ],
+     "funds": [
+      "greycroft"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
+    },
+    {
      "accession": "0001981598-24-000001",
      "cik": "1981598",
      "company": "Botanix Labs Inc",
@@ -23018,7 +23372,8 @@
      ],
      "funds": [
       "alven",
-      "kima"
+      "kima",
+      "greycroft"
      ],
      "blurb": "The help desk for Ecommerce stores",
      "website": "http://gorgias.io",
@@ -24171,6 +24526,49 @@
      "source": "fund-portfolio"
     },
     {
+     "accession": "0002019193-24-000001",
+     "cik": "2019193",
+     "company": "Sybill Inc.",
+     "city": "MOUNTAIN VIEW",
+     "state": "CA",
+     "date": "2024-03-28",
+     "incorporated": "2020",
+     "incorporatedWithinFiveYears": true,
+     "industry": "Other Technology",
+     "amountSold": 14356840,
+     "amountOffered": 14590500,
+     "investors": 26,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "Mark Terbeek",
+       "role": "Director"
+      },
+      {
+       "name": "Soumyarka Mondal",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Nishit Asnani",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Gorish Aggarwal",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Mehak Aggarwal",
+       "role": "Executive Officer"
+      }
+     ],
+     "funds": [
+      "greycroft"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
+    },
+    {
      "accession": "0001805173-24-000001",
      "cik": "1805173",
      "company": "Digital Therapeutics, Inc.",
@@ -24766,8 +25164,8 @@
    "tally": {
     "filings": 13699,
     "inState": 2102,
-    "viaPortfolio": 22,
-    "kept": 75,
+    "viaPortfolio": 24,
+    "kept": 77,
     "amendment": 1088,
     "notEquity": 487,
     "small": 400,
@@ -24776,7 +25174,7 @@
     "spvName": 1,
     "public": 3
    },
-   "parsedAt": "2026-09-16T09:43:01.278Z"
+   "parsedAt": "2026-09-28T13:53:16.646Z"
   },
   "2024q1": {
    "deals": [
@@ -26710,7 +27108,9 @@
        "role": "Executive Officer"
       }
      ],
-     "funds": [],
+     "funds": [
+      "greycroft"
+     ],
      "blurb": null,
      "website": null,
      "source": "new-york-market"
@@ -27839,9 +28239,9 @@
    "tally": {
     "filings": 14208,
     "inState": 2241,
-    "viaPortfolio": 24,
+    "viaPortfolio": 26,
     "kept": 75,
-    "amendment": 1219,
+    "amendment": 1221,
     "notEquity": 408,
     "small": 452,
     "entity": 102,
@@ -27849,7 +28249,7 @@
     "spvName": 0,
     "public": 6
    },
-   "parsedAt": "2026-09-16T09:43:02.983Z"
+   "parsedAt": "2026-09-28T13:53:18.059Z"
   },
   "2023q4": {
    "deals": [
@@ -29396,7 +29796,8 @@
       }
      ],
      "funds": [
-      "kima"
+      "kima",
+      "greycroft"
      ],
      "blurb": "On a mission to create the first natively European consumer brand, uniting 47 countries and +748 million European citizens, and becoming a symbol of Europe in the world.",
      "website": "http://drinkembrace.eu",
@@ -30012,17 +30413,17 @@
    "tally": {
     "filings": 12281,
     "inState": 1798,
-    "viaPortfolio": 28,
+    "viaPortfolio": 32,
     "kept": 53,
-    "amendment": 841,
-    "notEquity": 426,
-    "small": 427,
+    "amendment": 842,
+    "notEquity": 427,
+    "small": 429,
     "entity": 70,
     "industry": 2,
     "spvName": 0,
     "public": 7
    },
-   "parsedAt": "2026-09-16T09:43:04.542Z"
+   "parsedAt": "2026-09-28T13:53:19.189Z"
   },
   "2023q3": {
    "deals": [
@@ -30290,6 +30691,49 @@
      "blurb": null,
      "website": null,
      "source": "new-york-market"
+    },
+    {
+     "accession": "0001780186-23-000001",
+     "cik": "1780186",
+     "company": "Pryon Inc",
+     "city": "Westport",
+     "state": "CT",
+     "date": "2023-08-24",
+     "incorporated": null,
+     "incorporatedWithinFiveYears": false,
+     "industry": "Other Technology",
+     "amountSold": 98563881,
+     "amountOffered": 99563865,
+     "investors": 44,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "Igor Jablokov",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Christopher Mahl",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Elizabeth Stein",
+       "role": "Director"
+      },
+      {
+       "name": "Kirsten Wolberg",
+       "role": "Director"
+      },
+      {
+       "name": "Carolyne LaSala",
+       "role": "Director"
+      }
+     ],
+     "funds": [
+      "greycroft"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
     },
     {
      "accession": "0001995060-23-000001",
@@ -31729,6 +32173,61 @@
      "source": "new-york-market"
     },
     {
+     "accession": "0001766293-23-000001",
+     "cik": "1766293",
+     "company": "Ocient Inc.",
+     "city": "CHICAGO",
+     "state": "IL",
+     "date": "2023-07-20",
+     "incorporated": "2018",
+     "incorporatedWithinFiveYears": true,
+     "industry": "Other Technology",
+     "amountSold": 13844327,
+     "amountOffered": 30000000,
+     "investors": 28,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "Mark Christopher Terbeek",
+       "role": "Director"
+      },
+      {
+       "name": "Kumar Christopher Abhijeet",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "S. Christopher Gladwin",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "George Christopher Kondiles",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Joseph Christopher Jablonski",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Brian Christopher Hand",
+       "role": "Director"
+      },
+      {
+       "name": "Michael Christopher Seedman",
+       "role": "Director"
+      },
+      {
+       "name": "William Christopher McCarthy",
+       "role": "Executive Officer"
+      }
+     ],
+     "funds": [
+      "greycroft"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
+    },
+    {
      "accession": "0001013594-23-000594",
      "cik": "1986248",
      "company": "Conceivable Life Sciences Inc.",
@@ -31832,6 +32331,53 @@
      "source": "new-york-market"
     },
     {
+     "accession": "0001858206-23-000001",
+     "cik": "1858206",
+     "company": "Pacaso Inc.",
+     "city": "SAN FRANCISCO",
+     "state": "CA",
+     "date": "2023-06-29",
+     "incorporated": "2019",
+     "incorporatedWithinFiveYears": true,
+     "industry": "Other",
+     "amountSold": 13357271,
+     "amountOffered": 13357271,
+     "investors": 96,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "Alison Davis",
+       "role": "Director"
+      },
+      {
+       "name": "Austin Allison",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Malissia Clinton",
+       "role": "Director"
+      },
+      {
+       "name": "Dan Levitan",
+       "role": "Director"
+      },
+      {
+       "name": "Colin Weil",
+       "role": "Director"
+      },
+      {
+       "name": "Spencer Rascoff",
+       "role": "Executive Officer"
+      }
+     ],
+     "funds": [
+      "greycroft"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
+    },
+    {
      "accession": "0001820264-23-000001",
      "cik": "1820264",
      "company": "Interlace Inc.",
@@ -31895,17 +32441,17 @@
    "tally": {
     "filings": 12678,
     "inState": 1913,
-    "viaPortfolio": 26,
-    "kept": 47,
+    "viaPortfolio": 31,
+    "kept": 50,
     "amendment": 977,
     "notEquity": 409,
-    "small": 417,
+    "small": 419,
     "entity": 84,
     "industry": 0,
     "spvName": 0,
     "public": 5
    },
-   "parsedAt": "2026-09-16T09:43:06.075Z"
+   "parsedAt": "2026-09-28T13:53:20.321Z"
   },
   "2023q2": {
    "deals": [
@@ -34280,6 +34826,45 @@
      "source": "new-york-market"
     },
     {
+     "accession": "0001567619-23-005574",
+     "cik": "1971301",
+     "company": "Axios HQ Inc.",
+     "city": "ARLINGTON",
+     "state": "VA",
+     "date": "2023-03-23",
+     "incorporated": "2022",
+     "incorporatedWithinFiveYears": true,
+     "industry": "Other",
+     "amountSold": 15000000,
+     "amountOffered": 20000000,
+     "investors": 2,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "SPENCER BOICE",
+       "role": "Director"
+      },
+      {
+       "name": "JIM VANDEHEI",
+       "role": "Director"
+      },
+      {
+       "name": "PAUL J. HUDSON",
+       "role": "Director"
+      },
+      {
+       "name": "ROY SCHWARTZ",
+       "role": "Executive Officer"
+      }
+     ],
+     "funds": [
+      "greycroft"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
+    },
+    {
      "accession": "0001567619-23-005573",
      "cik": "1808894",
      "company": "Parallel Markets Inc.",
@@ -34498,17 +35083,17 @@
    "tally": {
     "filings": 13783,
     "inState": 2101,
-    "viaPortfolio": 22,
-    "kept": 66,
-    "amendment": 1136,
-    "notEquity": 386,
-    "small": 438,
+    "viaPortfolio": 26,
+    "kept": 67,
+    "amendment": 1137,
+    "notEquity": 387,
+    "small": 439,
     "entity": 91,
     "industry": 4,
     "spvName": 0,
     "public": 2
    },
-   "parsedAt": "2026-09-16T09:43:07.750Z"
+   "parsedAt": "2026-09-28T13:53:21.284Z"
   },
   "2023q1": {
    "deals": [
@@ -37709,17 +38294,17 @@
    "tally": {
     "filings": 14227,
     "inState": 2313,
-    "viaPortfolio": 26,
+    "viaPortfolio": 28,
     "kept": 79,
-    "amendment": 1258,
-    "notEquity": 402,
+    "amendment": 1259,
+    "notEquity": 403,
     "small": 519,
     "entity": 76,
     "industry": 2,
     "spvName": 0,
     "public": 3
    },
-   "parsedAt": "2026-09-16T09:43:09.972Z"
+   "parsedAt": "2026-09-28T13:53:22.121Z"
   },
   "2022q4": {
    "deals": [
@@ -37966,6 +38551,33 @@
      "blurb": null,
      "website": null,
      "source": "new-york-market"
+    },
+    {
+     "accession": "0001959835-22-000001",
+     "cik": "1959835",
+     "company": "Rembrand, Inc",
+     "city": "LOS ALTOS",
+     "state": "CA",
+     "date": "2022-12-07",
+     "incorporated": "2022",
+     "incorporatedWithinFiveYears": true,
+     "industry": "Other Technology",
+     "amountSold": 6599994,
+     "amountOffered": 8000000,
+     "investors": 3,
+     "revenueRange": "$5,000,001 - $25,000,000",
+     "directors": [
+      {
+       "name": "Omar Tawakol",
+       "role": "Executive Officer"
+      }
+     ],
+     "funds": [
+      "greycroft"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
     },
     {
      "accession": "0001567619-22-021995",
@@ -39310,7 +39922,9 @@
        "role": "Director"
       }
      ],
-     "funds": [],
+     "funds": [
+      "greycroft"
+     ],
      "blurb": null,
      "website": null,
      "source": "new-york-market"
@@ -39895,6 +40509,61 @@
      "source": "new-york-market"
     },
     {
+     "accession": "0001684049-22-000002",
+     "cik": "1684049",
+     "company": "Expel, Inc.",
+     "city": "Herndon",
+     "state": "VA",
+     "date": "2022-09-28",
+     "incorporated": null,
+     "incorporatedWithinFiveYears": false,
+     "industry": "Other Technology",
+     "amountSold": 30000000,
+     "amountOffered": 30000000,
+     "investors": 10,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "Ariel Tseitlin",
+       "role": "Director"
+      },
+      {
+       "name": "David Merkel",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Peter Katz",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Shardul Shah",
+       "role": "Director"
+      },
+      {
+       "name": "Yanek Korff",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Gene Frantz",
+       "role": "Director"
+      },
+      {
+       "name": "Johanna Flower",
+       "role": "Director"
+      },
+      {
+       "name": "Mourad Yesayan",
+       "role": "Director"
+      }
+     ],
+     "funds": [
+      "greycroft"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
+    },
+    {
      "accession": "0001841051-22-000001",
      "cik": "1841051",
      "company": "Ampla Technologies Inc.",
@@ -39980,7 +40649,9 @@
        "role": "Executive Officer"
       }
      ],
-     "funds": [],
+     "funds": [
+      "greycroft"
+     ],
      "blurb": null,
      "website": null,
      "source": "new-york-market"
@@ -40049,6 +40720,7 @@
       }
      ],
      "funds": [
+      "greycroft",
       "workbench"
      ],
      "blurb": null,
@@ -40820,6 +41492,49 @@
      "source": "new-york-market"
     },
     {
+     "accession": "0001949710-22-000001",
+     "cik": "1949710",
+     "company": "STABILITY AI, INC.",
+     "city": "LONDON",
+     "state": "X0",
+     "date": "2022-09-19",
+     "incorporated": "2020",
+     "incorporatedWithinFiveYears": true,
+     "industry": "Other Technology",
+     "amountSold": 76319958,
+     "amountOffered": 81319953,
+     "investors": 49,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "Peter Emad O'Donoghue",
+       "role": "Director"
+      },
+      {
+       "name": "Zehra Emad Qureshi",
+       "role": "Director"
+      },
+      {
+       "name": "Sri Emad Viswanath",
+       "role": "Director"
+      },
+      {
+       "name": "James P. O'Shaughnessy",
+       "role": "Director"
+      },
+      {
+       "name": "Mohammad Emad Mostaque",
+       "role": "Executive Officer"
+      }
+     ],
+     "funds": [
+      "greycroft"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
+    },
+    {
      "accession": "0001949480-22-000001",
      "cik": "1949480",
      "company": "Ondo Finance Inc.",
@@ -41086,17 +41801,17 @@
    "tally": {
     "filings": 13571,
     "inState": 1812,
-    "viaPortfolio": 33,
-    "kept": 85,
+    "viaPortfolio": 39,
+    "kept": 88,
     "amendment": 830,
-    "notEquity": 416,
-    "small": 427,
+    "notEquity": 418,
+    "small": 428,
     "entity": 82,
     "industry": 3,
     "spvName": 1,
     "public": 1
    },
-   "parsedAt": "2026-09-16T09:43:11.707Z"
+   "parsedAt": "2026-09-28T13:53:22.835Z"
   },
   "2022q3": {
    "deals": [
@@ -43061,6 +43776,65 @@
      "source": "new-york-market"
     },
     {
+     "accession": "0001766293-22-000002",
+     "cik": "1766293",
+     "company": "Ocient Inc.",
+     "city": "CHICAGO",
+     "state": "IL",
+     "date": "2022-07-29",
+     "incorporated": "2018",
+     "incorporatedWithinFiveYears": true,
+     "industry": "Other Technology",
+     "amountSold": 17080639,
+     "amountOffered": null,
+     "investors": 36,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "George Christopher Kondiles",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "William Christopher McCarthy",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Michael Christopher Seedman",
+       "role": "Director"
+      },
+      {
+       "name": "Kumar Christopher Abhijeet",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Mark Christopher Terbeek",
+       "role": "Director"
+      },
+      {
+       "name": "Joseph Christopher Jablonski",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Brian Christopher Hand",
+       "role": "Director"
+      },
+      {
+       "name": "S. Christopher Gladwin",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "James Christopher Dugan",
+       "role": "Director"
+      }
+     ],
+     "funds": [
+      "greycroft"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
+    },
+    {
      "accession": "0001803936-22-000001",
      "cik": "1803936",
      "company": "Afficiency Inc.",
@@ -44436,17 +45210,17 @@
    "tally": {
     "filings": 14187,
     "inState": 2151,
-    "viaPortfolio": 30,
-    "kept": 88,
+    "viaPortfolio": 35,
+    "kept": 89,
     "amendment": 925,
     "notEquity": 578,
-    "small": 476,
+    "small": 480,
     "entity": 109,
     "industry": 3,
     "spvName": 1,
     "public": 1
    },
-   "parsedAt": "2026-09-16T09:43:13.846Z"
+   "parsedAt": "2026-09-28T13:53:23.553Z"
   },
   "2022q2": {
    "deals": [
@@ -46219,6 +46993,49 @@
      "source": "new-york-market"
     },
     {
+     "accession": "0001843216-22-000001",
+     "cik": "1843216",
+     "company": "Clozd, Inc.",
+     "city": "LEHI",
+     "state": "UT",
+     "date": "2022-05-16",
+     "incorporated": "2021",
+     "incorporatedWithinFiveYears": true,
+     "industry": "Other Technology",
+     "amountSold": 32000000,
+     "amountOffered": 32000000,
+     "investors": 6,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "John D'Agostino",
+       "role": "Director"
+      },
+      {
+       "name": "Andrew Peterson",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Mark Terbeek",
+       "role": "Director"
+      },
+      {
+       "name": "Spencer Dent",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "John Mayfield",
+       "role": "Director"
+      }
+     ],
+     "funds": [
+      "greycroft"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
+    },
+    {
      "accession": "0001646681-22-000006",
      "cik": "1646681",
      "company": "Motive Technologies, Inc.",
@@ -46514,7 +47331,9 @@
        "role": "Executive Officer"
       }
      ],
-     "funds": [],
+     "funds": [
+      "greycroft"
+     ],
      "blurb": null,
      "website": null,
      "source": "new-york-market"
@@ -47597,6 +48416,53 @@
      "source": "new-york-market"
     },
     {
+     "accession": "0001740560-22-000002",
+     "cik": "1740560",
+     "company": "Crafty Holdings, Inc.",
+     "city": "CHICAGO",
+     "state": "IL",
+     "date": "2021-12-03",
+     "incorporated": "2018",
+     "incorporatedWithinFiveYears": true,
+     "industry": "Other",
+     "amountSold": 15248454,
+     "amountOffered": 15248454,
+     "investors": 16,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "ISHAN DAYA",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "CHRISTOPHER RITTER",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "ELAINE RUSSELL",
+       "role": "Director"
+      },
+      {
+       "name": "BRIAN HIRSCH",
+       "role": "Director"
+      },
+      {
+       "name": "JAMES PAUL",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "NATHAN ROSENSTOCK",
+       "role": "Executive Officer"
+      }
+     ],
+     "funds": [
+      "greycroft"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
+    },
+    {
      "accession": "0001849647-22-000001",
      "cik": "1849647",
      "company": "Theator Inc.",
@@ -47740,7 +48606,7 @@
      "funds": [
       "kima"
      ],
-     "blurb": null,
+     "blurb": "Autonomous claims handling",
      "website": "http://ellisclaims.ai",
      "source": "new-york-market"
     },
@@ -49083,17 +49949,17 @@
    "tally": {
     "filings": 16124,
     "inState": 2312,
-    "viaPortfolio": 40,
-    "kept": 114,
+    "viaPortfolio": 44,
+    "kept": 116,
     "amendment": 988,
-    "notEquity": 601,
-    "small": 516,
+    "notEquity": 602,
+    "small": 517,
     "entity": 119,
     "industry": 7,
     "spvName": 4,
     "public": 3
    },
-   "parsedAt": "2026-09-16T09:43:15.814Z"
+   "parsedAt": "2026-09-28T13:53:24.398Z"
   },
   "2022q1": {
    "deals": [
@@ -49450,7 +50316,9 @@
        "role": "Executive Officer"
       }
      ],
-     "funds": [],
+     "funds": [
+      "greycroft"
+     ],
      "blurb": null,
      "website": null,
      "source": "new-york-market"
@@ -51900,8 +52768,7 @@
       }
      ],
      "funds": [
-      "primary",
-      "workbench"
+      "primary"
      ],
      "blurb": null,
      "website": null,
@@ -52338,6 +53205,53 @@
      "source": "new-york-market"
     },
     {
+     "accession": "0001786447-22-000003",
+     "cik": "1786447",
+     "company": "Enboarder Inc.",
+     "city": "Austin",
+     "state": "TX",
+     "date": "2022-01-28",
+     "incorporated": "2019",
+     "incorporatedWithinFiveYears": true,
+     "industry": "Other",
+     "amountSold": 31726423,
+     "amountOffered": 31726423,
+     "investors": 11,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "William Szczerbiak",
+       "role": "Director"
+      },
+      {
+       "name": "Thomas Ball",
+       "role": "Director"
+      },
+      {
+       "name": "James Butler",
+       "role": "Director"
+      },
+      {
+       "name": "Hart Callahan",
+       "role": "Director"
+      },
+      {
+       "name": "David Jacobson",
+       "role": "Director"
+      },
+      {
+       "name": "Brent Pearson",
+       "role": "Executive Officer"
+      }
+     ],
+     "funds": [
+      "greycroft"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
+    },
+    {
      "accession": "0001781766-22-000002",
      "cik": "1781766",
      "company": "Landa Holdings, Inc.",
@@ -52450,6 +53364,73 @@
      ],
      "blurb": "Online health insurance platform for all",
      "website": "https://www.getreliancehealth.com/",
+     "source": "fund-portfolio"
+    },
+    {
+     "accession": "0001572900-22-000001",
+     "cik": "1572900",
+     "company": "ICERTIS, Inc.",
+     "city": "BELLEVUE",
+     "state": "WA",
+     "date": "2022-01-24",
+     "incorporated": null,
+     "incorporatedWithinFiveYears": false,
+     "industry": "Computers",
+     "amountSold": 79999968,
+     "amountOffered": 80000000,
+     "investors": 1,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "Curt Anderson",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Karyn Smith",
+       "role": "Director"
+      },
+      {
+       "name": "Samir Bodas",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Kabir Narang",
+       "role": "Director"
+      },
+      {
+       "name": "Penny Pritzker",
+       "role": "Director"
+      },
+      {
+       "name": "John Connors",
+       "role": "Director"
+      },
+      {
+       "name": "Mark Terbeek",
+       "role": "Director"
+      },
+      {
+       "name": "Prem Pavoor",
+       "role": "Director"
+      },
+      {
+       "name": "Monish Darda",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Paul Madera",
+       "role": "Director"
+      },
+      {
+       "name": "Vijay Vashee",
+       "role": "Director"
+      }
+     ],
+     "funds": [
+      "greycroft"
+     ],
+     "blurb": null,
+     "website": null,
      "source": "fund-portfolio"
     },
     {
@@ -53011,6 +53992,61 @@
      "source": "fund-portfolio"
     },
     {
+     "accession": "0001684049-22-000001",
+     "cik": "1684049",
+     "company": "Expel, Inc.",
+     "city": "Herndon",
+     "state": "VA",
+     "date": "2021-09-30",
+     "incorporated": null,
+     "incorporatedWithinFiveYears": false,
+     "industry": "Other Technology",
+     "amountSold": 141299936,
+     "amountOffered": 141299936,
+     "investors": 10,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "Ariel Tseitlin",
+       "role": "Director"
+      },
+      {
+       "name": "Peter Katz",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Shardul Shah",
+       "role": "Director"
+      },
+      {
+       "name": "Johanna Flower",
+       "role": "Director"
+      },
+      {
+       "name": "Mourad Yesayan",
+       "role": "Director"
+      },
+      {
+       "name": "David Merkel",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Yanek Korff",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Gene Frantz",
+       "role": "Director"
+      }
+     ],
+     "funds": [
+      "greycroft"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
+    },
+    {
      "accession": "0001213900-22-004567",
      "cik": "1819569",
      "company": "CAIRA Surgical Corp",
@@ -53205,6 +54241,53 @@
      ],
      "funds": [
       "insight"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
+    },
+    {
+     "accession": "0001600984-22-000002",
+     "cik": "1600984",
+     "company": "Zumper, Inc.",
+     "city": "SAN FRANCISCO",
+     "state": "CA",
+     "date": "2021-12-13",
+     "incorporated": null,
+     "incorporatedWithinFiveYears": false,
+     "industry": "Other Technology",
+     "amountSold": 28435243,
+     "amountOffered": 49999970,
+     "investors": 16,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "Anthemos Georgiades",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Chi-Hua Chien",
+       "role": "Director"
+      },
+      {
+       "name": "Jonathan Turner",
+       "role": "Director"
+      },
+      {
+       "name": "Ilya Fushman",
+       "role": "Director"
+      },
+      {
+       "name": "Taylor Glass-Moore",
+       "role": "Director"
+      },
+      {
+       "name": "Aaron Hou",
+       "role": "Executive Officer"
+      }
+     ],
+     "funds": [
+      "greycroft"
      ],
      "blurb": null,
      "website": null,
@@ -54226,6 +55309,41 @@
      "source": "new-york-market"
     },
     {
+     "accession": "0001745203-22-000001",
+     "cik": "1745203",
+     "company": "ianacare, Inc.",
+     "city": "NEWTON",
+     "state": "MA",
+     "date": "2021-12-16",
+     "incorporated": "2018",
+     "incorporatedWithinFiveYears": true,
+     "industry": "Other",
+     "amountSold": 12134868,
+     "amountOffered": 12134868,
+     "investors": 17,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "Steven Lee",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Ellie Wheeler",
+       "role": "Director"
+      },
+      {
+       "name": "Jessica Kim",
+       "role": "Executive Officer"
+      }
+     ],
+     "funds": [
+      "greycroft"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
+    },
+    {
      "accession": "0001556308-22-000001",
      "cik": "1556308",
      "company": "Harry's, Inc.",
@@ -55005,8 +56123,8 @@
    "tally": {
     "filings": 18558,
     "inState": 2924,
-    "viaPortfolio": 45,
-    "kept": 147,
+    "viaPortfolio": 50,
+    "kept": 152,
     "amendment": 1252,
     "notEquity": 688,
     "small": 709,
@@ -55015,7 +56133,7 @@
     "spvName": 1,
     "public": 4
    },
-   "parsedAt": "2026-09-16T09:43:18.241Z"
+   "parsedAt": "2026-09-28T13:53:25.405Z"
   },
   "2021q4": {
    "deals": [
@@ -56935,6 +58053,41 @@
      "source": "fund-portfolio"
     },
     {
+     "accession": "0001891725-21-000001",
+     "cik": "1891725",
+     "company": "PROCURATED, INC.",
+     "city": "WASHINGTON",
+     "state": "DC",
+     "date": "2021-10-01",
+     "incorporated": "2019",
+     "incorporatedWithinFiveYears": true,
+     "industry": "Other Technology",
+     "amountSold": 9903582,
+     "amountOffered": 9903582,
+     "investors": 8,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "Paul Finnegan",
+       "role": "Director"
+      },
+      {
+       "name": "David Yarkin",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Alan Patricof",
+       "role": "Director"
+      }
+     ],
+     "funds": [
+      "greycroft"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
+    },
+    {
      "accession": "0000897069-21-000581",
      "cik": "1797409",
      "company": "Cambrian BioPharma Inc",
@@ -57789,6 +58942,53 @@
      "blurb": null,
      "website": null,
      "source": "new-york-market"
+    },
+    {
+     "accession": "0001567619-21-020014",
+     "cik": "1667806",
+     "company": "ZenBusiness Inc.",
+     "city": "Austin",
+     "state": "TX",
+     "date": "2021-10-29",
+     "incorporated": null,
+     "incorporatedWithinFiveYears": false,
+     "industry": "Other Technology",
+     "amountSold": 193168381,
+     "amountOffered": 204999813,
+     "investors": 24,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "Alex Lazarow",
+       "role": "Director"
+      },
+      {
+       "name": "Paul Bricault",
+       "role": "Director"
+      },
+      {
+       "name": "Khadijeh (Shanaz) Hemmati",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Matt Streisfeld",
+       "role": "Director"
+      },
+      {
+       "name": "Ross Buhrdorf",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Jenne Britell",
+       "role": "Director"
+      }
+     ],
+     "funds": [
+      "greycroft"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
     },
     {
      "accession": "0001716055-21-000001",
@@ -60569,17 +61769,17 @@
    "tally": {
     "filings": 16583,
     "inState": 2308,
-    "viaPortfolio": 35,
-    "kept": 136,
+    "viaPortfolio": 39,
+    "kept": 138,
     "amendment": 821,
     "notEquity": 625,
-    "small": 599,
+    "small": 601,
     "entity": 153,
     "industry": 3,
     "spvName": 1,
     "public": 5
    },
-   "parsedAt": "2026-09-16T09:43:20.285Z"
+   "parsedAt": "2026-09-28T13:53:26.531Z"
   },
   "2021q3": {
    "deals": [
@@ -60843,6 +62043,37 @@
      ],
      "blurb": "Your brand’s true partner in growth.",
      "website": "https://www.merama.io/",
+     "source": "fund-portfolio"
+    },
+    {
+     "accession": "0001780186-21-000001",
+     "cik": "1780186",
+     "company": "Pryon Inc",
+     "city": "RALEIGH",
+     "state": "NC",
+     "date": "2021-08-02",
+     "incorporated": "2017",
+     "incorporatedWithinFiveYears": true,
+     "industry": "Other Technology",
+     "amountSold": 11999997,
+     "amountOffered": 12000000,
+     "investors": 28,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "Igor Jablokov",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Michelle Ritter",
+       "role": "Director"
+      }
+     ],
+     "funds": [
+      "greycroft"
+     ],
+     "blurb": null,
+     "website": null,
      "source": "fund-portfolio"
     },
     {
@@ -61314,6 +62545,53 @@
      "blurb": null,
      "website": null,
      "source": "new-york-market"
+    },
+    {
+     "accession": "0001858206-21-000002",
+     "cik": "1858206",
+     "company": "Pacaso Inc.",
+     "city": "CINCINNATI",
+     "state": "OH",
+     "date": "2021-09-01",
+     "incorporated": "2020",
+     "incorporatedWithinFiveYears": true,
+     "industry": "Other",
+     "amountSold": 125799956,
+     "amountOffered": 125799956,
+     "investors": 19,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "Colin Wiel",
+       "role": "Director"
+      },
+      {
+       "name": "Spencer Rascoff",
+       "role": "Director"
+      },
+      {
+       "name": "Alison Davis",
+       "role": "Director"
+      },
+      {
+       "name": "Malissia Clinton",
+       "role": "Director"
+      },
+      {
+       "name": "Dan Levitan",
+       "role": "Director"
+      },
+      {
+       "name": "G. Austin Allison",
+       "role": "Director"
+      }
+     ],
+     "funds": [
+      "greycroft"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
     },
     {
      "accession": "0001883150-21-000001",
@@ -62652,6 +63930,49 @@
      "source": "new-york-market"
     },
     {
+     "accession": "0001674713-21-000002",
+     "cik": "1732241",
+     "company": "ClosedLoop.ai Inc.",
+     "city": "AUSTIN",
+     "state": "TX",
+     "date": "2021-08-10",
+     "incorporated": "2017",
+     "incorporatedWithinFiveYears": true,
+     "industry": "Other Technology",
+     "amountSold": 33860959,
+     "amountOffered": 40000325,
+     "investors": 14,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "Marcus Bartram",
+       "role": "Director"
+      },
+      {
+       "name": "David DeCaprio",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Andrew Eye",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Ian Sigalow",
+       "role": "Director"
+      },
+      {
+       "name": "Graham Brooks",
+       "role": "Director"
+      }
+     ],
+     "funds": [
+      "greycroft"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
+    },
+    {
      "accession": "0001773144-21-000003",
      "cik": "1773144",
      "company": "SCENT BEAUTY, INC.",
@@ -63724,6 +65045,37 @@
      "source": "new-york-market"
     },
     {
+     "accession": "0000897069-21-000390",
+     "cik": "1793421",
+     "company": "Cardless, Inc.",
+     "city": "SAN FRANCISCO",
+     "state": "CA",
+     "date": "2021-04-07",
+     "incorporated": "2019",
+     "incorporatedWithinFiveYears": true,
+     "industry": "Other Technology",
+     "amountSold": 38399876,
+     "amountOffered": 38399876,
+     "investors": 22,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "Scott Kazmierowicz",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Michael Spelfogel",
+       "role": "Executive Officer"
+      }
+     ],
+     "funds": [
+      "greycroft"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
+    },
+    {
      "accession": "0001876607-21-000001",
      "cik": "1876607",
      "company": "COPADO HOLDINGS, INC.",
@@ -64239,6 +65591,53 @@
      ],
      "blurb": "Online training courses for businesses",
      "website": "http://opensesame.com",
+     "source": "fund-portfolio"
+    },
+    {
+     "accession": "0001652512-21-000004",
+     "cik": "1652512",
+     "company": "DOTS TECHNOLOGY CORP.",
+     "city": "NATICK",
+     "state": "MA",
+     "date": "2021-07-14",
+     "incorporated": null,
+     "incorporatedWithinFiveYears": false,
+     "industry": "Other Technology",
+     "amountSold": 17132501,
+     "amountOffered": 20000009,
+     "investors": 25,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "Adi Babu Gilboa-Geffen",
+       "role": "Director"
+      },
+      {
+       "name": "Andre Babu Chang",
+       "role": "Director"
+      },
+      {
+       "name": "Renuka Babu Brown",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Rita Babu Lane",
+       "role": "Director"
+      },
+      {
+       "name": "Josh Babu Makower",
+       "role": "Director"
+      },
+      {
+       "name": "Edward Babu Scal",
+       "role": "Director"
+      }
+     ],
+     "funds": [
+      "greycroft"
+     ],
+     "blurb": null,
+     "website": null,
      "source": "fund-portfolio"
     },
     {
@@ -64934,8 +66333,50 @@
       }
      ],
      "funds": [
-      "primary",
-      "workbench"
+      "primary"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
+    },
+    {
+     "accession": "0001794975-21-000001",
+     "cik": "1794975",
+     "company": "PETABYTE TECHNOLOGY INC.",
+     "city": "BELLEVUE",
+     "state": "WA",
+     "date": "2021-07-12",
+     "incorporated": "2019",
+     "incorporatedWithinFiveYears": true,
+     "industry": "Other Technology",
+     "amountSold": 7499998,
+     "amountOffered": 18000000,
+     "investors": 1,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "Timothy Mahlman",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Vishal Lugani",
+       "role": "Director"
+      },
+      {
+       "name": "Michael Hyman",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Sohail Malad",
+       "role": "Director"
+      },
+      {
+       "name": "Ian Sigalow",
+       "role": "Director"
+      }
+     ],
+     "funds": [
+      "greycroft"
      ],
      "blurb": null,
      "website": null,
@@ -65606,6 +67047,53 @@
      "source": "new-york-market"
     },
     {
+     "accession": "0001671703-21-000001",
+     "cik": "1671703",
+     "company": "HealthVerity, Inc.",
+     "city": "PHILADELPHIA",
+     "state": "PA",
+     "date": "2021-06-25",
+     "incorporated": null,
+     "incorporatedWithinFiveYears": false,
+     "industry": "Other Health Care",
+     "amountSold": 100000038,
+     "amountOffered": 100000038,
+     "investors": 13,
+     "revenueRange": null,
+     "directors": [
+      {
+       "name": "Ian Sigalow",
+       "role": "Director"
+      },
+      {
+       "name": "Michael Greeley",
+       "role": "Director"
+      },
+      {
+       "name": "Andrew Goldberg",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "James Tanenbaum",
+       "role": "Director"
+      },
+      {
+       "name": "Andrew Kress",
+       "role": "Executive Officer"
+      },
+      {
+       "name": "Matt Wallach",
+       "role": "Director"
+      }
+     ],
+     "funds": [
+      "greycroft"
+     ],
+     "blurb": null,
+     "website": null,
+     "source": "fund-portfolio"
+    },
+    {
      "accession": "0001865922-21-000001",
      "cik": "1865922",
      "company": "Buzzer Media Inc.",
@@ -65985,20 +67473,20 @@
    "tally": {
     "filings": 14843,
     "inState": 2026,
-    "viaPortfolio": 47,
-    "kept": 131,
-    "amendment": 821,
+    "viaPortfolio": 58,
+    "kept": 138,
+    "amendment": 822,
     "notEquity": 481,
-    "small": 511,
+    "small": 514,
     "entity": 119,
     "industry": 5,
     "spvName": 1,
     "public": 4
    },
-   "parsedAt": "2026-09-16T09:43:22.014Z"
+   "parsedAt": "2026-09-28T13:53:27.764Z"
   }
  },
- "generatedAt": "2026-09-16T09:43:22.014Z",
+ "generatedAt": "2026-09-28T13:53:27.764Z",
  "rules": {
   "states": [
    "NY"

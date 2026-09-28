@@ -14,7 +14,9 @@
         "nameField": "name"
       },
       "region": "Paris",
-      "register": "FR"
+      "register": "FR",
+      "vehicleAlias": "^partech",
+      "newsQuery": "\"Partech\" (venture OR fund)"
     },
     {
       "id": "alven",
@@ -26,7 +28,9 @@
       "extractor": "framer-pairs",
       "options": {},
       "region": "Paris",
-      "register": "FR"
+      "register": "FR",
+      "vehicleAlias": "^alven",
+      "newsQuery": "\"Alven\" (venture OR fund OR startup)"
     },
     {
       "id": "xange",
@@ -40,7 +44,9 @@
         "prefix": "/portfolio"
       },
       "region": "Paris",
-      "register": "FR"
+      "register": "FR",
+      "vehicleAlias": "^xange|^siparex",
+      "newsQuery": "\"XAnge\" (venture OR fund)"
     },
     {
       "id": "daphni",
@@ -55,7 +61,9 @@
       },
       "sourceUrl": "https://www.daphni.com/sitemap.xml",
       "region": "Paris",
-      "register": "FR"
+      "register": "FR",
+      "vehicleAlias": "^daphni",
+      "newsQuery": "\"Daphni\""
     },
     {
       "id": "360capital",
@@ -67,7 +75,9 @@
       "extractor": "headings",
       "options": {},
       "region": "Paris",
-      "register": "FR"
+      "register": "FR",
+      "vehicleAlias": "^360 ?capital",
+      "newsQuery": "\"360 Capital\" (venture OR fund)"
     },
     {
       "id": "kima",
@@ -79,7 +89,9 @@
       "extractor": "next-data",
       "options": {},
       "region": "Paris",
-      "register": "FR"
+      "register": "FR",
+      "vehicleAlias": "^kima ",
+      "newsQuery": "\"Kima Ventures\""
     },
     {
       "id": "elaia",
@@ -95,7 +107,9 @@
       "sourceUrl": "https://elaia.com/portfolio-sitemap.xml",
       "region": "Paris",
       "register": "FR",
-      "note": "Elaia rebuilt its site in 2026 on Next.js: the WordPress sitemaps and the /status/active,/status/exited archives are gone, and the new portfolio publishes only a selection. Coverage dropped from 130 companies to 12, and the current/exited split is no longer available."
+      "note": "Elaia rebuilt its site in 2026 on Next.js: the WordPress sitemaps and the /status/active,/status/exited archives are gone, and the new portfolio publishes only a selection. Coverage dropped from 130 companies to 12, and the current/exited split is no longer available.",
+      "vehicleAlias": "^elaia",
+      "newsQuery": "\"Elaia\" (venture OR fonds OR fund)"
     },
     {
       "id": "isai",
@@ -107,7 +121,9 @@
       "extractor": "img-alt",
       "options": {},
       "region": "Paris",
-      "register": "FR"
+      "register": "FR",
+      "vehicleAlias": "^isai ",
+      "newsQuery": "\"ISAI\" (fonds OR venture OR investissement)"
     },
     {
       "id": "ventech",
@@ -119,7 +135,9 @@
       "extractor": "headings",
       "options": {},
       "region": "Paris",
-      "register": "FR"
+      "register": "FR",
+      "vehicleAlias": "^ventech",
+      "newsQuery": "\"Ventech\" (venture OR fund)"
     },
     {
       "id": "serena",
@@ -134,7 +152,9 @@
       },
       "sourceUrl": "https://www.serena.vc/wp-sitemap-posts-portfolio-profile-1.xml",
       "region": "Paris",
-      "register": "FR"
+      "register": "FR",
+      "vehicleAlias": "^serena capital",
+      "newsQuery": "\"Serena Capital\" (venture OR fund OR invests)"
     },
     {
       "id": "insight",
@@ -149,7 +169,9 @@
         "prefix": "/portfolio"
       },
       "region": "New York",
-      "register": "US"
+      "register": "US",
+      "vehicleAlias": "^insight partners",
+      "newsQuery": "\"Insight Partners\""
     },
     {
       "id": "bessemer",
@@ -164,7 +186,9 @@
         "prefix": "/portfolio"
       },
       "region": "New York",
-      "register": "US"
+      "register": "US",
+      "vehicleAlias": "^bessemer venture",
+      "newsQuery": "\"Bessemer Venture Partners\""
     },
     {
       "id": "primary",
@@ -179,7 +203,9 @@
         "prefix": "/companies"
       },
       "region": "New York",
-      "register": "US"
+      "register": "US",
+      "vehicleAlias": "^primary venture",
+      "newsQuery": "\"Primary Venture Partners\""
     },
     {
       "id": "greycroft",
@@ -191,7 +217,9 @@
       "extractor": "img-alt",
       "options": {},
       "region": "New York",
-      "register": "US"
+      "register": "US",
+      "vehicleAlias": "^greycroft",
+      "newsQuery": "\"Greycroft\""
     },
     {
       "id": "rre",
@@ -203,7 +231,9 @@
       "extractor": "headings",
       "options": {},
       "region": "New York",
-      "register": "US"
+      "register": "US",
+      "vehicleAlias": "^rre ventures",
+      "newsQuery": "\"RRE Ventures\""
     },
     {
       "id": "workbench",
@@ -215,7 +245,9 @@
       "extractor": "headings",
       "options": {},
       "region": "New York",
-      "register": "US"
+      "register": "US",
+      "vehicleAlias": "^work-?bench",
+      "newsQuery": "\"Work-Bench\" (venture OR fund)"
     }
   ]
 }

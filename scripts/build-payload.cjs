@@ -15,6 +15,15 @@ const rounds = read('rounds.json');
 const prospects = read('prospects.json');
 const contacts = read('contacts.json');
 
+// What each fund has been doing lately: deals by quarter, its own fund vehicles
+// filed with the SEC, portfolio companies in trouble, and recent press.
+let fundActivity = { funds: {} };
+try {
+  fundActivity = read('fund-activity.json');
+} catch {
+  // fetch-fund-activity has not run yet.
+}
+
 // The deal log — one row per round across both registers. Shipped self-contained
 // rather than joined to `companies` client-side, because US companies come from
 // Form D and never appear in the French company list.
@@ -278,6 +287,10 @@ const companies = [...tracked, ...untracked];
 const fundsOut = fundList.map((fund) => {
   const scraped = portfolios.funds.find((f) => f.id === fund.id);
   const mine = companies.filter((c) => c.funds.includes(fund.id));
+  // US companies never enter `companies` — they exist only as Form D deals — so a
+  // New York fund counted zero live holdings until these were added.
+  const mineKeys = new Set(mine.map((c) => c.key));
+  const fromDeals = new Set(deals.filter((d) => d.funds.includes(fund.id) && !mineKeys.has(d.key)).map((d) => d.key));
   return {
     id: fund.id,
     name: fund.name,
@@ -294,12 +307,13 @@ const fundsOut = fundList.map((fund) => {
     untracked: mine.filter((c) => !c.tracked).length,
     // What the fund still holds, as far as anyone can tell: it has not said it
     // exited, the register does not say it is dormant, and the SIREN checks out.
-    live: mine.filter((c) => !['exited', 'dormant', 'unverified'].includes(c.status)).length,
+    live: mine.filter((c) => !['exited', 'dormant', 'unverified'].includes(c.status)).length + fromDeals.size,
     // Companies this fund holds that are showing a raise signal — the headline
     // number for a fund, and what its row is sorted by.
     raising: mine.filter((c) => c.tracked && !['exited','dormant','unverified'].includes(c.status) && c.score >= 40).length,
     deals: deals.filter((d) => d.funds.includes(fund.id)).length,
     dealsSeriesA: deals.filter((d) => d.funds.includes(fund.id) && d.seriesA && d.isLatest).length,
+    activity: fundActivity.funds?.[fund.id] || null,
     overdue: mine.filter((c) => c.status === 'overdue').length,
     dueSoon: mine.filter((c) => c.status === 'due-soon').length,
   };
