@@ -233,6 +233,19 @@ td { padding: 8px 10px 8px 0; border-bottom: 1px solid var(--rule); vertical-ali
 .detail-inline{background:var(--paper-2);padding:14px 18px 18px;border-bottom:1px solid var(--rule)}
 @media (max-width:860px){.deal{grid-template-columns:86px 1fr 84px}.deal .does,.deal .amount{display:none}}
 
+
+/* --- fund activity: a press strip, a quarterly pace chart, filing tables */
+.press{border-left:3px solid var(--rule-strong);padding:2px 0 2px 16px;margin:20px 0 26px}
+.headlines{list-style:none;margin:0;padding:0}
+.headlines li{margin-bottom:8px;font-size:14px;line-height:1.35}
+.headlines a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--rule)}
+.headlines a:hover{border-bottom-color:var(--rule-strong)}
+.headlines .marker{display:block}
+.pace{display:flex;align-items:flex-end;gap:6px;height:104px;margin:6px 0 4px}
+.qbar{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:100%;position:relative;min-width:0}
+.qbar-fill{width:100%;background:var(--moderate);opacity:.85;min-height:2px}
+.qbar-n{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:10px;color:var(--ink-soft);order:-1;margin-bottom:2px}
+.qbar-q{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:9px;letter-spacing:.04em;color:var(--quiet);margin-top:4px;white-space:nowrap}
 .caveats { margin-top: 46px; border-top: 3px double var(--rule-strong); padding-top: 16px; }
 .caveats ol { margin: 0; padding-left: 1.3em; }
 .caveats li { font-size: 13px; color: var(--ink-soft); margin-bottom: 9px; max-width: 92ch; }

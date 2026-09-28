@@ -170,7 +170,10 @@ function framerPairs(html) {
 function imgAlt(html, { minLength = 2 } = {}) {
   const out = new Map();
   for (const match of html.matchAll(/<img\s[^>]*alt="([^"]{2,60})"/gi)) {
-    const name = textOf(match[1]);
+    // Alt text is written for screen readers, so it carries the word "logo":
+    // Greycroft's grid reads "Goop Kitchen logo.", and every name kept that
+    // suffix, so not one of its 199 companies ever matched a filing.
+    const name = textOf(match[1]).replace(/\s*(company\s+)?logos?\.?\s*$/i, '').trim();
     if (!isNoise(name) && name.length >= minLength && !out.has(name.toLowerCase())) {
       out.set(name.toLowerCase(), { name, website: null, blurb: null });
     }

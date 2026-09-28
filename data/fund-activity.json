@@ -1,0 +1,2888 @@
+{
+ "generatedAt": "2026-09-28T13:53:35.275Z",
+ "funds": {
+  "partech": {
+   "name": "Partech",
+   "region": "Paris",
+   "deals": {
+    "total": 196,
+    "byQuarter": [
+     {
+      "quarter": "2023 Q4",
+      "deals": 4
+     },
+     {
+      "quarter": "2024 Q1",
+      "deals": 2
+     },
+     {
+      "quarter": "2024 Q2",
+      "deals": 2
+     },
+     {
+      "quarter": "2024 Q3",
+      "deals": 6
+     },
+     {
+      "quarter": "2024 Q4",
+      "deals": 7
+     },
+     {
+      "quarter": "2025 Q1",
+      "deals": 3
+     },
+     {
+      "quarter": "2025 Q2",
+      "deals": 3
+     },
+     {
+      "quarter": "2025 Q3",
+      "deals": 4
+     },
+     {
+      "quarter": "2025 Q4",
+      "deals": 2
+     },
+     {
+      "quarter": "2026 Q1",
+      "deals": 2
+     },
+     {
+      "quarter": "2026 Q2",
+      "deals": 2
+     },
+     {
+      "quarter": "2026 Q3",
+      "deals": 3
+     }
+    ],
+    "firstDeal": "2009-05-17",
+    "lastDeal": "2026-09-02"
+   },
+   "raises": [
+    {
+     "vehicle": "Partech Venture FPCI",
+     "cik": "1998249",
+     "amountSold": 105830000,
+     "amountOffered": null,
+     "date": "2023-10-01",
+     "stillRaising": false,
+     "country": "FRANCE"
+    }
+   ],
+   "raisesNote": "French funds only file with the SEC when they take US investors, so an empty list here means no US-facing vehicle, not no fundraising.",
+   "trouble": [
+    {
+     "company": "Remedee Labs",
+     "date": "2026-08-07",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "M-Files",
+     "date": "2026-07-23",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Wanted",
+     "date": "2026-07-21",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Feetme",
+     "date": "2026-07-19",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Maze",
+     "date": "2026-07-12",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Inmemori",
+     "date": "2026-07-07",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Lifen",
+     "date": "2026-07-03",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Maze",
+     "date": "2026-04-19",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Beam",
+     "date": "2026-04-09",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Feetme",
+     "date": "2026-01-27",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Roger",
+     "date": "2026-01-02",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Remedee Labs",
+     "date": "2025-12-19",
+     "what": "insolvency proceedings"
+    }
+   ],
+   "troubleTotal": 67,
+   "news": {
+    "items": [
+     {
+      "title": "Livestock management app Breedr plans expansion after $27m raise led by Partech's impact arm",
+      "source": "AgFunderNews",
+      "date": "2026-08-26",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcmpwdDNINExveW5SeWRlc3QtWHJxWnZSMkZlUzE2UWhPdjRJaWo1Y2I5bjdjOXM5WEFIVWlkWFRvS3Bwc2dMZ0xUQWpmclVwaEVKN0ZxdEdub3hVdGRqdEdEZVBTUGtMdHNIQ3pBNXVPSDFFNk1qN0dNbFhKd3RUY1NLcW9RYWNiMHRIWURLdDBQVWlVZGhyOXlGZ3dXcmpSRlJOTUZUWXR3akQ0TnhXQzE4RlIwdw?oc=5"
+     },
+     {
+      "title": "Partech Impact: €300 Million Raised To Scale European B2B Impact Tech Leaders",
+      "source": "Pulse 2.0",
+      "date": "2026-03-18",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQXBQVWpFTjVhWWFJNENjZGd0T2VycDhkaWp4UDRXejFPZkFOQWtIZ3Q5U05yUTVYVHo4SXBocTBhaHIzTV92M2s0Vmhnb0hyMC1TNjJxdGpoM2d1YWFpX2JjY2UwaFJQRFk5bVRIUHZWRWc4RFljZ3lvQ21xYTBjQUx5R0l6WVZtRDg0XzZsRmRWclJYNnlwZWJZQy3SAaIBQVVfeXFMTWUtemdDUFVqektsR1p6NEZhWWNaSDJVeDFLcDF6Uk9RdFZfbnEzeHRiV08tQXFFdkJ5VFBZNG9KMFVXQkt6VWNjTTRlN3VGaWJOX1JlOURwS3lvamRvek1iOU5BbUtmeU12LVdZMXlOVDM4RVRNY2tsOC1ZU1ZabzNoeTFVUlo3S0ZYdGVmS01UeHpFcEV3Y0FZVlFHdmtiX3Nn?oc=5"
+     },
+     {
+      "title": "Partech chooses African AI with Synapse Analytics",
+      "source": "africabusinessplus.com",
+      "date": "2026-09-15",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTDhtWkdhVkRfUklkUzRFN2FUQ2JlLVdnSkthYUdhOEVld19MMWxBMkdXV0VYLW9NVzVXbGpHQzZSUGVzeHczMjhmZFNzVnFXcURkSjltaDNLS3hMYmpzUjAyMVpLSVJ3Z2hPNHI1aTVRcldKWlpaMHhjbmoycDNxOW0waFQ4NFEtMlhMSnljZmcxVFRlWW1kMg?oc=5"
+     },
+     {
+      "title": "Partech’s €300M Impact Fund targets Europe’s next generation of industrial and climate tech leaders",
+      "source": "Tech.eu",
+      "date": "2026-03-17",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPb0FRdDVCRHhTUWk4YjZ6bHU3M2hsRDRaRWhVblV0TS1USV9TNV9vYTlYd2VubkMyWElQMFBjUlpLNjNTcUFfOXdwMDRQNTltOC1xU3padjJGdWZvVU5MRnlzam52RW1RZUdKeHdzN2g0emJ3SVNQRDVkd0ozUWFLSXdpb0VfZm5pekRlMS1kZkwwbWllQ3FFblZhS0dJTG9QQUZqaVowTTZ3Ql8tMGx6N3hrZkhUM1hJSFcxbnN2YnNoek90X3c?oc=5"
+     },
+     {
+      "title": "In brief: Partech’s experience fundraising for ‘missing middle’",
+      "source": "New Private Markets",
+      "date": "2026-03-19",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcEtrVkJkeUQ1Xzd4cGxtUk0tbi1CWl93VFU4bTdGNWVrLXdwSFFkaHRxS0NEVGR1R29NUDhIa1ROd296cTZnR1FCbmtHaU9WYXFTeVVhTncyWjBZMUVRbDZ3ZExGRkxMUHFPcWppdHJpM2RFUkd0cUliQ2VST0tkUVRaUnE5MWl1YTdpOUxSeDVIcXQ4RGZ3Q01R?oc=5"
+     },
+     {
+      "title": "Partech’s impact fund closes at €300 million",
+      "source": "Startupbusiness.it",
+      "date": "2026-03-17",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVmdIX002VlFGd1ZBT3RfeTU0b01CS2pabTBRX25hYjJMcjVHSVduT2MyY1UzRHVZdHZHcFRtc2F1cTNSckhLQlRPc0JTSXpHaWVLX2ZZZTR0VmwwTWtzY2ZqQXA5NzFVM0QwZi1rQnpOcGtYbXpoaTFuLVNESlAzTVNvMnVqZ0djOVUyNVRn?oc=5"
+     }
+    ],
+    "checkedAt": "2026-09-28T13:46:52.057Z",
+    "query": "\"Partech\" (venture OR fund)"
+   }
+  },
+  "alven": {
+   "name": "Alven",
+   "region": "Paris",
+   "deals": {
+    "total": 44,
+    "byQuarter": [
+     {
+      "quarter": "2023 Q4",
+      "deals": 2
+     },
+     {
+      "quarter": "2024 Q1",
+      "deals": 2
+     },
+     {
+      "quarter": "2024 Q2",
+      "deals": 1
+     },
+     {
+      "quarter": "2024 Q3",
+      "deals": 1
+     },
+     {
+      "quarter": "2024 Q4",
+      "deals": 2
+     },
+     {
+      "quarter": "2025 Q1",
+      "deals": 0
+     },
+     {
+      "quarter": "2025 Q2",
+      "deals": 2
+     },
+     {
+      "quarter": "2025 Q3",
+      "deals": 2
+     },
+     {
+      "quarter": "2025 Q4",
+      "deals": 0
+     },
+     {
+      "quarter": "2026 Q1",
+      "deals": 0
+     },
+     {
+      "quarter": "2026 Q2",
+      "deals": 5
+     },
+     {
+      "quarter": "2026 Q3",
+      "deals": 0
+     }
+    ],
+    "firstDeal": "2014-01-03",
+    "lastDeal": "2026-06-21"
+   },
+   "raises": [],
+   "raisesNote": "French funds only file with the SEC when they take US investors, so an empty list here means no US-facing vehicle, not no fundraising.",
+   "trouble": [
+    {
+     "company": "BackLight",
+     "date": "2026-06-12",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Qonto",
+     "date": "2026-06-05",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "BackLight",
+     "date": "2025-08-07",
+     "what": "struck off the register"
+    },
+    {
+     "company": "BackLight",
+     "date": "2025-08-03",
+     "what": "struck off the register"
+    },
+    {
+     "company": "Dataiku",
+     "date": "2025-02-06",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "BackLight",
+     "date": "2025-01-26",
+     "what": "struck off the register"
+    },
+    {
+     "company": "BackLight",
+     "date": "2025-01-07",
+     "what": "struck off the register"
+    },
+    {
+     "company": "Qonto",
+     "date": "2024-09-30",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Indy",
+     "date": "2024-06-04",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Stoik",
+     "date": "2023-12-21",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Stoik",
+     "date": "2023-12-21",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Stoik",
+     "date": "2023-12-21",
+     "what": "business or assets transferred"
+    }
+   ],
+   "troubleTotal": 19,
+   "news": {
+    "items": [
+     {
+      "title": "Alven settles succession, plans new fund after €350M vehicle",
+      "source": "Dealroom.co",
+      "date": "2026-09-15",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbWVmaXZ2aFZRYVhIXzNwMjJ5eUVIYjVYNENVZDNrWElnMHRTNU9ackZKWFl3VXltbGZsa2EzcUI4N01ZUWpsc2hxdU5TSTZIRWlWZ3lJODJlSnM5TUl6N3Voa3hXcnIxZ2JVUUhDZUc2VmFGdmZaakl3RnV2Y3Y4TldDX1hFWkNGSmpfOVVqRHZZWEpTYmRj?oc=5"
+     },
+     {
+      "title": "The AlleyWatch Startup Daily Funding Report: 6/23/2026",
+      "source": "AlleyWatch",
+      "date": "2026-06-23",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUGg3eXRmd3IzUTh6Ql9JNjlVOWk2LTlrRlNyZU05QmJuYjhYd2VkT012R1QwbHh3cUhhRXh4UmdGeFlMbG9ESWR3cUhyV2VKNS1LMDk0YnRUT3RTTEQ2WWxpMTc4WDNxMENmU0NhSWZWeVRQTzF1c1BpcTJXMkNNTTNkc291NnRSYkx1eVFn?oc=5"
+     },
+     {
+      "title": "Alven and Daphni co-lead Generare’s €20M to produce 10x novel molecules by 2027",
+      "source": "Tech Funding News",
+      "date": "2026-04-02",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSzdIMnN6NWFuTTdzSGlpczlaVmhlYnFLVlFmTHkzSWl1eE1RYUFjWEZGVlVLdG5OMmU3TlE1SmFtR0p5Zm5nT3BHaFBfN0N1MEZJMGpIM0xvemhILUdWMi1jSF9VbThLUHBpb0dmdkZLTjBGOGhxQlVCSGZkQWhOV2Yxcl81eGM?oc=5"
+     },
+     {
+      "title": "With $38M in Funding, Verley Eyes US Launch of Cow-Free Whey Proteins",
+      "source": "greenqueen.com.hk",
+      "date": "2026-02-24",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSUppMXZla2d0M0J1TzlDd09VTlFic1c4T0xMM1VyS2pRRVNpZTc5SC1jMXRSdkp4Mk53TW50cVNEaVpWNDVKTDU4M1RBbFAtRGZYQldzcE84WWRUeXNCSy1HeXROUG5mbmxHcTZiMTNGeEs1ZUhUcVdhQ2t6Sng4bXJhOEhhWHZtcy1RWUFsWEdaQzVMOTczVw?oc=5"
+     },
+     {
+      "title": "Top 64 Venture Capital Firms in France (2026)",
+      "source": "failory.com",
+      "date": "2025-12-18",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8tWDNCSS10QnVWMTgwTXA1VGNhNndMQ3ozMGtWSVJ0b2tIQk45WVYza1BEWlR3Uk13WUxwdEhUWlhoYy1KcW1aWkpnbVRPVjlaOUl0bmdqRDlfbHZTbGlsV2RrbHNYWFQx?oc=5"
+     },
+     {
+      "title": "With high-protein nutrition now mainstream, Lyon’s Verley raises €32 million to expand production - EU-Startups",
+      "source": "EU-Startups",
+      "date": "2026-02-24",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOOUhCNF8xYVdROXE3VkNxQWVoMHdtNlJIU2NJcklQMnJ0bk9Ya3FMcWF1RlBsU1QwRDZTSXc4bnd4eVVEeEJKUnBHTkFmVDR0ZnlWWTByQmo4LUNKeTJPOTdRLUEzMzcxZEluNXNsem1ldWh2V0Vtc293anFCOWdKelJ5MkxNY21zcFFGT0xNdVI0aHQ3MlVvZ0tBYWxCc21YWlNyUVNfWmEwUTRYZk1wem1LcVExMDdmT3ZEeThrZHRPVUk1Rm5Wb0otbUU?oc=5"
+     }
+    ],
+    "checkedAt": "2026-09-28T13:46:52.085Z",
+    "query": "\"Alven\" (venture OR fund OR startup)"
+   }
+  },
+  "xange": {
+   "name": "XAnge",
+   "region": "Paris",
+   "deals": {
+    "total": 205,
+    "byQuarter": [
+     {
+      "quarter": "2023 Q4",
+      "deals": 4
+     },
+     {
+      "quarter": "2024 Q1",
+      "deals": 3
+     },
+     {
+      "quarter": "2024 Q2",
+      "deals": 3
+     },
+     {
+      "quarter": "2024 Q3",
+      "deals": 1
+     },
+     {
+      "quarter": "2024 Q4",
+      "deals": 2
+     },
+     {
+      "quarter": "2025 Q1",
+      "deals": 7
+     },
+     {
+      "quarter": "2025 Q2",
+      "deals": 3
+     },
+     {
+      "quarter": "2025 Q3",
+      "deals": 8
+     },
+     {
+      "quarter": "2025 Q4",
+      "deals": 3
+     },
+     {
+      "quarter": "2026 Q1",
+      "deals": 7
+     },
+     {
+      "quarter": "2026 Q2",
+      "deals": 3
+     },
+     {
+      "quarter": "2026 Q3",
+      "deals": 2
+     }
+    ],
+    "firstDeal": "2008-07-08",
+    "lastDeal": "2026-08-18"
+   },
+   "raises": [],
+   "raisesNote": "French funds only file with the SEC when they take US investors, so an empty list here means no US-facing vehicle, not no fundraising.",
+   "trouble": [
+    {
+     "company": "Coinhouse",
+     "date": "2026-09-08",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "LE Fourgon",
+     "date": "2026-08-06",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Webedia",
+     "date": "2026-07-22",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Webedia",
+     "date": "2026-07-22",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Eldim",
+     "date": "2026-06-30",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Eldim",
+     "date": "2026-06-23",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Legalplace",
+     "date": "2026-04-17",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Ekinops",
+     "date": "2026-04-10",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Eldim",
+     "date": "2026-03-20",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Epigene Labs",
+     "date": "2026-03-17",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Make ME Reach",
+     "date": "2025-12-07",
+     "what": "struck off the register"
+    },
+    {
+     "company": "Eldim",
+     "date": "2025-12-04",
+     "what": "insolvency proceedings"
+    }
+   ],
+   "troubleTotal": 83,
+   "news": {
+    "items": [
+     {
+      "title": "Rivan raises, Benchmark attracts suitors and a Caesars takeover bid.",
+      "source": "Axios",
+      "date": "2026-04-20",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE13RkhZcDJJd2xtSVNMSmh6dTZFbTIwSlhuXzFTcTVPd0pHazdGZkhCN01jU1k4MGVpR3NzUzZacF9mc1p5RGRiY3dKRGt6SDhucVI5Vk1jM2drYUJhQWd5S0NQbmItQmJRWUN4Y1R4LTVVeE5IdWJGd2ZlYXpkT3c?oc=5"
+     },
+     {
+      "title": "New Joint Venture Aims To Support $100B Carbon Mitigation Pipeline Under Article 6",
+      "source": "Carbon Herald",
+      "date": "2026-01-23",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZjhYX2ZObDN1VDJiSkxmYWlwSHY4WDVldl94WE14N2JXelY1VzRvZU9DZktLazRkVnA0Z2NPam1OZ1BWdllhTVo1WFIyeUhQMGlNWnlMdW12NjJOZm43WWg5RjI4eWd5TjJTRzEzaTVSUi1XeFoteTF2VzVkLWt3QWREQ2JpTjNtSnFFOEMtamRlbV82SUF6MDZ6N3phdFVuRllEcnF1bEQxMDQ?oc=5"
+     },
+     {
+      "title": "$100B at Stake: New Joint Venture Builds Digital Backbone for Article 6 Carbon Markets",
+      "source": "CarbonCredits.com",
+      "date": "2026-01-27",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSjcxbGUwblE2S1BkVGpZQWFHcVZqTXEzbHE2S2N4eEp3c1ByM0RHcnU4d1BxZmpkRjVxMVNxVXFTX3JQOWR1M2cwSk03anQ5eV9tYWtzbS10Q3o2OFhTN2ZpVktSZHpKekJiZVhVQ2hYa2tWZ1ZGcmNFNWszOVR5d1RIdWFpdjl1ZVNLaURkU1MySlR0RC1IcHhUU2Q0OU1WYmh2dUJscDJxeGR2UTJKbQ?oc=5"
+     },
+     {
+      "title": "VSORA Raises Further Funding Round",
+      "source": "FinSMEs",
+      "date": "2026-07-03",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5LRklmcnJiZGZZQVlVS1ZfcGZULXRjel8xbmVvLTZLN3BEOC05RUJFVDBLV2piZndYYU9ScmhweXZMNl81czhxWFFQQVZTMC1VQ2p4V1F1SkNVYjVOYWJrNVQxRVNrU0V1ODVaNTBjei1fZTE2RVpUUEV1QQ?oc=5"
+     },
+     {
+      "title": "/C O R R E C T I O N -- Xange.com/",
+      "source": "PR Newswire UK",
+      "date": "2026-01-22",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNZUtuNmlOZWZhMFB1ekhrOGdiNnhRNUhaSU92UW4yQWlORzJmN0tnTHo2NmwtSHRtWjA1MHhkUnF4dW1xQkwtRDM2anhsamZ6MXcwbDduel82UThYU0t5SHBxNkhoZnhTM2tyd1NEYXY4cVZZNm5fanJDSk1CdmFRUmJueU1oRDVCUW1jSkxibXlNWGpzLVcwcUd2Nm41YVlmRXBPeHFrT1ZDSXZZSGUwZlVneDYxMzhHeU04eU01X2MtQzdCMWxmYklWRUk5WkhwT0VET0dXUVpRZHQ3YURub2J3TUVBOHVmUnpYdmFZdkZiZzRnUEE?oc=5"
+     },
+     {
+      "title": "Saporo closes €7M Series A to scale its graph-native identity security platform",
+      "source": "Tech.eu",
+      "date": "2025-12-02",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeTY3eVpzbGRGcGpjZlBjYzl1U0dqYzdyLWVtSExBX2pHcDRlRHh1UVp3aHFOeTRpRHZNSVp5Z1JqWEFLYUEzRUxnZjZMa21VQ0dndm42YVhNZ2s4Mm03b2R6T0tmcEhUOHhqS3dSSjRsVzNPN0EwQXVTZVlIME1Wbmx2SnRYUGM5US1ZVVczOHFZU0tuWGpLeXplTGh6eTJGY2tTeXkzb1BjZVFqYlE?oc=5"
+     }
+    ],
+    "checkedAt": "2026-09-28T13:46:52.119Z",
+    "query": "\"XAnge\" (venture OR fund)"
+   }
+  },
+  "daphni": {
+   "name": "Daphni",
+   "region": "Paris",
+   "deals": {
+    "total": 39,
+    "byQuarter": [
+     {
+      "quarter": "2023 Q4",
+      "deals": 1
+     },
+     {
+      "quarter": "2024 Q1",
+      "deals": 1
+     },
+     {
+      "quarter": "2024 Q2",
+      "deals": 0
+     },
+     {
+      "quarter": "2024 Q3",
+      "deals": 1
+     },
+     {
+      "quarter": "2024 Q4",
+      "deals": 2
+     },
+     {
+      "quarter": "2025 Q1",
+      "deals": 1
+     },
+     {
+      "quarter": "2025 Q2",
+      "deals": 1
+     },
+     {
+      "quarter": "2025 Q3",
+      "deals": 2
+     },
+     {
+      "quarter": "2025 Q4",
+      "deals": 1
+     },
+     {
+      "quarter": "2026 Q1",
+      "deals": 1
+     },
+     {
+      "quarter": "2026 Q2",
+      "deals": 1
+     },
+     {
+      "quarter": "2026 Q3",
+      "deals": 1
+     }
+    ],
+    "firstDeal": "2011-03-23",
+    "lastDeal": "2026-07-10"
+   },
+   "raises": [],
+   "raisesNote": "French funds only file with the SEC when they take US investors, so an empty list here means no US-facing vehicle, not no fundraising.",
+   "trouble": [
+    {
+     "company": "Epigene Labs",
+     "date": "2026-03-17",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Less",
+     "date": "2026-01-25",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Swile",
+     "date": "2025-06-19",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Witco",
+     "date": "2025-06-04",
+     "what": "struck off the register"
+    },
+    {
+     "company": "Fifteen",
+     "date": "2025-03-26",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Less",
+     "date": "2025-03-12",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Fifteen",
+     "date": "2025-01-29",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Fifteen",
+     "date": "2025-01-22",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Fifteen",
+     "date": "2024-12-29",
+     "what": "conciliation proceedings"
+    },
+    {
+     "company": "Modjo",
+     "date": "2024-10-17",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Swile",
+     "date": "2023-11-29",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Pasqal",
+     "date": "2023-07-09",
+     "what": "business or assets transferred"
+    }
+   ],
+   "troubleTotal": 17,
+   "news": {
+    "items": [
+     {
+      "title": "JV JAGUARS FACE TIVY",
+      "source": "Wilson County News",
+      "date": "2026-09-22",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5RYTZXeEthQnpDWmZpcngySlRvOHJsZ0NRb3ZGMHBPamdPR0NDQ2k5VGM0UHNqT0pNOFBrMHZjRlFRajNrZVp1ZE9qTVJpMUlKNTViNW9VOU1hOFQ5SHZobHlhXzF4Yk1iXzlSRWp3Mkw?oc=5"
+     },
+     {
+      "title": "Daphni announces Butterfly (Expanded Edition)",
+      "source": "Northern Transmissions",
+      "date": "2026-09-04",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdFljS2o3azBrVGJWblpoanBERmxRbENrSUdxUnlBeXNzNi0yV3lrempqaEMzcXZ5Q0xhREFfTHk0aFloSC14dXVxUzNUcnNPUFFwQjFnN2pfdjFxbVZGdE5tVk9scUtRQnFwbWpwZWFCdklzbmw4aEJLS1k1YUlQd3I5S2I?oc=5"
+     },
+     {
+      "title": "Daphni : Butterfly",
+      "source": "treblezine.com",
+      "date": "2026-02-12",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1LTThFVXpzeTlCUmVZdWhYUV9GVE9GbDZaQkZmeE0xRFBHT1NHcUVDaF95ZGUwUHhTUzlIRnNEV2dFWGptR3RIaVFpUUJfOXE5UUd5dFhQM2Z5ZGl3ZWJMNg?oc=5"
+     },
+     {
+      "title": "Daphni: Butterfly Album Review",
+      "source": "Pitchfork",
+      "date": "2026-02-12",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5KNGh4X3p6UnFnRDVzdUxCRm9PSnRZRlJrZm9VNWU0a3B2bkt5LTdpMHhNQXhSODZwYWUtUzRxTHBPVkRBbllwM2VrMEdPWVppSzc4S0pQVkVkb0k0LTZFbUE4M3A?oc=5"
+     },
+     {
+      "title": "Bicep, Daphni &amp; Kim Gordon Lead Making Time ∞ 2026 Lineup",
+      "source": "Billboard",
+      "date": "2026-05-19",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSVVkb29WWjNJQnJvZ3piX1ZsM1QxRTd4N2Z6VjEwTzlNa3FaRkRGMlhIZjZ4Q0N2QlJGQ1ZMZENFTmpwOGxvaHdvYmdwSmM2NmFIeWJ1ZnAzSEFibkZBSU9HS2VoVVhFamxhQWxCcEIyczE4U1pVUnRXMWI2R3dlZ29JNWhLRjU5aWZ2cTRicnFyOGZFUzdZVE1LT1dzSnQtLW9IWW1hVXN2M1hkZW5QcXV4NA?oc=5"
+     },
+     {
+      "title": "Making Time ∞ 2026 lineup: Bicep, Kim Gordon, Daphni, Smerz, Theo Parrish, Los Thuthanaka, TAGABOW, more",
+      "source": "BrooklynVegan",
+      "date": "2026-05-19",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObGRvblRxYmFGZkNnazZzS2paTl9hcVVtZjh6aVpHcExwS2loVnhLNGwxbzBvX3FDMzQ1ZndRalk5NkZDRGp5aUIwX2Jrd2dWRnphMFdxN3QwMVRtT011bDJxU29YMDZ2T1FVUUZFd0VTSm5sYzBPbEM0VDduSWxDMmhMTXhmNHlaTEtuTEZBZTJiT3FoVnRnVzltSEdDUV9sdlJtR0lKakJ6RHJyMUNnalhRYWRWNTg5cXo1U3hGbmw5ZFdrTFZmTGhFN1NpNnJZ?oc=5"
+     }
+    ],
+    "checkedAt": "2026-09-28T13:46:52.151Z",
+    "query": "\"Daphni\""
+   }
+  },
+  "360capital": {
+   "name": "360 Capital",
+   "region": "Paris",
+   "deals": {
+    "total": 74,
+    "byQuarter": [
+     {
+      "quarter": "2023 Q4",
+      "deals": 1
+     },
+     {
+      "quarter": "2024 Q1",
+      "deals": 3
+     },
+     {
+      "quarter": "2024 Q2",
+      "deals": 1
+     },
+     {
+      "quarter": "2024 Q3",
+      "deals": 1
+     },
+     {
+      "quarter": "2024 Q4",
+      "deals": 0
+     },
+     {
+      "quarter": "2025 Q1",
+      "deals": 3
+     },
+     {
+      "quarter": "2025 Q2",
+      "deals": 2
+     },
+     {
+      "quarter": "2025 Q3",
+      "deals": 2
+     },
+     {
+      "quarter": "2025 Q4",
+      "deals": 1
+     },
+     {
+      "quarter": "2026 Q1",
+      "deals": 0
+     },
+     {
+      "quarter": "2026 Q2",
+      "deals": 1
+     },
+     {
+      "quarter": "2026 Q3",
+      "deals": 1
+     }
+    ],
+    "firstDeal": "2010-08-17",
+    "lastDeal": "2026-07-05"
+   },
+   "raises": [],
+   "raisesNote": "French funds only file with the SEC when they take US investors, so an empty list here means no US-facing vehicle, not no fundraising.",
+   "trouble": [
+    {
+     "company": "Focus",
+     "date": "2026-07-23",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Prophesee",
+     "date": "2026-05-09",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Le Slip Français",
+     "date": "2025-12-12",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Tediber",
+     "date": "2025-11-20",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Tediber",
+     "date": "2025-11-20",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "ESG",
+     "date": "2025-06-22",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Prophesee",
+     "date": "2024-10-31",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "GrAI Matter Labs",
+     "date": "2024-03-10",
+     "what": "struck off the register"
+    },
+    {
+     "company": "GrAI Matter Labs",
+     "date": "2023-12-21",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "GrAI Matter Labs",
+     "date": "2023-12-21",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "ESG",
+     "date": "2023-12-14",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Exotec",
+     "date": "2023-11-28",
+     "what": "business or assets transferred"
+    }
+   ],
+   "troubleTotal": 23,
+   "news": {
+    "items": [
+     {
+      "title": "Italy’s angels &amp; incubators and venture capital weekly roundup. News from Medical Microinstruments, newcleo, NewHold Investment Corp, Tundr, CDP, 360 Capital, and more",
+      "source": "BeBeez International",
+      "date": "2026-09-22",
+      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOdjFFVVc2UnpNbDIzV25XcFdhOWZ4QTZOQUNWLUJXMHZSVGxHMENTN3dldjlsMFQ0ZGt5dUFIeXFud3lQMl9NQjh2M3ZNVUJkdVFoUE5ueVJnU01VeVlJYTNMN1c4VzJreEJ6U0tzRnVjZEVJWmI0aFJfdWc3NXJrRzZFYWJsX0ZuYkxGTnJPS1N0NkJMMVpFdTF0V3BSM2RPUmdrTC1kZUFmdktIeEJPckFQV3ViQmZTRnV0UnJWU0NiYlJLM0VFRXJrZ21vLXBTWWo2ZjVHRWp5OVZoa3pSMUhRV2JpMDhZM1M5XzRmbkhFQjdvUmdsOHFWQWhtUmtMTF80WndibEprWERrVHVwV0k0c2lBUQ?oc=5"
+     },
+     {
+      "title": "French VC 360 Capital launches Poli360 2 with €85 million to back European DeepTech startups - EU-Startups",
+      "source": "EU-Startups",
+      "date": "2026-03-23",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVGQwaDNrMUxPUjM2V0dtRm16a1ViRWVkaTNIa2NvSzdTQkFGblgyM3JFTnhOeUYwLVN3a0o0ZGxLNEpLYWs5eEJBX085Z0p5QVU3am91TjNpcFdNaFpGaUtPVjJiWkRBX1ZBNG1JZG1hcU1oeDU0bUZYS0ZYMmF2aFVxQndsQjNqQlE4eEs4RHkwd3NXc1RzY0hfM2tLOVlwRzYwLWljNEZiVHdhOHpQWGJKbVNMSm5mRjYxODgtLW80eFZ2Z2tRMA?oc=5"
+     },
+     {
+      "title": "Emanuele Levi: Leading Italy’s Startup Future After Two Decades at 360 Capital",
+      "source": "Dealroom.co",
+      "date": "2026-04-14",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQ0t2NjREMkdyN3UxRDlhZWcxaVRpd21LcGpvMzdiR2dVSi1oV3ZxVURyRHRUd21hSGJVdjAxSW12d3RNY0RtSEZTTnI0ZGQwd05OZzUxNUdyalh2NWJmTjQxd2NzT2xsbzBnOG84NzFkUU1vWHA4bXFNWG9xRU54Qm1ic0c1akNSTVJ3TzMtQTdfY2VlelloNkZWOFN0LVVnbm1CMVlaLWVxUDNjSG5yRw?oc=5"
+     },
+     {
+      "title": "360 Capital announces €85M close for Poli360 2, targeting €100M",
+      "source": "Tech.eu",
+      "date": "2026-03-23",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPd1hRUm5fTm1STl9GUGVvWUVKSFF2SVlDeVBfZlk3MDJxVFQydDF5LVZENF9nSGNPeS10SGlBLUw3cV94TGQzX3hrZFNVTDQ0ejJhVnN1S3pIVTcwd0lKMGREZ3hWbzRfT2RIQ1YtdERMbENUWHFQVnc3TVpSc3NsYjR4dHpEOFlBdzI0TGtNSmN5RUxJVE5nUkhn?oc=5"
+     },
+     {
+      "title": "Flow Battery Startup Sinergy Flow Closes $8 Million in Seed Funding",
+      "source": "Mercom Capital Group",
+      "date": "2026-02-25",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZDl2eFdTeTkzQ0tqVENXdDRwcnlFd3hyVHI3ZGtRdXdtSjlENlFsaVpUY0w3U2pOTzc4SXhWaVhLNG1PdVZIendJcnowT2xwdkkxYVpPaDZQRzlYQlJweUlCWTVORjI1VVhqaUZBWUVNUk00LURsNXlRVzZzSkw5ZVJZb1pVY19UYnh3UVM2MmhyaktzUmwzNQ?oc=5"
+     },
+     {
+      "title": "First closing of €85 million for the Poli360 2 fund",
+      "source": "Startupbusiness.it",
+      "date": "2026-03-23",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQY3ozOXlNdXJmWDdlWlA2RmF0ZGpZU3Q4bGFzaTBDdEdnZURnWEVPUTc4SkdKRHN6S19tQk83R2lMeWpNSExVSzBuanRGZnNBQ3pSTkFQQkd3OHJWYUZYamNIZFFmVzNwZEpjbk50eXFmNFlKXzRlcjVsbE5URGRoaUNhUEZMQkxXUDQ3bWw3dFowTWZpWnh6Tg?oc=5"
+     }
+    ],
+    "checkedAt": "2026-09-28T13:46:52.174Z",
+    "query": "\"360 Capital\" (venture OR fund)"
+   }
+  },
+  "kima": {
+   "name": "Kima Ventures",
+   "region": "Paris",
+   "deals": {
+    "total": 452,
+    "byQuarter": [
+     {
+      "quarter": "2023 Q4",
+      "deals": 10
+     },
+     {
+      "quarter": "2024 Q1",
+      "deals": 17
+     },
+     {
+      "quarter": "2024 Q2",
+      "deals": 10
+     },
+     {
+      "quarter": "2024 Q3",
+      "deals": 14
+     },
+     {
+      "quarter": "2024 Q4",
+      "deals": 13
+     },
+     {
+      "quarter": "2025 Q1",
+      "deals": 14
+     },
+     {
+      "quarter": "2025 Q2",
+      "deals": 7
+     },
+     {
+      "quarter": "2025 Q3",
+      "deals": 12
+     },
+     {
+      "quarter": "2025 Q4",
+      "deals": 6
+     },
+     {
+      "quarter": "2026 Q1",
+      "deals": 18
+     },
+     {
+      "quarter": "2026 Q2",
+      "deals": 18
+     },
+     {
+      "quarter": "2026 Q3",
+      "deals": 9
+     }
+    ],
+    "firstDeal": "2010-03-14",
+    "lastDeal": "2026-09-02"
+   },
+   "raises": [],
+   "raisesNote": "French funds only file with the SEC when they take US investors, so an empty list here means no US-facing vehicle, not no fundraising.",
+   "trouble": [
+    {
+     "company": "Quivr",
+     "date": "2026-09-15",
+     "what": "struck off the register"
+    },
+    {
+     "company": "Lazy",
+     "date": "2026-09-06",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Kiln",
+     "date": "2026-08-31",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Railnet",
+     "date": "2026-08-31",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Cycle",
+     "date": "2026-08-12",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "LE Fourgon",
+     "date": "2026-08-06",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Maze",
+     "date": "2026-07-12",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Linkup",
+     "date": "2026-07-12",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Greenback",
+     "date": "2026-07-05",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Majelan",
+     "date": "2026-06-19",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Canyon",
+     "date": "2026-06-11",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Koyeb",
+     "date": "2026-05-19",
+     "what": "struck off the register"
+    }
+   ],
+   "troubleTotal": 195,
+   "news": {
+    "items": [
+     {
+      "title": "Israeli Ex-Meta Researcher Launches AI 'Neolab' in Race for Hundreds of Millions",
+      "source": "Haaretz",
+      "date": "2026-09-17",
+      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPSWFtUjIxN0syRDVYQ3lmbmlQSDNvSkZKSGdUMkpGekxJNWNSVk95a3R3OEtYbGQ2OWc3Mnp1dVlDQ2NmVHpYblAyRHAwZ09UUjkxRkxMTktqSHVTRVdoSndIVzFiOUdKLURCMzhTSFdrbzJmS0lRaGJvUEx3c0Z4U1gyNGtWcFZyVXd3NzVlak9JUDhqQnJTcEpWUGpRTGlpa2NUcjJhOTluUHRDa2pkSXhiNE5MVUFHa08wcUFfUVhNX3p2bG1raWVTclh1b29BbWJrSVZ4VmR2VFA5b0Q0NTIwMzloV2xOUWtTLVJ2bkVHTmlEMzVSaWdDZzBNX2JyMmNRVXc1V19LT2NMQ0tKMlk1MnAzRG1zSE1MOA?oc=5"
+     },
+     {
+      "title": "Panora raises $5 million",
+      "source": "Coverager",
+      "date": "2026-07-07",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sX0o0V0RiQU1CVl9MYVhFUkwtQ1p0UEhuVVJSUnBMZVNfOWlzbWJZZUJGSnluNnl4eVJjSFA0WFRiNzFad0daWXFVUHhoeXdFX1p6SWo4NWNMQQ?oc=5"
+     },
+     {
+      "title": "Alpa raises $3.5m to bring real-time P&amp;L to hospitality",
+      "source": "FinTech Global",
+      "date": "2026-03-02",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMWY5aWp4alRMZ1VnQlZtNzdza1FLYXNmNGc3M2NpRnRkMzNjSG1YV01nMnZuQ29lT3ZCb3RHUUJoeEQ4UnlxUHRtRU9acVgyRDdFemNEakFOdHZVSERLOXVZbG1jTEZDMHNTUEE4UVVqUjdUN1VtTHAzdVVjOWtYSjUzSzFqOHdyY1lUR214dTREUQ?oc=5"
+     },
+     {
+      "title": "Fal eyes $8B, 3M and Bain's fire suppression deal, Fervo's debt raise",
+      "source": "Axios",
+      "date": "2026-03-19",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0xY0lrM0h4VXN2eEd2UzlRNFZqTElhLWpCNlpZY0hhNXBkM21tbVJ6d3BKdER0UnVlLWo5MTYyTUtLX1JYNGkxdERJQUc5TGxzZU9teENqbmd2LXlTMW9rS0xtVzdKTDdZbC1PckkzWHA0X1o5dmc1MHF4c1N3X3M?oc=5"
+     },
+     {
+      "title": "Kalipso Raises $3.2M in Funding",
+      "source": "FinSMEs",
+      "date": "2026-06-25",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfNkVpRzZ6U29lQ1FPaWRGQnJVRVVzaVRtRGloaldyUEh1QklSSWloMnowMEVxdjJhUW1Ja3lmbmlDWUtIRTE4dUVIYkNHQW1SS1VGTEh5VUF0SDNYakhkVV81RGZMVGlBMTZUM1JEYW1wM09oQkE?oc=5"
+     },
+     {
+      "title": "Bondio raises $7.5M to scale its eSIM infrastructure platform",
+      "source": "Dealroom.co",
+      "date": "2026-08-01",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbGY2ZEgtZGtMZ3luODVJQjExZzdRYmMwS29nNmVDN1B5TzBJOUZZSENSMExaRmZBakFtNU05b3NrX3J1bjFXUE5xVFo2MWhfOTl5TkNocGx3amZsQzQySnFuQWFiX3pJZ3JDbFp0RXBPemxmV2hTanZDNjk0cFFYRnhYWTY5SXNCOFByanl1VkdnZjJPZHNEdHRB?oc=5"
+     }
+    ],
+    "checkedAt": "2026-09-28T13:46:52.204Z",
+    "query": "\"Kima Ventures\""
+   }
+  },
+  "elaia": {
+   "name": "Elaia Partners",
+   "region": "Paris",
+   "deals": {
+    "total": 18,
+    "byQuarter": [
+     {
+      "quarter": "2023 Q4",
+      "deals": 0
+     },
+     {
+      "quarter": "2024 Q1",
+      "deals": 0
+     },
+     {
+      "quarter": "2024 Q2",
+      "deals": 0
+     },
+     {
+      "quarter": "2024 Q3",
+      "deals": 0
+     },
+     {
+      "quarter": "2024 Q4",
+      "deals": 0
+     },
+     {
+      "quarter": "2025 Q1",
+      "deals": 2
+     },
+     {
+      "quarter": "2025 Q2",
+      "deals": 0
+     },
+     {
+      "quarter": "2025 Q3",
+      "deals": 1
+     },
+     {
+      "quarter": "2025 Q4",
+      "deals": 0
+     },
+     {
+      "quarter": "2026 Q1",
+      "deals": 1
+     },
+     {
+      "quarter": "2026 Q2",
+      "deals": 0
+     },
+     {
+      "quarter": "2026 Q3",
+      "deals": 0
+     }
+    ],
+    "firstDeal": "2011-12-04",
+    "lastDeal": "2026-03-22"
+   },
+   "raises": [],
+   "raisesNote": "French funds only file with the SEC when they take US investors, so an empty list here means no US-facing vehicle, not no fundraising.",
+   "trouble": [],
+   "troubleTotal": 0,
+   "news": {
+    "items": [
+     {
+      "title": "Latham Advises Lazard Elaia Capital as Lead Investor on US$100 Million Investment in DentalMonitoring",
+      "source": "Latham &amp; Watkins LLP",
+      "date": "2026-02-10",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYkU5V2FzZmVBeHNvNE84Y1pBYlJzcm5QQldnczViNmoxUUx6Wk1hU3I4VGd6bjF2dEw3QW1UYXJYN2dOaHVTZ3M5SjlyeHJ4Q0g4VmFJTU5sWUp2TUlyTmlBc1RzMVFzZ2FqMDhqRDlJdDdhcGlOcTdLYjR0aEZLbmFjZ1d2a0ZudmczRDd3Sjh6bHloUjBydmwxemtadHZtZWMzenVxLWdtTjk3cmpEU2p5LUVQT2N1U0dXQW13?oc=5"
+     },
+     {
+      "title": "€134M Elaia fund targets fusion, AI from Europe’s top labs",
+      "source": "Tech Funding News",
+      "date": "2026-03-12",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQb0tiOXZxeEgxUkhyQ0c2ZWFWVGRPcS1YUjV2eFRCY3FvYWUzWUhvZkNXVGNRcXpfS0FKSU5Ga0x0ZDAxNzdUWG1JR2lheFJPS0pLVDl6NWNrMDBCeVVqMnQ1MmpBRDNsYnptNXFjbGlCT05ydGRaYUJZamxzQ2p5cUpjRU51c1NkRDZrWjlB?oc=5"
+     },
+     {
+      "title": "Elaia reaches €120M first close for new deeptech fund",
+      "source": "Dealroom.co",
+      "date": "2026-04-14",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUnBYQzBIalVMWF8zZ3dYU0IyREVGSTR6MTBJV2JCU1RGQzlXUEhGRVQ5ZldyeTNQRGlDc2VWTVNEdENwcGJhS3JPLUI3TVo0aHVTWTRVZ0NPN1ZJcjRzRUM1clY0ZlZGT0lVZWk1SUZVV3o2VzJkc0VNN3VtMmJOcjZqX3Z6WGZyZ1BqdzFpZw?oc=5"
+     },
+     {
+      "title": "French VC Elaia reaches €120 million first close for new multi-stage B2B technology fund - EU-Startups",
+      "source": "EU-Startups",
+      "date": "2026-02-11",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUV85emFtSXNSd2pMM1BaOVZRSHdiSVQ1MWc5OTVMVDREU193RnlHSUg4dFdZM1JmbzR6VnZoaE9tclFEOW1qY2psb01ja3p1ZC1TNTcwRmc4RjZPWTk4eVNsRUU2MWxrdVg1RWxrNE15UTE3X1VlUGNCMHRDVFN5SUswOEg3Nmt0bmpueUcwVktoc295S09Pak9hMWp2WGszOHlkNnlFbjBYSDUzTFNxRFM2czI5RFJURnZhMVdkTDZuVG8?oc=5"
+     },
+     {
+      "title": "Elaia: €120 Million First Close For DV5 Multi-Stage B2B Tech Fund",
+      "source": "Pulse 2.0",
+      "date": "2026-02-14",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOT3F5M19ad0haMk1EVVJfcWVVZWNNaVhWOG9CNG5jd3E2SGpMSEVLVDJfel9GVWVacVYxamhQMUc3YUppQkpqbHpRbDhBdHljQTFzcTdETl9RZHRYZUJ2YjVHLWNRa0Y4ZXd0NC1jVGtBV2Qtb3pVLVlTcHpfYzNsX0lQT2EwUHpPOFdxX9IBkgFBVV95cUxPTGo0Wm5CVGhCUFctanU1TW5jd0VWVHl3Tm9ieHNBSUYzdzRVSG8yRTFOWWhBaDlDalVic3pKUEJJbnR3b3p2eDVUekhtUVZfbEdKYkp0ZG53c3RyckJaWnBmeHNvdXlCanA2Y1JsWlczRVVkbXJ4dTFoM0FuN3gwMHNyZzVDLUVNVGRMaFRsODQ0dw?oc=5"
+     },
+     {
+      "title": "Elaia closes €134M fund DTS3 to back Europe’s next generation of breakthrough startups",
+      "source": "Tech.eu",
+      "date": "2026-03-12",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYUJuMDY5U1NtRmNQRm5xWF9RVmFUTm5HdXYteUtXS1RZaWc0bWJ0QzJEcGp1Wk1yRXRIejVNcjVtZDgxWHBBV2Zwd0ZBaXFGYXRtRWFEWC1Fdm9qWmJVbF84dHBFWVhhUG8tSFNaV2hiTnh6NDk5SW85YzJ6Q191S3YwenBWRE12OHJ1dlVwNk9TV1B1UWg2eGtDcVBfNkQ5S25oS3VfdUdSNlpiLW9Qd3hZTQ?oc=5"
+     }
+    ],
+    "checkedAt": "2026-09-28T13:46:52.237Z",
+    "query": "\"Elaia\" (venture OR fonds OR fund)"
+   }
+  },
+  "isai": {
+   "name": "ISAI",
+   "region": "Paris",
+   "deals": {
+    "total": 111,
+    "byQuarter": [
+     {
+      "quarter": "2023 Q4",
+      "deals": 3
+     },
+     {
+      "quarter": "2024 Q1",
+      "deals": 2
+     },
+     {
+      "quarter": "2024 Q2",
+      "deals": 2
+     },
+     {
+      "quarter": "2024 Q3",
+      "deals": 3
+     },
+     {
+      "quarter": "2024 Q4",
+      "deals": 2
+     },
+     {
+      "quarter": "2025 Q1",
+      "deals": 3
+     },
+     {
+      "quarter": "2025 Q2",
+      "deals": 2
+     },
+     {
+      "quarter": "2025 Q3",
+      "deals": 3
+     },
+     {
+      "quarter": "2025 Q4",
+      "deals": 1
+     },
+     {
+      "quarter": "2026 Q1",
+      "deals": 0
+     },
+     {
+      "quarter": "2026 Q2",
+      "deals": 4
+     },
+     {
+      "quarter": "2026 Q3",
+      "deals": 1
+     }
+    ],
+    "firstDeal": "2011-04-19",
+    "lastDeal": "2026-08-18"
+   },
+   "raises": [],
+   "raisesNote": "French funds only file with the SEC when they take US investors, so an empty list here means no US-facing vehicle, not no fundraising.",
+   "trouble": [
+    {
+     "company": "Theodo",
+     "date": "2026-08-06",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Theodo",
+     "date": "2026-08-06",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Koyeb",
+     "date": "2026-05-19",
+     "what": "struck off the register"
+    },
+    {
+     "company": "citizenplane",
+     "date": "2026-01-08",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "beebs",
+     "date": "2025-12-23",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Silvr",
+     "date": "2025-11-25",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Silvr",
+     "date": "2025-11-25",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Silvr",
+     "date": "2025-07-27",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "hospimedia",
+     "date": "2025-05-28",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Snipfeed",
+     "date": "2025-03-16",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Snipfeed",
+     "date": "2025-03-09",
+     "what": "struck off the register"
+    },
+    {
+     "company": "Snipfeed",
+     "date": "2025-01-16",
+     "what": "insolvency proceedings"
+    }
+   ],
+   "troubleTotal": 52,
+   "news": {
+    "items": [
+     {
+      "title": "Kheops Raises €12M for AI-Driven Supermarket Assortment",
+      "source": "konsulteer.com",
+      "date": "2026-09-23",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZ3V5RDdJQU82cGNiZ2F1d3FEMWYxeTRaMzNLdXBCRGE5SDJOMTZvem90bnhBVTBVaXBOTFRURktUVHhxdEE4cVJnYzh4Z0hDUFRsQldWbnduR19EM21jSUlvanJsWTBXQ0Z2aHVmZVlYa21qXzZtYmZrRU1KN3lYazBjR1MyQ29XYzd3THFIYmNMZVNoVTJaNElHS0VycnJVaEpUNzY4SU1fUG1fWmVidjNqSEM?oc=5"
+     },
+     {
+      "title": "Leanspace raises €10 million Series A round to bring software-defined satellite operations to enterprise and institutional space programs",
+      "source": "SpaceNews",
+      "date": "2025-11-17",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQRjJnOFBta3l3RTlrRjk2UWFmcmdWbDJYa1VJVFdYZFJvX1dOQlBfaGdYbmFVUFlCTVJZc1ZPSWNGUzJ5VXJaMnloS1p3dDFfRTI1a2dkYk9BTG8xekpNazlHU2pjMHREUlJzSmJQQjZvTWZTUTZxYkpGU2Rfc0VZN2VaQ2cycElWbGVWVEE0bFlzYlNFaEpEVEFtR3laNmt5bXVtNTB6MzIxMk12dHdIY0dXSldXMXdEMzdzWGJQcGg2ZWRNZEpVU1VxMGZtU0g1WUlMRHZEODFILUxSOURrSDdWczVadXhvRzdDaTlLaVJ1UQ?oc=5"
+     },
+     {
+      "title": "Morgan Lewis Advises ISAI on Launch of Its Second Fund – News",
+      "source": "Morgan Lewis",
+      "date": "2025-04-16",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOT1lHOE1CaERocVlxN3c0ZWFJMDlrODJpelRuT1E2MnlHOUFocFRQUTgyMFRRN3F3ZmRQRHBwckhMRnBoWURqZ0pNRm1zSi1IS2pteGR3cG1KQXZ4ZEFWaXg3ZnFBUTNUVG5VeG9TdUlRQUhDWVh2bFRPYXlaaVJyRVZLXzBpN1J2S1ZkYzN2TmxsRjRLNWFxMDFlZw?oc=5"
+     },
+     {
+      "title": "Fleet opens its capital at a €100M valuation after seven years of bootstrapping",
+      "source": "Tech.eu",
+      "date": "2026-02-02",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQc0dKN0J6VDBTZWVNWmNvZHpZUmpzQlFEbU1HQUV5dl9uSDc5QnpnQ1FuMjdnaHpxNjRpajgwdnV1LWdUMk9sYXNuQmpzeDQ3ZjV4V2l6TTg1QW9Ma2dFNHlXSDd0U3ctaEt2a3RJbzJobEVmYmpIWEZfVmRDOHBHQ2RmajVFWVlPTXBXdFRMMVJ5M2hnU3FqbE9rNlM1VU11TUZyYW9nQzN0MkliYnc?oc=5"
+     },
+     {
+      "title": "ISAI Cap Venture invests in Threekit",
+      "source": "Capgemini",
+      "date": "2022-08-19",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRlBaMF8yOVJWWTRkVUU2Rk5VdzdiWXdteXZBdXZEbDI2VWlGb19HNXVzTXVva2pQaUlMbDhMOThYSnQzeDVXT1IwWS1DY0tfdnp2TmFNbDUwRFpfSUJmNFNQcWl4OHR5UGlPNzh2Tjh5c2hSSTJJYUtWZ21seHJQQnF1c25iTHJpYTY2WmRlTmxBMnJvWE9QT0FHNA?oc=5"
+     },
+     {
+      "title": "Kestra Raises $8M to Lead the Future of Orchestration for Business-Critical Workflows",
+      "source": "PR Newswire",
+      "date": "2024-09-23",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOT2prNkNzMTlCZ2QyWWk2aGhYUU9sZDR4RW91VlpndmgwOF9sdzdRR3JuWHBRMEphSkdqbjF3b0xHbHkyWnZoSi1LNW5VTU9DSE5zUTYzdjZsSlVLTHpqUUFua0NkVU5SUE1sVzdobHBkS1Y1MlVTNzVqTU1FSVhkNFRSTHNvVkZ0VExucDRVVFlCQTMwTDhyWm9ncHRrVm9mRmdKN0lFLUFpc2NxQnZURG1NTlh1RmVwaDI0RlBweGU4WFJBNVFGN1FvSlJ6cU1LT0trUlNlVQ?oc=5"
+     }
+    ],
+    "checkedAt": "2026-09-28T13:46:52.268Z",
+    "query": "\"ISAI\" (fonds OR venture OR investissement)"
+   }
+  },
+  "ventech": {
+   "name": "Ventech",
+   "region": "Paris",
+   "deals": {
+    "total": 41,
+    "byQuarter": [
+     {
+      "quarter": "2023 Q4",
+      "deals": 1
+     },
+     {
+      "quarter": "2024 Q1",
+      "deals": 1
+     },
+     {
+      "quarter": "2024 Q2",
+      "deals": 0
+     },
+     {
+      "quarter": "2024 Q3",
+      "deals": 2
+     },
+     {
+      "quarter": "2024 Q4",
+      "deals": 0
+     },
+     {
+      "quarter": "2025 Q1",
+      "deals": 0
+     },
+     {
+      "quarter": "2025 Q2",
+      "deals": 1
+     },
+     {
+      "quarter": "2025 Q3",
+      "deals": 0
+     },
+     {
+      "quarter": "2025 Q4",
+      "deals": 2
+     },
+     {
+      "quarter": "2026 Q1",
+      "deals": 0
+     },
+     {
+      "quarter": "2026 Q2",
+      "deals": 0
+     },
+     {
+      "quarter": "2026 Q3",
+      "deals": 2
+     }
+    ],
+    "firstDeal": "2008-09-25",
+    "lastDeal": "2026-07-22"
+   },
+   "raises": [],
+   "raisesNote": "French funds only file with the SEC when they take US investors, so an empty list here means no US-facing vehicle, not no fundraising.",
+   "trouble": [
+    {
+     "company": "Altitude Telecom",
+     "date": "2026-04-21",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Altitude Telecom",
+     "date": "2025-02-16",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Crocus Technology",
+     "date": "2024-06-13",
+     "what": "struck off the register"
+    },
+    {
+     "company": "Crocus Technology",
+     "date": "2024-03-27",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Codasip",
+     "date": "2021-12-12",
+     "what": "struck off the register"
+    },
+    {
+     "company": "Codasip",
+     "date": "2021-09-12",
+     "what": "struck off the register"
+    },
+    {
+     "company": "Arteris",
+     "date": "2021-01-20",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Arteris IP",
+     "date": "2021-01-20",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Curse",
+     "date": "2020-03-19",
+     "what": "struck off the register"
+    },
+    {
+     "company": "Adikteev",
+     "date": "2019-06-23",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Adikteev",
+     "date": "2019-06-23",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Believe",
+     "date": "2018-05-08",
+     "what": "business or assets transferred"
+    }
+   ],
+   "troubleTotal": 17,
+   "news": {
+    "items": [
+     {
+      "title": "Ventech Closes €175M Fund VI as New Partners Step Into Leadership",
+      "source": "Dealroom.co",
+      "date": "2026-04-16",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYnRGMFBTTkZCQlYzbzdVckR5RGZOQng0RlI1MkJyeld6b2xjUjhyUkRoSHFtOFEtS2VDdEk3d1VjWG9PVjJabDRCdTNTV2UtcnhkNnEtcU9tTmNyOEdTQ2RHUXZOWll0RDN4bDY1UXpLSXRJNkZsOGladUEyMnJoZExJRk1oTFhIY2NDVm9TUEMzRWNjX1lnTkNORE5VSWs?oc=5"
+     },
+     {
+      "title": "amber Raises €7 Million Series A To Build Autonomous AI Platform For European Businesses",
+      "source": "Pulse 2.0",
+      "date": "2026-08-17",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNlh5TlBwUmtXdzhJQmFKMlNoM3M2aWsxS0hheTh3dzVpaERDa0I1VTgtalF2ekZ3bzFMTGk0c0wwaG10X0NHaVlOT1BCRTN6MDBxMDBtbGU2UVI1OXlxYlgzNWphVVoycnJEd1ZFZXdHc1BuZnBoeHBaSXItaEdZWjBVSS1UcWdDZkxlMXJHakhWUHpHLXREWmJ1bWxmenRXQndpLTFMN3UwTUpo0gGyAUFVX3lxTE9abHlLUHVRT09nODhwYlZyT0Y1Q01MalFXZHJCaGNha24yY00xNlJMNktZb1d3U2hpV0JkcFR1REdodUIwNnNpc3hpd0ZOc2RIY3dKVVlpeVBUNGU0U0NKNThyektQSkhiaGRqTWZJeWdIZzVEV0E2Y0I1ZTB0NzRqT0tKaHE4dXFJZk9kQTFlcDRtUUVUbHFGYXk3LURPdEZOMldoVFRpY0ZHNEItWU5KaGc?oc=5"
+     },
+     {
+      "title": "ENGO Raises €5.1 in Funding",
+      "source": "FinSMEs",
+      "date": "2026-07-17",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE96YmxUN2RKTGFSSlVLM1FrZHh0eEx1M3RQU19haTBzelFLWHlzeUEyUTNCRnRfSWUyRjFkcldKYk44ZktNeVhvN2I1Qmk5cnB0c1JoTTVpMDhxV2J1enJGMHdXT0NSRE5kNWlDVXJpRDhzdw?oc=5"
+     },
+     {
+      "title": "Blify secures $2.1M pre-seed to develop AI training platform",
+      "source": "Tech.eu",
+      "date": "2026-03-17",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQkdFdGlOLWtEdmxfV3BOa0pacEFoTDh6RnlTYnlubmlYcEFEaTJxVUp5Z0xiOVlZZXpOTkhtOVRHckJQNXN5QlhGLUVlZFNNMENFSXo2dFQ1b1hseU5KZDFVamROdW84NTJCMFlZNWp0d1VEbHI5bEE0cG42eUV4ckhhY2FDa0RBX2tQTVZ4OA?oc=5"
+     },
+     {
+      "title": "Exclusive: French VC firm Ventech has exited digital music company Believe and launched its 6th fund",
+      "source": "Business Insider",
+      "date": "2024-04-29",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdkpmVVhNb19kUnEtTmZsVm9IOWNZNWxudzJfVzNkVXJrbDRvOGRVRlFydC1VazdnejR0c3FhanJHaG9GeWJnQ1pkZkZGNGYxQ2RyYWtSNkxXX1lZSTFGRHN2bXBOYVV6VlpXVVdOS2x6YmJ5QlRhOVpsbG40cHBhbUhfYlRTZG94OU9BR0FR?oc=5"
+     },
+     {
+      "title": "Addressing Europe’s obesity burden, French MedTech startup Annette closes €2 million round for structured GLP-1 support - EU-Startups",
+      "source": "EU-Startups",
+      "date": "2025-12-04",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxONG5ObVA2anlWcllmbDlJWEw0SER2S2FTSTJma2xyM1FIclRVLVZnRElmUWpqV3BFd0FtSmNNSHItcFdqcVNwR1JkRXpBUmJfUDV6aldhd29SRnliTGljMUI3b3BpazdVOTZyN0pzT3VEY1ZNNjFOVU9DY1hfYTdqQVFjdjdVU0duWjhlbWRLQmJqb0JhcmE5Rkp6RDlwalZNZmZnTFdsdnAxZjU2ZDc3WXB4UF9nV1p4LVN2Y1RVT0dtLWNJV2VLZ0JWTXVOLVF4c1k2OUJ2aVo4eTFVVV8xekM0R1VSaHZrS0E?oc=5"
+     }
+    ],
+    "checkedAt": "2026-09-28T13:46:52.289Z",
+    "query": "\"Ventech\" (venture OR fund)"
+   }
+  },
+  "serena": {
+   "name": "Serena",
+   "region": "Paris",
+   "deals": {
+    "total": 161,
+    "byQuarter": [
+     {
+      "quarter": "2023 Q4",
+      "deals": 6
+     },
+     {
+      "quarter": "2024 Q1",
+      "deals": 2
+     },
+     {
+      "quarter": "2024 Q2",
+      "deals": 4
+     },
+     {
+      "quarter": "2024 Q3",
+      "deals": 2
+     },
+     {
+      "quarter": "2024 Q4",
+      "deals": 4
+     },
+     {
+      "quarter": "2025 Q1",
+      "deals": 1
+     },
+     {
+      "quarter": "2025 Q2",
+      "deals": 2
+     },
+     {
+      "quarter": "2025 Q3",
+      "deals": 2
+     },
+     {
+      "quarter": "2025 Q4",
+      "deals": 2
+     },
+     {
+      "quarter": "2026 Q1",
+      "deals": 2
+     },
+     {
+      "quarter": "2026 Q2",
+      "deals": 4
+     },
+     {
+      "quarter": "2026 Q3",
+      "deals": 0
+     }
+    ],
+    "firstDeal": "2008-10-19",
+    "lastDeal": "2026-06-05"
+   },
+   "raises": [],
+   "raisesNote": "French funds only file with the SEC when they take US investors, so an empty list here means no US-facing vehicle, not no fundraising.",
+   "trouble": [
+    {
+     "company": "Lifen",
+     "date": "2026-07-03",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Heuritech",
+     "date": "2026-06-23",
+     "what": "struck off the register"
+    },
+    {
+     "company": "Koyeb",
+     "date": "2026-05-19",
+     "what": "struck off the register"
+    },
+    {
+     "company": "Educ UP",
+     "date": "2026-04-17",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Sarus",
+     "date": "2026-04-07",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Heuritech",
+     "date": "2025-11-30",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Heuritech",
+     "date": "2025-11-30",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Accenta",
+     "date": "2025-11-30",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Waiv",
+     "date": "2025-11-28",
+     "what": "business or assets transferred"
+    },
+    {
+     "company": "Silvr",
+     "date": "2025-11-25",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Silvr",
+     "date": "2025-11-25",
+     "what": "insolvency proceedings"
+    },
+    {
+     "company": "Full Speed Automation",
+     "date": "2025-11-11",
+     "what": "insolvency proceedings"
+    }
+   ],
+   "troubleTotal": 58,
+   "news": {
+    "items": [
+     {
+      "title": "Serena Capital Launches €80M VC Fund Dedicated to Big Data and Artificial Intelligence",
+      "source": "FinSMEs",
+      "date": "2017-01-17",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOaVItZGlOWDhXSXA2ZnNWVDFIb1BZN25RNk02am43aE1aTFpVdUd6UWpQcE9TOEhrSk54azdOU0JCeHlYWU1CbmI1aENTN3E2RlQ5eHFOQTlZSXpZZGJuTzcyTWdiNVU0VktRYWZRYjN5Zmx1T00wTk45ZmhrU1JNOTZLTTc5aWowYXQyVEswcXIxMXVNazd5OExyanNVUHJ0SFoteEQ3YjdPamp4VnNVdklkM2tYajFKaEJjVkZqTGg4SWFTamwwSHpNakU4allYOUE?oc=5"
+     },
+     {
+      "title": "Alkemics raises $22M from Cathay Innovation, Serena Capital and existing investors to digitize collaboration between manufacturers and retailers",
+      "source": "Cathay Capital",
+      "date": "2016-09-12",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOWDNRb3M5LXBST0JDV3pYNUMwZEUybW83WU1Gd0czTWl1cXBqbnc0SVhjMXZ0dElRdjdZaVljd0xqeG9aMlFiYWE4c1FwTUY2Sk9rOFRXdFpKbFM3VXdtSVN0ZUFvX0ZBaVhfLVQwRmJoUnB4bWZmM0J4UGFXNXUzb1NuYXpoZ1NMSE9VcU9mbzUwUzl6a2JVTzdEYVZHQ1hiTDdIMFJKdDdvd3UtMlpiWU53clFaeXRLajN3SVBlSUhIejZPWG9NUkU3RUI4NFkyR3Ntc0xETGk0UnNBb3J4T29fSVpfVEJKd3F5SWZ5d1BLREU1aEJna3JzbmhkeVBPNjRZ?oc=5"
+     },
+     {
+      "title": "Varsity is a new early-stage VC fund based in Paris",
+      "source": "TechCrunch",
+      "date": "2024-02-07",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcE91QTVSQm5wN2oxRkZ5UFBhMi0xdHkxLUd6X3A1c0pfS2ZyZ0FfelBBQzhnTXdqU2JDa3g3QWhrTXRaeVR1bUZIRnhmZVdodjA3Z0ZkdDdGNFRIbmVmSl95Y2FENFd4RmZoMld3VmtYbmVMVE9xbG1wNFp4WDM2T2dRTF9OcC1Qck9UZGtlWQ?oc=5"
+     },
+     {
+      "title": "MGEN, makesense and Serena Capital launch €80 million impact fund for French startups",
+      "source": "Tech.eu",
+      "date": "2022-02-17",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPU1M4TE1YcXlfQ3RWcS14Yl9lWngwMzgtMEpTT19RR0xXbXBreWtNeGZZMFBUTmpjOTlFT2d1SHJzdzRlZmV0VlFxSkRldkpFVTV6WUNqNWVacWFIVk1hV1pQZ2RhTk9BT0Vjc1ZBY3phOUZVeFgydE51TXNKSnBvbm03UFh1djA1UUZPczdyeXJWcHN1R2xTY2lVWEloUklUS1dtekJaOWNtaDZfRnVIVWRrSUQ?oc=5"
+     },
+     {
+      "title": "Mindee Comes Out of Stealth Mode Raising $14M with its Developer Tool for Document Parsing that Eliminates Manual Data Entry in Software Applications and Automates Document Processing",
+      "source": "Business Wire",
+      "date": "2021-10-06",
+      "link": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxPanlCaDMwc2JpLU5EakxuajFXdHQ1WjY0V1RseFI3M0NIVWp2VUNqTTl2MW5vb1M5UlIxeG9PY3NZZmpya195OWIxakNDdkdiOURmNFYwOF9Rc3UwaTdyY3Y4eV9GMzV5bFVrZUlSNmhQRGRYRVNVaUpONld0LV9ySWg2SlNSSkpJRXE3enJfVlBVdGFGT2lMME9ZeGQzVFR1YjR5SnJTQzd6NUdlLXRPYTV1ZVhTT2pVdHB3eTRBNktNbngybk14V1drTVVWN3JfZUs2X3IxZUxpY19uWVZYOTY1REJUdnFqUzZOSGEtTURWMVFRNXc2cVl3d2FDcVRKUjVrVnJNei1PTlpaZndsVUpIZ1VnZHY2ZkJlLWJnYmhBOTNVYnpBOFk3UTVoNTlyMmVILVV4YzFhLWhEd3ZNeE53Sk5yOWdNZ2p4V3JCWGxyTXBXVFpTRFZsUFNIU28?oc=5"
+     },
+     {
+      "title": "Europe’s unicorns come of age—COVID-19 lockdowns drive customer familiarity, utilisation and reliance on fintech",
+      "source": "White &amp; Case LLP",
+      "date": "2021-09-20",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeENSaFNacjNadTlBMDNTQmh2Ql9ueEZROXFSQ2ZxbWJtSzdtVjY1WU5hT0hIM1RaOVN5SVE5WkdNOW1RbVROYnlOeExJNld1X0pZc1VLaGR0WFNuelpGaDNjdTd5WUctZUZEbU9WbkZvbHhDbm5Qa0VTMUljaEwwb1hTWkNGY1J0a3h3TUVIcFluLWs4Tk03LTFzUlVBM25iNmU1NE5pQ2JRYjJReWM3T1lDTnNZRG5lMVE?oc=5"
+     }
+    ],
+    "checkedAt": "2026-09-28T13:46:52.311Z",
+    "query": "\"Serena Capital\" (venture OR fund OR invests)"
+   }
+  },
+  "insight": {
+   "name": "Insight Partners",
+   "region": "New York",
+   "deals": {
+    "total": 162,
+    "byQuarter": [
+     {
+      "quarter": "2023 Q4",
+      "deals": 7
+     },
+     {
+      "quarter": "2024 Q1",
+      "deals": 5
+     },
+     {
+      "quarter": "2024 Q2",
+      "deals": 8
+     },
+     {
+      "quarter": "2024 Q3",
+      "deals": 4
+     },
+     {
+      "quarter": "2024 Q4",
+      "deals": 6
+     },
+     {
+      "quarter": "2025 Q1",
+      "deals": 4
+     },
+     {
+      "quarter": "2025 Q2",
+      "deals": 9
+     },
+     {
+      "quarter": "2025 Q3",
+      "deals": 5
+     },
+     {
+      "quarter": "2025 Q4",
+      "deals": 8
+     },
+     {
+      "quarter": "2026 Q1",
+      "deals": 3
+     },
+     {
+      "quarter": "2026 Q2",
+      "deals": 3
+     },
+     {
+      "quarter": "2026 Q3",
+      "deals": 0
+     }
+    ],
+    "firstDeal": "2020-09-25",
+    "lastDeal": "2026-04-17"
+   },
+   "raises": [
+    {
+     "vehicle": "Insight Partners Secondaries I, L.P.",
+     "cik": "2100172",
+     "amountSold": 0,
+     "amountOffered": null,
+     "date": "2026-06-11",
+     "stillRaising": true,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Insight Partners Secondaries I-A, L.P.",
+     "cik": "2100173",
+     "amountSold": 0,
+     "amountOffered": null,
+     "date": "2026-06-11",
+     "stillRaising": true,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Insight Partners Continuation Fund (CF IV Cashout AHP), L.P.",
+     "cik": "2127236",
+     "amountSold": 0,
+     "amountOffered": null,
+     "date": "2026-05-08",
+     "stillRaising": true,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Insight Partners Continuation Fund IV, L.P.",
+     "cik": "2108613",
+     "amountSold": 0,
+     "amountOffered": null,
+     "date": "2026-02-05",
+     "stillRaising": true,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Insight Partners Public Equities Focus, L.P. - Portfolio III",
+     "cik": "2108448",
+     "amountSold": 85000000,
+     "amountOffered": null,
+     "date": "2026-01-21",
+     "stillRaising": false,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Insight Partners Public Equities Focus, L.P. - Portfolio IV",
+     "cik": "2108453",
+     "amountSold": 80000000,
+     "amountOffered": null,
+     "date": "2026-01-21",
+     "stillRaising": false,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Insight Partners Public Equities Focus, L.P. - Portfolio II",
+     "cik": "2092443",
+     "amountSold": 0,
+     "amountOffered": null,
+     "date": "2025-11-18",
+     "stillRaising": true,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Insight Partners Public Equities Focus, L.P. - Portfolio I",
+     "cik": "2092606",
+     "amountSold": 0,
+     "amountOffered": null,
+     "date": "2025-11-06",
+     "stillRaising": true,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Insight Partners Continuation Fund III (Class A), L.P.",
+     "cik": "2027147",
+     "amountSold": 0,
+     "amountOffered": null,
+     "date": "2024-07-01",
+     "stillRaising": true,
+     "country": "CAYMAN ISLANDS"
+    },
+    {
+     "vehicle": "Insight Partners Continuation Fund III, L.P.",
+     "cik": "2027130",
+     "amountSold": 944168817,
+     "amountOffered": null,
+     "date": "2024-06-14",
+     "stillRaising": false,
+     "country": "CAYMAN ISLANDS"
+    },
+    {
+     "vehicle": "Insight Partners Private Investors XIII, L.P.",
+     "cik": "2024894",
+     "amountSold": 269750000,
+     "amountOffered": null,
+     "date": "2024-05-17",
+     "stillRaising": false,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Insight Partners Private Investors (Cayman) XIII, L.P.",
+     "cik": "2024906",
+     "amountSold": 41780000,
+     "amountOffered": null,
+     "date": "2024-05-17",
+     "stillRaising": false,
+     "country": "CAYMAN ISLANDS"
+    },
+    {
+     "vehicle": "Insight Partners XIII Access Offshore LP",
+     "cik": "1983379",
+     "amountSold": 9750000,
+     "amountOffered": null,
+     "date": "2023-11-01",
+     "stillRaising": false,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Insight Partners XIII Access LLC",
+     "cik": "1983378",
+     "amountSold": 133300000,
+     "amountOffered": null,
+     "date": "2023-11-01",
+     "stillRaising": false,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Insight Partners XIII Growth Buyout Fund (Class A), L.P.",
+     "cik": "1938245",
+     "amountSold": 625000,
+     "amountOffered": null,
+     "date": "2023-09-08",
+     "stillRaising": false,
+     "country": "CAYMAN ISLANDS"
+    },
+    {
+     "vehicle": "Insight Partners (Delaware) XIII Growth Buyout Fund, L.P.",
+     "cik": "1938314",
+     "amountSold": 120000000,
+     "amountOffered": null,
+     "date": "2023-09-08",
+     "stillRaising": false,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Insight Partners XIII (Class A), L.P.",
+     "cik": "1938913",
+     "amountSold": 4260000,
+     "amountOffered": null,
+     "date": "2023-09-08",
+     "stillRaising": false,
+     "country": "CAYMAN ISLANDS"
+    },
+    {
+     "vehicle": "Insight Partners XIII (Co-Investors), L.P.",
+     "cik": "1939242",
+     "amountSold": 6955000,
+     "amountOffered": null,
+     "date": "2023-06-06",
+     "stillRaising": false,
+     "country": "CAYMAN ISLANDS"
+    },
+    {
+     "vehicle": "Insight Partners (Delaware) XIII, L.P.",
+     "cik": "1938252",
+     "amountSold": 386000000,
+     "amountOffered": null,
+     "date": "2023-06-06",
+     "stillRaising": false,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Insight Partners XIII Growth Buyout Fund (Co-Investors) (B), L.P.",
+     "cik": "1938778",
+     "amountSold": 2000000,
+     "amountOffered": null,
+     "date": "2022-12-23",
+     "stillRaising": false,
+     "country": "CAYMAN ISLANDS"
+    },
+    {
+     "vehicle": "Insight Partners (EU) XIII Growth Buyout Fund, S.C.Sp",
+     "cik": "1939810",
+     "amountSold": 68850000,
+     "amountOffered": null,
+     "date": "2022-12-23",
+     "stillRaising": false,
+     "country": "LUXEMBOURG"
+    },
+    {
+     "vehicle": "Insight Partners (Cayman) XIII Growth Buyout Fund, L.P.",
+     "cik": "1938172",
+     "amountSold": 591153494,
+     "amountOffered": null,
+     "date": "2022-12-23",
+     "stillRaising": false,
+     "country": "CAYMAN ISLANDS"
+    },
+    {
+     "vehicle": "Insight Partners XIII Growth Buyout Fund, L.P.",
+     "cik": "1938762",
+     "amountSold": 344770000,
+     "amountOffered": null,
+     "date": "2022-12-23",
+     "stillRaising": false,
+     "country": "CAYMAN ISLANDS"
+    },
+    {
+     "vehicle": "Insight Partners XIII (Co-Investors) (B), L.P.",
+     "cik": "1938171",
+     "amountSold": 69300000,
+     "amountOffered": null,
+     "date": "2022-12-23",
+     "stillRaising": false,
+     "country": "CAYMAN ISLANDS"
+    },
+    {
+     "vehicle": "Insight Partners (EU) XIII, S.C.Sp",
+     "cik": "1939814",
+     "amountSold": 668951000,
+     "amountOffered": null,
+     "date": "2022-12-23",
+     "stillRaising": false,
+     "country": "LUXEMBOURG"
+    },
+    {
+     "vehicle": "Insight Partners (Cayman) XIII, L.P.",
+     "cik": "1938170",
+     "amountSold": 4088945348,
+     "amountOffered": null,
+     "date": "2022-12-23",
+     "stillRaising": false,
+     "country": "CAYMAN ISLANDS"
+    },
+    {
+     "vehicle": "Insight Partners XIII, L.P.",
+     "cik": "1938162",
+     "amountSold": 3420900452,
+     "amountOffered": null,
+     "date": "2022-12-23",
+     "stillRaising": false,
+     "country": "CAYMAN ISLANDS"
+    },
+    {
+     "vehicle": "Insight Partners Continuation Fund II (Class A), L.P.",
+     "cik": "1957493",
+     "amountSold": 0,
+     "amountOffered": null,
+     "date": "2022-12-16",
+     "stillRaising": true,
+     "country": "CAYMAN ISLANDS"
+    },
+    {
+     "vehicle": "Insight Partners Continuation Fund II, L.P.",
+     "cik": "1957492",
+     "amountSold": 0,
+     "amountOffered": null,
+     "date": "2022-12-16",
+     "stillRaising": true,
+     "country": "CAYMAN ISLANDS"
+    },
+    {
+     "vehicle": "Insight Partners XIII Growth Buyout Fund (Co-Investors), L.P.",
+     "cik": "1938313",
+     "amountSold": 0,
+     "amountOffered": null,
+     "date": "2022-08-12",
+     "stillRaising": true,
+     "country": "CAYMAN ISLANDS"
+    },
+    {
+     "vehicle": "Insight Partners Opportunities Fund II, L.P.",
+     "cik": "1912656",
+     "amountSold": 141830000,
+     "amountOffered": null,
+     "date": "2022-08-05",
+     "stillRaising": false,
+     "country": "CAYMAN ISLANDS"
+    },
+    {
+     "vehicle": "Insight Partners (Cayman) Opportunities Fund II, L.P.",
+     "cik": "1912670",
+     "amountSold": 252042723,
+     "amountOffered": null,
+     "date": "2022-08-05",
+     "stillRaising": false,
+     "country": "CAYMAN ISLANDS"
+    },
+    {
+     "vehicle": "Insight Partners (EU) Opportunities Fund II, L.P.",
+     "cik": "1913091",
+     "amountSold": 15000000,
+     "amountOffered": null,
+     "date": "2022-08-05",
+     "stillRaising": false,
+     "country": "CAYMAN ISLANDS"
+    },
+    {
+     "vehicle": "Insight Partners Opportunities Fund II (Co-Investors), L.P.",
+     "cik": "1913093",
+     "amountSold": 13750000,
+     "amountOffered": null,
+     "date": "2022-08-05",
+     "stillRaising": false,
+     "country": "CAYMAN ISLANDS"
+    },
+    {
+     "vehicle": "Insight Partners Opportunities Fund II (Class A), L.P.",
+     "cik": "1913094",
+     "amountSold": 19425000,
+     "amountOffered": null,
+     "date": "2022-08-05",
+     "stillRaising": false,
+     "country": "CAYMAN ISLANDS"
+    },
+    {
+     "vehicle": "Insight Partners Fund XI Follow-On Fund, L.P.",
+     "cik": "1913706",
+     "amountSold": 172098126,
+     "amountOffered": null,
+     "date": "2022-05-25",
+     "stillRaising": false,
+     "country": "CAYMAN ISLANDS"
+    },
+    {
+     "vehicle": "Insight Partners Fund XI (EU) Follow-On Fund, L.P.",
+     "cik": "1913677",
+     "amountSold": 19140166,
+     "amountOffered": null,
+     "date": "2022-05-25",
+     "stillRaising": false,
+     "country": "CAYMAN ISLANDS"
+    },
+    {
+     "vehicle": "Insight Partners Fund XI (Co-Investors) (B) Follow-On Fund, L.P.",
+     "cik": "1913707",
+     "amountSold": 19285746,
+     "amountOffered": null,
+     "date": "2022-05-25",
+     "stillRaising": false,
+     "country": "CAYMAN ISLANDS"
+    },
+    {
+     "vehicle": "Insight Partners Fund XI (Cayman) Follow-On Fund, L.P.",
+     "cik": "1913686",
+     "amountSold": 12472793,
+     "amountOffered": null,
+     "date": "2022-05-25",
+     "stillRaising": false,
+     "country": "CAYMAN ISLANDS"
+    },
+    {
+     "vehicle": "Insight Partners Fund XI Follow-On Fund (Class A), L.P.",
+     "cik": "1913673",
+     "amountSold": 76949578,
+     "amountOffered": null,
+     "date": "2022-05-25",
+     "stillRaising": false,
+     "country": "CAYMAN ISLANDS"
+    },
+    {
+     "vehicle": "Insight Partners Fund XI (Co-Investors) Follow-On Fund, L.P.",
+     "cik": "1913704",
+     "amountSold": 912539,
+     "amountOffered": null,
+     "date": "2022-05-25",
+     "stillRaising": false,
+     "country": "CAYMAN ISLANDS"
+    },
+    {
+     "vehicle": "Insight Partners Fund XI (Delaware) Follow-On Fund, L.P.",
+     "cik": "1913709",
+     "amountSold": 0,
+     "amountOffered": null,
+     "date": "2022-03-29",
+     "stillRaising": true,
+     "country": "CAYMAN ISLANDS"
+    },
+    {
+     "vehicle": "Insight Partners Seed Managers Fund, L.P.",
+     "cik": "1905594",
+     "amountSold": 0,
+     "amountOffered": null,
+     "date": "2022-01-21",
+     "stillRaising": true,
+     "country": "CAYMAN ISLANDS"
+    },
+    {
+     "vehicle": "Insight Partners XII (iCapital), L.P.",
+     "cik": "1874196",
+     "amountSold": 0,
+     "amountOffered": null,
+     "date": "2021-09-02",
+     "stillRaising": true,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Insight Partners XII Buyout Annex Fund (Co-Investors) (B), L.P.",
+     "cik": "1853408",
+     "amountSold": 7425000,
+     "amountOffered": null,
+     "date": "2021-05-14",
+     "stillRaising": false,
+     "country": "CAYMAN ISLANDS"
+    },
+    {
+     "vehicle": "Insight Partners Public Equities (US), L.P.",
+     "cik": "1851329",
+     "amountSold": 329078675,
+     "amountOffered": null,
+     "date": "2021-04-01",
+     "stillRaising": false,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Insight Partners Public Equities (Cayman), L.P.",
+     "cik": "1850794",
+     "amountSold": 17050000,
+     "amountOffered": null,
+     "date": "2021-04-01",
+     "stillRaising": false,
+     "country": "CAYMAN ISLANDS"
+    }
+   ],
+   "raisesNote": null,
+   "trouble": [],
+   "troubleTotal": 0,
+   "news": {
+    "items": [
+     {
+      "title": "Clearlake joins TA, Insight and Charlesbank as an investor in Aptean",
+      "source": "Dealroom.co",
+      "date": "2026-09-28",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTTd3dXc2MDc2Q2pBd19YdGd6WmRiQTBvVlRHQlEteVhUdXRVV08yVXhGcjhQbjhhc1hNLWh0V3JqSWdFSEFlaE4td2lzWlNxb001MjFWNHB1UndNbm5sWHprWW9vcW4wWnFyM1lqNFM3SGFqa2pSZm5FdkVsZm4tWlJYaExnTkd4WUxzR1lYWEJaSXdBSGJRZldBX0FocFluVHVR?oc=5"
+     },
+     {
+      "title": "Numeral Raises $100 Million Series C to Expand AI-Powered Tax Compliance Across Industries",
+      "source": "Business Wire",
+      "date": "2026-09-23",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNT3pwc1NoaGxNYTdLZFZ2REJGUkFzVzJfenE0VktQYVBJV0x0M2x1SGFOcFZVdnoxS1kzWXJGc1ZuN0FTTHhrRjJub1RNN3J5R1M3QWRfY0EzT1hVcGFDTVBVMUtmanNyUUI3czdzcFl3Uk5iWk9LWDdQc2ZsZjdsM2xvYmZVaThrNGxpUEV0ZTdiaWFhME9IcDg4QWlpTlRvNmxUYVJyYVVDamcwM3l2X0hIUVJzZFdBMnEzak1MUUxFY2p3RmhqRllMNHpyOXk4QXVUWW1wMXAxeWotNUdyLU1UOA?oc=5"
+     },
+     {
+      "title": "Kastle Raises $24M Series A Led by Insight Partners to Build the AI Workforce for Banking Operations",
+      "source": "PR Newswire",
+      "date": "2026-09-17",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNa25zOFF5c3JZLWVWQV9EdXpGbXpPR0duSU1xTHhTOWhyTUVzSGhGdVBpZjFnVjRhYTVnMERiekt4ZkZWWmRoUnlqR2NrU25vNVQyVmpxakNHeWkyMUcxcEJzOGJ3U0pfbXJ2ek9fY0ZrU3Y2NkV5NkFvZXhZNk9jV00xVmRRZFdvbExEWlFYaVdqV1BYTmRnVGxIUTNtRE9vSml4UWd1VHhPdXExYkdySVR5bTU5Wl9RcndJNjJHeUZjZFRFU3pUaklKV3NEZ2JsRVVkQ25RQUYzaGhuR1Q1aGJ2d2VDdk9EMzNR?oc=5"
+     },
+     {
+      "title": "Insight Partners' Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic",
+      "source": "TechCrunch",
+      "date": "2026-09-13",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPNmE5SnB2aTZ4Vk9nY3k2aVhTeU5reFV6WVNoYWwwc1JYLTJCbGw1X3A2ZUsxVDljdDhIYVpBaldLM1h2Sk8zcTZsdjVGZHMyNmxNR2htcVQ3ZWZheDBEQVRGd3BMOWVsRU9yMHhIM2JYWURPclFHb0hDck1Yb0xrWkxTUDVTZDZKQ3ZMOXJnOHJtc3lfQ0NEeW1obHJMNlJHbFdhTHJnZWc4aC1pS2RPMXI5WHdXOUFmeEh0ZVhPbFJMcExiQU00dUswMjBXMWVoQmd1d0pnYlBETXpVZ0d2MnAzd0RSbk12Q1E?oc=5"
+     },
+     {
+      "title": "Confido Raises $55 Million Series B Led By Insight Partners To Develop AI-Based Software For CPG Companies",
+      "source": "Pulse 2.0",
+      "date": "2026-09-24",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORzV2NndPdVdJMnFVOVU4VlZ4MGkwci1IUkdmdDNlYnFheld5YWRtTjhDYTVvWDA5dldqb0JDTFdEQmFOdERLQUtpQlVydFBrUm5mRGg3V01VLXBKUGRQYy10RHA1a0l3bGxfdWNuR3E0S1FFRHlZRzg4V0RwWDF0Mk1xNVN3Vk42MHlUbFRvUVFiREZobFhOd0Rwd2VCRTlscjZ4ZkM4S3c4bzVwLVd6TzcwazZQWEpyOExqU3dXOVhUMkHSAcgBQVVfeXFMUFl5Q2htUlVnMy1Oc29vTWhFOWZHM1dFWmlSNmU0b2tCdy1jT08walFiZzF3ZHFhOGJ0eDBJUC1Ua1Z6amlHb3c2NWpIM214NFZ4dWdQTFFFVkVtUWNud3RuM3pjTUxVUlQzcUkzOFc4OVVzQjVwVmh6NjkxTWUxMlpHRjk1bTRQSTNhRlJmbEJnVFFlWUQwNlNWQWl1YWs5YTdzS0k5SDlOemVWRjZndzVIY0VhSDJIdkZ2bzBtcnVlNkNMbk5xRFQ?oc=5"
+     },
+     {
+      "title": "Insight Partners, S32 back Snorkel AI at $3.5B valuation with $350M raise",
+      "source": "Tech Funding News",
+      "date": "2026-09-23",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQjFpcHJKWEpTX0pMLTVBMW04TUtzT0ZRaXBJYkFDNU1rX3A5eXI0WDlJd3h1NEZoNGNPbmlHSm9taTNJb3dmNVFzY202SnlIaDY2UFZDZ0NUaFlIRDVDUG1aVTk0Mm5TbEdiSnptdHdNYzQwdkdPSmZKVzJ1dURMNUFkSWtDNlVubG4tNnFyVjhxUW1ldG41UDBiOWpDQmJP?oc=5"
+     }
+    ],
+    "checkedAt": "2026-09-28T13:46:52.363Z",
+    "query": "\"Insight Partners\""
+   }
+  },
+  "bessemer": {
+   "name": "Bessemer Venture Partners",
+   "region": "New York",
+   "deals": {
+    "total": 90,
+    "byQuarter": [
+     {
+      "quarter": "2023 Q4",
+      "deals": 6
+     },
+     {
+      "quarter": "2024 Q1",
+      "deals": 8
+     },
+     {
+      "quarter": "2024 Q2",
+      "deals": 7
+     },
+     {
+      "quarter": "2024 Q3",
+      "deals": 0
+     },
+     {
+      "quarter": "2024 Q4",
+      "deals": 2
+     },
+     {
+      "quarter": "2025 Q1",
+      "deals": 4
+     },
+     {
+      "quarter": "2025 Q2",
+      "deals": 5
+     },
+     {
+      "quarter": "2025 Q3",
+      "deals": 7
+     },
+     {
+      "quarter": "2025 Q4",
+      "deals": 5
+     },
+     {
+      "quarter": "2026 Q1",
+      "deals": 4
+     },
+     {
+      "quarter": "2026 Q2",
+      "deals": 2
+     },
+     {
+      "quarter": "2026 Q3",
+      "deals": 0
+     }
+    ],
+    "firstDeal": "2020-06-17",
+    "lastDeal": "2026-06-04"
+   },
+   "raises": [
+    {
+     "vehicle": "Bessemer Venture Partners India 2 Institutional L.P.",
+     "cik": "2057717",
+     "amountSold": 0,
+     "amountOffered": null,
+     "date": "2025-03-04",
+     "stillRaising": true,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Bessemer Venture Partners XII Institutional Feeder L.P.",
+     "cik": "1932101",
+     "amountSold": 0,
+     "amountOffered": null,
+     "date": "2022-06-27",
+     "stillRaising": true,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Bessemer Venture Partners XII Advisors & Influencers L.P.",
+     "cik": "1932102",
+     "amountSold": 0,
+     "amountOffered": null,
+     "date": "2022-06-27",
+     "stillRaising": true,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Bessemer Venture Partners XII Institutional L.P.",
+     "cik": "1932100",
+     "amountSold": 0,
+     "amountOffered": null,
+     "date": "2022-06-27",
+     "stillRaising": true,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Bessemer Venture Partners India Institutional L.P.",
+     "cik": "1892914",
+     "amountSold": 0,
+     "amountOffered": null,
+     "date": "2021-11-18",
+     "stillRaising": true,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Bessemer Venture Partners SG I L.P.",
+     "cik": "1890198",
+     "amountSold": 0,
+     "amountOffered": null,
+     "date": "2021-10-27",
+     "stillRaising": true,
+     "country": "NEW YORK"
+    }
+   ],
+   "raisesNote": null,
+   "trouble": [],
+   "troubleTotal": 0,
+   "news": {
+    "items": [
+     {
+      "title": "$5.75 billion to back the founders building what’s next",
+      "source": "Bessemer Venture Partners",
+      "date": "2026-09-23",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcl9VWXR4QVJvNUdrRDdVdVF5MUt4NnVUd0RZYTNUdEFXY0stLTJTUkRHNjQzTmRDOUUxa2VGWXpqMkk1MUkxM3JUbFFMZ3owVjhjVURZb2poZEt3bmxHYkJkTEZwTWRaSk5yMnk3WTJsZ2RXSGZUTGFIUnBIVnlhV0tZUEhfUQ?oc=5"
+     },
+     {
+      "title": "Bessemer Venture Partners Closes $5.75 Billion to Back Founders From Seed Through Growth",
+      "source": "Business Wire",
+      "date": "2026-09-23",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSnl2WGxZclFNRzdiV1JQWDZuLUZkWkF1eUk4YWdmb19Jd0EweXNSMHRxckN6ZHBXVGI0c19IWWlBNjRlY2dWblhSNGg3TVYtLWN3dTZXWS1abFNsYTBBbC0zaHBpbkozYXhuNjNEMFlWUHRUeHVVbjBxeW11UzJtTFBYaEk1V09aa2JIVm90elJtZ0doRjUzZHhKRFdUWTNDcy1zUy1MR1k2WElwM1gzS0RoMDVEOFNzWTAwa0tMcy1WdEJha1k1c285U3Z6OE5fWW52aENBYmc2cDJGZDU1cQ?oc=5"
+     },
+     {
+      "title": "VC firm Bessemer now has another $5.75B to invest in (what else?) AI",
+      "source": "TechCrunch",
+      "date": "2026-09-23",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPV2p4aDdUdzVmTm5YN0FUb09TbXBNaUN3aG1rTTJVVEJBaDJQTEZfZkhkc0pXdWszeUZpN2kyWDBCV3NfZkwtbEpFT2tIc1p3c2NwdVBPTjNLRXVvanNqbTVLRWoyV0RjNnJsTGhlbnFQdVl5elBCOHZ1eGJ0SXoyR1RVakFmRE9CQkF0Z0FVcDN3RjczTHVBeVh6eHJ4aUwt?oc=5"
+     },
+     {
+      "title": "Bessemer Raises $5.75 Billion in New Funds, Expands Growth Efforts",
+      "source": "Bloomberg",
+      "date": "2026-09-23",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSzQ0SGVjV2Rqa0NfR0IxWTlLazBMRGlMZHJBX3AxQWV6bnN5eFBLOUp0OGtIVGtmdWZycExRVGVNMlo5V1UwQk14R0pnclNSdVFGNnNpWDNaRWZSYVRrZGIzeHBQNnZ2QXZIWnZQc1RIMFZmUDk0ZVRrS1N3dXgxQ2JJSm1Qd3lmamFwY0tpUkJKMV9rSU5CMmxEVi1vaDRQNWxQWTBjT1RFMkVtdzlEX3c3M0FNQQ?oc=5"
+     },
+     {
+      "title": "Bessemer Venture Partners Raises $5.75 Billion For Seed And Growth Investments",
+      "source": "Pulse 2.0",
+      "date": "2026-09-23",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBNemFRZWZ2N1dBYUpjaFRPQ3hzaDhMaWEwU2lQZ1ZpaVZnaVJSdVhlZzhUM2otOVRSbUJrazFZY0U5ZERRQ2pVUGhaVTJuQ3Nvd2hqWDIzMjh4YzZCcGhhY0RTX2RuUXlWUW5FZ2tuSW1SQWPSAXhBVV95cUxOcDlnWTZ1V1o2dnlxY09tMkszNnpPbWRqazZ3YUpQUWppZUJYN19udjVUcG9rSTZuVzdmaHBsQ05RekFTRVFqRzJRWkVpYmhSZUoxRzNYbVhuSnRNaUFQdEtoOFFUOFFYajljcFRSWHRNYVFkdnp6Vlg?oc=5"
+     },
+     {
+      "title": "Anthropic, Perplexity-backer Bessemer Venture Partners closes $5.75B to back founders from seed to growth",
+      "source": "Tech Funding News",
+      "date": "2026-09-24",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUURzR1lHOVFXRHNwMkVvUXE3bjBRREJxTjRibHAySklBakdLeDJDYjkxOTRHRzB0YVpvRGdSdXU5bmktYVVFMi1GMFFCYVpNZlVfcHM0eldCTEg0WkxTZy1IZXQwWFdwb3lDcXBZRnZPRWQtWXJrQURoUGRXMVBYYWdSRWl1d2ItdzRIMnFUS1dlcDk5eDFyczd6Rmo1YWJCdWI4OFlyaF9fR3pVdTdFV1kwMjZ5LVVmLXNxNF9XZnhITFBUNW1jVjhNS2g?oc=5"
+     }
+    ],
+    "checkedAt": "2026-09-28T13:46:52.400Z",
+    "query": "\"Bessemer Venture Partners\""
+   }
+  },
+  "primary": {
+   "name": "Primary Venture Partners",
+   "region": "New York",
+   "deals": {
+    "total": 24,
+    "byQuarter": [
+     {
+      "quarter": "2023 Q4",
+      "deals": 3
+     },
+     {
+      "quarter": "2024 Q1",
+      "deals": 2
+     },
+     {
+      "quarter": "2024 Q2",
+      "deals": 1
+     },
+     {
+      "quarter": "2024 Q3",
+      "deals": 1
+     },
+     {
+      "quarter": "2024 Q4",
+      "deals": 0
+     },
+     {
+      "quarter": "2025 Q1",
+      "deals": 3
+     },
+     {
+      "quarter": "2025 Q2",
+      "deals": 1
+     },
+     {
+      "quarter": "2025 Q3",
+      "deals": 0
+     },
+     {
+      "quarter": "2025 Q4",
+      "deals": 1
+     },
+     {
+      "quarter": "2026 Q1",
+      "deals": 0
+     },
+     {
+      "quarter": "2026 Q2",
+      "deals": 0
+     },
+     {
+      "quarter": "2026 Q3",
+      "deals": 0
+     }
+    ],
+    "firstDeal": "2017-04-04",
+    "lastDeal": "2025-10-15"
+   },
+   "raises": [],
+   "raisesNote": null,
+   "trouble": [],
+   "troubleTotal": 0,
+   "news": {
+    "items": [
+     {
+      "title": "New York’s Primary Venture Partners Plans Expansion Into San Francisco",
+      "source": "WSJ",
+      "date": "2026-09-27",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaVFyazNrQTRoUzBKMEdpT1NzbVl5a29DSG1pbkdCb2t3Vy01TW9kU3hDZEdIa1pBN3BVUGNkSlcyZEVVWGd4UlN6VXdjTlpmd0pENThJd0Y1eW5fRFloeTdrLXNvMEItYUptQUZRb1hnVEkyS1lMN3VmaHotZFMwbnY5bVREdEMwbUVZczdKc2xvWDN5S3V6Z3BpSDFSNVR4V3M2eDdQN28zX0hjVU9Ca0Zpa0ZDLVFwbmc?oc=5"
+     },
+     {
+      "title": "🇫🇮 Helsinki’s Zero raises $10.3 million in seed round led by Primary Venture Partners",
+      "source": "arctictoday.com",
+      "date": "2026-09-15",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORFZKSWpvUGNzbkJURVJUQVlMWXlyMTVDOVBxM3VER1BWNERhQmNLZUFsTXVTbzZ2S3duMHJWZ0p0SGlubHJuYWlrSUVNSjRrLVU1bFNXbFRyMXg3bERMWjFIbng2Y0hMWW9zNGh0Zkw3OVZMUlBCci1WeHpkZnplYmFtN3h2Y3ZlUjNLNGh5NHFYY1YtanZaZEkxRkZkZDZHb0dLTjAteGFMUTdGTDlhOXdCTEJ4X1dJX1hPcVhKdUVMSXhLOUJkdm5leFlKMkk?oc=5"
+     },
+     {
+      "title": "Zero Raises $10.3 Million Seed Round Led By Primary Venture Partners",
+      "source": "Pulse 2.0",
+      "date": "2026-09-15",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOb250RFJtdGhvUDJOcDBNRVk2NDZWSkY2ay1hMTFtU1g3cFRXZ0xSLW5ZMmRkdmVCeWhGWUkzbkJJaXJuN3M2MGE5OHJqZ2VfNVJSUlV3QWNkTDF0Umo5bHd1eGhYb05CaFllb1h4Q3BjS1RYeVphcEhrcEtNWTZndVdBUUR3U2pUUjM3V2hTQULSAZYBQVVfeXFMTzB4SXlhVW5mem9ydktrTXhlZXg4YXppMTBDSXBfdENOTUcwSWdubFI4cXNVdWs2N29uWnhISFdTOHpEWC1FNURpQ0F4OUFsRUd3Mmtvd0ktdnMyOV9oR1p4NlJ5LTh5WXlLYV9LUktuQWhydTVFc0pzanc2by1yRndGTnRWdG9KQzF0SEZPY3hLbkpDajB3?oc=5"
+     },
+     {
+      "title": "Why New York’s Primary Venture Partners Wants To Plant A Flag in San Francisco",
+      "source": "WSJ",
+      "date": "2026-09-21",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRHVlbVhvT2ZkblRWbm5VR1M2c2RaZHRhT1ZqVVRNeVF1aW1XN2d6YkZPMlZqNGZlSmNEdUp5XzRtWWNva2t3Nm5lbDNGQWhSeHp5WENPOVJOM044N3RSX0NoSmt1ZjZRME9mcWFZTVdfNHNVYUY0al9LRElYVnhKdVFfc19qakF1elpGS0xYTE9vcUFVQ1daYTFuTHZRVzhpblZzZ1V6WlpvM2tRR3VwT2xlUHZCS2oxVUYxVGJCcnZRRHJU?oc=5"
+     },
+     {
+      "title": "Primary Venture Partners Number of Employees 2026 | Employee Count &amp; Headcount Data",
+      "source": "Revelio Labs",
+      "date": "2026-08-12",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9QWnhrSzZsTEYzWTZoZllHNkpjU1g5M1kyNzZfQklHOWlocW81MTBTbVlCZUpHNUVPREpYQks2RnZra0pDX2ZiMk04WGtYWF9iZjdVbE9pM0h2aWxTSkxxejRHLVlpaHh4VFZjaTVvaXplcGViM0dmcUQ0ZFc?oc=5"
+     },
+     {
+      "title": "The AlleyWatch Startup Daily Funding Report: 9/10/2026",
+      "source": "AlleyWatch",
+      "date": "2026-09-10",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNa0I4WXFBWjQ4bXhadWZ0YlFzQ054OEZQWU84VGJvV3pYOFpLMjJ3R1NCcXl5ejQwZ3FqUTZ1NGVBWWZMRVk1WTlZQVA0dWZnb3h0eDdfMXktaVlvdkpRdFZmYzhQVjUzWkZYQ2hKRzhQMlhMNjJXWHZ6RjY5ekctcnc4X3R4M2Q4X21iZmRB?oc=5"
+     }
+    ],
+    "checkedAt": "2026-09-28T13:46:52.425Z",
+    "query": "\"Primary Venture Partners\""
+   }
+  },
+  "greycroft": {
+   "name": "Greycroft",
+   "region": "New York",
+   "deals": {
+    "total": 42,
+    "byQuarter": [
+     {
+      "quarter": "2023 Q4",
+      "deals": 0
+     },
+     {
+      "quarter": "2024 Q1",
+      "deals": 3
+     },
+     {
+      "quarter": "2024 Q2",
+      "deals": 1
+     },
+     {
+      "quarter": "2024 Q3",
+      "deals": 2
+     },
+     {
+      "quarter": "2024 Q4",
+      "deals": 1
+     },
+     {
+      "quarter": "2025 Q1",
+      "deals": 3
+     },
+     {
+      "quarter": "2025 Q2",
+      "deals": 1
+     },
+     {
+      "quarter": "2025 Q3",
+      "deals": 0
+     },
+     {
+      "quarter": "2025 Q4",
+      "deals": 1
+     },
+     {
+      "quarter": "2026 Q1",
+      "deals": 0
+     },
+     {
+      "quarter": "2026 Q2",
+      "deals": 0
+     },
+     {
+      "quarter": "2026 Q3",
+      "deals": 0
+     }
+    ],
+    "firstDeal": "2021-04-07",
+    "lastDeal": "2025-11-21"
+   },
+   "raises": [
+    {
+     "vehicle": "Greycroft Q Focus Fund, L.P.",
+     "cik": "2130668",
+     "amountSold": 0,
+     "amountOffered": null,
+     "date": "2026-06-30",
+     "stillRaising": true,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Greycroft Growth IV Holdings, L.P.",
+     "cik": "2139828",
+     "amountSold": 0,
+     "amountOffered": null,
+     "date": "2026-06-30",
+     "stillRaising": true,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Greycroft HMG Growth Fund, L.P.",
+     "cik": "2130669",
+     "amountSold": 0,
+     "amountOffered": null,
+     "date": "2026-06-11",
+     "stillRaising": true,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Greycroft Alpha, L.P.",
+     "cik": "2137974",
+     "amountSold": 0,
+     "amountOffered": null,
+     "date": "2026-06-11",
+     "stillRaising": true,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Greycroft Partners VIII, L.P.",
+     "cik": "2109344",
+     "amountSold": 0,
+     "amountOffered": null,
+     "date": "2026-01-30",
+     "stillRaising": true,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Greycroft Consumer Products Fund II, L.P.",
+     "cik": "2097837",
+     "amountSold": 0,
+     "amountOffered": null,
+     "date": "2025-12-15",
+     "stillRaising": true,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Greycroft Public Opportunities Fund, L.P.",
+     "cik": "1985478",
+     "amountSold": 8675000,
+     "amountOffered": null,
+     "date": "2023-07-17",
+     "stillRaising": false,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Greycroft CCS Sustainability Fund, L.P.",
+     "cik": "1973733",
+     "amountSold": 0,
+     "amountOffered": null,
+     "date": "2023-05-16",
+     "stillRaising": true,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Greycroft Consumer Products Fund I, L.P.",
+     "cik": "1946348",
+     "amountSold": 0,
+     "amountOffered": 100000000,
+     "date": "2022-11-02",
+     "stillRaising": true,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Greycroft Partners VII-E, L.P.",
+     "cik": "1906797",
+     "amountSold": 0,
+     "amountOffered": 7500000,
+     "date": "2022-02-11",
+     "stillRaising": true,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Greycroft Growth IV-E, L.P.",
+     "cik": "1907021",
+     "amountSold": 0,
+     "amountOffered": 12500000,
+     "date": "2022-02-11",
+     "stillRaising": true,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Greycroft Growth IV, L.P.",
+     "cik": "1907019",
+     "amountSold": 377597000,
+     "amountOffered": 600000000,
+     "date": "2022-01-28",
+     "stillRaising": false,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Greycroft Partners VII, L.P.",
+     "cik": "1907086",
+     "amountSold": 450837000,
+     "amountOffered": 600000000,
+     "date": "2022-01-28",
+     "stillRaising": false,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Greycroft Partners II, L.P.",
+     "cik": "1484529",
+     "amountSold": 130675000,
+     "amountOffered": 130675000,
+     "date": "2010-02-05",
+     "stillRaising": false,
+     "country": "NEW YORK"
+    }
+   ],
+   "raisesNote": null,
+   "trouble": [],
+   "troubleTotal": 0,
+   "news": {
+    "items": [
+     {
+      "title": "Jesse &amp; Ben's Closes $10M Series A Led by Greycroft",
+      "source": "PR Newswire",
+      "date": "2026-05-07",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdm52b0l5WEFmV2J5M1E1eWF4NkVwNGszN0g2TF9XNDBNQW1xcTluY2ZuZU5MYnhPYzc1clN5dnZJZWZ4RTBGUm9nMkhBNl9hNnkxOVNnXzc0bVhrNEpfLWthRm9wSVR3SnZGX05VelBWdXV0eVJBT1g1ME01UjAtVjVZdU9PXzB3bm1vNUhxdl9fRUJrcHc1VjFKbWJXVVNTelJicDNuaw?oc=5"
+     },
+     {
+      "title": "Qatar wealth fund plans to invest in five new VC funds",
+      "source": "Reuters",
+      "date": "2026-02-02",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRFhIUjVCWjJVWFpURTl0TEtfbV9qMnZScmZqRTVhLUZ1TEdBWXlJMEpRYU1UT2I3b0JmZktCUER4WXdKeENNVElfSUhPUENpOGM2eUdFWXQ4Z1dFbzhSaFhFblA4ekR4eEpDZC1Mbk9HOVZodXJRLWVJNGhZdHJnTVJSM3lib2lIVmI3LUUyeWoxYW5JTnloYVd3VmZHOWdXcEF1Nw?oc=5"
+     },
+     {
+      "title": "Alan J. Patricof ’57",
+      "source": "Columbia Business School",
+      "date": "2026-01-28",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQc0NSZE41X29ZcElpYm9RRThTMGhuSk9nWDFad0hZN1JQNFBvOENtYllWN1F6dUVaeWlhQkpRYUsxMEJ5WUJob21vNkZHSkFJYU41MUx2Y1BBTUN1WEt2cXVvenNQeVVtX3RUQ0JLaUpRNUtwVmhvdHhEdnYxeS1fbFRQQXZjQ3ZLQUNtODZzRQ?oc=5"
+     },
+     {
+      "title": "Jesse &amp; Ben’s Raises $10M Series A Led by Greycroft to Scale Frozen Fry Brand Nationally",
+      "source": "citybiz",
+      "date": "2026-05-07",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVmxuekFXc1RhUkRjLXRXdVNZQnZXZU5FY2s1NEw3R0ZYVWZKTGg0UFpzSmpmZ01ZUEM1ZlltZVdOdkhZTFJQSF9kODJEZlR5NlF1Y2ZESHI1TlNTcE5WR1hKakpaOGgyU2ozYk1YRkV3VmVWbVFFNXlEalppcEpyek5HS2NGaFdxRWx2NHF4LUY2cURmS1pYUk5jZ0hGZE5pakEzY3N1NHdSOGNKYVBHeTNQQnRSWmFLMm8tdE1McVA?oc=5"
+     },
+     {
+      "title": "Beauty’s Leading Dealmakers on Where M&amp;A Is Headed",
+      "source": "WWD",
+      "date": "2026-04-07",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5CTW1fc3hkRm9YWWZSb1ZFeFFhczZHZGlXZW1JOVpvNVljTmdQNHp0a2ZzTmphdWJYdkV6ek5QdVUtdVBBVVdHT0E2ZlZUUUxXRU01OGdZUDhINEowQ29IV2hVSmNNMlhNTjAySURTMmc3U0RLdFZ6WEh1azQ3QQ?oc=5"
+     },
+     {
+      "title": "Jesse &amp; Ben’s Raises $10M as Seed Oil-Free Food Gains",
+      "source": "insider.fitt.co",
+      "date": "2026-05-08",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9HdHBNdldlNnhfQU5CcVRVVlg5aElMOXVaZ0VHcU4tcWtyczE2YU1neXJEX2tZSTJraW5VQy1iQVFBNXV6N3RlTFd2Sk43Wk1Jb21QOUdCd18yU1hsLWFtYTg5aUhHQXNUSTctbDBwa0FiWUx1a1IweFM0TQ?oc=5"
+     }
+    ],
+    "checkedAt": "2026-09-28T13:46:52.459Z",
+    "query": "\"Greycroft\""
+   }
+  },
+  "rre": {
+   "name": "RRE Ventures",
+   "region": "New York",
+   "deals": {
+    "total": 8,
+    "byQuarter": [
+     {
+      "quarter": "2023 Q4",
+      "deals": 1
+     },
+     {
+      "quarter": "2024 Q1",
+      "deals": 0
+     },
+     {
+      "quarter": "2024 Q2",
+      "deals": 0
+     },
+     {
+      "quarter": "2024 Q3",
+      "deals": 0
+     },
+     {
+      "quarter": "2024 Q4",
+      "deals": 0
+     },
+     {
+      "quarter": "2025 Q1",
+      "deals": 0
+     },
+     {
+      "quarter": "2025 Q2",
+      "deals": 0
+     },
+     {
+      "quarter": "2025 Q3",
+      "deals": 0
+     },
+     {
+      "quarter": "2025 Q4",
+      "deals": 0
+     },
+     {
+      "quarter": "2026 Q1",
+      "deals": 0
+     },
+     {
+      "quarter": "2026 Q2",
+      "deals": 0
+     },
+     {
+      "quarter": "2026 Q3",
+      "deals": 0
+     }
+    ],
+    "firstDeal": "2021-05-17",
+    "lastDeal": "2023-10-25"
+   },
+   "raises": [
+    {
+     "vehicle": "RRE Ventures VIII, L.P.",
+     "cik": "1857851",
+     "amountSold": 233500000,
+     "amountOffered": 250000000,
+     "date": "2021-05-20",
+     "stillRaising": false,
+     "country": "NEW YORK"
+    }
+   ],
+   "raisesNote": null,
+   "trouble": [],
+   "troubleTotal": 0,
+   "news": {
+    "items": [
+     {
+      "title": "RRE Ventures Acquisition Corp. Rings the Opening Bell",
+      "source": "Nasdaq",
+      "date": "2026-06-15",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOGY3b255b0xKWjJyUGtYRWJvR1F3VzlLcjZMT253SHZGM0hXRVloM1g3M0JRYXFqUzhpMUg5M0xkMXpDWjIycjJYRVVmU1Y5VzJjSE1kS0x2NkxjY1ZFS2gtUmc5bTlybXMxUnQxZGxPVjIyZl9TclFwOGxzZHBXOHRCclA?oc=5"
+     },
+     {
+      "title": "RRE Ventures Acquisition Corp. Announces Pricing of $250 Million Initial Public Offering",
+      "source": "Business Wire",
+      "date": "2026-04-29",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOTzRrc085UjM1NkFiRm1yWkZDbVluNXBWZXNpYnJpc1lLaTBuY1dKNHNna3hTalZRS3lJVkh6NUtzZlFJYWtuVWRvR0FOdi1HUGRNRDhHbldKR1Vjb2E3Qi01ZGJadkdyYWwyY0NkeDdQbkRMNElaNHZOYzZZWnA1VTdRT0RuQmJVWXlwYXFDMlVoMWlRNzZzTmVxaVBXWTR3Q0VCVEREeDJtU0Y4cmNtN3ZCZXlHdVJ1THFMWURxYnNHbllEeFZOdjFLM0NWaWMzc2RSUE94cjYzajJBRHlOSA?oc=5"
+     },
+     {
+      "title": "RREVU IPO News - SPAC RRE Ventures Acquisition files for a $250 million IPO, targeting transformative sectors",
+      "source": "renaissancecapital.com",
+      "date": "2026-04-07",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWVJLSXFzU0FENFFsSENSa2tfT3J4cXYtOXBKYlN4dGtsb0F0a1BSeHFFR2xZX3JXa0FyWVYtUnY4M2RxTGl5bTFYRkFhUWxTRUtPQWRTSGJXN0pBakxaS092NUFoM0ZBRVliMVFsYWh1THZCWkFXVzdHUkxiMEhZcDVNTi1LZ0tLclJ2LXVobVFVSlMxaEVXVXoyc0g3dFFUb2dyRXdHYWRBblB5bDRfZWJEZjFkV3AzMUJVSVVEWE9KX2M?oc=5"
+     },
+     {
+      "title": "Watkins Represents RRE Ventures Acquisition Corp. in US$250 Million IPO",
+      "source": "Latham &amp; Watkins LLP",
+      "date": "2026-04-30",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeFh6eVhjR0g3VHl0ejR4dF9VdlM0YVBaVnZ6cy0wWXpqZ3piSEJfa0ZmSW1tSV8tcndmOU95QTAtZmJjalN0YXdNWkpaVEdLMTBaZHljSW9lT0ZEcXVweG1UZklWdHZ6ZFNKUlJkVWJoU3doaHFjeWJhWEoweDBJNTJSa3JpSERxRGNmLWtpYzBXd3BwRTUxYTBhSFpYdw?oc=5"
+     },
+     {
+      "title": "RREVU Form 4 Filings - RRE Ventures Acquisition Corp. Units SEC Form 4",
+      "source": "Stock Titan",
+      "date": "2026-09-13",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBFY1FXZDhMVkhHcWhLWXlodnh3X1I1bnloYm1mQTJaYVFSdjZGVkxWNXBzV3E5cFdBV2Jib1h4X2RnSVhzS1BOUEFRSUwzNnJzOEVkUG1SYkVkNHpfNW00XzZ5cWQxdjg?oc=5"
+     },
+     {
+      "title": "Clifford Chance Advises Underwriters on US$250 Million IPO of RRE Ventures Acquisition Corp.",
+      "source": "Clifford Chance",
+      "date": "2026-05-04",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUEdWZ0tEVDJyWTQ3V0JEMnd4TUh0blk1U2pNMHdndWl4SlNUWjBzX0FDM1FNbFp0NU5KekxkZHBHQzJkVExYS0FLREN6Y01hUVhfSnF0ZVVzUE9FTDVGVGtUREtmaDNwb1hqRDNSdHhQTzFGQUVRMkZRTzY1R1RuV3Z4WHFjNFhvd2pvUnFLclVoS051TXdIVlJVMGdvY21GcDdpWkE1T2QwOFdrZFN0Nmp5YThrdUoxbGc?oc=5"
+     }
+    ],
+    "checkedAt": "2026-09-28T13:46:52.486Z",
+    "query": "\"RRE Ventures\""
+   }
+  },
+  "workbench": {
+   "name": "Work-Bench",
+   "region": "New York",
+   "deals": {
+    "total": 10,
+    "byQuarter": [
+     {
+      "quarter": "2023 Q4",
+      "deals": 0
+     },
+     {
+      "quarter": "2024 Q1",
+      "deals": 0
+     },
+     {
+      "quarter": "2024 Q2",
+      "deals": 1
+     },
+     {
+      "quarter": "2024 Q3",
+      "deals": 1
+     },
+     {
+      "quarter": "2024 Q4",
+      "deals": 0
+     },
+     {
+      "quarter": "2025 Q1",
+      "deals": 0
+     },
+     {
+      "quarter": "2025 Q2",
+      "deals": 2
+     },
+     {
+      "quarter": "2025 Q3",
+      "deals": 0
+     },
+     {
+      "quarter": "2025 Q4",
+      "deals": 1
+     },
+     {
+      "quarter": "2026 Q1",
+      "deals": 0
+     },
+     {
+      "quarter": "2026 Q2",
+      "deals": 1
+     },
+     {
+      "quarter": "2026 Q3",
+      "deals": 0
+     }
+    ],
+    "firstDeal": "2021-09-16",
+    "lastDeal": "2026-04-17"
+   },
+   "raises": [
+    {
+     "vehicle": "Workbench Capital Fund II LLC",
+     "cik": "2011369",
+     "amountSold": 2600000,
+     "amountOffered": 5000000,
+     "date": "2024-02-16",
+     "stillRaising": false,
+     "country": "DISTRICT OF COLUMBIA"
+    },
+    {
+     "vehicle": "Work-Bench Ventures IV, LP",
+     "cik": "2000417",
+     "amountSold": 0,
+     "amountOffered": 125000000,
+     "date": "2023-11-16",
+     "stillRaising": true,
+     "country": "NEW YORK"
+    },
+    {
+     "vehicle": "Work-Bench Ventures Select Fund, LP",
+     "cik": "1922527",
+     "amountSold": 0,
+     "amountOffered": 30000000,
+     "date": "2022-04-22",
+     "stillRaising": true,
+     "country": "NEW YORK"
+    }
+   ],
+   "raisesNote": null,
+   "trouble": [],
+   "troubleTotal": 0,
+   "news": {
+    "items": [
+     {
+      "title": "VCs Are Asking Founders: Will You Quit on Me?",
+      "source": "WSJ",
+      "date": "2026-08-03",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ0Z3OFZ0V3MyV3hSem44R0RMdkFqZnlOVGtMOGNqY19ra1NhRVJEQjdMM0lFcEdrNzdVQlVxelZNSElSQlVFdGNMeGVBUHpjeWdyQVNvLU5zbjhQaFI0dnFWNjEzd29sNWk0VF9kdUJOcUR6Y1lxcjEtWGJ5MnNpY2FldXQ3UnVfdGJUVzVYRXZySkdfX1l3?oc=5"
+     },
+     {
+      "title": "The 9 Largest NYC Tech Startup Funding Rounds of April 2026",
+      "source": "AlleyWatch",
+      "date": "2026-05-07",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRnA2aHlfOVU2cVptSGdfYW5JN2NDMFJrc0ozUkpVc011Vjk5TzJNOFBFYlNoLVpjM3dJeTUtV2w0OThjYUlvZzNlY2RkR0g1QW1jMDlSZ2VFc2JwUDRMRmhHcjVmQTdkZmNuRlpQUU1IWlBhcWVjTVg5TjZpNUsycHJpMA?oc=5"
+     },
+     {
+      "title": "The Big Apple Is No Longer Big Enough for New York Venture Firms",
+      "source": "WSJ",
+      "date": "2026-06-01",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa24tVE90T0ducEM1UEdTZ3pVMVdub0UxYnlZdjdUZm9FdTJCaWVBUktYcndpSDBQNTFNRHlBN2swWlVaUERMb0xCZzdYYktwT0x4T0tPWkxnWldKQ2tKWndObDdRZ3Y5eVNRdl93R3FOT2l3a1pxeVRZYlMwZ01TSnRFT0tKcnRaQlFoZFRfdWJXRTRudU1vdTlNc3hGVGxaV2dtUXN2R0Q3ZzlHdlNpUXJGNA?oc=5"
+     },
+     {
+      "title": "GovWell Raises $25M Series A Led by Insight Partners to Build the AI Operating System for Modern Government",
+      "source": "PR Newswire",
+      "date": "2026-05-14",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQS1pHLWswX3ZwRk5BZTJ0NEZGUXR2RE9jS3QyeDVqRElRbzA2VGJVTkpielFNaGFQVWtobmpTSnViRWxfVjRpRVdEU3dLZUlyR2NNUElvaEpOLVM4TlNNTTd6UFpJNF9tanMxX0c2Ujh6bk84WEIxV0RtTnJLQnkyTkc3Z1ZvdDkxQ1RtelJVclhTbDhaYmQ3anp5bFpNV1dfWHY2ZDRBZnlTMmpsRWUzME9vMG5oMjlmbjJEWlp1d3oyTFNwZUtyWHB6cVFrUzNwY0dIbENqaFRqT2VvZWM0VnY5M1U4dUFQazJHcXhQa29zVGJp?oc=5"
+     },
+     {
+      "title": "Oak HC/FT backs Courier Health's $50M series B to build out AI for the biopharma patient experience",
+      "source": "Fierce Healthcare",
+      "date": "2026-04-22",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdGpqZ3Npc0cxMk55UDFxcmxUOExpSVVvTGw3QWR1MXo2Vzh1YmxCdm1PSEd3X1ViN1FSVUNta2RVN2ctRFkybGFEQjRtUFNiV2MySGp6NmFOWDFsczNNWTl2ZTdpUW5QWHI3VzdGSmV1VTY3dXhTZm1qa3plZTVtYUREMHM1T2pfcHZJVDhtNXhrVnV0YzZiT0JxVFhMSmU0RUdrcEhzZFM4ZFY3UHVWRlZfWER0d2lOcXdSdWtMZWhhUXlQdUstV3Vn?oc=5"
+     },
+     {
+      "title": "New York-focused VC Work-Bench has raised a fresh $160M",
+      "source": "TechCrunch",
+      "date": "2025-05-13",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWUNPRHBxSnZDQW1Zc2NOX09pU0xQSXNsRzJsZ2YtTTVwVVpEeW5sT3lvM1VOQi00ZGdhR253SFQtQlJTSm5GYXN2WHZxRmpCWmxpWnZwc0NCdTNEZ1pUaVdVb2pjcEVLa0FES2w4cHdSRGdyYUlNWHhnQXlpZzhoaVhTdnEzaUpJVEZIY1JsN3gtRnM?oc=5"
+     }
+    ],
+    "checkedAt": "2026-09-28T13:46:52.521Z",
+    "query": "\"Work-Bench\" (venture OR fund)"
+   }
+  }
+ }
+}

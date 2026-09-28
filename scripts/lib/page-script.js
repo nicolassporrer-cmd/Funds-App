@@ -394,11 +394,100 @@ function renderFunds() {
     </table>`;
 }
 
+
+// ---------- one fund's recent activity
+//
+// Two sourced figures sit side by side here and neither is "dry powder", which
+// nobody publishes: when the fund last closed a vehicle and how much it drew,
+// from its own SEC filings, and how fast it has been investing since. A fund that
+// closed recently and has been quiet reads one way; one that closed in 2021 and
+// has been busy reads the other. The reading is the reader's.
+function fundActivity(fund) {
+  const a = fund.activity;
+  if (!a) return '';
+
+  const quarters = a.deals.byQuarter || [];
+  const peak = Math.max(1, ...quarters.map((q) => q.deals));
+  const pace = quarters.map((q) => `
+    <div class="qbar" title="${q.quarter}: ${q.deals} round${q.deals === 1 ? '' : 's'}">
+      <div class="qbar-fill" style="height:${Math.round((q.deals / peak) * 100)}%"></div>
+      <span class="qbar-n">${q.deals}</span>
+      <span class="qbar-q">${q.quarter.slice(2).replace(' ', '')}</span>
+    </div>`).join('');
+
+  const raises = a.raises.slice(0, 6).map((r) => `
+    <tr>
+      <td class="num">${r.date || '<span class="dash">—</span>'}</td>
+      <td>${esc(r.vehicle)}${r.country && !/DELAWARE|NEW YORK/i.test(r.country) ? ' <span class="marker">' + esc(r.country) + '</span>' : ''}</td>
+      <td class="num right">${r.stillRaising ? '<span class="marker">nothing drawn yet</span>' : usd(r.amountSold)}</td>
+    </tr>`).join('');
+
+  const trouble = a.trouble.slice(0, 8).map((t) => `
+    <tr><td class="num">${t.date}</td><td>${esc(t.company)}</td><td class="marker">${esc(t.what)}</td></tr>`).join('');
+
+  const headlines = (a.news?.items || []).map((n) => `
+    <li><a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.title)}</a>
+      <span class="marker">${esc(n.source || '')}${n.date ? ' · ' + n.date : ''}</span></li>`).join('');
+
+  return `
+    ${headlines ? `<section class="press">
+      <h3>In the press</h3>
+      <ul class="headlines">${headlines}</ul>
+      <p class="marker">Google News for “${esc(a.news.query || fund.name)}”, checked ${a.news.checkedAt.slice(0, 10)}. Headlines are matched on the firm’s name, so an unrelated namesake can appear.</p>
+    </section>` : ''}
+
+    <div class="cols">
+      <div>
+        <h3>Investing pace — rounds we can attribute, by quarter</h3>
+        ${quarters.length ? `<div class="pace">${pace}</div>` : '<p class="why"><span class="dash">No attributed rounds.</span></p>'}
+        <p class="marker">
+          ${a.deals.total} round${a.deals.total === 1 ? '' : 's'} in total${a.deals.lastDeal ? `, most recent ${a.deals.lastDeal}` : ''}.
+          Only rounds we can tie to this fund count here, so this is a floor, not the fund’s full activity.
+        </p>
+      </div>
+      <div>
+        <h3>Funds it has raised — from its own SEC filings</h3>
+        ${raises ? `<table class="ledger"><tbody>${raises}</tbody></table>`
+          : `<p class="why"><span class="dash">No vehicle found.</span></p>`}
+        <p class="marker">
+          ${a.raisesNote ? esc(a.raisesNote) + ' ' : ''}Matched on the firm’s name, so the vehicle names are shown to be checked.
+          Nobody publishes uncalled capital: this is when money was raised, not what is left.
+        </p>
+      </div>
+    </div>
+
+    ${trouble ? `<h3>Portfolio companies in the register: insolvency, strike-off, transfers</h3>
+      <table class="ledger"><tbody>${trouble}</tbody></table>
+      <p class="marker">${a.troubleTotal} in total. A share sale is not published in France, so an ordinary acquisition usually leaves no trace — absence here means nothing.</p>` : ''}
+  `;
+}
+
 // ---------- one fund
+// A fund's portfolio, from both halves of the data. DATA.companies holds the
+// French companies with register histories; US companies exist only as deals, so
+// a New York fund's page showed an empty portfolio until they were folded in.
+function portfolioOf(fund) {
+  const out = new Map();
+  for (const c of DATA.companies) if (c.funds.includes(fund.id)) out.set(c.key, c);
+  for (const d of DATA.deals) {
+    if (!d.funds.includes(fund.id)) continue;
+    const prior = out.get(d.key);
+    if (prior && (prior.lastRound || '') >= d.date) continue;
+    if (prior && prior.events) continue; // a full company record beats a deal row
+    out.set(d.key, {
+      key: d.key, name: d.company, funds: d.funds, blurb: d.blurb, descriptionSource: d.descriptionSource,
+      country: d.country, founded: d.founded, siren: d.register === 'FR' ? d.identifier : null,
+      lastRound: d.date, score: 0, status: 'untracked', holdings: {}, events: [],
+      signals: [], stage: [], investorOfficers: [], auditors: [],
+      why: 'Seen in the deal log. No French register history is held for this company.',
+    });
+  }
+  return [...out.values()];
+}
+
 function fundRows(fund) {
   const q = state.fundQ.trim().toLowerCase();
-  return DATA.companies
-    .filter((c) => c.funds.includes(fund.id))
+  return portfolioOf(fund)
     .filter((c) => state.includeGone || isLive(c))
     .filter((c) => !q || c.name.toLowerCase().includes(q) || (c.blurb || '').toLowerCase().includes(q) || (c.country || '').toLowerCase().includes(q))
     .sort((a, b) => {
@@ -410,7 +499,7 @@ function fundRows(fund) {
 }
 
 function renderFund(fund) {
-  const mine = DATA.companies.filter((c) => c.funds.includes(fund.id));
+  const mine = portfolioOf(fund);
 
   $('#view').innerHTML = `
     <a class="backlink" href="#/funds">← all funds</a>
@@ -427,6 +516,8 @@ function renderFund(fund) {
         : 'This fund does not publish which companies it still holds, so “live” here means the register still shows activity and no exit is known.'}
       ${fund.untracked ? ' ' + fund.untracked + ' of its companies have no French registry entry — mostly headquartered abroad — so they carry no round dates.' : ''}
     </p>
+    ${fundActivity(fund)}
+    <h3>Portfolio</h3>
     <div class="filters">
       <button data-dim="fundSort" data-value="score" aria-pressed="${state.fundSort === 'score'}">By raise signal</button>
       <button data-dim="fundSort" data-value="lastRound" aria-pressed="${state.fundSort === 'lastRound'}">By last round</button>
@@ -452,7 +543,7 @@ function renderFund(fund) {
 
 function renderFundRows(fund) {
   const rows = fundRows(fund);
-  $('#fcount').textContent = rows.length + ' of ' + DATA.companies.filter((c) => c.funds.includes(fund.id)).length + ' shown';
+  $('#fcount').textContent = rows.length + ' of ' + portfolioOf(fund).length + ' shown';
   $('#frows').innerHTML = rows.map((c) => `
     <tr class="co" data-key="${esc(c.key)}">
       <td class="right">${c.tracked ? scoreBar(c.score) : '<span class="dash">—</span>'}</td>
